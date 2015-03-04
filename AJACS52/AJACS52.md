@@ -4,7 +4,7 @@
 ライフサイエンス統合データベースセンター  
 [小野 浩雅](https://sites.google.com/a/dbcls.rois.ac.jp/hono/) hono@dbcls.rois.ac.jp  
 2015年3月5日 AJACS府中@東京農工大学 
-hoge
+
 
 ----
 
@@ -70,6 +70,8 @@ hoge
         - 本講習中、本家サイトが繋がらない時は、統合TVのYouTube版を見ればおおよその内容がわかるようになっています。
         - 今回の講習に関連する内容の多くは、[統合TV の発現制御解析 カテゴリー](http://togotv.dbcls.jp/ja/contents/category/expression)にあります。
         - 過去の講習会の内容はそのほとんどが[統合TVに収録](http://togotv.dbcls.jp/ja/contents/category/dbcls#%E7%B5%B1%E5%90%88%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E8%AC%9B%E7%BF%92%E4%BC%9Aajacs-%E8%AC%9B%E6%BC%94%E3%83%BB%E8%AC%9B%E7%BF%92%E5%8B%95%E7%94%BB)されており、いつでもどこでも繰り返し復習できるようになっています。
+    - お探しの動画が見つからない or 統合TV未掲載の場合は、[統合TV番組リクエストフォーム](https://docs.google.com/forms/d/15pxJHnsV_Cu8B55Xy0F3jg5S9FXupkbBqONrZsyUE7k/viewform)へどうぞ!!
+    - 統合TVを作ってみたい方、募集中です。
 
 ----
 
