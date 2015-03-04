@@ -241,4 +241,5 @@
  - 生物種はArabidopsis thaliana (シロイヌナズナ)  
   
 ---
-[答えあわせ](http://gyazo.com/561fb7f514f0adb562318e05325a68c6)
+
+[答え合わせ](https://github.com/hiromasaono/training/blob/master/AJACS52/answer.md)
