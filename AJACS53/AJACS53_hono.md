@@ -197,7 +197,7 @@
 #### マイクロアレイデータの準備
 - サンプルデータとして、[NCBI GEO](http://www.ncbi.nlm.nih.gov/geo/)から取得した公共の遺伝子発現データを用います。このデータは、ある実験の前後の2群間で有意に発現減少した遺伝子群のリストです。  
   
-     → [マル秘遺伝子リスト](http://motdb.dbcls.jp/?plugin=attach&refer=AJACS24%2Fhono&openfile=110208_IDlist.txt)  （右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
+     → [マル秘遺伝子リスト](https://github.com/hiromasaono/training/blob/master/AJACS53/secret_list.md)  （右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
   
 - このデータは、どのような実験から得られたデータなのか、どのように解釈できるのかをDAVIDを使って考察してみましょう！  
 
