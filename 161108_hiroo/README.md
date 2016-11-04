@@ -74,7 +74,7 @@ http://bit.ly/hiroo2016
 ### [統合TV](http://togotv.dbcls.jp/ja/)
 - 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
     - http://togotv.dbcls.jp/ja/
-    - ![統合TVトップページ](https://i.gyazo.com/dddde578caafeb260abc939bab68adfb.png)
+    - ![統合TVトップページ](http://i.gyazo.com/af463e2dcdc0bf17462b8085ab1246ed.png)
 
     - YouTube版もあります　http://www.youtube.com/user/togotv/
     - ![統合TV YouTube支店](http://i.gyazo.com/1dce80b0a05a7de372415fa0b42a079c.png)
@@ -82,7 +82,7 @@ http://bit.ly/hiroo2016
 
 - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
     - 1100本を超える動画が公開されており、YouTube版だけで のべ 650,000回以上 再生されています。(2016年7月末現在)
-    - ![https://gyazo.com/10a9b6f46b82b8442c1dbe61ca521fce](http://i.gyazo.com/10a9b6f46b82b8442c1dbe61ca521fce.png)
+    - ![https://gyazo.com/10a9b6f46b82b8442c1dbe61ca521fce](http://i.gyazo.com/9d3001309b055f2643a27efb6ad18375.png)
 
 - 講義・講習などの参考資料や後輩指導の教材として利用できます。
     - 本講習中、本家サイトが繋がらない時は、統合TVを見ればおおよその内容がわかるようになっています。
@@ -92,6 +92,11 @@ http://bit.ly/hiroo2016
 - 統合TVに掲載されているコンテンツについてご引用いただく際に、恒久的な URL として [DOI](https://ja.wikipedia.org/wiki/デジタルオブジェクト識別子) (Digital Object Identifier) を使用することができます。
 
 - 2014年8月以降に開催された過去の講習会の資料・テキストと動画が「[AJACS講習会資料](http://togotv.dbcls.jp/ja/ajacs_text.html)」で閲覧できるようになり、受講生の復習のみならず、初学者の学習教材としてご活用いただけます。
+
+- 誰でも自由に利用可能なライフサイエンス分野のイラストが､統合TVから閲覧､利用することができるようになりました。
+    - [Togo picture gallery](http://g86.dbcls.jp/~togoriv/)と[生物アイコン](http://togodb.biosciencedbc.jp/togodb/view/taxonomy_icon)の全画像460点を一覧できます。
+    - 研究発表のスライド作成や資料作成等に､ぜひお使いください。
+    - [自由に使える画像を探す](http://i.gyazo.com/1145552db3a3022d3813ea7285fe32ee.png)
 
 - お探しの動画が見つからない or 統合TV未掲載の場合は、[統合TV番組リクエストフォーム](http://togotv.dbcls.jp/ja/contact.html)へどうぞ!!
 
