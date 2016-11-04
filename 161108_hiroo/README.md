@@ -297,9 +297,9 @@ http://bit.ly/hiroo2016
     - IDリストのほかタイムコースなどの複数リストデータも使用可能
     - 複数リスト間のアノテーションについて差分表示が可能
     - GOのエンリッチメント解析で階層的クラスタリングもできる
-    - 統合TV 作成中
+    - 統合TV あります → [Metascapeを使って、遺伝子リストの生物学的解釈をする](http://togotv.dbcls.jp/ja/20160927.html)
       - まだシステムが不安定(?)で大量クエリ投げると結果が帰ってこない場合もある
-      - Chromeだとjavascript周りでエラーが出て使えない(?)ことも
+      - Chromeだとjavascript周りでエラーが出て使えない(?)こともある
   - [GeneSetDB](http://genesetdb.auckland.ac.nz/haeremai.html)
     - 九州大学 荒木さんが開発｡ オークランド大学バイオインフォマティクス研究所が運用｡ 原著論文 [PMID: 23650583](http://www.ncbi.nlm.nih.gov/pubmed/23650583)
     - 医学・薬学分野に特化したデータベースを解析対象にすることができる
