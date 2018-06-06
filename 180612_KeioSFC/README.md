@@ -486,9 +486,10 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
  (http://chip-atlas.org/)
 
 ![fig10](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_10.png)
+
 ![fig11](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_11.png)
 
-####ChIP-Atlasの機能
+#### ChIP-Atlasの機能
 ##### Peak Browser
 * 既報の ChIP-seq データをまとめて閲覧し、何がどこに結合しているかが一目でわかります。Integrative Genomics Viewer (IGV) によりスムーズなブラウジングが可能で、興味の遺伝子のシス調節領域を予測したり、それを制御する転写因子の予測ができます。
   * [ChIP\-Atlasを使って既報のChIP\-seqデータをまとめて閲覧する 〜Peak Browserの使い方〜](http://togotv.dbcls.jp/20180123.html)
