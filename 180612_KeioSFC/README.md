@@ -47,7 +47,7 @@ hono@dbcls.rois.ac.jp
 
 ----
 
-#### 講義に際しての注意とお願い
+## 講義に際しての注意とお願い
 - みんなで同時にアクセスするとサイトにつながりにくくなることが予想されます。
     - 資料を見ながら自力で進められそうな方はどんどん先に、そうでない方は講師と一緒にすすめていきましょう。
     - サイトの反応が悪い時はタイミングをずらして実行してみてください。
@@ -61,7 +61,7 @@ hono@dbcls.rois.ac.jp
 
 ----
 
-#### 受講前課題
+## 受講前課題
 - [統合TV](http://togotv.dbcls.jp/ja/) で自分の興味ある研究課題に関連する番組を検索して、当該番組のYouTube動画を視聴し、そのレビューコメントを記載する。
 - もし興味のあるデータベース・ウェブツールが解説動画にない場合は、詳細な[リクエストを送る](http://togotv.dbcls.jp/contact.html)。
 
@@ -71,29 +71,30 @@ hono@dbcls.rois.ac.jp
 ### [統合TV](http://togotv.dbcls.jp/ja/)
 - 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
     - http://togotv.dbcls.jp/ja/
-    - ![統合TVトップページ](training/images/180612_01.png)
+    - ![統合TVトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_01.png)
 
     - YouTube版もあります http://www.youtube.com/user/togotv/
-    - ![統合TV YouTube支店](training/images/180612_01.png)
+    - ![統合TV YouTube支店](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_02.png)
     - YouTubeのチャンネル登録をすると更新情報がメールで届きます。
 
 - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
-    - 1100本を超える動画が公開されており、YouTube版だけで のべ 680,000回以上 再生されています。(2016年10月末現在)
-    - ![YouTube統計](http://i.gyazo.com/9d3001309b055f2643a27efb6ad18375.png)
+    - 1400本を超える動画が公開されており、YouTube版だけで のべ 1,000,000回以上 再生されています。(2018年5月末現在)
+    - ![YouTube統計](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_03.png)
 
 - 講義・講習などの参考資料や後輩指導の教材として利用できます。
-    - 本講習中、本家サイトが繋がらない時は、統合TVを見ればおおよその内容がわかるようになっています。
+    - 本講義中、本家サイトが繋がらない時は、統合TVを見ればおおよその内容がわかるようになっています。
 
-    - 今回の講習に関連するデータベースやウェブツールは、[統合TV の「発現解析」タグ](http://togotv.dbcls.jp/ja/tags.html?tag=発現解析)から検索できます。  
+    - 今回の講義の内容に近い動画もあるので、復習にどうぞ。
+      - [【NGSハンズオン2017】NBDC・DBCLSの各種サービス 今日から使える便利な生命科学系公共データベース in DBCLS](http://togotv.dbcls.jp/20171204.html)
 
 - 統合TVに掲載されているコンテンツについてご引用いただく際に、恒久的な URL として [DOI](https://ja.wikipedia.org/wiki/デジタルオブジェクト識別子) (Digital Object Identifier) を使用することができます。
 
-- 2014年8月以降に開催された過去の講習会の資料・テキストと動画が「[AJACS講習会資料](http://togotv.dbcls.jp/ja/ajacs_text.html)」で閲覧できるようになり、受講生の復習のみならず、初学者の学習教材としてご活用いただけます。
+- 2014年8月以降に開催された過去の講習会の資料・テキストと動画が「[AJACS講習会資料](http://togotv.dbcls.jp/ja/ajacs_text.html)」で閲覧できるようになり、受講生の復習のみならず、初学者の学習教材として活用できます。
 
 - 誰でも自由に利用可能なライフサイエンス分野のイラストが､統合TVから閲覧､利用することができるようになりました。[「自由に使える画像を探す」](http://togotv.dbcls.jp/ja/pics.html)
-    - [Togo picture gallery](http://g86.dbcls.jp/~togoriv/)と[生物アイコン](http://togodb.biosciencedbc.jp/togodb/view/taxonomy_icon)の全画像460点を一覧できます。
+    - [Togo picture gallery](http://g86.dbcls.jp/~togoriv/)と[生物アイコン](http://togodb.biosciencedbc.jp/togodb/view/taxonomy_icon)の全画像500点以上を一覧できます。
     - 研究発表のスライド作成や資料作成等に､ぜひお使いください。
-    - ![自由に使える画像を探す](http://i.gyazo.com/1145552db3a3022d3813ea7285fe32ee.png)
+    - ![自由に使える画像を探す](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_03.png)
 
 - お探しの動画が見つからない or 統合TV未掲載の場合は、[統合TV番組リクエストフォーム](http://togotv.dbcls.jp/ja/contact.html)へどうぞ!!
 
@@ -102,7 +103,7 @@ hono@dbcls.rois.ac.jp
 ----
 
 #### 習熟度ややりたいこと別にご参考ください
-- 本講習内容をスムーズに理解するために押さえておくとよい基礎知識
+- 塩基配列解析に関わる基礎知識について
     - [「塩基配列解析のためのデータベース・ウェブツールとCRISPRガイドRNA設計 @ AJACSこまち」(2016年8月)](http://doi.org/10.7875/togotv.2016.122)
 
 - 遺伝子発現データを公共DBで検索・取得・解析する方法について
@@ -112,15 +113,282 @@ hono@dbcls.rois.ac.jp
     - [「コマンドラインで遺伝子配列を解析する」（2012年7月）](http://motdb.dbcls.jp/?AJACS32%2Fbono)
 
 - 次世代シーケンス(NGS)データの解析について
-    - [「次世代シーケンサー（NGS）と関連するデータベース・ツール」(2015年9月AJACS伊予)](http://togotv.dbcls.jp/ja/ajacs2015031.html)
-    - [「次世代シーケンサー(NGS)データから遺伝子発現を見るためのホップ&ステップ」(2015年9月AJACS伊予)](http://togotv.dbcls.jp/ja/ajacs2015030.html)
+    - [【NGS】に関係する動画・講習会資料・新着論文レビュー](http://togotv.dbcls.jp/tags.html?tag=NGS)
 
 - NGS解析について、さらにもっと基礎から応用までを深く学びたい方向け (それぞれ約50時間程度)
-    - [「バイオインフォマティクス人材育成カリキュラム（次世代シークエンサ）速習コース(2014年8月)」のYouTubeリスト](https://www.youtube.com/playlist?list=PL0uaKHgcG00abmj1Nzs1SUhqKLjf_PFBB)
-    - [「バイオインフォマティクス人材育成カリキュラム 次世代シークエンサ(NGS)ハンズオン講習会(2015年8月)」のYouTubeリスト](https://www.youtube.com/playlist?list=PL0uaKHgcG00Yo0Cn0rcF23xof5hqCzGQb)
+    - [「バイオインフォマティクス人材育成カリキュラム（次世代シークエンサ）速習コース(2014年8月)](https://www.youtube.com/playlist?list=PL0uaKHgcG00abmj1Nzs1SUhqKLjf_PFBB)
+    - [「バイオインフォマティクス人材育成カリキュラム 次世代シークエンサ(NGS)ハンズオン講習会(2015年8月)](https://www.youtube.com/playlist?list=PL0uaKHgcG00Yo0Cn0rcF23xof5hqCzGQb)
+    - [NGSハンズオン講習会2016](https://www.youtube.com/watch?v=TSa1yPy_sdM&list=PL0uaKHgcG00ZNpICun17CEAFpV_5Q6GCA)
+    - [NGSハンズオン講習会2017](https://www.youtube.com/watch?v=6Fzvl_I48tM&list=PL0uaKHgcG00YDmBXYWOgkmfeURjc8BZkk)
     - [上記の動画+講習会資料のまとめページ@統合TV](http://togotv.dbcls.jp/ja/tags.html?tag=NGS速習・ハンズオン)
 
 ----
+## 最新の知見・研究分野のレビューを知る
+### 新着論文レビュー
+トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について、論文の著者自身の執筆による日本語のレビューを、だれでも自由に閲覧・利用できるよう、いち早く公開するサービスです。  
+( http://first.lifesciencedb.jp/ )
+
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_FirstAuthors_fig-1_180525.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_FirstAuthors_fig-2_180525.png)
+
+#### ライフサイエンス 新着論文レビューの特徴
+
+* Nature、Science、Cellなどに代表されるトップジャーナルに掲載された生命科学分野の原著論文のうち、筆頭著者が日本人である論文をいち早くとりあげます。論文の出版から1か月以内の公開を目標とし、遅くとも2か月以内には公開します。2010年9月のサービス開始からこれまでに約1,000本のレビューを公開しています。
+
+##### 生命科学における専門分野が異なる人を対象
+
+* 広く生命科学全般にかかわる教員・研究者および大学院生・学生を対象とし、専門の異なる読者にも論文の先進性およびおもしろさがわかるよう、結果・結論ばかりでなく、前提となる研究の経緯・バックグラウンド、将来の展望などもあわせて示すようにしています。
+
+##### とにかく、わかりやすく読みやすい
+
+* 原稿そのままではなく、生命科学を専門とする編集者がきちんとした編集作業を行っています。
+
+##### コンテンツの自由な引用・転載・再利用
+
+* サイエンスコミュニティの共有物として、クレジットの明記を条件に、転載・改変・再利用（営利目的での二次利用も含め）を自由に行えます。高解像度の図をJPEGファイルとしてダウンロードでき、講義や講演、論文などの著作物に自由に利用することができます。
+
+#### 利用例
+
+* 生命科学の加速度的な発展や研究分野の細分化が進むなか、最新の知見・情報を得る。
+* 講義や講演、あるいは、論文などの著作物の資料とする。
+
+#### 今後の開発予定
+
+* ひきつづき、年間で150本以上を公開していく予定です。
+* ユーザーの利便性を高めるため、サイトのさらなる改良を進めていきます。
+
+#### 参考文献
+
+* 統合TV「ライフサイエンス新着論文レビュー FirstAuthor's を使い倒す」[DOI: 10.7875/togotv.2011.037](http://doi.org/10.7875/togotv.2011.037)
+
+
+### 領域融合レビュー
+生命科学において注目される分野・学問領域における最新の研究成果について、第一線の研究者の執筆による日本語のレビューを、だれでも自由に閲覧・利用できるよう、無料で公開するサービスです。  
+( http://leading.lifesciencedb.jp/ )
+
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LeadingAuthors_fig-1_180525.png)
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LeadingAuthors_fig-2_180525.png)
+
+#### ライフサイエンス 領域融合レビューの特徴
+
+* 日本分子生物学会、日本蛋白質科学会、日本細胞生物学会、日本植物生理学会 との協力のもと、ある学問分野・領域を広く総合的にとりあげる比較的長いレビューを公開・出版するものです。執筆者・執筆テーマの選定は、それぞれの学会から推薦された編集委員により構成される編集委員会において行います。原稿は、編集委員会の指名した1名以上の査読者により査読をうけ、必要に応じ加筆あるいは改稿のうえ原稿受理とします。2012年9月のサービス開始からこれまでに約60本のレビューを公開しています。
+
+##### 生命科学における専門分野が異なる人を対象
+
+* 広く生命科学全般にかかわる教員・研究者および大学院生・学生を対象とし、専門の異なる読者にも論文の先進性およびおもしろさがわかるよう、結果・結論ばかりでなく、前提となる研究の経緯・バックグラウンド、将来の展望などもあわせて示すようにしています。
+
+##### とにかく、わかりやすく読みやすい
+
+* 原稿そのままではなく、生命科学を専門とする編集者がきちんとした編集作業を行っています。
+
+##### コンテンツの自由な引用・転載・再利用
+
+* サイエンスコミュニティの共有物として、クレジットの明記を条件に、転載・改変・再利用（営利目的での二次利用も含め）を自由に行えます。高解像度の図をJPEGファイルとしてダウンロードでき、講義や講演、論文などの著作物に自由に利用することができます。
+
+#### 利用例
+
+* 生命科学の加速度的な発展や研究分野の細分化が進むなか、最新の知見・情報を得る。
+* 講義や講演、あるいは、論文などの著作物の資料とする。
+
+#### 今後の開発予定
+
+* ひきつづき、年間で10本以上を公開していく予定です。
+* ユーザーの利便性を高めるため、サイトのさらなる改良を進めていきます。
+
+#### 参考文献
+
+* 統合TV「ライフサイエンス領域融合レビューLeadingAuthor'sを使い倒す」[DOI: 10.7875/togotv.2012.088](http://doi.org/10.7875/togotv.2012.088)
+
+---
+
+## 生命科学系の文献に頻出する英語表現を高速に検索する
+### 逐次PubMed表現検索 inMeXes (インメクセズ)
+生命科学系の文献（PubMedに含まれるタイトルとアブストラクト）に頻出する英語表現を、1文字の入力ごとに高速に再検索します。検索結果から用例や関連情報を容易に取得することができます。
+(https://docman.dbcls.jp/im/)
+
+#### inMeXesの特徴
+
+##### 綴りに自信がなくても目的の英語表現を容易に検索
+
+* 4文字以上の入力で、生命科学系の文献で実際に用いられている表現をPubMed/MEDLINEデータベースにおける頻度順に表示します。1文字の入力 を追加するごとに逐次的に文字列にマッチする表現を検索し直すので、目的とする表現をみつけやすくなっています。
+
+##### 一度のクリックでマッチした表現の用例が閲覧可能
+
+* 用例は、「ライフサイエンス辞書プロジェクト（京都大学）」が提供している共起表現リストや、「生命科学DB横断検索（開発：ライフサイエンス統合データ ベースセンター、サービス提供：バイオサイエンスデータベースセンター）」の文献・データベースリストなどで確認できます。
+
+##### 検索結果をブックマークしてほかの利用者と共有できる
+
+* 一度検索した表現の用例は、結果を再現しやすくするためにURL（Permalink）を動的に生成することができます。検索結果のブックマークや共有に便利です。
+
+#### 利用例
+
+* 英語で論文や記事を書く際に、よく使われる表現を確認する。
+* 興味のある遺伝子や蛋白質に関する記述としてよく使われる表現を検索する。
+
+#### 今後の開発予定
+
+利用者のフィードバックなどを参考にしながら機能拡張、新規機能の追加を検討します。
+
+#### 参考文献
+
+統合TV「[inMeXesを使って文献に頻出する英語表現や関連語を高速に検索する 2018](http://togotv.dbcls.jp/20180126.html)」DOI: 10.7875/togotv.2018.026
+
+---
+
+## 生命科学分野の略語・展開形を検索する
+### Allie (アリー): A Search Service for Abbreviation / Long Form
+PubMed（米国立医学図書館が開発・維持している生物医学文献書誌情報データベース）を利用して、文献中に登場する略語とその正式名称の組およびその付随情報を検索します。
+(http://allie.dbcls.jp/)
+
+#### Allieの特徴
+
+* PubMed収録文献のタイトルとアブストラクトに出現する略語とその正式名称の組について、略語と正式名称のいずれか一方、あるいは、正式名称の一部をクエリとする検索ができます。
+* 日本語の対訳がある正式名称については、あわせて表示します。
+* 検索結果の略語もしくは正式名称について、それらが出現する文献情報も取得できます。
+* タイトルあるいはアブストラクト中に共起するほかの略語も検索結果から閲覧できます。
+* 各種WebAPI(REST/SOAP/SPARQL)を備えているので、自分で作成したプログラムでAllieを呼び出すことができます。
+* 略語と正式名称の組、および、その出現PubMed IDを収めたデータベースを、タブ区切りとResource Description Framework (RDF)の双方の形式で自由にダウンロードできます。
+
+#### 利用例
+
+* ある略語について、その正式名称を知る。
+* ある略語が最初に文献に登場した時期を知る。
+* 新たな略語をつくろうとしたとき、その略語がすでに存在しているかどうかを調べる。
+
+#### 今後の開発予定
+
+引き続き日本語訳の充実および月一度の定期更新を行います。
+
+#### 参考文献
+
+* Yamamoto, Y., Yamaguchi, A., Bono, H., Takagi T. (2011). Allie: a database and a search service of abbreviations and long forms. Database, 2011:bar03.
+* 統合TV「[Allieを使って略語の正式名称を検索する 2017](http://togotv.dbcls.jp/20171025.html)」DOI: 10.7875/togotv.2017.104
+
+---
+
+## 類似したテキストの差分を検索・表示する
+### テキスト比較ツール difff《ﾃﾞｭﾌﾌ》
+https://difff.jp/
+
+#### difff(ﾃﾞｭﾌﾌ)の特徴
+* diffコマンドを使った比較結果をWeb上に表示するツール
+* テキストボックスに比較したい文章をコピペしてボタンを押すだけで2つの文章でどこが変更されたのか差分の確認ができる
+* 日本語のテキストも対応
+* Word文章はもちろんソースコード、 遺伝子リストなどの比較も可能
+* [某問題で活躍](http://www.itmedia.co.jp/news/articles/1403/12/news121.html)
+
+#### 参考文献
+* 統合TV「[difff《デュフフ》を使って文章の変更箇所を調べる](http://togotv.dbcls.jp/20130828.html)」DOI: 10.7875/togotv.2013.056
+
+---
+## 遺伝子やゲノム配列を高速に検索する
+### 統合遺伝子検索GGRNA
+さまざまなキーワードから遺伝子を簡単に検索することのできる遺伝子検索エンジンです。  
+塩基配列やアミノ酸配列から高速に遺伝子を検索することもできます。  
+GGRNA： https://GGRNA.dbcls.jp/
+
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_GGRNA.png)
+
+#### GGRNAの特徴
+
+* NCBI RefSeqに登録された転写産物の情報を高速に全文検索します。遺伝子名や各種のID、タンパク質の機能など、あらゆるキーワードから簡単に遺伝子を検索できます。
+* 塩基配列の検索では、N, R, Yなどのあいまいな塩基を含むパターンも検索できます。
+* ヒト、マウス、ラット、ニワトリ、ツメガエル、ゼブラフィッシュ、ホヤ、ショウジョウバエ、線虫、イネ、シロイヌナズナ、出芽酵母、分裂酵母を含め、RefSeqに収録されている全ての生物種に対応しています。
+
+#### 利用例
+
+* ある遺伝子について調べたくなったら、まずはGGRNAで検索。
+* 論文の図中に登場する塩基配列やアミノ酸配列から即座に遺伝子を検索。たとえばPCRのプライマー、プローブ、siRNAの配列を検索して標的遺伝子および位置をチェック。
+* マイクロアレイのプローブIDを塩基配列に変換して遺伝子を検索。
+* 短いアミノ酸配列のモチーフを検索。
+
+#### 参考文献
+
+* Naito Y, Bono H. GGRNA: an ultrafast, transcript-oriented search engine for genes and transcripts. Nucleic Acids Res. 40, W592-W596 (2012) DOI: [10.1093/nar/gks448](https://doi.org/10.1093/nar/gks448)
+* 内藤雄樹, 坊農秀雅「統合遺伝子検索GGRNA：遺伝子をGoogleのように検索できるウェブサーバ」ライフサイエンス 新着論文レビュー 2012年5月28日 DOI: [10.7875/first.author.2012.163](https://doi.org/10.7875/first.author.2012.163)
+* 統合TV「GGRNAで遺伝子をGoogleのように検索する」 DOI: [10.7875/togotv.2012.003](https://doi.org/10.7875/togotv.2012.003)
+
+### 高速塩基配列検索GGGenome
+ゲノムや転写産物等の塩基配列を高速に検索するツールです。  
+GGGenome： https://GGGenome.dbcls.jp/
+
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_GGGenome.png)
+
+#### GGGenomeの特徴
+
+* BLASTやBLATでは検索の難しい20塩基以下の短い配列の検索が得意です。
+* ミスマッチやギャップを含む塩基配列もすばやく検索できます。
+* ゲノムの検索は、主要なモデル生物を含む350以上の生物種に対応しています。
+* 転写産物の検索は、NCBI RefSeqに収録された全生物種のmRNA、ncRNAを検索できます。
+* 検索結果をさまざまなフォーマットで取得することができます。
+
+#### REST APIの提供
+
+```
+URI: http[s]://GGGenome.dbcls.jp/db/k/strand/sequence[.format][.download]
+```
+
+* `db` : 検索対象データベース　例） ヒトゲノム`hg38`, マウスゲノム`mm10`, RefSeq転写産物`refseq` など
+* `k` : 許容するミスマッチまたは挿入欠失の数。省略時は0
+* `strand` : `+`,`plus` または `-`,`minus` で特定方向のみ検索
+* `sequence` : 検索する塩基配列
+* `format` : `html`,`txt`,`csv`,`bed`,`gff`,`json` (省略時は`html`)
+* `download` : 検索結果をファイルとしてダウンロード (`txt`,`csv`,`bed`,`gff`,`json`のみ)
+
+**例1：** https://GGGenome.dbcls.jp/hg38/1/TTCATTGACAACATT
+
+* ヒトゲノム `hg38` に対して
+* `1` 塩基のミスマッチまたは挿入欠失まで許容して
+* `TTCATTGACAACATT` を検索し
+* `html` (省略時のデフォルト) で結果を返す
+
+**例2：** https://GGGenome.dbcls.jp/refseq/+/TTCATTGACAACATT.txt
+
+* RefSeq complete RNA `refseq` の最新版に対して
+* ミスマッチや挿入欠失を許容せず (省略時のデフォルト)
+* 検索方向を `+` 方向に限定し
+* `TTCATTGACAACATT` を検索し
+* タブ区切りテキスト `txt` で結果を返す
+
+##### 応用例
+* [Google Document のスプレッドシートを利用したプライマー配列情報の整理方法](http://youtu.be/CyjR8WzR3Q8?t=2m38s)
+
+#### 参考文献
+
+* 統合TV「高速配列検索GGGenome《ゲゲゲノム》の使い方」 DOI: [10.7875/togotv.2013.071](https://doi.org/10.7875/togotv.2013.071)
+* 統合TV「GGGenome 《ゲゲゲノム》 で転写因子結合サイトを検索してゲノムブラウザに表示する」 DOI: [10.7875/togotv.2015.067](https://doi.org/10.7875/togotv.2015.067)
+
+### CRISPRdirect
+入力した塩基配列に対してCRISPR-Cas9システムのガイドRNAを設計することができるツールです。  
+CRISPRdirect： https://crispr.dbcls.jp/
+
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSServices_CRISPRdirect.png)
+
+#### CRISPRdirectの特徴
+
+* 目的以外の部位で誤ってゲノム編集が起こる「オフターゲット効果」の少ないガイドRNAを効率よく設計できます。
+* 主要なモデル生物に加え、ゲノム配列が公表されている350以上の生物種に対応しています。
+
+#### 使い方
+
+* 任意の塩基配列、アクセッション番号、またはゲノムの座標を入力して [design] ボタンをクリック。
+* 標的部位の候補が表示されます。緑色にハイライト表示されたものが、特異性の高いガイドRNAを設計できる部位です。
+* 表のなかの [detail] をクリックすると、オフターゲット候補部位が表示されます。ガイドRNAとゲノムとのあいだにミスマッチや挿入・欠失がある場合についても表示することが可能です。
+
+#### 今後の開発予定
+
+* データを定期的に更新し、ユーザからのフィードバックに応じて機能を改善していく予定です。
+
+#### 関連プロジェクト
+* siDirect (http://siDirect.RNAi.jp/)  
+  哺乳類細胞で活性が高く標的遺伝子に特異的なsiRNAの設計ウェブサーバ
+
+#### 参考文献
+
+* Naito Y, Hino K, Bono H, Ui-Tei K. CRISPRdirect: software for designing CRISPR/Cas guide RNA with reduced off-target sites. Bioinformatics 31, 1120-1123 (2015) DOI: [10.1093/bioinformatics/btu743](https://doi.org/10.1093/bioinformatics/btu743)
+* 統合TV「CRISPRdirectを使ってCRISPR/Cas法のガイドRNA配列を設計する」 DOI: [10.7875/togotv.2014.025](https://doi.org/10.7875/togotv.2014.025)
+
+---
 
 ## 個々の遺伝子の発現プロファイルを調べる
 ### [RefEx (Reference Expression dataset)](http://refex.dbcls.jp/)
@@ -137,8 +405,6 @@ hono@dbcls.rois.ac.jp
     - 測定手法による遺伝子発現量の差異を比較する
     - 組織特異的遺伝子をワンタッチで検索可能
     - 遺伝子発現解析などで見出された不詳な遺伝子群の機能および関係性を調べる
-
-----
 
 #### 【実習1】RefExを使って、組織特異的遺伝子を検索する
 - 【復習用】[RefExの使い方](http://doi.org/10.7875/togotv.2014.009)
@@ -182,134 +448,42 @@ hono@dbcls.rois.ac.jp
 14. 自分の研究テーマに関連する、また興味のある遺伝子について検索してみましょう。
 
 ----
+##論文などで報告された ChIP-seq データを閲覧・解析する
+### ChIP-Atlas
+ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、利活用するためのウェブサービスです。データ処理の知識やスキルがない方でも簡単に利用できます。データソースは、公開 NGS データレポジトリ (NCBI, EMBL-EBI, DDBJ) に登録されたほぼ全ての ChIP-seq データです。ChIP-Atlas は、九州大学大学院医学研究院 発生再生学分野 (http://www.dev.med.kyushu-u.ac.jp) と DBCLS が共同で開発しています。
+ (http://chip-atlas.org/)
 
-### [BioGPS](http://biogps.org/)
-- ヒト、マウス、ラットのさまざまな組織や細胞(株)における遺伝子発現プロファイルのデータベース
+サンプル1 サンプル1
 
-- [BioGPS](http://biogps.org/)はAffymetrix社製のマイクロアレイであるGeneChipを用いたさまざまな組織や細胞(株)遺伝子発現プロファイルのデータベース。
-- 検索した遺伝子に対して、種々の外部データベースを横断検索することができるだけでなく、それらの設定を保存したり、表示方法を自由にカスタマイズすることができる「Gene annotation portal」。
-- 外部データベースには、Wikipedia(Gene Wiki)、著名な試薬会社の検索窓へのリンク集、pathway、Nature系DB、モデル生物DB、文献DBなど多種多様
-- マウスのエキソンアレイのデータから遺伝子のスプライシングバリアント(Splicing variant)の発現状況も調べることが可能。最近ではCircadian関係のデータも。
-- さらに最近のアップデートで、NCBI Gene Expression Omnibus (GEO)中から選抜されたデータセットに切り替えて発現状況を調べることが可能に。
+####ChIP-Atlasの機能
+##### Peak Browser
+* 既報の ChIP-seq データをまとめて閲覧し、何がどこに結合しているかが一目でわかります（図２）。Integrative Genomics Viewer (IGV) によりスムーズなブラウジングが可能で、興味の遺伝子のシス調節領域を予測したり、それを制御する転写因子の予測ができます。
+##### Target Genes
+* 興味のある転写因子を選択し、その標的遺伝子候補を検索できます。
+##### Colocalization
+* 興味のある転写因子を選択し、それとゲノム上で共局在する転写因子候補を検索できます。
+##### in silico ChIP
+* ユーザデータを受け付け、既存データとの比較解析をおこないます。たとえば、興味のある遺伝子リストを submit すると、それらをまとめて制御する転写因子候補が返されます。ほかにも BED 形式のファイルや、シーケンスモチーフを submit すると、それらに enrichment する転写因子群が返されます。
+* 上記のすべてにおいて、好きな転写因子や細胞名でデータを絞り込むことが可能です。
 
-----
+#### 利用例
+* 論文として発表された ChIP-Seq データを閲覧したい
+* 興味のあるゲノム領域における、転写因子や修飾ヒストンの分布を知りたい
+* 興味のある転写因子の下流遺伝子や、複合体形成パートナーを知りたい
+自身の研究データと公開 ChIP-seq データを用いて比較解析をおこないたい
+#### 参考文献
+- Source code and documentation    
+  - https://github.com/inutano/chip-atlas
+- Preprint
+  - Shinya Oki, Tazro Ohta, et al. Integrative analysis of transcription factor occupancy at enhancers and disease risk loci in noncoding genomic regions. bioRxiv 262899; doi: https://doi.org/10.1101/262899
+- Database
+  - Oki, S; Ohta, T (2015): ChIP-Atlas. http://dx.doi.org/10.18908/lsdba.nbdc01558-000
 
-#### 【実習(skip)】BioGPSを使ってある遺伝子の発現プロファイルを調べる
-- 【復習用】[遺伝子発現プロファイルデータベースBioGPSを使い倒す2012](http://doi.org/10.7875/togotv.2012.075)
-- [【以前の講習会動画】遺伝子発現データベースの活用法](http://doi.org/10.7875/togotv.2010.109)
-
-## 数十～数千の遺伝子群の生物学的解釈
-
-- マイクロアレイやNGS実験を行うと大量の発現変動遺伝子 (Differentially Expressed Genes: DEGs)が得られます｡
-- 一般的な遺伝子発現解析の第一歩は､実験条件によって得られた数十～数千のDEGsが生物学的にどういう意味を持つかを考えることです。
-  - ![Gyazo](http://i.gyazo.com/52cb4c40b1313a52f8ded6923bdd8ef0.png)
-- 今回は、その方法の一つとして、[Gene Ontology (GO)](http://array.cell-innovator.com/?p=1085) の用語を使って､マイクロアレイ実験で得られたDEGsのもつ機能に、どのような特徴があるのか(転写因子活性に関する遺伝子が多いのか、細胞周期に関する遺伝子が多いのか?､ Wntパスウェイに関する遺伝子が多いのか?, など)を解析することで、生物学的解釈をしてみましょう。  
-
-### [DAVID: The Database for Annotation, Visualization and Integrated Discovery](http://david.abcc.ncifcrf.gov/)
-- アメリカ国立アレルギー・感染症研究所が開発･運用
-- 原著論文 [PMID: 19131956](http://www.ncbi.nlm.nih.gov/pubmed/19131956)
-- 遺伝子リストのコピペで簡単にエンリッチメント解析 ( GO､KEGG など )
-- 対応生物種･遺伝子ID が 豊富｡ ID変換ツールもある
-- IDリストしか投げられない (発現量込みやタイムコースデータは不可)
-- 2010年以来データ更新が止まっていたが､最近､アップデートされた｡ [DAVID 6.8 (current beta release) May. 2016](https://david.ncifcrf.gov/content.jsp?file=release.html)  
-
-#### マイクロアレイデータの準備
-- サンプルデータとして、[NCBI GEO](http://www.ncbi.nlm.nih.gov/geo/)から取得した公共の遺伝子発現データを用います。このデータは、ある実験の前後の2群間で有意に発現減少した遺伝子群のリストです。  
-
-     → [マル秘遺伝子リスト](https://raw.githubusercontent.com/AJACS-training/AJACS59/master/hono/secret_list.txt)  （右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
-
-- このデータは、どのような実験から得られたデータなのか、どのように解釈できるのかをDAVIDを使って考察してみましょう！  
-
-#### 【実習2】DAVIDを用いて、発現データの結果を生物学的に解釈する
-- 【復習用】[DAVIDを使ってマイクロアレイデータを解析する 2012](http://doi.org/10.7875/togotv.2012.079)
-- 【復習用】[DAVIDの使い方 実践編](http://doi.org/10.7875/togotv.2013.033)  
-
-1. [DAVID](http://david.abcc.ncifcrf.gov/)にアクセスし、上部メニューの「Start Analysis」をクリックします。
-
-- ![Gyazo](http://i.gyazo.com/f976f39aeb060a96a790f0e5b281aabe.png)
-
-2. 画面左側バーで、probe IDリストをコピペ or ファイルを指定します。
-3. リストのIDの種類タイプを選択します。 … 今回は、「AFFY_ID」と「Gene List」
-4. Submit List をクリックするとリストが読み込まれます。
-
-- ![Gyazo](http://i.gyazo.com/e8275cf9dbb203b3d8577307b462c783.png)
-
-5. アップロードしたリストは、左側バーの「List Manager」で「Uploaded List_1」として保存されています。削除やrenameもできます。
-
-- ![Gyazo](http://i.gyazo.com/e8270d82a68decba0249daa49914fba9.png)
-
-6. 解析を続けます。真ん中の「Functional Annotation Tool」をクリックします。
-7. 「Gene Ontology」をクリックすると、Gene Ontologyを用いた解析の細かいメニューが表示されます。
-
-- ![Gyazo](http://i.gyazo.com/38905ceb16d6b702059667e4fb404531.png)
-
-8. 今回は、GOTERM_BP_FAT (BP = Biological Process)に注目します。その右の「Chart」をクリックすると結果がポップアップされます。
-
- - ![Gyazo](http://i.gyazo.com/78301700c3d952957dd599bbb83c785f.png)
-
-9. タイトル行をクリックするとソートできます。  
-10. さらに、GOTERM_CC_FAT や GOTERM_MF_FAT を見て、上位にリストされたGOTermにどのような共通点・相違点があるでしょうか。
- - CC = Cellular Component
- - ![Gyazo](http://i.gyazo.com/117720204dfb06a3f3605f4aedec2dba.png)
- - MF = Molecular Function  
- - ![Gyazo](http://i.gyazo.com/6feb8e34beab45769e2d3e66c3c5d570.png)
-11. Pathways > KEGG_PATHWAY や Tissue Expression > UP_TISSUE なども見てみましょう。
-
-12. DAVIDで得られた結果を踏まえ、「ある実験」とはどのような実験であったか考察してみましょう。
- - マル秘遺伝子リストは「ある実験の前後の2群間で有意に発現減少した遺伝子群のリスト」  
- - 生物種はArabidopsis thaliana (シロイヌナズナ)  
-
----
-
-[答え合わせ](https://github.com/AJACS-training/AJACS59/blob/master/hono/answer.md)
-
----
-
-#### 【実習3】これまで学んだことを踏まえて、発現データの結果を生物学的に解釈する
-- DAVID の使い方に慣れてきたところで、実戦的な生物学的解釈に挑戦してみましょう。
-- 今回は「正解」はありません。情報分析力と想像力が問われます。
-- 例題は、[GSE28619](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE28619) をつかいます。
-  - 健常者 vs アルコール性肝炎患者 の2群比較です。
-  - 多重比較法（Benjamini & Hochberg）を指定して、有意水準1％未満かつ2倍以上発現差のあった遺伝子群のリストをあらかじめ用意しました。
-     - 「健常者＞AH患者_遺伝子リスト」[GEO2R_Ctrl.txt](https://raw.githubusercontent.com/AJACS-training/AJACS59/master/hono/GEO2R_Ctrl.txt)
-     - 「AH患者＞健常者_遺伝子リスト」[GEO2R_AH.txt](https://raw.githubusercontent.com/AJACS-training/AJACS59/master/hono/GEO2R_AH.txt)
-     - (この遺伝子リストの作り方は、[AJACS御茶ノ水の回](http://doi.org/10.7875/ajacs.2015.007) で解説しています。)
-- DAVID 以外のツールを使ってみる
-  - [GeneTrail2](https://genetrail2.bioinf.uni-sb.de/)
-    - 2016年1月公開｡ ザールラント大(独)が開発･運用｡ 原著論文 [PMID: 26787660](http://www.ncbi.nlm.nih.gov/pubmed/26787660)
-    - トランスクリプトームのほか､プロテオーム､ miRNA､SNP にも対応
-    - GSE 番号 の入力だけで､GEOから直接データ取得が可能
-    - IDリストのほか発現量込みリスト､タイムコースデータなども使用可能
-    - 主要なモデル生物種に対応
-    - 実験系に適した統計解析の選択肢が豊富
-    - 同じ生物種間であれば､別の解析結果同士を比較することも可能
-    - 統合TV あります → [GeneTrail2を使って、エンリッチメント解析を行う](http://togotv.dbcls.jp/ja/20160616.html)
-      - 解析結果セットはダウンロード可能だがアップロードして再表示はできない
-      - データセットによってエラーが出て解析できない…(バグ?)
-  - [Metascape](http://metascape.org/gp/index.html#/main/step1)
-    - 2015年10月スタート｡ 原著論文 [PMID: 26651948](http://www.ncbi.nlm.nih.gov/pubmed/26651948)
-    - [｢なぜ､DAVIDはもはや使うべきではないのか｣ 提言](http://metascape.blogspot.jp/2016/02/why-david-should-no-longer-be-used.html) → metascape 使おう
-    - 対応ID: Entrez Gene ID, RefSeq, Gene Symbol, Ensembl, UCSC, UniProt.
-    - 生物種は､ヒト､マウス､ラットのみ
-    - IDリストのほかタイムコースなどの複数リストデータも使用可能
-    - 複数リスト間のアノテーションについて差分表示が可能
-    - GOのエンリッチメント解析で階層的クラスタリングもできる
-    - 統合TV あります → [Metascapeを使って、遺伝子リストの生物学的解釈をする](http://togotv.dbcls.jp/ja/20160927.html)
-      - まだシステムが不安定(?)で大量クエリ投げると結果が帰ってこない場合もある
-      - Chromeだとjavascript周りでエラーが出て使えない(?)こともある
-  - [GeneSetDB](http://genesetdb.auckland.ac.nz/haeremai.html)
-    - 九州大学 荒木さんが開発｡ オークランド大学バイオインフォマティクス研究所が運用｡ 原著論文 [PMID: 23650583](http://www.ncbi.nlm.nih.gov/pubmed/23650583)
-    - 医学・薬学分野に特化したデータベースを解析対象にすることができる
-    - 統合TV あります → [GeneSetDBで遺伝子解析とエンリッチメント解析を行う](http://doi.org/10.7875/togotv.2016.002)
-      - [2:50~ エンリッチメント解析を行う](https://www.youtube.com/watch?v=qqF19PaURsA&feature=youtu.be&t=2m50s)   
-- 一応ひとつの答え
-  - このデータを使った論文があります。
-    - [Transcriptome analysis identifies TNF superfamily receptors as potential therapeutic targets in alcoholic hepatitis.](http://www.ncbi.nlm.nih.gov/pubmed/22637703)
-    - Gut. 2013 Mar;62(3):452-60. doi: 10.1136/gutjnl-2011-301146.
-  - 似たような結論が導かれましたか? あるいは、著者らが見逃している(かもしれない)着眼点や新たな着想が得られましたか?
 
 ## まとめ
-- つまみ食い的ではありますが通り一遍の大規模発現データに対する生物学的解釈の方法を学びました。
-- 「道具」を知って使い方が分かれば、あとは情報分析力と想像力の勝負。
-- ぜひご自身のデータ、あるいはご自身のテーマに関連する公共データの生物学的解釈をしてみましょう。
-- 実戦≒実践あるのみ
+- つまみ食い的ではありますが、通り一遍の今日から使える便利な生命科学系公共データベース・ウェブツールを学びました。
+- 顕微鏡 や 実験試薬 などと同じ「道具(ツール)」
+- 便利な「道具」を知って、その使い方が分かれば、あとは情報分析力と想像力の勝負。
+- 困ったら、統合TV!! (※宣伝)
+- 研究に役立ったら、ぜひ引用・クレジットを!
+  - DBCLSの提供するサービス(あるいはそれ以外でも)が、あなたの研究に役立ったら、どんなに些細な事でもぜひ引用(論文、URL等)してください。DBCLSの活動は、提供するサービスがどのくらい活用されたかについて主に引用数などで評価されており、利用者の方の積極的なサポートが必要不可欠です!!
