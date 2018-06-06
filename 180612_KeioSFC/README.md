@@ -40,9 +40,8 @@ hono@dbcls.rois.ac.jp
     - GGRNA
     - GGGenome
     - CRISPRdirect
-- 個々の遺伝子の発現プロファイルを調べる
+- 公共データベースから利用可能な遺伝子発現データを解析する
     - RefEx
-- 論文などで報告された ChIP-seq データを閲覧・解析する
     - ChIP-Atlas
 
 ----
@@ -94,7 +93,7 @@ hono@dbcls.rois.ac.jp
 - 誰でも自由に利用可能なライフサイエンス分野のイラストが､統合TVから閲覧､利用することができるようになりました。[「自由に使える画像を探す」](http://togotv.dbcls.jp/ja/pics.html)
     - [Togo picture gallery](http://g86.dbcls.jp/~togoriv/)と[生物アイコン](http://togodb.biosciencedbc.jp/togodb/view/taxonomy_icon)の全画像500点以上を一覧できます。
     - 研究発表のスライド作成や資料作成等に､ぜひお使いください。
-    - ![自由に使える画像を探す](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_03.png)
+    - ![自由に使える画像を探す](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_04.png)
 
 - お探しの動画が見つからない or 統合TV未掲載の場合は、[統合TV番組リクエストフォーム](http://togotv.dbcls.jp/ja/contact.html)へどうぞ!!
 
@@ -206,8 +205,11 @@ hono@dbcls.rois.ac.jp
 生命科学系の文献（PubMedに含まれるタイトルとアブストラクト）に頻出する英語表現を、1文字の入力ごとに高速に再検索します。検索結果から用例や関連情報を容易に取得することができます。
 (https://docman.dbcls.jp/im/)
 
-#### inMeXesの特徴
+![fig5](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_05.png)
 
+![fig6](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_06.png)
+
+#### inMeXesの特徴
 ##### 綴りに自信がなくても目的の英語表現を容易に検索
 
 * 4文字以上の入力で、生命科学系の文献で実際に用いられている表現をPubMed/MEDLINEデータベースにおける頻度順に表示します。1文字の入力 を追加するごとに逐次的に文字列にマッチする表現を検索し直すので、目的とする表現をみつけやすくなっています。
@@ -240,6 +242,8 @@ hono@dbcls.rois.ac.jp
 PubMed（米国立医学図書館が開発・維持している生物医学文献書誌情報データベース）を利用して、文献中に登場する略語とその正式名称の組およびその付随情報を検索します。
 (http://allie.dbcls.jp/)
 
+![fig7](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_07.png)
+![fig8](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_08.png)
 #### Allieの特徴
 
 * PubMed収録文献のタイトルとアブストラクトに出現する略語とその正式名称の組について、略語と正式名称のいずれか一方、あるいは、正式名称の一部をクエリとする検索ができます。
@@ -269,6 +273,8 @@ PubMed（米国立医学図書館が開発・維持している生物医学文�
 ## 類似したテキストの差分を検索・表示する
 ### テキスト比較ツール difff《ﾃﾞｭﾌﾌ》
 https://difff.jp/
+
+![fig9](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_09.png)
 
 #### difff(ﾃﾞｭﾌﾌ)の特徴
 * diffコマンドを使った比較結果をWeb上に表示するツール
@@ -390,23 +396,49 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
 ---
 
-## 個々の遺伝子の発現プロファイルを調べる
-### [RefEx (Reference Expression dataset)](http://refex.dbcls.jp/)
-- ヒト、マウス、ラットの遺伝子発現情報リファレンスデータセット
-- [http://refex.dbcls.jp/](http://refex.dbcls.jp/)
-- 4つの異なる実験手法（EST、GeneChip、CAGE、RNA-seq）によって得られた正常組織、初代培養細胞、細胞株における遺伝子発現データを検索、閲覧可能
-    - 最近新たに、FANTOM5 CAGEデータが追加(ヒト556種、マウス286種)
-    - 掲載しているデータやオリジナルデータなどの詳細については、[RefExについて](http://refex.dbcls.jp/about.php?lang=ja)
-- RefExで掲載されているデータはすべて再利用可能
-    - 「RefEx analysis」として論文に引用していただいたケースも
-         - [Aberrant IDH3α expression promotes malignant tumor growth by inducing HIF-1-mediated metabolic reprogramming and angiogenesis, Oncogene, (22 December 2014) | doi:10.1038/onc.2014.411](http://www.nature.com/onc/journal/vaop/ncurrent/full/onc2014411a.html)
-- このツールでできること
-    - 正常組織における遺伝子発現データを調べる
-    - 測定手法による遺伝子発現量の差異を比較する
-    - 組織特異的遺伝子をワンタッチで検索可能
-    - 遺伝子発現解析などで見出された不詳な遺伝子群の機能および関係性を調べる
+## 公共データベースから利用可能な遺伝子発現データを解析する
+### RefEx
+RefEx（Reference Expression dataset）は、遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツールです。 (http://refex.dbcls.jp/)  
 
-#### 【実習1】RefExを使って、組織特異的遺伝子を検索する
+![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_jp_fig-1_180523.png)  
+
+![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_jp_fig-2_180523.png)
+
+#### RefExの特徴
+##### 正常組織・細胞等の遺伝子発現状況を ひと目で
+* 複数の遺伝子発現計測手法によって得られた哺乳類の正常組織、細胞等における遺伝子発現データを収集し並列に表現することによって、各組織における遺伝子発現状況を計測手法間の差異とともに直感的に比較できることが特長です。RefExを利用することで、研究者は研究対象とする遺伝子が平常時にどの組織、細胞でどの程度発現しているのかについて、自ら実験をすることなく確認することができます。また、研究者がしばしば遭遇する馴染みのない遺伝子について、一般的には個別の研究論文における実験データや記述などからそれらの生物学的特徴を類推したりしますが、RefExでは実験デザインに左右されない大規模かつ網羅的な測定データから研究者自身の目でそれらを簡単に確認することができます。さらに、研究者の用意した複数の遺伝子IDについて一括で検索できる機能を備えているほか、リスト機能を用いて遺伝子の詳細データを並列に比較することができるため、遺伝子発現解析などで見出された遺伝子群の関係性を知るためのツールとしても有用です。
+##### 調べたい遺伝子を より探しやすく よりわかりやすく
+* もっとも基本的なキーワード·遺伝子名検索では文字を入力する度に検索語の候補が提示されるので、それらから選択することで容易にキーワード入力を行うことができます。また、「転写因子」や「Gタンパク質共役受容体」、「2番染色体」などのように、ある分類に属する遺伝子群についてまとめて検索·比較できるよう整理されています。さらに、さまざまな実験における比較対照などに用いられる『組織特異的遺伝子』を測定データから独自に算出し、組織ごとに一覧することができます。Advanced searchでは、複雑な検索条件を一度に指定することが可能であり、あらかじめID情報などが手元にある場合には、目的とするデータに簡単に行き着くことができます。
+##### 直感的な可視化で 新たな知識発見・仮説構築を
+* 検索結果一覧および個別の遺伝子の詳細情報ページでは、組織間の比較と測定手法間（EST、GeneChip、CAGE、RNA-seq）の比較を両立させた相対発現量が棒グラフで示されるとともに人体の3Dモデルである[BodyParts3D/Anatomography](http://lifesciencedb.jp/bp3d/)に発現量を反映させたヒートマップが表示されます。またリスト機能を使えば、検索結果の個別の遺伝子について一時的に保存しておくことができます。リストに追加した遺伝子は、最大でその3つについて、40分類の組織·臓器における発現データを比較しながら、遺伝子に付与された機能に関する注釈情報（Gene Ontology他）を見比べることができます。これらの機能は、新たな知識発見あるいは仮説の構築をサポートします。詳細情報ページに記載された種々のIDには、それぞれRefExの内部リンクやオリジナルのデータベースサイトへの外部リンクが貼られており、同じ分類に属する遺伝子を再検索したり、RefEx自体を遺伝子検索の起点とすることもできます。
+##### 再利用可能で有用なパブリックデータの活用例
+* RefExが提供するすべてのデータは、クリエイティブ·コモンズライセンスのもとで、オープンデータとして自由にダウンロードおよび再利用することができます。検索結果一覧や詳細情報ページのデータはいずれもダウンロードすることが可能で、研究者自身のデータと参照することも、それらを使った再解析も自由に行うことができます。また、外部の研究データレポジトリ「figshare」にも全てのデータがDOI付きで公開されています [(https://doi.org/10.6084/m9.figshare.c.3812815)](https://doi.org/10.6084/m9.figshare.c.3812815)。 さらに、ソフトウェア開発プロジェクトのための共有ウェブサービス「GitHub」上にも、公開データの再解析に用いたプログラムやドキュメントを整理しており、RefExで提供する再解析データについてある一定の評価品質および再現性を担保しています [(https://github.com/dbcls/RefEx)](https://github.com/dbcls/RefEx)。RefExは生命科学データの共有および再利用の活用例のひとつであり、データ駆動型研究のためのデータセット、ウェブツールとしてだれでも自由に使うことができます。
+
+#### 利用例
+* 正常組織や細胞株における遺伝子発現データを調べる｡
+* 測定手法による遺伝子発現量の違いを比較する｡
+* 組織特異的に発現する遺伝子をワンタッチで検索可能｡
+* 遺伝子発現解析などで見出された不詳な遺伝子群の機能および関係性を調べる｡
+![fig-3'](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_jp_fig-3_180523.png)
+
+#### 今後の開発予定
+
+* 今後は、世界各地で進められている遺伝子発現に関する大規模研究プロジェクト（FANTOM、GTExなど）を中心に、高精度かつ広範囲な遺伝子発現データを収集し、統合することによって、より有用性の高い参照データを作成する予定です。また、それらの参照データを簡単に検索したり、発現データ同士を詳細に比較したりすることを可能にする直感的なウェブインターフェースの開発を進めています。
+
+#### 参考文献
+
+* Hiromasa Ono, Osamu Ogasawara, Kosaku Okubo, Hidemasa Bono
+    **RefEx, a reference gene expression dataset as a web tool for the functional analysis of genes**
+    Scientific Data, 4:170105
+    [DOI: 10.1038/sdata.2017.105](http://doi.org/10.1038/sdata.2017.105)
+* 川路 英哉、粕川 雄也、坊農 秀雅、小野 浩雅 「FANTOM5データを誰でも活用できる形に」 Scientific Data誌著者インタビュー (平成29年8月29日)
+    https://www.natureasia.com/ja-jp/scientificdata/papers-from-japan/fantom5
+* 小野 浩雅・坊農 秀雅 「遺伝子発現解析の基準となるデータを快適に検索できるウェブツールRefEx」 ライフサイエンス新着論文レビュー (平成29年9月5日)
+    [DOI: 10.7875/first.author.2017.093](http://doi.org/10.7875/first.author.2017.093)
+* 統合TV 「RefExの使い方」[DOI: 10.7875/togotv.2014.009](http://doi.org/10.7875/togotv.2014.009)
+
+
+### 【実習1】RefExを使って、組織特異的遺伝子を検索する
 - 【復習用】[RefExの使い方](http://doi.org/10.7875/togotv.2014.009)
 
 1. http://refex.dbcls.jp/ を開きます。
@@ -448,23 +480,27 @@ CRISPRdirect： https://crispr.dbcls.jp/
 14. 自分の研究テーマに関連する、また興味のある遺伝子について検索してみましょう。
 
 ----
-##論文などで報告された ChIP-seq データを閲覧・解析する
+
 ### ChIP-Atlas
 ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、利活用するためのウェブサービスです。データ処理の知識やスキルがない方でも簡単に利用できます。データソースは、公開 NGS データレポジトリ (NCBI, EMBL-EBI, DDBJ) に登録されたほぼ全ての ChIP-seq データです。ChIP-Atlas は、九州大学大学院医学研究院 発生再生学分野 (http://www.dev.med.kyushu-u.ac.jp) と DBCLS が共同で開発しています。
  (http://chip-atlas.org/)
 
-サンプル1 サンプル1
+![fig10](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_10.png)
 
 ####ChIP-Atlasの機能
 ##### Peak Browser
-* 既報の ChIP-seq データをまとめて閲覧し、何がどこに結合しているかが一目でわかります（図２）。Integrative Genomics Viewer (IGV) によりスムーズなブラウジングが可能で、興味の遺伝子のシス調節領域を予測したり、それを制御する転写因子の予測ができます。
+* 既報の ChIP-seq データをまとめて閲覧し、何がどこに結合しているかが一目でわかります。Integrative Genomics Viewer (IGV) によりスムーズなブラウジングが可能で、興味の遺伝子のシス調節領域を予測したり、それを制御する転写因子の予測ができます。
+  * [ChIP\-Atlasを使って既報のChIP\-seqデータをまとめて閲覧する 〜Peak Browserの使い方〜](http://togotv.dbcls.jp/20180123.html)
 ##### Target Genes
 * 興味のある転写因子を選択し、その標的遺伝子候補を検索できます。
+  * 統合TV「[ChIP\-Atlasを使って興味のある転写因子を選択しその標的遺伝子候補を検索する 〜Target Genesの使い方〜](http://togotv.dbcls.jp/20180124.html)」
 ##### Colocalization
 * 興味のある転写因子を選択し、それとゲノム上で共局在する転写因子候補を検索できます。
+  * 統合TV「[ChIP\-Atlasを使って共局在タンパク質を探す 〜Colocalizationの使い方〜](http://togotv.dbcls.jp/20180128.html)」
 ##### in silico ChIP
 * ユーザデータを受け付け、既存データとの比較解析をおこないます。たとえば、興味のある遺伝子リストを submit すると、それらをまとめて制御する転写因子候補が返されます。ほかにも BED 形式のファイルや、シーケンスモチーフを submit すると、それらに enrichment する転写因子群が返されます。
-* 上記のすべてにおいて、好きな転写因子や細胞名でデータを絞り込むことが可能です。
+
+
 
 #### 利用例
 * 論文として発表された ChIP-Seq データを閲覧したい
@@ -484,6 +520,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 - つまみ食い的ではありますが、通り一遍の今日から使える便利な生命科学系公共データベース・ウェブツールを学びました。
 - 顕微鏡 や 実験試薬 などと同じ「道具(ツール)」
 - 便利な「道具」を知って、その使い方が分かれば、あとは情報分析力と想像力の勝負。
+- 仮説構築から始まり、実験計画・検証、データ解析、そして論文執筆(以下ループ)という研究サイクルを加速化・効率化していきましょう。
 - 困ったら、統合TV!! (※宣伝)
 - 研究に役立ったら、ぜひ引用・クレジットを!
   - DBCLSの提供するサービス(あるいはそれ以外でも)が、あなたの研究に役立ったら、どんなに些細な事でもぜひ引用(論文、URL等)してください。DBCLSの活動は、提供するサービスがどのくらい活用されたかについて主に引用数などで評価されており、利用者の方の積極的なサポートが必要不可欠です!!
