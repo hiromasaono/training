@@ -482,7 +482,7 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
 ----
 
 ### ChIP-Atlas
-ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、利活用するためのウェブサービスです。データ処理の知識やスキルがない方でも簡単に利用できます。データソースは、公開 NGS データレポジトリ (NCBI, EMBL-EBI, DDBJ) に登録されたほぼ全ての ChIP-seq データです。ChIP-Atlas は、九州大学大学院医学研究院 発生再生学分野 (http://www.dev.med.kyushu-u.ac.jp) と DBCLS が共同で開発しています。
+ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、利活用するためのウェブサービスです。データ処理の知識やスキルがない方でも簡単に利用できます。データソースは、公開 NGS データレポジトリ (NCBI, EMBL-EBI, DDBJ) に登録されたほぼ全ての ChIP-seq データです。ChIP-Atlas は、九州大学大学院医学研究院 発生再生学分野 (http://www.dev.med.kyushu-u.ac.jp) と DBCLS が共同で開発しています。  
  (http://chip-atlas.org/)
 
 ![fig10](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_10.png)
@@ -503,7 +503,6 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 * ユーザデータを受け付け、既存データとの比較解析をおこないます。たとえば、興味のある遺伝子リストを submit すると、それらをまとめて制御する転写因子候補が返されます。ほかにも BED 形式のファイルや、シーケンスモチーフを submit すると、それらに enrichment する転写因子群が返されます。
 
 
-
 #### 利用例
 * 論文として発表された ChIP-Seq データを閲覧したい
 * 興味のあるゲノム領域における、転写因子や修飾ヒストンの分布を知りたい
@@ -517,6 +516,34 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 - Database
   - Oki, S; Ohta, T (2015): ChIP-Atlas. http://dx.doi.org/10.18908/lsdba.nbdc01558-000
 
+### 【実習2】ChIP-Atlasのin silico ChIP を使って、興味ある遺伝子リストを制御する可能性の高い転写因子を調べる
+* 「発現差のあった遺伝子リスト」を持っている想定で、それらの遺伝子に結合しうる、あるいは上流でそれらの遺伝子の発現を制御する可能性がある転写因子を検索する
+* 使用するデータ
+  - 180612_List_of_GeneSymbol.ajacs_txt
+  - ChIP-Atlas では、遺伝子IDとしてGeneSymbolのみを受け付けているので、それ以外のIDで遺伝子リストを持っている場合は、適宜変換が必要。
+    - ID変換はいろいろなツールがあるが、[DAVID(Database for Annotation, Visualization and Integrated Discovery)
+   ](https://david.ncifcrf.gov/)のGene ID Conversion Toolが便利。([使い方動画](https://youtu.be/4f1t1ma9IRc?t=4m5s))
+
+1. [ChIP\-Atlas \- in silico ChIP](http://chip-atlas.org/in_silico_chip)にアクセスする
+2. 下図のようにオプションを設定する
+![fig12](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_12.png)
+3. submit すると遺伝研スパコンへクエリが飛ぶ(ので、講義中は見てるだけにしてください)
+4. submit したあとの画面
+![fig13](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_13.png)
+5. 計算が終わるまで待つ
+![fig14](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_14.png)
+6. 計算が終わると、「Result URL」が有効になる
+  - 今回の例では、 http://ddbj.nig.ac.jp/wabi/chipatlas/wabi_chipatlas_2018-0606-1701-36-865-010614?info=result&format=html
+7. 結果の解釈をする
+  - 今回は、どういう「興味ある遺伝子リスト」をクエリとしたか考察してみましょう。
+  - 結果の見方としては、「p-valueが低く、Overlaps/My dataが多く、Fold Enrichmentが高い」のがたくさんヒットしてくると確度が高い
+  - 上位にあるのは全て肝臓の TF が enrich した
+       - ChIP-Atlas では肝臓データは少ないにも関わらず。 https://github.com/inutano/chip-atlas/wiki
+       - 最も多い血球などのデータは 100 位よりも下位に出てくる
+       - 転写因子の内訳
+        - Prox1, Hnf4a：肝臓の発生に必須な TF
+        - Esr1, Nr3c1：肝臓の機能に必須な TF
+  - in silico ChIP では入力した遺伝子群をまとめて制御する、マスター転写因子を抽出できる
 
 ## まとめ
 - つまみ食い的ではありますが、通り一遍の今日から使える便利な生命科学系公共データベース・ウェブツールを学びました。
