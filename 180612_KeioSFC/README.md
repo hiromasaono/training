@@ -73,7 +73,7 @@ hono@dbcls.rois.ac.jp
     - http://togotv.dbcls.jp/ja/
     - ![統合TVトップページ](http://i.gyazo.com/af463e2dcdc0bf17462b8085ab1246ed.png)
 
-    - YouTube版もあります　http://www.youtube.com/user/togotv/
+    - YouTube版もあります http://www.youtube.com/user/togotv/
     - ![統合TV YouTube支店](http://i.gyazo.com/1dce80b0a05a7de372415fa0b42a079c.png)
     - YouTubeのチャンネル登録をすると更新情報がメールで届きます。
 
