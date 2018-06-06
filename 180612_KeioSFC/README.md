@@ -536,14 +536,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
   - 今回の例では、 http://ddbj.nig.ac.jp/wabi/chipatlas/wabi_chipatlas_2018-0606-1701-36-865-010614?info=result&format=html
 7. 結果の解釈をする
   - 今回は、どういう「興味ある遺伝子リスト」をクエリとしたか考察してみましょう。
-  - 結果の見方としては、「p-valueが低く、Overlaps/My dataが多く、Fold Enrichmentが高い」転写因子がたくさんヒットしてくると入力した遺伝子群をまとめて制御する、マスター転写因子を抽出できている確度が高い
-  - 上位にあるのは全て肝臓の TF が enrich した
-       - ChIP-Atlas では肝臓データは少ないにも関わらず。
-        - https://github.com/inutano/chip-atlas/wiki#downloads_doc
-       - 最も多い血球などのデータは 100 位よりも下位に出てくる
-       - 転写因子の内訳
-        - Prox1, Hnf4a：肝臓の発生に必須な TF
-        - Esr1, Nr3c1：肝臓の機能に必須な TF
+  - 結果の見方としては、「p-valueが低く、Overlaps/My dataが多く、Fold Enrichmentが高い」転写因子がたくさんヒットしてくると入力した遺伝子群をまとめて制御する、マスター転写因子を抽出できている確度が高いz
 
 ## まとめ
 - つまみ食い的ではありますが、通り一遍の今日から使える便利な生命科学系公共データベース・ウェブツールを学びました。
