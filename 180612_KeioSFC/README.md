@@ -71,10 +71,10 @@ hono@dbcls.rois.ac.jp
 ### [統合TV](http://togotv.dbcls.jp/ja/)
 - 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
     - http://togotv.dbcls.jp/ja/
-    - ![統合TVトップページ](http://i.gyazo.com/af463e2dcdc0bf17462b8085ab1246ed.png)
+    - ![統合TVトップページ](training/images/180612_01.png)
 
     - YouTube版もあります http://www.youtube.com/user/togotv/
-    - ![統合TV YouTube支店](http://i.gyazo.com/1dce80b0a05a7de372415fa0b42a079c.png)
+    - ![統合TV YouTube支店](training/images/180612_01.png)
     - YouTubeのチャンネル登録をすると更新情報がメールで届きます。
 
 - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
