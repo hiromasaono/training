@@ -486,6 +486,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
  (http://chip-atlas.org/)
 
 ![fig10](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_10.png)
+![fig11](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_11.png)
 
 ####ChIP-Atlasの機能
 ##### Peak Browser
@@ -523,4 +524,4 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 - 仮説構築から始まり、実験計画・検証、データ解析、そして論文執筆(以下ループ)という研究サイクルを加速化・効率化していきましょう。
 - 困ったら、統合TV!! (※宣伝)
 - 研究に役立ったら、ぜひ引用・クレジットを!
-  - DBCLSの提供するサービス(あるいはそれ以外でも)が、あなたの研究に役立ったら、どんなに些細な事でもぜひ引用(論文、URL等)してください。DBCLSの活動は、提供するサービスがどのくらい活用されたかについて主に引用数などで評価されており、利用者の方の積極的なサポートが必要不可欠です!!
+- DBCLSの提供するサービス(あるいはそれ以外でも)が、あなたの研究に役立ったら、どんなに些細な事でもぜひ引用(論文、URL等)してください。DBCLSの活動は、提供するサービスがどのくらい活用されたかについて主に引用数などで評価されており、利用者の方の積極的なサポートが必要不可欠です!!
