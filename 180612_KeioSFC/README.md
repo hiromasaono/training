@@ -60,7 +60,7 @@ hono@dbcls.rois.ac.jp
 
 ----
 
-## 受講前課題
+## 受講後の課題（課題No.8）
 - [統合TV](http://togotv.dbcls.jp/ja/) で自分の興味ある研究課題に関連する番組を検索して、当該番組のYouTube動画を視聴し、そのレビューコメントを記載する。
 - もし興味のあるデータベース・ウェブツールが解説動画にない場合は、詳細な[リクエストを送る](http://togotv.dbcls.jp/contact.html)。
 
