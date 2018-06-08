@@ -521,8 +521,10 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 * 使用するデータ
   - 180612_List_of_GeneSymbol.ajacs_txt
   - ChIP-Atlas では、遺伝子IDとしてGeneSymbolのみを受け付けているので、それ以外のIDで遺伝子リストを持っている場合は、適宜変換が必要。
-    - ID変換はいろいろなツールがあるが、[DAVID(Database for Annotation, Visualization and Integrated Discovery)
-   ](https://david.ncifcrf.gov/)のGene ID Conversion Toolが便利。([使い方動画](https://youtu.be/4f1t1ma9IRc?t=4m5s))
+    - ID変換はいろいろなツールがあるが、今回は[HGNC BioMart](https://biomart.genenames.org/)を利用する。
+      - HGNC(The HUGO Gene Nomenclature Committee)はヒトのGeneSymbolを認定・管理している機関。
+      - [DAVID(Database for Annotation, Visualization and Integrated Discovery)
+   ](https://david.ncifcrf.gov/)のGene ID Conversion Toolも便利。([使い方動画](https://youtu.be/4f1t1ma9IRc?t=4m5s))
 
 1. [ChIP\-Atlas \- in silico ChIP](http://chip-atlas.org/in_silico_chip)にアクセスする
 2. 下図のようにオプションを設定する
