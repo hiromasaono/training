@@ -519,7 +519,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 ### 【実習2】ChIP-Atlasのin silico ChIP を使って、興味ある遺伝子リストを制御する可能性の高い転写因子を調べる
 * 「発現差のあった遺伝子リスト」を持っている想定で、それらの遺伝子に結合しうる、あるいは上流でそれらの遺伝子の発現を制御する可能性がある転写因子を検索する
 * 使用するデータ
-  - [List_of_GeneSymbol_txt](https://github.com/hiromasaono/training/blob/master/180901_seikawakate/180901_List_of_GeneSymbol.txt)
+  - [List_of_GeneSymbol_txt](https://raw.githubusercontent.com/hiromasaono/training/master/180901_seikawakate/180901_List_of_GeneSymbol.txt)
     - ある「興味ある遺伝子リスト」をGeneSymbolにID変換したデータ。
     - これを使って、もともとどういう遺伝子リストだったかを考察します。
   - ChIP-Atlas では、遺伝子IDとしてGeneSymbolのみを受け付けているので、それ以外のIDで遺伝子リストを持っている場合は、適宜変換が必要。
