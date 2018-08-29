@@ -500,7 +500,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 ##### Colocalization
 * 興味のある転写因子を選択し、それとゲノム上で共局在する転写因子候補を検索できます。
   * 統合TV「[ChIP\-Atlasを使って共局在タンパク質を探す 〜Colocalizationの使い方〜](http://togotv.dbcls.jp/20180128.html)」
-##### in silico ChIP
+##### Enrichment Analysis
 * ユーザデータを受け付け、既存データとの比較解析をおこないます。たとえば、興味のある遺伝子リストを submit すると、それらをまとめて制御する転写因子候補が返されます。ほかにも BED 形式のファイルや、シーケンスモチーフを submit すると、それらに enrichment する転写因子群が返されます。
 
 
@@ -529,7 +529,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
       - [DAVID(Database for Annotation, Visualization and Integrated Discovery)
    ](https://david.ncifcrf.gov/)のGene ID Conversion Toolも便利。([使い方動画](https://youtu.be/4f1t1ma9IRc?t=4m5s))
 
-1. [ChIP\-Atlas \- in silico ChIP](http://chip-atlas.org/in_silico_chip)にアクセスする
+1. [ChIP\-Atlas \- Enrichment Analysis](http://chip-atlas.org/enrichment_analysis)にアクセスする
 2. 下図のようにオプションを設定する
 ![fig12](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_12.png)
 3. submit すると遺伝研スパコンへクエリが飛ぶ(ので、講義中は見てるだけにしてください)
