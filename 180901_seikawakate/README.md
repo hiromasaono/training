@@ -45,7 +45,7 @@ hono@dbcls.rois.ac.jp
     - RefEx
       - 【実習】RefExを使って、組織特異的遺伝子を検索する
     - ChIP-Atlas
-      - 【実習】ChIP-Atlasのin silico ChIP を使って、興味ある遺伝子リストを制御する可能性の高い転写因子を調べる
+      - 【実習】ChIP-AtlasのEnrichment Analysis を使って、興味ある遺伝子リストを制御する可能性の高い転写因子を調べる
 
 ----
 
