@@ -65,7 +65,7 @@ SNSによる情報拡散 **大歓迎** です。 (例: Twitter [#生化若手夏
 
 - 実験的な試みとしてWeb上で匿名で質問・コメントできるフォームを用意してみました。
     - [講師用](https://docs.google.com/presentation/d/1Buj93jSKB-tWU1F37ykVEuv7Bu_q6KE_4hqICRCpTk4/edit#slide=id.p)
-    - [受講者質問用フォーム](http://goo.gl/slides/ywcssq)(右クリックから「新しいタブで開く」推奨)   
+    - [受講者質問用フォーム](http://goo.gl/slides/svfv6k)(右クリックから「新しいタブで開く」推奨)   
 
 ----
 
