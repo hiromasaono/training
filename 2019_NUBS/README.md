@@ -141,6 +141,7 @@ hono@dbcls.rois.ac.jp
  1. Google検索で「PubMed」と検索します。
     1. トップに出てくる「Home - PubMed - NCBI」[https://www.ncbi.nlm.nih.gov/pubmed/](https://www.ncbi.nlm.nih.gov/pubmed/) をクリックします。あるいは、ウェブブラウザのアドレスバーに直接「pubmed.gov」と入力しても自動でリダイレクトされます。
  1. 検索窓にキーワードを入力し始めると、関連語がサジェストされます。
+    1. [Hiromasa Ono](https://www.ncbi.nlm.nih.gov/pubmed/?term=Hiromasa+Ono) で検索してみます。
     1. ちなみに、検索窓に「All[filter]」と入力し検索すると、検索時点におけるPubMedに収載されている全論文数を調べることができます。
  1. 初期設定では、検索結果は、最新のものから順に表示されます。
     1. 最近、検索語との「Best Match」順に並び替える機能が実装されたため、現在は目立つようにハイライトされています。
