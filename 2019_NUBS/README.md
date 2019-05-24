@@ -13,7 +13,7 @@ hono@dbcls.rois.ac.jp
 ----
 
 これは、2019年度 日本大学 生物資源学部 応用生物科学科 3年次開講科目「生命情報科学（必修）」の小野担当回の講習資料です。SNSによる情報拡散 **大歓迎** です。  
-© 2019 小野 浩雅, licensed under [Creative Commons Attribution 4.0 International license (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/)
+© 2019 小野 浩雅, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ----
 
