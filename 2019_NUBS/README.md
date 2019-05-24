@@ -100,8 +100,8 @@ hono@dbcls.rois.ac.jp
   - 生命科学データベース・ウェブツール  － 図解と動画で使い方がわかる！ 研究がはかどる定番18選 －
   - 「定番」として何がよく使われているのかを知り、その使い方を学び、どう使うと便利なのかについて、体系的にまとめて俯瞰的に捉えられるように編集されています。
   - 「この順で動画をみていくと、こういうスキルを獲得できる」というような体系的な教材です。
-  - https://www.amazon.co.jp/dp/4815701431/
-  - https://www.medsi.co.jp/books/products/detail.php?product_id=3665
+  - [https://www.amazon.co.jp/dp/4815701431/](https://www.amazon.co.jp/dp/4815701431/)
+  - [https://www.medsi.co.jp/books/products/detail.php?product_id=3665](https://www.medsi.co.jp/books/products/detail.php?product_id=3665)
 
 ----
 #### 習熟度ややりたいこと別にご参考ください
@@ -128,7 +128,7 @@ hono@dbcls.rois.ac.jp
 ## 学術論文を効率よく検索する
 ###  [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/)
 #### 泣く子も黙る文献・論文検索の総本山
- - PubMed (パブメド) は、米国立医学図書館(National Library of Medicine: NLM)が運営している文献情報データベースです。
+ -  [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/) (パブメド) は、米国立医学図書館(National Library of Medicine: NLM)が運営している文献情報データベースです。
     - 1997年6月のサービス開始以来、2019年4月時点で5200件を超える学術誌を対象に、およそ 2,900万件超の文献情報を提供しています。
     - 2015年の一年だけで110万件超 (約3,000件/1日)の論文が追加され、その数はさらに増加しています。
     - 一日あたりの検索がおよそ250万件、160万人の利用者、830万件の書誌情報閲覧回数と、生命科学分野で最も利用されているウェブサービスの一つです。
