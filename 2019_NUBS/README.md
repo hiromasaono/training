@@ -28,8 +28,8 @@ SNSによる情報拡散 **大歓迎** です。
 
 - 研究現場で頻繁に使われるデータベースやツールを知る
     - 統合TV
-    - (番外)ライフサイエンスQA
-- 最新の知見・研究分野のレビューを知る
+- 学術論文を効率的に検索する
+    - PubMed
     - 新着論文レビュー
     - 領域融合レビュー
 - 生命科学系の文献に頻出する英語表現を高速に検索する
@@ -62,47 +62,47 @@ SNSによる情報拡散 **大歓迎** です。
     - 当たり前に感じる質問や一見関係なさそうな質問がでると、「そういう質問をしてもよいのだ」という空気になり、この講義から得られる情報が増え、皆さんの受講満足度が上がります(たぶん)。
     - でも講師も知らないことは(多々)あります。(以下ループ)
 
-- 実験的な試みとしてWeb上で匿名で質問・コメントできるフォームを用意してみました。
-    - [講師用](https://docs.google.com/presentation/d/1Buj93jSKB-tWU1F37ykVEuv7Bu_q6KE_4hqICRCpTk4/edit#slide=id.p)
-    - [受講者質問用フォーム](http://goo.gl/slides/svfv6k)(右クリックから「新しいタブで開く」推奨)   
-
 ----
 
 ## 研究現場で頻繁に使われるデータベースやツールを知る
-### [統合TV](http://togotv.dbcls.jp/ja/)
-- 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
-    - http://togotv.dbcls.jp/ja/
-    - ![統合TVトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_01.png)
-
-    - YouTube版もあります http://www.youtube.com/user/togotv/
-    - ![統合TV YouTube支店](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_02.png)
-    - YouTubeのチャンネル登録をすると更新情報がメールで届きます。
-
-- ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
-    - 1500本弱の動画が公開されており、YouTube版だけで のべ 1,100,000回以上 再生されています。(2018年8月末現在)
-    - ![YouTube統計](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_03.png)
-
-- 講義・講習などの参考資料や後輩指導の教材として利用できます。
+### [統合TV](https://togotv.dbcls.jp/)
+#### 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
+- https://togotv.dbcls.jp/
+- ![統合TVトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_01.png)
+- 各動画は[YouTubeに上がって](http://www.youtube.com/user/togotv/)おり、おなじみの再生画面で快適にご覧いただけます。(環境に応じた解像度、倍速表示等)
+- 1600本を超える動画が公開されており、YouTube版だけで のべ 1,300,000回以上 再生されています。(2019年4月末現在)
+- ![YouTube統計](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_03.png)
+- ![統合TV 再生画面](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_02.png)
+  - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
+  - 動画ファイルのみのダウンロードも可能で、オフライン視聴もできます。
+  - 動画の概要を示すダイジェスト見出し
+  - 各動画には、恒久的な URL として利用されている [DOI](https://ja.wikipedia.org/wiki/デジタルオブジェクト識別子) (Digital Object Identifier) が付与されています(引用可能)。
+  - 講義・講習などの参考資料や後輩指導の教材として利用できます。
     - 本講義中、本家サイトが繋がらない時は、統合TVを見ればおおよその内容がわかるようになっています。
 
-    - 今回の講義の内容に近い動画もあるので、復習にどうぞ。
-      - [【NGSハンズオン2017】NBDC・DBCLSの各種サービス 今日から使える便利な生命科学系公共データベース in DBCLS](http://togotv.dbcls.jp/20171204.html)
+#### 動画以外のコンテンツも拡充中
+- [AJACS講習会資料](https://togotv.dbcls.jp/ja/ajacs_text.html)
+  - 2014年8月以降に開催された過去の講習会の資料・テキストと動画が同時閲覧できます。
+  - 受講生の復習のみならず、初学者の学習教材として活用できます。
+- [Togo Picture Gallery(静止画)](https://togotv.dbcls.jp/ja/pics.html)
+  - 誰でも自由に利用可能なライフサイエンス分野のイラストが､統合TVから閲覧､利用することができるようになりました。[「自由に使える画像を探す」](https://togotv.dbcls.jp/ja/pics.html)
+  - Togo picture galleryと[生物アイコン](https://togodb.biosciencedbc.jp/togodb/view/taxonomy_icon)の全画像500点以上を一覧できます。
+  - 研究発表のスライド作成や資料作成等に､ぜひお使いください。
+  - ![自由に使える画像を探す](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_04.png)
 
-- 統合TVに掲載されているコンテンツについてご引用いただく際に、恒久的な URL として [DOI](https://ja.wikipedia.org/wiki/デジタルオブジェクト識別子) (Digital Object Identifier) を使用することができます。
-
-- 2014年8月以降に開催された過去の講習会の資料・テキストと動画が「[AJACS講習会資料](http://togotv.dbcls.jp/ja/ajacs_text.html)」で閲覧できるようになり、受講生の復習のみならず、初学者の学習教材として活用できます。
-
-- 誰でも自由に利用可能なライフサイエンス分野のイラストが､統合TVから閲覧､利用することができるようになりました。[「自由に使える画像を探す」](http://togotv.dbcls.jp/ja/pics.html)
-    - [Togo picture gallery](http://g86.dbcls.jp/~togoriv/)と[生物アイコン](http://togodb.biosciencedbc.jp/togodb/view/taxonomy_icon)の全画像500点以上を一覧できます。
-    - 研究発表のスライド作成や資料作成等に､ぜひお使いください。
-    - ![自由に使える画像を探す](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_04.png)
-
-- お探しの動画が見つからない or 統合TV未掲載の場合は、[統合TV番組リクエストフォーム](http://togotv.dbcls.jp/ja/contact.html)へどうぞ!!
-
-- [動画・静止画の作成をお手伝いいただける方を募集中](http://togotv.dbcls.jp/staff.html)です。(謝金あり。オンラインでの作成環境を整備しており、遠隔地でもOK!)
+#### 募集と宣伝
+- お探しの動画・静止画が見つからない場合は、[統合TV番組リクエストフォーム](http://togotv.dbcls.jp/ja/contact.html)でお気軽にリクエストを。
+- 統合TVでコンテンツを作ってみたい方も募集中です。
+  - オンラインで完結する作成環境を整備しており、遠隔地でもOKです。謝金あり。)
+  - 興味ある方は小野(hono@dbcls.rois.ac.jp)までご一報を。
+- 統合TVを効果的に利用するためのガイドブックが出版されました。(2018年12月)
+  - 生命科学データベース・ウェブツール  － 図解と動画で使い方がわかる！ 研究がはかどる定番18選 －
+  - 「定番」として何がよく使われているのかを知り、その使い方を学び、どう使うと便利なのかについて、体系的にまとめて俯瞰的に捉えられるように編集されています。
+  - 「この順で動画をみていくと、こういうスキルを獲得できる」というような体系的な教材です。
+  - https://www.amazon.co.jp/dp/4815701431/
+  - https://www.medsi.co.jp/books/products/detail.php?product_id=3665
 
 ----
-
 #### 習熟度ややりたいこと別にご参考ください
 - 塩基配列解析に関わる基礎知識について
     - [「塩基配列解析のためのデータベース・ウェブツールとCRISPRガイドRNA設計 @ AJACSこまち」(2016年8月)](http://doi.org/10.7875/togotv.2016.122)
@@ -124,28 +124,58 @@ SNSによる情報拡散 **大歓迎** です。
     - [上記の動画+講習会資料のまとめページ@統合TV](http://togotv.dbcls.jp/ja/tags.html?tag=NGS速習・ハンズオン)
 
 ----
-### ライフサイエンスQA
-ライフサイエンス研究にまつわる疑問や質問、それらへの回答を共有するウェブサイトです。  
-(http://qa.lifesciencedb.jp/)  
+## 学術論文を効率よく検索する
+###  [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/)
+#### 泣く子も黙る文献・論文検索の総本山
+ - PubMed (パブメド) は、米国立医学図書館(National Library of Medicine: NLM)が運営している文献情報データベース
+    - 1997年6月のサービス開始以来、2019年4月時点で5200件を超える学術誌を対象に、およそ 2,900万件超の文献情報を提供している。
+    - 2015年の一年だけで110万件超 (約3,000件/1日)の論文が追加され、その数はさらに増加している。
+    - 一日あたりの検索がおよそ250万件、160万人の利用者、830万件の書誌情報閲覧回数と、生命科学分野で最も利用されているウェブサービスの一つである。
+- [PubMed Central (PMC)](https://www.ncbi.nlm.nih.gov/pmc/)は、書誌情報、アブストラクトに加えて全文が無料（オープンアクセス）で公開されている論文を収録・提供
+    - PMCの件数でおよそ 540 万件、論文誌のウェブサイトで全文が提供されているものも含めると600万件以上の論文で全文を読むことができる。  
+    - 最近では、研究予算配分機関の指定で、成果をオープンアクセス誌で公表することを義務付けていることもあるので、閲覧できる論文が増えてきている。
 
-![fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LSQA_fig-1_180604.png)  
+##### 論文を検索する
 
-#### 質問と回答はどなたでも投稿することができます。
+ 1. Google検索で「PubMed」と検索する。
+    1. トップに出てくる「Home - PubMed - NCBI」[https://www.ncbi.nlm.nih.gov/pubmed/](https://www.ncbi.nlm.nih.gov/pubmed/) をクリックする。あるいは、ウェブブラウザのアドレスバーに直接「pubmed.gov」と入力しても自動でリダイレクトされる。
+ 1. 検索窓にキーワードを入力し始めると、関連語がサジェストされる。
+ 1. 初期設定では、検索結果は、最新のものから順に表示される。
+    1. 最近、検索語との「Best Match」順に並び替える機能が実装されたため、現在は目立つようにハイライトされている。
+    1. 画面左側には検索用のフィルタが用意されており、論文の種類や全文を購読できるか否か、出版日の指定、対象とする生物種などで絞り込むことができる。
+    1. 画面右側には、検索語にヒットした論文の年度別統計値が棒グラフで示されており、マウスオーバーするとその件数が表示され、そのままクリックするとその年度で絞り込みができる。
+ 1. 検索結果一覧に「Free PMC Article」や「Free Article」の表示がある場合は、全文を読むことができるオープンアクセスの論文であることを示している。
+    1. 前者はPMCのウェブサイトで全文閲覧ができ、後者は論文誌のウェブサイトで全文閲覧ができる。
+    1. PMCへのリンクをクリックすると、PMCが提供する様々な形式で全文を読むことができる。
+        1. 論文PDFのダウンロードはもちろん可能。
+        1. 引用文献へのリンクが動的に表示されるなどウェブサイトでの表示に適したスタイルのほか、近年利用が増えているタブレット端末での表示に最適化された「PubReader」の機能が提供されている。
 
-* 質問には次の内容が含まれます
+##### 自分の探している論文が見つからないときは検索式を見直す
 
-1.  ライフサイエンス研究
-2.  バイオインフォマティクス研究
-3.  [DBCLS](http://dbcls.rois.ac.jp/)のサービスについて
-4.  [DDBJ](http://www.ddbj.nig.ac.jp/index-j.html)のサービスについて
-5.  [NBDC](http://biosciencedbc.jp/)のサービスについて
-6.  [PDBj](http://pdbj.org/)のサービスについて
-* 対象ユーザーは、ライフサイエンス研究に携わっている人を想定しています。
-![fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LSQA_fig-2_180604.png)
+ 1. 検索結果が思ったように得られない、あるいは、数が多すぎて絞りきれない場合は、実際にどのような検索式でPubMed検索が行われているのかを調べて修正することができる。
+ 1. 検索結果一覧の右カラムにある「Search details」に入力されているのが実際に検索されている検索語である。
+ 1. 「iPS cells」でキーワード検索した例では、期待する「induced pluripotent stem cells」以外にも、多くの検索語が入力されていることがわかる。
+ 1. これは、PubMedが入力語を自動的に適切な単語に変換(Query Translation)しているためで、論文を効率的に検索するためには適切な検索式を与えることが重要である。
+ 1. 一番簡単にできることは、複合語の検索の場合に二重引用符(")で囲むことである。
+    1. 一般的に、複合語で検索したほうがミスマッチする論文が減り、目的の論文を探しやすくなる。
+ 1. 検索効率化のためのもう一つの手段は、MeSH Termsを有効活用することが挙げられる。
+    1. PubMedでは各論文にMeSH Termsが検索用の「タグ」のように付与されている。
+        1. 「iPS cells」の検索語に対して「"induced pluripotent stem cells"[MeSH Terms]」が最初に変換されていることがわかる。このように、MeSH TermsはPubMed検索の中で重要な意味を持っている。
 
-#### 設立の経緯
+##### PubMedの検索結果を定点観測する
 
-* 次世代シーケンサーのための[SEQanswers](http://seqanswers.com/)やバイオインフォマティクスのための[Biostar](https://www.biostars.org/)といったQAサイト（質問と回答の共有サイト）がとても盛り上がっています。質問と回答を共有するためのプラットフォームとして新しいことや、いままでは表にでてこなかったたぐいのノウハウが、質問と回答という形で表出していると評価されつつあります。日本語でもそのようなQAコンテンツの形成の場を持ちたいという大学、研究所、企業の各方面からの声に対応して、統合データベース技術情報交換ワークショップでの議論をへて、このライフサイエンスQAは始まりました。
+ 1. 自分の興味関心に合った検索語(式)を作成することができたら、あとは、更新があったら通知するようにすると、便利。
+ 1. それらの自動化はRSS通知による方法とメールによる通知による方法の二種類が用意されている。
+    1. RSS通知
+        1. 検索語(式)を検索窓に入力した状態で、その下の「Create RSS」を押すとリンクURLが生成される。更新情報を何件通知するかを設定することができ、最大で100件分まで指定可能である。生成されたリンクURLをRSSリーダーに登録して利用する。
+            1. RSS(Really Simple Syndication)とはウェブサイトの要約や記事の見出しなどを配信するための仕組みである。
+            1. 無料で使えるRSSリーダーとして、[Inoreader](https://jp.inoreader.com/) や [feedly](https://feedly.com) が有名である。
+    1. メール通知
+        1. まず先に「My NCBI」という個人別カスタマイズ機能にサインインする。
+        1. ページ右上の「Sign in to NCBI」からサインインする。サインインが済んでいれば、検索語(式)を検索窓に入力した状態で、「Create alert」をクリックするとその設定画面が表示される。
+        1. メールによる通知では、アラートの配信スケジュールや形式、数などを指定すれば、サインインに使用したメールアドレスにメールが届くようになる。
+ 1. キーワード検索以外にも自分の論文が引用された場合に通知するなど、いずれかの方法を目的に応じて使い分けると良い。
+
 
 ----
 
