@@ -1,5 +1,6 @@
-# 今日から使おう便利な生命科学系公共データベースとウェブツールハンズオン
+# これから研究室に入る初学者のための便利な生命科学系公共データベースとウェブツールハンズオン
 ## [bit.ly/1906NUBS](http://bit.ly/1906NUBS)
+### 課題用Googleフォームはこちら(予定地)
 
 大学共同利用機関法人 情報・システム研究機構  
 データサイエンス共同利用基盤施設  
@@ -20,12 +21,13 @@ hono@dbcls.rois.ac.jp
 ## 概要
 
 ヒトゲノム計画が完了してから15年がたち、今や技術革新により日々膨大なデータが産み出され、公共データベースに登録される時代となりました。そして、これらの有用なデータは、生命科学研究を効率よく進めるためには避けて通れない時代になっています。  
-そこで、本講習では、自分の研究に役立ちそうな公共データを活用したいけど、どこへ行って何をすればよいかわからないという研究室に所属して間もない皆さんを対象に、誰でも自由に使える便利な生命科学系のデータベースやウェブツールをご自分のコンピュータを使ったハンズオン形式で紹介します。仮説構築から始まり、実験計画・検証、データ解析、そして論文執筆(以下ループ)という研究サイクルを加速化・効率化するための便利な「道具」を、ぜひご自身の手で「使い倒し」てみてください。受講者のみなさんそれぞれにとって「そうそう、こんなサービスが欲しかった！」というような、かゆいところに手が届くサービスが一つでも見つかれば儲けものです。
+そこで、本講習では、これから研究室に所属して研究を始める皆さんを対象に、誰でも自由に使える便利な生命科学系のデータベースやウェブツールをご自分のコンピュータを使ったハンズオン形式で紹介します。
+仮説構築から始まり、実験計画・検証、データ解析、そして論文執筆(以下ループ)という研究サイクルを加速化・効率化するための便利な「道具」を、ぜひご自身の手で「使い倒し」てみてください。これから始まる研究生活の中で役に立つこと請け合いです。
 
 ----
 
 ## 講義の流れ
-今回の講義では、お手元のコンピュータを使って以下の内容について説明します。
+今回の講義(全3回)では、お手元のコンピュータを使って以下の内容について説明します。
 
 - 研究現場で頻繁に使われるデータベースやツールを知る
     - 統合TV
@@ -39,6 +41,8 @@ hono@dbcls.rois.ac.jp
     - Allie
 - 類似したテキストの差分を検索・表示する
     - difff(ﾃﾞｭﾌﾌ)
+- 生命科学分野のデータベース
+  - NCBI
 - 遺伝子やゲノム配列を高速に検索する
     - GGRNA
     - GGGenome
@@ -70,7 +74,7 @@ hono@dbcls.rois.ac.jp
 #### 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
 - https://togotv.dbcls.jp/
 - ![統合TVトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_01.png)
-- 各動画は[YouTubeに上がって](http://www.youtube.com/user/togotv/)おり、おなじみの再生画面で快適にご覧いただけます。(環境に応じた解像度、倍速表示等)
+- 各動画は[YouTubeに上がって](https://www.youtube.com/user/togotv/)おり、おなじみの再生画面で快適にご覧いただけます。(環境に応じた解像度、倍速表示等)
 - 1600本を超える動画が公開されており、YouTube版だけで のべ 1,300,000回以上 再生されています。(2019年4月末現在)
 - ![YouTube統計](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_03.png)
 - ![統合TV 再生画面](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_02.png)
@@ -92,7 +96,7 @@ hono@dbcls.rois.ac.jp
   - ![自由に使える画像を探す](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_04.png)
 
 #### 募集と宣伝
-- お探しの動画・静止画が見つからない場合は、[統合TV番組リクエストフォーム](http://togotv.dbcls.jp/ja/contact.html)でお気軽にリクエストを。
+- お探しの動画・静止画が見つからない場合は、[統合TV番組リクエストフォーム](https://togotv.dbcls.jp/contact.html)でお気軽にリクエストを。
 - 統合TVでコンテンツを作ってみたい方も募集中です。
   - オンラインで完結する作成環境を整備しており、遠隔地でもOKです。謝金あり。)
   - 興味ある方は小野(hono@dbcls.rois.ac.jp)までご一報を。
@@ -106,16 +110,16 @@ hono@dbcls.rois.ac.jp
 ----
 #### 習熟度ややりたいこと別にご参考ください
 - 塩基配列解析に関わる基礎知識について
-    - [「塩基配列解析のためのデータベース・ウェブツールとCRISPRガイドRNA設計 @ AJACSこまち」(2016年8月)](http://doi.org/10.7875/togotv.2016.122)
+    - [「塩基配列解析のためのデータベース・ウェブツールとCRISPRガイドRNA設計 @ AJACSこまち」(2016年8月)](https://doi.org/10.7875/togotv.2016.122)
 
 - 遺伝子発現データを公共DBで検索・取得・解析する方法について
-    - [「遺伝子発現DB・ウェブツールの使い方 応用・実践編」(2015年5月AJACS御茶ノ水)](http://togotv.dbcls.jp/ja/ajacs2015007.html)
+    - [「遺伝子発現DB・ウェブツールの使い方 応用・実践編」(2015年5月AJACS御茶ノ水)](https://togotv.dbcls.jp/ja/ajacs2015007.html)
 
 - 文献検索のプロが教えるPubMedの使い方
-    - [文献情報を用いたサービスを活用する @ AJACS越後 (2018年6月)](http://togotv.dbcls.jp/20180815.html)
+    - [文献情報を用いたサービスを活用する @ AJACS越後 (2018年6月)](https://togotv.dbcls.jp/20180815.html)
 
 - 次世代シーケンス(NGS)データの解析について
-    - [【NGS】に関係する動画・講習会資料・新着論文レビュー](http://togotv.dbcls.jp/tags.html?tag=NGS)
+    - [【NGS】に関係する動画・講習会資料・新着論文レビュー](https://togotv.dbcls.jp/tags.html?tag=NGS)
 
 - NGS解析について、さらにもっと基礎から応用までを深く学びたい方向け (それぞれ約50時間程度)
     - [「バイオインフォマティクス人材育成カリキュラム（次世代シークエンサ）速習コース(2014年8月)](https://www.youtube.com/playlist?list=PL0uaKHgcG00abmj1Nzs1SUhqKLjf_PFBB)
@@ -192,10 +196,10 @@ hono@dbcls.rois.ac.jp
 
 ### 新着論文レビュー
 トップジャーナルに掲載された日本人を著者とする生命科学分野の論文について、論文の著者自身の執筆による日本語のレビューを、だれでも自由に閲覧・利用できるよう、いち早く公開するサービスです。  
-( http://first.lifesciencedb.jp/ )
+( https://first.lifesciencedb.jp/ )
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_FirstAuthors_fig-1_180525.png)
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_FirstAuthors_fig-2_180525.png)
+![FA1](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_FA1.png)
+![FA2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_FA2.png)
 
 #### ライフサイエンス 新着論文レビューの特徴
 
@@ -218,22 +222,18 @@ hono@dbcls.rois.ac.jp
 * 生命科学の加速度的な発展や研究分野の細分化が進むなか、最新の知見・情報を得る。
 * 講義や講演、あるいは、論文などの著作物の資料とする。
 
-#### 今後の開発予定
-
-* ひきつづき、年間で150本以上を公開していく予定です。
-* ユーザーの利便性を高めるため、サイトのさらなる改良を進めていきます。
 
 #### 参考文献
 
-* 統合TV「ライフサイエンス新着論文レビュー FirstAuthor's を使い倒す」[DOI: 10.7875/togotv.2011.037](http://doi.org/10.7875/togotv.2011.037)
+* 統合TV「ライフサイエンス新着論文レビュー FirstAuthor's を使い倒す」[DOI: 10.7875/togotv.2011.037](https://doi.org/10.7875/togotv.2011.037)
 
 
 ### 領域融合レビュー
 生命科学において注目される分野・学問領域における最新の研究成果について、第一線の研究者の執筆による日本語のレビューを、だれでも自由に閲覧・利用できるよう、無料で公開するサービスです。  
-( http://leading.lifesciencedb.jp/ )
+( https://leading.lifesciencedb.jp/ )
 
-![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LeadingAuthors_fig-1_180831.png)
-![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_LeadingAuthors_fig-2_180831.png)
+![LA1](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_LA1.png)
+![LA2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_LA2.png)
 
 #### ライフサイエンス 領域融合レビューの特徴
 
@@ -256,14 +256,10 @@ hono@dbcls.rois.ac.jp
 * 生命科学の加速度的な発展や研究分野の細分化が進むなか、最新の知見・情報を得る。
 * 講義や講演、あるいは、論文などの著作物の資料とする。
 
-#### 今後の開発予定
-
-* ひきつづき、年間で10本以上を公開していく予定です。
-* ユーザーの利便性を高めるため、サイトのさらなる改良を進めていきます。
 
 #### 参考文献
 
-* 統合TV「ライフサイエンス領域融合レビューLeadingAuthor'sを使い倒す」[DOI: 10.7875/togotv.2012.088](http://doi.org/10.7875/togotv.2012.088)
+* 統合TV「ライフサイエンス領域融合レビューLeadingAuthor'sを使い倒す」[DOI: 10.7875/togotv.2012.088](https://doi.org/10.7875/togotv.2012.088)
 
 ---
 
@@ -300,14 +296,14 @@ hono@dbcls.rois.ac.jp
 
 #### 参考文献
 
-統合TV「[inMeXesを使って文献に頻出する英語表現や関連語を高速に検索する 2018](http://togotv.dbcls.jp/20180126.html)」DOI: 10.7875/togotv.2018.026
+統合TV「[inMeXesを使って文献に頻出する英語表現や関連語を高速に検索する 2018](https://togotv.dbcls.jp/20180126.html)」DOI: 10.7875/togotv.2018.026
 
 ---
 
 ## 生命科学分野の略語・展開形を検索する
 ### Allie (アリー): A Search Service for Abbreviation / Long Form
 PubMed（米国立医学図書館が開発・維持している生物医学文献書誌情報データベース）を利用して、文献中に登場する略語とその正式名称の組およびその付随情報を検索します。
-(http://allie.dbcls.jp/)
+(https://allie.dbcls.jp/)
 
 ![fig7](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_07.png)
 ![fig8](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_08.png)
@@ -333,7 +329,7 @@ PubMed（米国立医学図書館が開発・維持している生物医学文�
 #### 参考文献
 
 * Yamamoto, Y., Yamaguchi, A., Bono, H., Takagi T. (2011). Allie: a database and a search service of abbreviations and long forms. Database, 2011:bar03.
-* 統合TV「[Allieを使って略語の正式名称を検索する 2017](http://togotv.dbcls.jp/20171025.html)」DOI: 10.7875/togotv.2017.104
+* 統合TV「[Allieを使って略語の正式名称を検索する 2017](https://togotv.dbcls.jp/20171025.html)」DOI: 10.7875/togotv.2017.104
 
 ---
 
@@ -351,9 +347,78 @@ https://difff.jp/
 * [某問題で活躍](http://www.itmedia.co.jp/news/articles/1403/12/news121.html)
 
 #### 参考文献
-* 統合TV「[difff《デュフフ》を使って文章の変更箇所を調べる](http://togotv.dbcls.jp/20130828.html)」DOI: 10.7875/togotv.2013.056
+* 統合TV「[difff《デュフフ》を使って文章の変更箇所を調べる](https://togotv.dbcls.jp/20130828.html)」DOI: 10.7875/togotv.2013.056
 
 ---
+## NCBI (National Center for Biotechnology Information)
+### [NCBI Databases](https://www.ncbi.nlm.nih.gov/search/?term=)
+- 米国 国立生物工学情報センター (National Center for Biotechnology Information: NCBI)
+- 文献、遺伝子、遺伝学、タンパク質、ゲノム、化合物といったあらゆるデータベースがあります。
+![NCBI top](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_NCBI.png)
+- [【NCBI】に関係する統合TV動画](https://togotv.dbcls.jp/tags.html?tag=NCBI)
+### NCBIで 遺伝子 を調べる
+- <details><summary>そもそも遺伝子(gene)ってなに?　ゲノム(genome)とDNAの違いは?</summary>[遺伝子とゲノム](https://www.ddbj.nig.ac.jp/column/genegenome.html)(国立遺伝学研究所 生命情報・DDBJセンター ウェブサイト)</details>
+- ALDH2 について調べる
+  - [エタノール(エチルアルコール)](https://pubchem.ncbi.nlm.nih.gov/compound/702) の代謝産物である[アセトアルデヒド](https://pubchem.ncbi.nlm.nih.gov/compound/177)をさらに分解する、アセトアルデヒドデヒドロゲナーゼという酵素をコードしている遺伝子で、ヒトでは12番染色体に存在する
+
+
+1. NCBI のトップページにALDH2と入れてみる
+  - ![NCBI search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_1.png)
+1. 遺伝子について調べたいので、[Gene](https://www.ncbi.nlm.nih.gov/gene/) を選びます
+1. ALDH2 という名前の付いた遺伝子が様々な生物種込みで検索されます
+  - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_3.png)
+1. ヒトのALDH2を調べたいので、ALDH2 homo sapiens　としてみるとどう変わるでしょうか
+1. 一番上にでてきた **ALDH2 ID:217** というのがお目当てのもののようなのでクリックします
+1. NCBI Gene データベースにおける **ヒトのALHD2 のページ** [https://www.ncbi.nlm.nih.gov/gene/217](https://www.ncbi.nlm.nih.gov/gene/217) が表示されます
+  - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_4.png)
+  - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_5.png)
+  - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_6.png)
+
+#### 遺伝子のID
+- Accession Number
+- RefSeq ID
+- (NCBI) Gene ID
+- Gene Symbol(遺伝子名)
+
+##### Accession Number
+- GenBank/ENA/DDBJ 国際塩基配列データベースに登録された塩基配列のID
+  - 俗にGenBankのAccession番号と呼ばれることもあるが正確ではない。
+- **A12345** や **AB123456** のような形をしている
+  - アルファベットの割り当てについては、[DDBJのPrefix Letter List](https://www.ddbj.nig.ac.jp/prefix-e.html)に詳細がある
+- A12345**.1**のようにバージョンを表示
+  - UTRが延長されたりエラーが修正されて、A12345**.2**のようにアップデートされる
+
+##### RefSeq ID
+- 国際塩基配列データベースに登録された配列を基に transcriptごと(塩基配列ごと)に1個登録→RefSeqデータベース
+  - 遺伝子の百科事典のようなもの
+- 選択的スプライシングで生じるvariantには別々のIDが付与されている
+- NM_012345.6 の形式をしている
+  - 実用上はAccession番号の一種として扱うことができる
+- ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_7.png)
+
+##### (NCBI) Gene ID, Gene Symbol
+- 遺伝子ごとに付与される番号と遺伝子
+
+|生物種|慣用名(description)|Gene Symbol|Gene ID|
+|:--|:--|:--|:--|
+|ヒト|aldehyde dehydrogenase 2 family member|ALDH2|217|
+|マウス|aldehyde dehydrogenase 2, mitochondrial|Aldh2|11669|
+|アフリカツメガエル|aldehyde dehydrogenase 2 family member |aldh2|448267|
+
+- Symbolは慣用名と一致しないこともある
+  - 山中因子の一つで有名なOCT4は、[POU5F1](https://www.ncbi.nlm.nih.gov/gene/5460)がGene Symbol
+- 別の生物種で同一のSymbolがついていることもある
+- Gene ID は、生物種と遺伝子を特定できる
+
+#### 塩基配列から遺伝子を探す
+- NCBI BLAST
+  - [NCBI BLASTの使い方 〜基本編〜 2017](https://togotv.dbcls.jp/20170321.html)
+- UCSC BLAT
+  - [高速アラインメントツールBLATをプライマー設計支援ツールとして使う 2017](https://togotv.dbcls.jp/20171001.html)
+
+
+---
+
 ## 遺伝子やゲノム配列を高速に検索する
 ### 統合遺伝子検索GGRNA
 さまざまなキーワードから遺伝子を簡単に検索することのできる遺伝子検索エンジンです。  
@@ -424,7 +489,8 @@ URI: http[s]://GGGenome.dbcls.jp/db/k/strand/sequence[.format][.download]
 * タブ区切りテキスト `txt` で結果を返す
 
 ##### 応用例
-* [Google Document のスプレッドシートを利用したプライマー配列情報の整理方法](http://youtu.be/CyjR8WzR3Q8?t=2m38s)
+* [GGGenome《ゲゲゲノム》を使って高速塩基配列検索をする 2018](https://togotv.dbcls.jp/20181026.html)
+  - Google スプレッドシート(Spreadsheet)の機能を利用し、プライマー配列情報を半自動的かつ効率的に整理する方法(~4:05)
 
 #### 参考文献
 
@@ -465,14 +531,14 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
 ## 公共データベースから利用可能な遺伝子発現データを解析する
 ### RefEx
-RefEx（Reference Expression dataset）は、遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツールです。 (http://refex.dbcls.jp/)  
+RefEx（Reference Expression dataset）は、遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツールです。 (https://refex.dbcls.jp/)  
 
 ![Fig-1](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_jp_fig-1_180523.png)  
 
 ![Fig-2](https://raw.githubusercontent.com/dbcls/website/master/services/images/DBCLSservices_RefEx_jp_fig-2_180523.png)
 
 #### RefExの特徴
-##### 正常組織・細胞等の遺伝子発現状況を ひと目で
+##### 正常組織・細胞等の遺伝子発現状況が ひと目でわかる
 * 複数の遺伝子発現計測手法によって得られた哺乳類の正常組織、細胞等における遺伝子発現データを収集し並列に表現することによって、各組織における遺伝子発現状況を計測手法間の差異とともに直感的に比較できることが特長です。RefExを利用することで、研究者は研究対象とする遺伝子が平常時にどの組織、細胞でどの程度発現しているのかについて、自ら実験をすることなく確認することができます。また、研究者がしばしば遭遇する馴染みのない遺伝子について、一般的には個別の研究論文における実験データや記述などからそれらの生物学的特徴を類推したりしますが、RefExでは実験デザインに左右されない大規模かつ網羅的な測定データから研究者自身の目でそれらを簡単に確認することができます。さらに、研究者の用意した複数の遺伝子IDについて一括で検索できる機能を備えているほか、リスト機能を用いて遺伝子の詳細データを並列に比較することができるため、遺伝子発現解析などで見出された遺伝子群の関係性を知るためのツールとしても有用です。
 ##### 調べたい遺伝子を より探しやすく よりわかりやすく
 * もっとも基本的なキーワード·遺伝子名検索では文字を入力する度に検索語の候補が提示されるので、それらから選択することで容易にキーワード入力を行うことができます。また、「転写因子」や「Gタンパク質共役受容体」、「2番染色体」などのように、ある分類に属する遺伝子群についてまとめて検索·比較できるよう整理されています。さらに、さまざまな実験における比較対照などに用いられる『組織特異的遺伝子』を測定データから独自に算出し、組織ごとに一覧することができます。Advanced searchでは、複雑な検索条件を一度に指定することが可能であり、あらかじめID情報などが手元にある場合には、目的とするデータに簡単に行き着くことができます。
@@ -497,23 +563,23 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
 * Hiromasa Ono, Osamu Ogasawara, Kosaku Okubo, Hidemasa Bono
     **RefEx, a reference gene expression dataset as a web tool for the functional analysis of genes**
     Scientific Data, 4:170105
-    [DOI: 10.1038/sdata.2017.105](http://doi.org/10.1038/sdata.2017.105)
+    [DOI: 10.1038/sdata.2017.105](https://doi.org/10.1038/sdata.2017.105)
 * 川路 英哉、粕川 雄也、坊農 秀雅、小野 浩雅 「FANTOM5データを誰でも活用できる形に」 Scientific Data誌著者インタビュー (平成29年8月29日)
     https://www.natureasia.com/ja-jp/scientificdata/papers-from-japan/fantom5
 * 小野 浩雅・坊農 秀雅 「遺伝子発現解析の基準となるデータを快適に検索できるウェブツールRefEx」 ライフサイエンス新着論文レビュー (平成29年9月5日)
-    [DOI: 10.7875/first.author.2017.093](http://doi.org/10.7875/first.author.2017.093)
-* 統合TV 「RefExの使い方」[DOI: 10.7875/togotv.2014.009](http://doi.org/10.7875/togotv.2014.009)
+    [DOI: 10.7875/first.author.2017.093](https://doi.org/10.7875/first.author.2017.093)
+* 統合TV 「RefExの使い方」[DOI: 10.7875/togotv.2014.009](https://doi.org/10.7875/togotv.2014.009)
 
 
 ### 【実習1】RefExを使って、組織特異的遺伝子を検索する
-- 【復習用】[RefExの使い方](http://doi.org/10.7875/togotv.2014.009)
+- 【復習用】[RefExの使い方](https://doi.org/10.7875/togotv.2014.009)
 
-1. http://refex.dbcls.jp/ を開きます。
+1. https://refex.dbcls.jp/ を開きます。
 2. 画面中央の「組織特異的に発現する遺伝子を見る」の臓器アイコンにカーソルを合わせると、更に詳細な部位のアイコンが出るので、調べたい臓器（例として肝臓）をクリックします。  
   - ![http://gyazo.com/35c8f38340753e8f433cb8c4d8fd812b](http://i.gyazo.com/35c8f38340753e8f433cb8c4d8fd812b.jpg)
 
 3. 検索結果一覧が表示されます。検索結果一覧では、「ソート項目の切り替え」や「絞り込み検索」、「リストへの追加」ができます。(手順11以降で解説します。)
-4. 各遺伝子の青字の部分（例 [fibrinogen alpha chain](http://refex.dbcls.jp/gene_info.php?lang=ja&db=human&geneID=2243&refseq=NM_000508&unigene=Hs.351593&probe=205649_s_at))をクリックすると詳細情報を閲覧できます。
+4. 各遺伝子の青字の部分（例 [fibrinogen alpha chain](https://refex.dbcls.jp/gene_info.php?lang=ja&db=human&geneID=2243&refseq=NM_000508&unigene=Hs.351593&probe=205649_s_at))をクリックすると詳細情報を閲覧できます。
 5. 「ヒートマップ on Bodyparts3D」では、表示する部位の切り替え（全身・体幹部・頭部）ができます。「皮膚・骨格筋を表示」もしくは「アニメーション表示」にチェックを入れるとどのように表示されるでしょうか。
 6. 「組織40分類別データ」では、バーの上にマウスオーバーすると測定部位と発現値が表示されます。
 7. 「Download」をクリックすると、表示中の遺伝子の組織40分類別の発現データがタブ区切り形式でダウンロードできます。
@@ -526,7 +592,7 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
  - ビューアは上部が拡大図で、下部が全体表示になっています。
  - 検索窓にキーワードを入れるとサンプル名を検索できます。ヒットしたサンプルはオレンジ色で強調されます。
  - 右側に、サンプル名と発現値、サンプル分類が表示されます。
- - [RefEx用に整理したサンプル情報一覧](http://bit.ly/fantom5cagehuman)も閲覧可能です。
+ - [RefEx用に整理したサンプル情報一覧](https://bit.ly/fantom5cagehuman)も閲覧可能です。
  - ![FANTOM5 CAGE Viewer](http://i.gyazo.com/51d0b3db07efe64a6fdafb054cd4217f.jpg)
 11. 検索結果一覧に戻ります。ソート項目を切り替えて、どのように結果が変わるでしょうか。
  - ![検索結果一覧](http://i.gyazo.com/5e87d20d9b31711e797ef17677be7263.jpg)
@@ -537,7 +603,7 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
  - 「組織」の項目で、データ元をRNA-seqに変更したり、臓器の指定を追加すると検索結果はどう変わるでしょうか。
  - 「必ず含むデータセット」の「ALL」にチェックを入れると、検索結果はどう変わるでしょうか。
 13.  個々の遺伝子の詳細情報は、リストに追加することで並列に比較することができます。
- - [肝臓特異的遺伝子の検索結果一覧](http://refex.dbcls.jp/genelist.php?lang=ja&db=human&roku_valid=1&rk[31]=31&order_key=score)に移動して、3つの遺伝子を「リストに追加」してみましょう。
+ - [肝臓特異的遺伝子の検索結果一覧](https://refex.dbcls.jp/genelist.php?lang=ja&db=human&roku_valid=1&rk[31]=31&order_key=score)に移動して、3つの遺伝子を「リストに追加」してみましょう。
  - 追加した件数は「リストを見る」の横に表示されます。
  - 「リストを見る」をクリックするとリストに移動します。
  - 『並べて表示する』にチェックを入れて、「遺伝子を並べて表示」をクリックします。
@@ -550,7 +616,7 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
 
 ### ChIP-Atlas
 ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、利活用するためのウェブサービスです。データ処理の知識やスキルがない方でも簡単に利用できます。データソースは、公開 NGS データレポジトリ (NCBI, EMBL-EBI, DDBJ) に登録されたほぼ全ての ChIP-seq データです。ChIP-Atlas は、九州大学大学院医学研究院 発生再生学分野 (http://www.dev.med.kyushu-u.ac.jp) と DBCLS が共同で開発しています。  
- (http://chip-atlas.org/)
+ (https://chip-atlas.org/)
 
 ![fig10](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_10.png)
 
@@ -559,13 +625,13 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 #### ChIP-Atlasの機能
 ##### Peak Browser
 * 既報の ChIP-seq データをまとめて閲覧し、何がどこに結合しているかが一目でわかります。Integrative Genomics Viewer (IGV) によりスムーズなブラウジングが可能で、興味の遺伝子のシス調節領域を予測したり、それを制御する転写因子の予測ができます。
-  * [ChIP\-Atlasを使って既報のChIP\-seqデータをまとめて閲覧する 〜Peak Browserの使い方〜](http://togotv.dbcls.jp/20180123.html)
+  * [ChIP\-Atlasを使って既報のChIP\-seqデータをまとめて閲覧する 〜Peak Browserの使い方〜](https://togotv.dbcls.jp/20180123.html)
 ##### Target Genes
 * 興味のある転写因子を選択し、その標的遺伝子候補を検索できます。
-  * 統合TV「[ChIP\-Atlasを使って興味のある転写因子を選択しその標的遺伝子候補を検索する 〜Target Genesの使い方〜](http://togotv.dbcls.jp/20180124.html)」
+  * 統合TV「[ChIP\-Atlasを使って興味のある転写因子を選択しその標的遺伝子候補を検索する 〜Target Genesの使い方〜](https://togotv.dbcls.jp/20180124.html)」
 ##### Colocalization
 * 興味のある転写因子を選択し、それとゲノム上で共局在する転写因子候補を検索できます。
-  * 統合TV「[ChIP\-Atlasを使って共局在タンパク質を探す 〜Colocalizationの使い方〜](http://togotv.dbcls.jp/20180128.html)」
+  * 統合TV「[ChIP\-Atlasを使って共局在タンパク質を探す 〜Colocalizationの使い方〜](https://togotv.dbcls.jp/20180128.html)」
 ##### Enrichment Analysis
 * ユーザデータを受け付け、既存データとの比較解析をおこないます。たとえば、興味のある遺伝子リストを submit すると、それらをまとめて制御する転写因子候補が返されます。ほかにも BED 形式のファイルや、シーケンスモチーフを submit すると、それらに enrichment する転写因子群が返されます。
 
@@ -595,7 +661,7 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
       - [DAVID(Database for Annotation, Visualization and Integrated Discovery)
    ](https://david.ncifcrf.gov/)のGene ID Conversion Toolも便利。([使い方動画](https://youtu.be/4f1t1ma9IRc?t=4m5s))
 
-1. [ChIP\-Atlas \- Enrichment Analysis](http://chip-atlas.org/enrichment_analysis)にアクセスする
+1. [ChIP\-Atlas \- Enrichment Analysis](https://chip-atlas.org/enrichment_analysis)にアクセスする
 2. 下図のようにオプションを設定する
 ![fig12](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_12.png)
 3. submit すると遺伝研スパコンへクエリが飛ぶ(ので、講義中は見てるだけにしてください)
@@ -617,7 +683,9 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 - 一生モノのデータベース、ウェブツールの使いこなし術を持ち帰ってください。
 - 顕微鏡 や 実験試薬 などと同じ「道具(ツール)」
 - 便利な「道具」を知って、その使い方が分かれば、あとは情報分析力と想像力の勝負。
+  - 正面からしか見られなかったものが横や後ろやナナメから見ることができて初めて気づくことがあるかもしれません。
 - 仮説構築から始まり、実験計画・検証、データ解析、そして論文執筆(以下ループ)という研究サイクルを加速化・効率化していきましょう。
-- 困ったら、統合TV!! (※宣伝)
+- データベースやウェブツールで困ったら、「統合TV」でまず探して・見てみる
 - 研究に役立ったら、ぜひ引用・クレジットを!
-- DBCLSの提供するサービス(あるいはそれ以外でも)が、あなたの研究に役立ったら、どんなに些細な事でもぜひ引用(論文、URL等)してください。DBCLSの活動は、提供するサービスがどのくらい活用されたかについて主に引用数などで評価されており、利用者の方の積極的なサポートが必要不可欠です!!
+  - DBCLSの提供するサービス(あるいはそれ以外でも)が、あなたの研究に役立ったら、どんなに些細な事でもぜひ引用(論文、URL等)してください。DBCLSの活動は、提供するサービスがどのくらい活用されたかについて主に引用数などで評価されており、利用者の方の積極的なサポートが必要不可欠です!!
+  - [NBDC関連サービスの活用に関する情報提供フォーム](https://form.jst.go.jp/enquetes/nbdcexamples)
