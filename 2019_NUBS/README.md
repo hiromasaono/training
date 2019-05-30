@@ -374,6 +374,7 @@ https://difff.jp/
   - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_5.png)
   - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_6.png)
 
+
 #### 遺伝子のID
 - Accession Number
 - RefSeq ID
