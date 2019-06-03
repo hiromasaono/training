@@ -137,9 +137,12 @@ hono@dbcls.rois.ac.jp
     - 1997年6月のサービス開始以来、2019年4月時点で5200件を超える学術誌を対象に、およそ 2,900万件超の文献情報を提供しています。
     - 2015年の一年だけで110万件超 (約3,000件/1日)の論文が追加され、その数はさらに増加しています。
     - 一日あたりの検索がおよそ250万件、160万人の利用者、830万件の書誌情報閲覧回数と、生命科学分野で最も利用されているウェブサービスの一つです。
+-![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/190604_PubMed_01.png)
+
 - [PubMed Central (PMC)](https://www.ncbi.nlm.nih.gov/pmc/)は、書誌情報、アブストラクトに加えて全文が無料（オープンアクセス）で公開されている論文を収録・提供しています。
     - PMCの件数でおよそ 540 万件、論文誌のウェブサイトで全文が提供されているものも含めると600万件以上の論文で全文を読むことができます。
     - 最近では、研究予算配分機関の指定で、成果をオープンアクセス誌で公表することを義務付けていることもあるので、閲覧できる論文が増えてきています。
+-![PMC](https://raw.githubusercontent.com/hiromasaono/training/master/images/190604_PubMed_02.png)
 
 ##### 論文を検索する
 
@@ -147,7 +150,9 @@ hono@dbcls.rois.ac.jp
     1. トップに出てくる「Home - PubMed - NCBI」[https://www.ncbi.nlm.nih.gov/pubmed/](https://www.ncbi.nlm.nih.gov/pubmed/) をクリックします。あるいは、ウェブブラウザのアドレスバーに直接「pubmed.gov」と入力しても自動でリダイレクトされます。
  1. 検索窓にキーワードを入力し始めると、関連語がサジェストされます。
     1. [Hiromasa Ono](https://www.ncbi.nlm.nih.gov/pubmed/?term=Hiromasa+Ono) で検索してみます。
+    -![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/190604_PubMed_04.png)
     1. ちなみに、検索窓に「All[filter]」と入力し検索すると、検索時点におけるPubMedに収載されている全論文数を調べることができます。
+    -![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/190604_PubMed_03.png)
  1. 初期設定では、検索結果は、最新のものから順に表示されます。
     1. 最近、検索語との「Best Match」順に並び替える機能が実装されたため、現在は目立つようにハイライトされています。
     1. 画面左側には検索用のフィルタが用意されており、論文の種類や全文を購読できるか否か、出版日の指定、対象とする生物種などで絞り込むことができます。
@@ -163,6 +168,8 @@ hono@dbcls.rois.ac.jp
  1. 検索結果が思ったように得られない、あるいは、数が多すぎて絞りきれない場合は、実際にどのような検索式でPubMed検索が行われているのかを調べて修正することができます。
  1. 検索結果一覧の右カラムにある「Search details」に入力されているのが実際に検索されている検索語です。
  1. たとえば、「iPS cells」でキーワード検索してみると、期待する「induced pluripotent stem cells」以外にも、多くの検索語が入力されていることがわかります。
+-![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/190604_PubMed_05.png)
+-![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/190604_PubMed_06.png)
  1. これは、PubMedが入力語を自動的に適切な単語に変換(Query Translation)しているためで、論文を効率的に検索するためには適切な検索式を与えることが重要です。
  1. 一番簡単にできることは、複合語の検索の場合に二重引用符(")で囲むことです。
     1. 一般的に、複合語で検索したほうがミスマッチする論文が減り、目的の論文を探しやすくなります。
