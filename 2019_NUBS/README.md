@@ -137,8 +137,7 @@ hono@dbcls.rois.ac.jp
     - 1997年6月のサービス開始以来、2019年4月時点で5200件を超える学術誌を対象に、およそ 2,900万件超の文献情報を提供しています。
     - 2015年の一年だけで110万件超 (約3,000件/1日)の論文が追加され、その数はさらに増加しています。
     - 一日あたりの検索がおよそ250万件、160万人の利用者、830万件の書誌情報閲覧回数と、生命科学分野で最も利用されているウェブサービスの一つです。
-    - 個別の論文には固有のIDであるPMID(PubMed ID)がついています。
-        - URLの末尾に直接入力するとダイレクトにその論文へたどり着けます。 [https://www.ncbi.nlm.nih.gov/pubmed/28850115](https://www.ncbi.nlm.nih.gov/pubmed/28850115)
+    
 - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/190604_PubMed_01.png)
 
 - [PubMed Central (PMC)](https://www.ncbi.nlm.nih.gov/pmc/)は、書誌情報、アブストラクトに加えて全文が無料（オープンアクセス）で公開されている論文を収録・提供しています。
@@ -153,6 +152,8 @@ hono@dbcls.rois.ac.jp
  1. 検索窓にキーワードを入力し始めると、関連語がサジェストされます。
     1. [Hiromasa Ono](https://www.ncbi.nlm.nih.gov/pubmed/?term=Hiromasa+Ono) で検索してみます。
     - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/190604_PubMed_04.png)
+    - 個別の論文には固有のIDであるPMID(PubMed ID)がついています。
+        - URLの末尾に直接入力するとダイレクトにその論文へたどり着けます。 [https://www.ncbi.nlm.nih.gov/pubmed/28850115](https://www.ncbi.nlm.nih.gov/pubmed/28850115)
     1. ちなみに、検索窓に「All[filter]」と入力し検索すると、検索時点におけるPubMedに収載されている全論文数を調べることができます。
     - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/190604_PubMed_03.png)
  1. 初期設定では、検索結果は、最新のものから順に表示されます。
