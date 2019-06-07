@@ -630,7 +630,7 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
 ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、利活用するためのウェブサービスです。データ処理の知識やスキルがない方でも簡単に利用できます。データソースは、公開 NGS データレポジトリ (NCBI, EMBL-EBI, DDBJ) に登録されたほぼ全ての ChIP-seq データです。ChIP-Atlas は、九州大学大学院医学研究院 発生再生学分野 (http://www.dev.med.kyushu-u.ac.jp) と DBCLS が共同で開発しています。  
  (https://chip-atlas.org/)
 
-![fig10](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_10.png)
+![fig10](https://raw.githubusercontent.com/hiromasaono/training/master/images/181104_10.png)
 
 ![fig11](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_11.png)
 
