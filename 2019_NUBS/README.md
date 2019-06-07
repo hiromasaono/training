@@ -626,6 +626,12 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
 
 ----
 
+## 数十～数千の遺伝子群の生物学的解釈
+
+- マイクロアレイやNGS実験を行うと大量の発現変動遺伝子 (Differentially Expressed Genes: DEGs)が得られます｡
+- 一般的な遺伝子発現解析の第一歩は､実験条件によって得られた数十～数千のDEGsが生物学的にどういう意味を持つかを考えることです。
+  - ![Gyazo](http://i.gyazo.com/52cb4c40b1313a52f8ded6923bdd8ef0.png)
+
 ### ChIP-Atlas
 ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、利活用するためのウェブサービスです。データ処理の知識やスキルがない方でも簡単に利用できます。データソースは、公開 NGS データレポジトリ (NCBI, EMBL-EBI, DDBJ) に登録されたほぼ全ての ChIP-seq データです。ChIP-Atlas は、九州大学大学院医学研究院 発生再生学分野 (http://www.dev.med.kyushu-u.ac.jp) と DBCLS が共同で開発しています。  
  (https://chip-atlas.org/)
@@ -636,56 +642,66 @@ ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、
 
 #### ChIP-Atlasの機能
 ##### Peak Browser
-* 既報の ChIP-seq データをまとめて閲覧し、何がどこに結合しているかが一目でわかります。Integrative Genomics Viewer (IGV) によりスムーズなブラウジングが可能で、興味の遺伝子のシス調節領域を予測したり、それを制御する転写因子の予測ができます。
-  * [ChIP\-Atlasを使って既報のChIP\-seqデータをまとめて閲覧する 〜Peak Browserの使い方〜](https://togotv.dbcls.jp/20180123.html)
+- 既報の ChIP-seq データをまとめて閲覧し、何がどこに結合しているかが一目でわかります。Integrative Genomics Viewer (IGV) によりスムーズなブラウジングが可能で、興味の遺伝子のシス調節領域を予測したり、それを制御する転写因子の予測ができます。
+  - 【統合TV】[ChIP\-Atlasを使って既報のChIP\-seqデータをまとめて閲覧する 〜Peak Browserの使い方〜](https://togotv.dbcls.jp/20180123.html)
 ##### Target Genes
-* 興味のある転写因子を選択し、その標的遺伝子候補を検索できます。
-  * 統合TV「[ChIP\-Atlasを使って興味のある転写因子を選択しその標的遺伝子候補を検索する 〜Target Genesの使い方〜](https://togotv.dbcls.jp/20180124.html)」
+- 興味のある転写因子を選択し、その標的遺伝子候補を検索できます。
+  - 【統合TV】「[ChIP\-Atlasを使って興味のある転写因子を選択しその標的遺伝子候補を検索する 〜Target Genesの使い方〜](https://togotv.dbcls.jp/20180124.html)」
 ##### Colocalization
-* 興味のある転写因子を選択し、それとゲノム上で共局在する転写因子候補を検索できます。
-  * 統合TV「[ChIP\-Atlasを使って共局在タンパク質を探す 〜Colocalizationの使い方〜](https://togotv.dbcls.jp/20180128.html)」
+- 興味のある転写因子を選択し、それとゲノム上で共局在する転写因子候補を検索できます。
+  - 【統合TV】「[ChIP\-Atlasを使って共局在タンパク質を探す 〜Colocalizationの使い方〜](https://togotv.dbcls.jp/20180128.html)」
 ##### Enrichment Analysis
-* ユーザデータを受け付け、既存データとの比較解析をおこないます。たとえば、興味のある遺伝子リストを submit すると、それらをまとめて制御する転写因子候補が返されます。ほかにも BED 形式のファイルや、シーケンスモチーフを submit すると、それらに enrichment する転写因子群が返されます。
+  - ユーザデータを受け付け、既存データとの比較解析をおこないます。たとえば、興味のある遺伝子リストを submit すると、それらをまとめて制御する転写因子候補が返されます。ほかにも BED 形式のファイルや、シーケンスモチーフを submit すると、それらに enrichment する転写因子群が返されます。
 
 
 #### 利用例
-* 論文として発表された ChIP-Seq データを閲覧したい
-* 興味のあるゲノム領域における、転写因子や修飾ヒストンの分布を知りたい
-* 興味のある転写因子の下流遺伝子や、複合体形成パートナーを知りたい
-自身の研究データと公開 ChIP-seq データを用いて比較解析をおこないたい
+- 論文として発表された ChIP-Seq データを閲覧したい
+- 興味のあるゲノム領域における、転写因子や修飾ヒストンの分布を知りたい
+- 興味のある転写因子の下流遺伝子や、複合体形成パートナーを知りたい
+- 自身の研究データと公開 ChIP-seq データを用いて比較解析をおこないたい
+
 #### 参考文献
 - Source code and documentation    
   - https://github.com/inutano/chip-atlas
 - Preprint
   - Shinya Oki, Tazro Ohta, et al. Integrative analysis of transcription factor occupancy at enhancers and disease risk loci in noncoding genomic regions. bioRxiv 262899; doi: https://doi.org/10.1101/262899
+- Paper
+  - Shinya Oki, Tazro Ohta, Go Shioi, Hideki Hatanaka, Osamu Ogasawara, Yoshihiro Okuda, Hideya Kawaji, Ryo Nakaki, Jun Sese, and Chikara Meno.
+     **ChIP-Atlas: a data-mining suite powered by full integration of public ChIP-seq data.**
+              EMBO Reports
+             [https://doi.org/10.15252/embr.201846255]( https://doi.org/10.15252/embr.201846255)  
 - Database
   - Oki, S; Ohta, T (2015): ChIP-Atlas. http://dx.doi.org/10.18908/lsdba.nbdc01558-000
+- Publications citing ChIP-Atlas http://chip-atlas.org/publications
 
-### 【実習2】ChIP-Atlasのin silico ChIP を使って、興味ある遺伝子リストを制御する可能性の高い転写因子を調べる
-* 「発現差のあった遺伝子リスト」を持っている想定で、それらの遺伝子に結合しうる、あるいは上流でそれらの遺伝子の発現を制御する可能性がある転写因子を検索する
-* 使用するデータ
-  - [List_of_GeneSymbol_txt](https://raw.githubusercontent.com/hiromasaono/training/master/180901_seikawakate/180901_List_of_GeneSymbol.txt)
+### 【実習】ChIP-AtlasのEnrichment Analysis を使って、興味ある遺伝子リストを制御する可能性の高い転写因子を調べる
+- 「発現差のあった遺伝子リスト」を持っている想定で、それらの遺伝子に結合しうる、あるいは上流でそれらの遺伝子の発現を制御する可能性がある転写因子を検索する
+- 使用するデータ
+  - [190606_List_of_GeneSymbol_txt](https://github.com/AJACS-training/AJACS76/blob/master/05_hono/190606_List_of_GeneSymbol.txt)
     - ある「興味ある遺伝子リスト」をGeneSymbolにID変換したデータ。
     - これを使って、もともとどういう遺伝子リストだったかを考察します。
-  - ChIP-Atlas では、遺伝子IDとしてGeneSymbolのみを受け付けているので、それ以外のIDで遺伝子リストを持っている場合は、適宜変換が必要。
-    - ID変換はいろいろなツールがあるが、今回は[HGNC BioMart](https://biomart.genenames.org/)を利用する。
+  - ChIP-Atlas では、遺伝子IDとしてGeneSymbolのみを受け付けているので、それ以外のIDで遺伝子リストを持っている場合は、適宜変換が必要です。
+    - ID変換はいろいろなツールがありますが、今回は[HGNC BioMart](https://biomart.genenames.org/)を利用します。
       - HGNC(The HUGO Gene Nomenclature Committee)はヒトのGeneSymbolを認定・管理している機関。
+        - 【統合TV】[HGNCを使ってヒト遺伝子の正式略称(GeneSymbol)を検索する(+ヒトとマウスの遺伝子IDを変換する)](https://togotv.dbcls.jp/20190406.html)
       - [DAVID(Database for Annotation, Visualization and Integrated Discovery)
    ](https://david.ncifcrf.gov/)のGene ID Conversion Toolも便利。([使い方動画](https://youtu.be/4f1t1ma9IRc?t=4m5s))
 
-1. [ChIP\-Atlas \- Enrichment Analysis](https://chip-atlas.org/enrichment_analysis)にアクセスする
-2. 下図のようにオプションを設定する
-![fig12](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_12.png)
-3. submit すると遺伝研スパコンへクエリが飛ぶ(ので、講義中は見てるだけにしてください)
-4. submit したあとの画面
-![fig13](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_13.png)
-5. 計算が終わるまで待つ
-![fig14](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_14.png)
-6. 計算が終わると、「Result URL」が有効になる
-  - 今回の例では、 http://ddbj.nig.ac.jp/wabi/chipatlas/wabi_chipatlas_2018-0606-1701-36-865-010614?info=result&format=html
-7. 結果の解釈をする
+
+1. [ChIP\-Atlas - Enrichment Analysis](https://chip-atlas.org/enrichment_analysis)にアクセスします。
+1. 下図のようにオプションを設定します。
+![fig12](https://raw.githubusercontent.com/hiromasaono/training/master/images/181104_12.png)
+1. submit すると遺伝研スパコンへクエリが飛びます。(ので、講義中は見てるだけにしてください)
+1. submit したあとの画面
+![fig13](https://raw.githubusercontent.com/hiromasaono/training/master/images/181104_13.png)
+1. 計算が終わるまで待ちます
+![fig14](https://raw.githubusercontent.com/hiromasaono/training/master/images/181104_14.png)
+1. 計算が終わると、「Result URL」が有効になります。
+  - 今回の例では、 http://ddbj.nig.ac.jp/wabi/chipatlas/wabi_chipatlas_2018-1104-1735-21-275-473936?info=result&format=html
+1. 結果の解釈をします。
   - 今回は、どういう「興味ある遺伝子リスト」をクエリとしたか考察してみましょう。
-  - 結果の見方としては、「p-valueが低く、Overlaps/My dataが多く、Fold Enrichmentが高い」転写因子がたくさんヒットしてくると入力した遺伝子群をまとめて制御する、マスター転写因子を抽出できている確度が高い
+  - 「p-valueが低く、Overlaps/My dataが多く、Fold Enrichmentが高い」転写因子がたくさんヒットしてくる　
+    - → 入力した遺伝子群をまとめて制御する、マスター転写因子を抽出できている可能性が高いと言えます。
 
 8. [答え合わせ](https://github.com/hiromasaono/training/blob/master/180901_seikawakate/180901_ChIP-Atlas_answer.md)
 
