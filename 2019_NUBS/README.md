@@ -641,7 +641,7 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
 - 2010年以来データ更新が止まっていたが､最近､アップデートされた｡ [DAVID 6.8 (current beta release) May. 2016](https://david.ncifcrf.gov/content.jsp?file=release.html)  
 
 #### マイクロアレイデータの準備
-- サンプルデータとして、[NCBI GEO](http://www.ncbi.nlm.nih.gov/geo/)から取得した公共の遺伝子発現データを用います。このデータは、ある実験の前後の2群間で有意に発現減少した遺伝子群のリストです。  
+- サンプルデータとして、[NCBI GEO](http://www.ncbi.nlm.nih.gov/geo/)から取得した公共の遺伝子発現データを用います。このデータは、 **ある実験の前後の2群間で有意に発現減少した遺伝子群** のリストです。  
 
      → [マル秘遺伝子リスト](https://raw.githubusercontent.com/AJACS-training/AJACS59/master/hono/secret_list.txt)  （右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
 
