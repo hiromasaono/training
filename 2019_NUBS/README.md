@@ -627,10 +627,67 @@ RefEx（Reference Expression dataset）は、遺伝子発現解析の基準と�
 ----
 
 ## 数十～数千の遺伝子群の生物学的解釈
-
 - マイクロアレイやNGS実験を行うと大量の発現変動遺伝子 (Differentially Expressed Genes: DEGs)が得られます｡
 - 一般的な遺伝子発現解析の第一歩は､実験条件によって得られた数十～数千のDEGsが生物学的にどういう意味を持つかを考えることです。
   - ![Gyazo](http://i.gyazo.com/52cb4c40b1313a52f8ded6923bdd8ef0.png)
+- 今回は、その方法の一つとして、[Gene Ontology (GO)](http://array.cell-innovator.com/?p=1085) の用語を使って､マイクロアレイ実験で得られたDEGsのもつ機能に、どのような特徴があるのか(転写因子活性に関する遺伝子が多いのか、細胞周期に関する遺伝子が多いのか?､ Wntパスウェイに関する遺伝子が多いのか?, など)を解析することで、生物学的解釈をしてみましょう。  
+
+### [DAVID: The Database for Annotation, Visualization and Integrated Discovery](http://david.abcc.ncifcrf.gov/)
+- アメリカ国立アレルギー・感染症研究所が開発･運用
+- 原著論文 [PMID: 19131956](http://www.ncbi.nlm.nih.gov/pubmed/19131956)
+- 遺伝子リストのコピペで簡単にエンリッチメント解析 ( GO､KEGG など )
+- 対応生物種･遺伝子ID が 豊富｡ ID変換ツールもある
+- IDリストしか投げられない (発現量込みやタイムコースデータは不可)
+- 2010年以来データ更新が止まっていたが､最近､アップデートされた｡ [DAVID 6.8 (current beta release) May. 2016](https://david.ncifcrf.gov/content.jsp?file=release.html)  
+
+#### マイクロアレイデータの準備
+- サンプルデータとして、[NCBI GEO](http://www.ncbi.nlm.nih.gov/geo/)から取得した公共の遺伝子発現データを用います。このデータは、ある実験の前後の2群間で有意に発現減少した遺伝子群のリストです。  
+
+     → [マル秘遺伝子リスト](https://raw.githubusercontent.com/AJACS-training/AJACS59/master/hono/secret_list.txt)  （右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
+
+- このデータは、どのような実験から得られたデータなのか、どのように解釈できるのかをDAVIDを使って考察してみましょう！  
+
+#### 【実習2】DAVIDを用いて、発現データの結果を生物学的に解釈する
+- 【復習用】[DAVIDを使ってマイクロアレイデータを解析する 2012](http://doi.org/10.7875/togotv.2012.079)
+- 【復習用】[DAVIDの使い方 実践編](http://doi.org/10.7875/togotv.2013.033)  
+
+1. [DAVID](http://david.abcc.ncifcrf.gov/)にアクセスし、上部メニューの「Start Analysis」をクリックします。
+
+- ![Gyazo](http://i.gyazo.com/f976f39aeb060a96a790f0e5b281aabe.png)
+
+2. 画面左側バーで、probe IDリストをコピペ or ファイルを指定します。
+3. リストのIDの種類タイプを選択します。 … 今回は、「AFFY_ID」と「Gene List」
+4. Submit List をクリックするとリストが読み込まれます。
+
+- ![Gyazo](http://i.gyazo.com/e8275cf9dbb203b3d8577307b462c783.png)
+
+5. アップロードしたリストは、左側バーの「List Manager」で「Uploaded List_1」として保存されています。削除やrenameもできます。
+
+- ![Gyazo](http://i.gyazo.com/e8270d82a68decba0249daa49914fba9.png)
+
+6. 解析を続けます。真ん中の「Functional Annotation Tool」をクリックします。
+7. 「Gene Ontology」をクリックすると、Gene Ontologyを用いた解析の細かいメニューが表示されます。
+
+- ![Gyazo](http://i.gyazo.com/38905ceb16d6b702059667e4fb404531.png)
+
+8. 今回は、GOTERM_BP_FAT (BP = Biological Process)に注目します。その右の「Chart」をクリックすると結果がポップアップされます。
+
+ - ![Gyazo](http://i.gyazo.com/78301700c3d952957dd599bbb83c785f.png)
+
+9. タイトル行をクリックするとソートできます。  
+10. さらに、GOTERM_CC_FAT や GOTERM_MF_FAT を見て、上位にリストされたGOTermにどのような共通点・相違点があるでしょうか。
+ - CC = Cellular Component
+ - ![Gyazo](http://i.gyazo.com/117720204dfb06a3f3605f4aedec2dba.png)
+ - MF = Molecular Function  
+ - ![Gyazo](http://i.gyazo.com/6feb8e34beab45769e2d3e66c3c5d570.png)
+11. Pathways > KEGG_PATHWAY や Tissue Expression > UP_TISSUE なども見てみましょう。
+
+12. DAVIDで得られた結果を踏まえ、「ある実験」とはどのような実験であったか考察してみましょう。
+ - マル秘遺伝子リストは「ある実験の前後の2群間で有意に発現減少した遺伝子群のリスト」  
+ - 生物種はArabidopsis thaliana (シロイヌナズナ)  
+
+---
+
 
 ### ChIP-Atlas
 ChIP-Atlasは、論文などで報告された ChIP-seq データを閲覧し、利活用するためのウェブサービスです。データ処理の知識やスキルがない方でも簡単に利用できます。データソースは、公開 NGS データレポジトリ (NCBI, EMBL-EBI, DDBJ) に登録されたほぼ全ての ChIP-seq データです。ChIP-Atlas は、九州大学大学院医学研究院 発生再生学分野 (http://www.dev.med.kyushu-u.ac.jp) と DBCLS が共同で開発しています。  
