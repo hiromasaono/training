@@ -369,7 +369,8 @@ https://difff.jp/
 ![NCBI top](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_NCBI.png)
 - [【NCBI】に関係する統合TV動画](https://togotv.dbcls.jp/tags.html?tag=NCBI)
 ### NCBIで 遺伝子 を調べる
-- <details><summary>そもそも遺伝子(gene)ってなに?　ゲノム(genome)とDNAの違いは?</summary>[遺伝子とゲノム](https://www.ddbj.nig.ac.jp/column/genegenome.html)(国立遺伝学研究所 生命情報・DDBJセンター ウェブサイト)</details>
+- <details><summary>そもそも遺伝子(gene)ってなに?　ゲノム(genome)とDNAの違いは?</summary>
+    [遺伝子とゲノム](https://www.ddbj.nig.ac.jp/column/genegenome.html) (国立遺伝学研究所 生命情報・DDBJセンター ウェブサイト)</details>
 - ALDH2 について調べる
   - [エタノール(エチルアルコール)](https://pubchem.ncbi.nlm.nih.gov/compound/702) の代謝産物である[アセトアルデヒド](https://pubchem.ncbi.nlm.nih.gov/compound/177)をさらに分解する、アセトアルデヒドデヒドロゲナーゼという酵素をコードしている遺伝子で、ヒトでは12番染色体に存在する
 
