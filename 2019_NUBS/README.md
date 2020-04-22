@@ -1,8 +1,5 @@
 # これから研究室に入る初学者のための便利な生命科学系公共データベースとウェブツールハンズオン
 ## [bit.ly/1906NUBS](http://bit.ly/1906NUBS)
-### [課題提出用Googleフォームはこちら](https://docs.google.com/forms/d/1lvo47pOPGNnabhIHYTVlffuEkWqhvef8SeSMEpcw0Wc/edit)
-- フォームの記入や内容についての質問がある場合は、氏名・学籍番号を明記し、hono@dbcls.rois.ac.jp まで問い合わせてください。
-- 提出の締切は、2019年6月25日(火)17:50(JST)です。
 
 大学共同利用機関法人 情報・システム研究機構  
 データサイエンス共同利用基盤施設  
