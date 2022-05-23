@@ -7,13 +7,13 @@
 小野 浩雅 ([Twitter](https://twitter.com/h_ono), [個人サイト](https://sites.google.com/dbcls.rois.ac.jp/hono/))  
 hono@dbcls.rois.ac.jp  
 
-2019年6月4、11、18日(火曜日4限（14:40-16:10))  
+2022年6月7日-7月5日(全5回・毎週火曜日4限（14:40-16:10))  
 日本大学 生物資源学部 応用生物科学科 3年次開講科目「生命情報科学（必修）」
 
 ----
 
-これは、2019年度 日本大学 生物資源学部 応用生物科学科 3年次開講科目「生命情報科学（必修）」の小野担当回の講習資料です。SNSによる情報拡散 **大歓迎** です。  
-© 2019 小野 浩雅, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)
+これは、2022年度 日本大学 生物資源学部 応用生物科学科 3年次開講科目「生命情報科学（必修）」の小野担当回の講習資料です。 
+© 2022 小野 浩雅, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)
 
 ----
 
@@ -24,9 +24,17 @@ hono@dbcls.rois.ac.jp
 仮説構築から始まり、実験計画・検証、データ解析、そして論文執筆(以下ループ)という研究サイクルを加速化・効率化するための便利な「道具」を、ぜひご自身の手で「使い倒し」てみてください。これから始まる研究生活の中で役に立つこと請け合いです。
 
 ----
+## 自己紹介
+- [小野 浩雅](https://sites.google.com/dbcls.rois.ac.jp/hono/)  
+  - [TogoTV](https://togotv.dbcls.jp/)の運営・編集者
+  - [RefEx](https://refex.dbcls.jp/)の開発者
+    - 遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツール
+  - [Twitter@h_ono](https://twitter.com/h_ono)
+
+----
 
 ## 講義の流れ
-今回の講義(全3回)では、お手元のコンピュータを使って以下の内容について説明します。
+今回の講義(全5回)では、お手元のコンピュータを使って以下の内容について説明します。
 
 - 研究現場で頻繁に使われるデータベースやツールを知る
     - 統合TV
@@ -67,67 +75,116 @@ hono@dbcls.rois.ac.jp
     - でも講師も知らないことは(多々)あります。(以下ループ)
 
 ----
+# 研究現場で頻繁に使われるデータベースやツールを知る
+---
+# TogoTV
+- https://togotv.dbcls.jp/ 📺
+  - 生命科学分野における有用なコンテンツを紹介するウェブサイト
+    - データベースやツールの動画マニュアル
+    - 講演や講習会動画・資料
+    - イラスト
+  - 2007年8月サービススタート
+  - 2020年11月リニューアル
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220323_01.jpg)
+---
+# 動画マニュアル
+- ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかる
+- 各動画は[YouTubeに上がって](http://www.youtube.com/user/togotv/)いて、環境に応じた解像度、倍速表示等で快適に閲覧可能
+- 1,950本を超える動画が公開されており、2,300,000回以上 再生(2022年2月末現在)
+- コロナ禍の自粛時に過去最高の視聴数
+- YouTubeのチャンネル登録をすると新規公開の通知が来て便利です
 
-## 研究現場で頻繁に使われるデータベースやツールを知る
-### [統合TV](https://togotv.dbcls.jp/)
-#### 生命科学分野の有用なデータベースやツールの使い方を動画で紹介するウェブサイト
-- https://togotv.dbcls.jp/
-- ![統合TVトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_01.png)
-- 各動画は[YouTubeに上がって](https://www.youtube.com/user/togotv/)おり、おなじみの再生画面で快適にご覧いただけます。(環境に応じた解像度、倍速表示等)
-- 1600本を超える動画が公開されており、YouTube版だけで のべ 1,300,000回以上 再生されています。(2019年4月末現在)
-- ![YouTube統計](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_03.png)
-- ![統合TV 再生画面](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_02.png)
-  - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかります。
-  - 動画ファイルのみのダウンロードも可能で、オフライン視聴もできます。
-  - 動画の概要を示すダイジェスト見出し
-  - 各動画には、恒久的な URL として利用されている [DOI](https://ja.wikipedia.org/wiki/デジタルオブジェクト識別子) (Digital Object Identifier) が付与されています(引用可能)。
-  - 講義・講習などの参考資料や後輩指導の教材として利用できます。
-    - 本講義中、本家サイトが繋がらない時は、統合TVを見ればおおよその内容がわかるようになっています。
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220323_02.jpg)
 
-#### 動画以外のコンテンツも拡充中
-- [AJACS講習会資料](https://togotv.dbcls.jp/ja/ajacs_text.html)
-  - 2014年8月以降に開催された過去の講習会の資料・テキストと動画が同時閲覧できます。
-  - 受講生の復習のみならず、初学者の学習教材として活用できます。
-- [Togo Picture Gallery(静止画)](https://togotv.dbcls.jp/ja/pics.html)
-  - 誰でも自由に利用可能なライフサイエンス分野のイラストが､統合TVから閲覧､利用することができるようになりました。[「自由に使える画像を探す」](https://togotv.dbcls.jp/ja/pics.html)
-  - Togo picture galleryと[生物アイコン](https://togodb.biosciencedbc.jp/togodb/view/taxonomy_icon)の全画像500点以上を一覧できます。
-  - 研究発表のスライド作成や資料作成等に､ぜひお使いください。
-  - ![自由に使える画像を探す](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_04.png)
+---
+# 個別動画ページ
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20201223_01.png)
+- 見どころダイジェスト
+  - YouTubeの埋め込みプレーヤなので、おなじみの操作感
+  - 動画の概要を示す「見出し」から視聴箇所に移動可能
+  - 動画ファイルはダウンロード可能
+- 各動画には、[DOI](https://ja.wikipedia.org/wiki/デジタルオブジェクト識別子) (Digital Object Identifier) が付与
+  - 恒久的な URL として利用可能
+  - e-learning教材として日本初
 
-#### 募集と宣伝
-- お探しの動画・静止画が見つからない場合は、[統合TV番組リクエストフォーム](https://togotv.dbcls.jp/contact.html)でお気軽にリクエストを。
-- 統合TVでコンテンツを作ってみたい方も募集中です。
-  - オンラインで完結する作成環境を整備しており、遠隔地でもOKです。謝金あり。)
-  - 興味ある方は小野(hono@dbcls.rois.ac.jp)までご一報を。
-- 統合TVを効果的に利用するためのガイドブックが出版されました。(2018年12月)
-  - 生命科学データベース・ウェブツール  － 図解と動画で使い方がわかる！ 研究がはかどる定番18選 －
-  - 「定番」として何がよく使われているのかを知り、その使い方を学び、どう使うと便利なのかについて、体系的にまとめて俯瞰的に捉えられるように編集されています。
-  - 「この順で動画をみていくと、こういうスキルを獲得できる」というような体系的な教材です。
-  - [https://www.amazon.co.jp/dp/4815701431/](https://www.amazon.co.jp/dp/4815701431/)
-  - [https://www.medsi.co.jp/books/products/detail.php?product_id=3665](https://www.medsi.co.jp/books/products/detail.php?product_id=3665)
+---
+# [スキル別コース](https://togotv.dbcls.jp/courses.html)
+- ある目的に対して、「この順で動画をみていくと、こういうスキルを獲得できる」というような体系的な動画リスト集
+![bg right:50% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20201223_02.png)
+---
+
+# ラボの新人がまずマスターしたいデータベース・ウェブツール(2020年4月)
+- 研究室に入ってきた新人が必ず知っておくべき「論文の効率的な検索方法」、「研究発表資料の作成に必要なパワーポイントの図形描画機能」、「Google各種サービスを使って研究生活を効率化する」という3つのテーマに関する10本の動画を紹介しています
+- https://biosciencedbc.jp/blog/20200511-01.html
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20201223_03.png)
+
+---
+# 現在のラインナップ例 (今後さらに充実させていきます)
+- [文献の検索や管理、情報収集に役立つツール](https://togotv.dbcls.jp/course.html?id=PL5409971734873D19)
+- [ゲノムブラウザを使ってゲノム配列に関連する情報を検索・取得・可視化する](https://togotv.dbcls.jp/course.html?id=PL0uaKHgcG00bs1Yno9jCCLqVntyzVPqGT)
+- [公共の遺伝子発現データの検索や解析を行う](https://togotv.dbcls.jp/course.html?id=PL0uaKHgcG00YDVET14wC0-GhpI5l3y8T-)
+- [疾患に関連する変異や遺伝子発現の情報を調べる](https://togotv.dbcls.jp/course.html?id=PL0uaKHgcG00a1DeTTRteZSWzmpDTEImAK)
+- [図表を作成する](https://togotv.dbcls.jp/course.html?id=PL0uaKHgcG00aFMd_yWI0xuzROpPWi7nSb)
+- [文章の執筆に役立つツール](https://togotv.dbcls.jp/course.html?id=PL0uaKHgcG00Y4Nuo6g08Ql3CsCefTvB9H)
+
+
+---
+# 講演・講習会
+- キーワードから、「講演」や「講習会」を簡単に検索可能
+- 受講生の復習のみならず、初学者の学習教材として活用できます
+
+![bg right:50% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20201223_04.png)
+
+---
+# 塩基配列解析に関わる基礎知識(遺伝子IDとそのデータベース)とゲノム編集について
+  - [塩基配列解析のためのデータベース・ウェブツール @ AJACSオンライン2](https://togotv.dbcls.jp/20201125.html)
+     - [CRISPRdirect](https://crispr.dbcls.jp/)の開発者が自ら解説
+       - 入力した塩基配列に対してCRISPR-Cas9システムのガイドRNAを設計することができるツール
+  - [ウェブツールを使ってゲノム編集の標的サイトを検索する @ AJACSオンライン8](https://togotv.dbcls.jp/20210831.html)
+    - 適切なゲノム編集を行うための標的検索とその考え方について学びます。また、さまざまな目的に特化した標的選定やゲノム編集後の解析に活用できるツールについても紹介
+---
+# 次世代シーケンス(NGS)データ解析に必要な基礎知識とリテラシーを学ぶ
+  - [NGSデータから新たな知識を導出するためのデータ解析リテラシー @ AJACS浜松](https://togotv.dbcls.jp/20180120.html)
+    - NGSデータを解析するための基礎的な考え方・知識と、データ解析プロセスをどう設計・実践していくかの技術を学びます。ソフトウェアの使い方の詳細な解説よりも、実験系研究者が独学していくために必要なことに焦点を絞っています。
+    - 講義資料: [NGSデータから新たな知識を導出するためのデータ解析リテラシー](https://github.com/AJACS-training/AJACS68/blob/master/05_ozaki/README.md)
+
+---
+# NGS解析について、さらにもっと基礎から応用までを深く学びたい方向け (それぞれ約10-50時間程度)
+  - [「バイオインフォマティクス人材育成カリキュラム（次世代シークエンサ）速習コース(2014年8月)](https://www.youtube.com/playlist?list=PL0uaKHgcG00abmj1Nzs1SUhqKLjf_PFBB)
+  - [「バイオインフォマティクス人材育成カリキュラム 次世代シークエンサ(NGS)ハンズオン講習会(2015年8月)](https://www.youtube.com/playlist?list=PL0uaKHgcG00Yo0Cn0rcF23xof5hqCzGQb)
+  - [NGSハンズオン講習会2016](https://www.youtube.com/watch?v=TSa1yPy_sdM&list=PL0uaKHgcG00ZNpICun17CEAFpV_5Q6GCA)
+  - [NGSハンズオン講習会2017](https://www.youtube.com/watch?v=6Fzvl_I48tM&list=PL0uaKHgcG00YDmBXYWOgkmfeURjc8BZkk)
+  - [先進ゲノム支援\(PAGS\)、DDBJ、DBCLS合同情報解析講習会\(2019\)](https://www.youtube.com/watch?v=VjZIQuWXPu8&list=PL0uaKHgcG00afJqVErwNQariGDKArJtB8)
+
+---
+# 画像を探す (Togo picture gallery)
+- [「画像を探す」](https://togotv.dbcls.jp/pics.html)
+- 生命科学分野のイラスト(約1,000本)が、誰でも自由に利用可能 (CC-BY-4.0)
+- 研究発表のスライド・ポスター作成、資料作成等に､ぜひご活用ください
+- [TogoTVのコンテンツを再利用したいのですが、著作権の扱いはどうなっていますか?](https://togotv.dbcls.jp/faq.html)
+- 2022年2月末で55件の[引用論文](https://dbcls.rois.ac.jp/references.html#TogoTV)
+
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20201223_05.png)
+
+---
+# リクエスト募集中
+- お探しの動画マニュアルや画像が見つからない場合は、[統合TV番組リクエストフォーム](https://togotv.dbcls.jp/contact.html)でお気軽にリクエストしてください。
+- すべて目を通しています
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20201223_06.png)
+
+---
+# TogoTVコンテンツを作ってみたい方も募集中
+- 動画や画像(イラスト)を制作してくれる方を随時募集中です
+- オンラインで完結する作成環境を整備しており、遠隔地でもOKです。
+- DB・ウェブツールについて詳しくなくても、勉強しながらでOK。
+- 「本業優先」がポリシーです。
+- 謝金あります。
+- 動画制作の実際: [「画面録画/編集ソフトウェア Camtasia 2019 を使って統合TVの動画を作成する」](https://togotv.dbcls.jp/20200129.html)
+- 静止画制作の実際: [「ライフサイエンス分野のイラスト集を作る仕事@AJACS本郷8」](https://togotv.dbcls.jp/20110322.html)
+
 
 ----
-#### 習熟度ややりたいこと別にご参考ください
-- 塩基配列解析に関わる基礎知識について
-    - [「塩基配列解析のためのデータベース・ウェブツールとCRISPRガイドRNA設計 @ AJACSこまち」(2016年8月)](https://doi.org/10.7875/togotv.2016.122)
 
-- 遺伝子発現データを公共DBで検索・取得・解析する方法について
-    - [「遺伝子発現DB・ウェブツールの使い方 応用・実践編」(2015年5月AJACS御茶ノ水)](https://togotv.dbcls.jp/ja/ajacs2015007.html)
-
-- 文献検索のプロが教えるPubMedの使い方
-    - [文献情報を用いたサービスを活用する @ AJACS越後 (2018年6月)](https://togotv.dbcls.jp/20180815.html)
-
-- 次世代シーケンス(NGS)データの解析について
-    - [【NGS】に関係する動画・講習会資料・新着論文レビュー](https://togotv.dbcls.jp/tags.html?tag=NGS)
-
-- NGS解析について、さらにもっと基礎から応用までを深く学びたい方向け (それぞれ約50時間程度)
-    - [「バイオインフォマティクス人材育成カリキュラム（次世代シークエンサ）速習コース(2014年8月)](https://www.youtube.com/playlist?list=PL0uaKHgcG00abmj1Nzs1SUhqKLjf_PFBB)
-    - [「バイオインフォマティクス人材育成カリキュラム 次世代シークエンサ(NGS)ハンズオン講習会(2015年8月)](https://www.youtube.com/playlist?list=PL0uaKHgcG00Yo0Cn0rcF23xof5hqCzGQb)
-    - [NGSハンズオン講習会2016](https://www.youtube.com/watch?v=TSa1yPy_sdM&list=PL0uaKHgcG00ZNpICun17CEAFpV_5Q6GCA)
-    - [NGSハンズオン講習会2017](https://www.youtube.com/watch?v=6Fzvl_I48tM&list=PL0uaKHgcG00YDmBXYWOgkmfeURjc8BZkk)
-    - [上記の動画+講習会資料のまとめページ@統合TV](http://togotv.dbcls.jp/ja/tags.html?tag=NGS速習・ハンズオン)
-
-----
 ## 学術論文を効率よく検索する
 ###  [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/)
 #### 泣く子も黙る文献・論文検索の総本山
