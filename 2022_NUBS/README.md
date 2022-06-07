@@ -25,10 +25,12 @@ hono@dbcls.rois.ac.jp
 
 ----
 ## 自己紹介
-- [小野 浩雅](https://sites.google.com/dbcls.rois.ac.jp/hono/)  
+- 小野 浩雅(おの ひろまさ)([reseachmap](https://researchmap.jp/hiromasaono/))  
   - [TogoTV](https://togotv.dbcls.jp/)の運営・編集者
   - [RefEx](https://refex.dbcls.jp/)の開発者
     - 遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツール
+  - [TogoID](https://togoid.dbcls.jp/)
+    - 生命科学系データベース間のつながりを探索的に確認しながらID変換を行うことができるウェブツール   
   - [Twitter@h_ono](https://twitter.com/h_ono)
 
 ----
