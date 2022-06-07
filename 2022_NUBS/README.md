@@ -93,9 +93,10 @@ hono@dbcls.rois.ac.jp
 # 動画マニュアル
 - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかる
 - 各動画は[YouTubeに上がって](http://www.youtube.com/user/togotv/)いて、環境に応じた解像度、倍速表示等で快適に閲覧可能
-- 2,000本に迫る動画が公開されており、2,300,000回以上 再生(2022年2月末現在)
+- 2,000本に迫る動画が公開されており、2,400,000回以上 再生(2022年5月末現在)
 - コロナ禍の自粛時に過去最高の視聴数
 - YouTubeのチャンネル登録をすると新規公開の通知が来て便利です…!
+  -　チャンネル登録者数7,000人突破   
 
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220323_02.jpg)
 
@@ -165,7 +166,7 @@ hono@dbcls.rois.ac.jp
 - 生命科学分野のイラスト(約1,000本)が、誰でも自由に利用可能 (CC-BY-4.0)
 - 研究発表のスライド・ポスター作成、資料作成等に､ぜひご活用ください
 - [TogoTVのコンテンツを再利用したいのですが、著作権の扱いはどうなっていますか?](https://togotv.dbcls.jp/faq.html)
-- 2022年2月末で55件の[引用論文](https://dbcls.rois.ac.jp/references.html#TogoTV)
+- 2022年5月末で55件の[引用論文](https://dbcls.rois.ac.jp/references.html#TogoTV)
 
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20201223_05.png)
 
