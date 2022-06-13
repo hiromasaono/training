@@ -238,14 +238,19 @@ hono@dbcls.rois.ac.jp
     1. PMCへのリンクをクリックすると、PMCが提供する様々な形式で全文を読むことができます。
         1. 論文PDFのダウンロードはもちろん可能です。
         1. 引用文献へのリンクが動的に表示されるなどウェブサイトでの表示に適したスタイルのほか、近年利用が増えているタブレット端末での表示に最適化された「PubReader」の機能が提供されています。
+ 1. 個別の論文の右側には、｢page navigation｣がついており、クリックすると該当箇所に飛べます。
+      1. **Similar articles** で関連する論文を検索
+      1. **Cited by** でその論文を引用した論文を検索
+      1. MeSH Termsでその論文のキーワードを知る(後述)
 
-##### 自分の探している論文が見つからないときは検索式を見直す
+##### 自分の探している論文が見つからないときはMeSH Terms を使ってみる
 
  1. 検索結果が思ったように得られない、あるいは、数が多すぎて絞りきれない場合は、MeSH Termsを有効活用してみましょう。
-    1. PubMedでは各論文にMeSH Termsが検索用の「タグ」のように付与されています。
+    1. PubMedでは各論文にMeSH Termsが検索用の「#ハッシュタグ」のように付与されています。
             1. MeSH Terms とは、
                 1. MeSHは、Medical Subject Headings の略で、階層構造を持つ統制された概念・語彙集として主に医学関係の用語を整理したものです。語彙数は約3万弱ほどあり、毎年更新されています。PubMedに収録された全論文に対して専門のスタッフがMeSHタームを用いて注釈付けを行っています。
-    - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/220613_05.jpg)
+    - [https://pubmed.ncbi.nlm.nih.gov/21419102/](https://pubmed.ncbi.nlm.nih.gov/21419102/) のMeSH Termsの例
+      - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/220613_05.jpg)
 
 ##### PubMedの検索結果を定点観測する
 
