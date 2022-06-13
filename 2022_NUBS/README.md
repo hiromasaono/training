@@ -190,17 +190,32 @@ hono@dbcls.rois.ac.jp
 ----
 # 【第9回】学術論文を効率的に検索したり、論文執筆を支援するデータベースやツール
 ---
+##　現代の生命科学の研究の流れ
+  - 対象とする生体試料を準備し、それを測定し、計算機で解析し、成果をまとめて論文にする
+  - 学術誌、論文誌に投稿する
+    - 編集者が内容をチェック
+    - 大きな問題なければ、同じ研究分野の研究者に記載内容のチェックを依頼する(査読･レビュー)
+      - 掲載受理(accept)
+      - 修正するべき小さな問題がある(minor revision)
+      - 修正するべき大きな問題がある(major revision)
+      - 掲載するのに適切ではない(reject)
+    - 論文誌に掲載
+  - 関連分野の論文を読んだり、新たな仮説や追加のデータを得るなどして、新たな論文を書く
+  - 以下ループ
+
+--- 
 ###  [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/)
 #### 泣く子も黙る文献・論文検索の総本山
  -  [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/) (パブメド) は、米国立医学図書館(National Library of Medicine: NLM)が運営している文献情報データベースです。
-    - 1997年6月のサービス開始以来、2019年4月時点で5200件を超える学術誌を対象に、およそ 2,900万件超の文献情報を提供しています。
+    - 1997年6月のサービス開始以来、2022年6月時点で5200件を超える学術誌を対象に、およそ 3,400万件超の文献情報を提供しています。
     - 2015年の一年だけで110万件超 (約3,000件/1日)の論文が追加され、その数はさらに増加しています。
-    - 一日あたりの検索がおよそ250万件、160万人の利用者、830万件の書誌情報閲覧回数と、生命科学分野で最も利用されているウェブサービスの一つです。
+    - 一日あたりの検索がおよそ250万件、160万人の利用者、1,000万件以上の書誌情報閲覧回数と、生命科学分野で最も利用されているウェブサービスの一つです。
+    - [MEDLINE PubMed Production Statistics](https://www.nlm.nih.gov/bsd/medline_pubmed_production_stats.html)
     
 - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/220613_01.jpg)
 
 - [PubMed Central (PMC)](https://www.ncbi.nlm.nih.gov/pmc/)は、書誌情報、アブストラクトに加えて全文が無料（オープンアクセス）で公開されている論文を収録・提供しています。
-    - PMCの件数でおよそ 540 万件、論文誌のウェブサイトで全文が提供されているものも含めると600万件以上の論文で全文を読むことができます。
+    - PMCの件数と論文誌のウェブサイトで全文が提供されているものも含めると800万件以上の論文で全文を読むことができます。
     - 最近では、研究予算配分機関の指定で、成果をオープンアクセス誌で公表することを義務付けていることもあるので、閲覧できる論文が増えてきています。
 - ![PMC](https://raw.githubusercontent.com/hiromasaono/training/master/images/220613_02.jpg)
 
@@ -215,11 +230,10 @@ hono@dbcls.rois.ac.jp
         - URLの末尾に直接入力するとダイレクトにその論文へたどり着けます。 [https://www.ncbi.nlm.nih.gov/pubmed/28850115](https://www.ncbi.nlm.nih.gov/pubmed/28850115)
     1. ちなみに、検索窓に「All[filter]」と入力し検索すると、検索時点におけるPubMedに収載されている全論文数を調べることができます。
     - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/220613_04.jpg)
- 1. 初期設定では、検索結果は、最新のものから順に表示されます。
-    1. 最近、検索語との「Best Match」順に並び替える機能が実装されたため、現在は目立つようにハイライトされています。
-    1. 画面左側には検索用のフィルタが用意されており、論文の種類や全文を購読できるか否か、出版日の指定、対象とする生物種などで絞り込むことができます。
-    1. 画面右側には、検索語にヒットした論文の年度別統計値が棒グラフで示されており、マウスオーバーするとその件数が表示され、そのままクリックするとその年度で絞り込みができます。
- 1. 検索結果一覧に「Free PMC Article」や「Free Article」の表示がある場合は、全文を読むことができるオープンアクセスの論文であることを示しています。
+ 1. 初期設定では、検索結果は、検索語との｢Best match｣順に表示されます。
+    1. ｢Display option｣で表示する順番や表示形式を変更することができます。
+    1. 画面左側には検索用のフィルタが用意されており、論文の種類や全文を購読できるか否か、出版日の指定、論文の種類などで絞り込むことができます。
+ 1. 検索結果一覧に「Free PMC article」や「Free Article」の表示がある場合は、全文を読むことができるオープンアクセスの論文であることを示しています。
     1. 前者はPMCのウェブサイトで全文閲覧ができ、後者は論文誌のウェブサイトで全文閲覧ができます。
     1. PMCへのリンクをクリックすると、PMCが提供する様々な形式で全文を読むことができます。
         1. 論文PDFのダウンロードはもちろん可能です。
@@ -227,20 +241,11 @@ hono@dbcls.rois.ac.jp
 
 ##### 自分の探している論文が見つからないときは検索式を見直す
 
- 1. 検索結果が思ったように得られない、あるいは、数が多すぎて絞りきれない場合は、実際にどのような検索式でPubMed検索が行われているのかを調べて修正することができます。
- 1. 検索結果一覧の右カラムにある「Search details」に入力されているのが実際に検索されている検索語です。
- 1. たとえば、「iPS cells」でキーワード検索してみると、期待する「induced pluripotent stem cells」以外にも、多くの検索語が入力されていることがわかります。
-- ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/190604_PubMed_05.png)
-- ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/190604_PubMed_06.png)
- 1. これは、PubMedが入力語を自動的に適切な単語に変換(Query Translation)しているためで、論文を効率的に検索するためには適切な検索式を与えることが重要です。
- 1. 一番簡単にできることは、複合語の検索の場合に二重引用符(")で囲むことです。
-    1. 一般的に、複合語で検索したほうがミスマッチする論文が減り、目的の論文を探しやすくなります。
- 1. 検索効率化のためのもう一つの手段は、MeSH Termsを有効活用することが挙げられます。
+ 1. 検索結果が思ったように得られない、あるいは、数が多すぎて絞りきれない場合は、MeSH Termsを有効活用してみましょう。
     1. PubMedでは各論文にMeSH Termsが検索用の「タグ」のように付与されています。
-        1. 「iPS cells」の検索語に対して「"induced pluripotent stem cells"[MeSH Terms]」が最初に変換されていることがわかります。このように、MeSH TermsはPubMed検索の中で重要な意味を持っています。
             1. MeSH Terms とは、
-                1. MeSHは、Medical Subject Headings の略で、階層構造を持つ統制された概念・語彙集として主に医学関係の用語を整理したものです。語彙数は約2万9千ほどあり、毎年更新されています。PubMedに収録された全論文に対して専門のスタッフがMeSHタームを用いて注釈付けを行っています。
-
+                1. MeSHは、Medical Subject Headings の略で、階層構造を持つ統制された概念・語彙集として主に医学関係の用語を整理したものです。語彙数は約3万弱ほどあり、毎年更新されています。PubMedに収録された全論文に対して専門のスタッフがMeSHタームを用いて注釈付けを行っています。
+    - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/220613_05.jpg)
 
 ##### PubMedの検索結果を定点観測する
 
@@ -259,7 +264,7 @@ hono@dbcls.rois.ac.jp
 ##### 統合TVでPubMedの使いかたを学ぶ
  - PubMedで論文を検索する [https://doi.org/10.7875/togotv.2012.073](http://doi.org/10.7875/togotv.2012.073)
  - PMC (PubMedCentral) の使い方 2017　 [https://doi.org/10.7875/togotv.2017.122](https://doi.org/10.7875/togotv.2017.122)  
- - 文献情報を用いたサービスを活用する @ AJACS越後 [https://doi.org/10.7875/ajacs.2018.011](https://doi.org/10.7875/ajacs.2018.011)
+ - PubMedをフル活用して論文執筆を効率化する ＠ AJACSオンライン6 [https://doi.org/10.7875/togotv.2021.053](https://doi.org/10.7875/togotv.2021.053)
 ---
 
 ## 生命科学系の文献に頻出する英語表現を高速に検索する
@@ -289,11 +294,7 @@ hono@dbcls.rois.ac.jp
 * 英語で論文や記事を書く際に、よく使われる表現を確認する。
 * 興味のある遺伝子や蛋白質に関する記述としてよく使われる表現を検索する。
 
-#### 今後の開発予定
-
-利用者のフィードバックなどを参考にしながら機能拡張、新規機能の追加を検討します。
-
-#### 参考文献
+#### 統合TVで使いかたを学ぶ
 
 統合TV「[inMeXesを使って文献に頻出する英語表現や関連語を高速に検索する 2018](https://togotv.dbcls.jp/20180126.html)」DOI: 10.7875/togotv.2018.026
 
@@ -321,13 +322,8 @@ PubMed（米国立医学図書館が開発・維持している生物医学文�
 * ある略語が最初に文献に登場した時期を知る。
 * 新たな略語をつくろうとしたとき、その略語がすでに存在しているかどうかを調べる。
 
-#### 今後の開発予定
+#### 統合TVで使いかたを学ぶ
 
-引き続き日本語訳の充実および月一度の定期更新を行います。
-
-#### 参考文献
-
-* Yamamoto, Y., Yamaguchi, A., Bono, H., Takagi T. (2011). Allie: a database and a search service of abbreviations and long forms. Database, 2011:bar03.
 * 統合TV「[Allieを使って略語の正式名称を検索する 2017](https://togotv.dbcls.jp/20171025.html)」DOI: 10.7875/togotv.2017.104
 
 ---
@@ -345,10 +341,18 @@ https://difff.jp/
 * Word文章はもちろんソースコード、 遺伝子リストなどの比較も可能
 * [某問題で活躍](http://www.itmedia.co.jp/news/articles/1403/12/news121.html)
 
-#### 参考文献
+#### 統合TVで使いかたを学ぶ
 * 統合TV「[difff《デュフフ》を使って文章の変更箇所を調べる](https://togotv.dbcls.jp/20130828.html)」DOI: 10.7875/togotv.2013.056
 
+
+## 英語の文章を翻訳する
+### DeepL
+- [DeepL](https://www.deepl.com/ja/blog)は、ドイツのDeepL社が開発した基本利用は無料の機械翻訳サービス
+- コピペするだけで精度の高い翻訳文を得ることができる
+- ときどき、判断が難しい文章をスルーすることがある点は注意
 ---
+
+
 # 【第10回】生命科学分野の様々なデータベース
 ---
 ## NCBI (National Center for Biotechnology Information)
