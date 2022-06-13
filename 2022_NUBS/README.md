@@ -214,7 +214,7 @@ hono@dbcls.rois.ac.jp
     - 個別の論文には固有のIDであるPMID(PubMed ID)がついています。
         - URLの末尾に直接入力するとダイレクトにその論文へたどり着けます。 [https://www.ncbi.nlm.nih.gov/pubmed/28850115](https://www.ncbi.nlm.nih.gov/pubmed/28850115)
     1. ちなみに、検索窓に「All[filter]」と入力し検索すると、検索時点におけるPubMedに収載されている全論文数を調べることができます。
-    - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/190604_PubMed_03.png)
+    - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/220613_04.jpg)
  1. 初期設定では、検索結果は、最新のものから順に表示されます。
     1. 最近、検索語との「Best Match」順に並び替える機能が実装されたため、現在は目立つようにハイライトされています。
     1. 画面左側には検索用のフィルタが用意されており、論文の種類や全文を購読できるか否か、出版日の指定、対象とする生物種などで絞り込むことができます。
