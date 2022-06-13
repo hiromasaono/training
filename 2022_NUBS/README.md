@@ -219,7 +219,7 @@ hono@dbcls.rois.ac.jp
     - 最近では、研究予算配分機関の指定で、成果をオープンアクセス誌で公表することを義務付けていることもあるので、閲覧できる論文が増えてきています。
 - ![PMC](https://raw.githubusercontent.com/hiromasaono/training/master/images/220613_02.jpg)
 
-##### 論文を検索する
+#### 論文を検索する
 
  1. Google検索で「PubMed」と検索します。
     1. トップに出てくる「Home - PubMed - NCBI」[https://www.ncbi.nlm.nih.gov/pubmed/](https://www.ncbi.nlm.nih.gov/pubmed/) をクリックします。あるいは、ウェブブラウザのアドレスバーに直接「pubmed.gov」と入力しても自動でリダイレクトされます。
@@ -243,7 +243,7 @@ hono@dbcls.rois.ac.jp
       1. **Cited by** でその論文を引用した論文を検索
       1. MeSH Termsでその論文のキーワードを知る(後述)
 
-##### 自分の探している論文が見つからないときはMeSH Terms を使ってみる
+#### 自分の探している論文が見つからないときはMeSH Terms を使ってみる
 
  1. 検索結果が思ったように得られない、あるいは、数が多すぎて絞りきれない場合は、MeSH Termsを有効活用してみましょう。
     1. PubMedでは各論文にMeSH Termsが検索用の「#ハッシュタグ」のように付与されています。
@@ -251,8 +251,11 @@ hono@dbcls.rois.ac.jp
                 1. MeSHは、Medical Subject Headings の略で、階層構造を持つ統制された概念・語彙集として主に医学関係の用語を整理したものです。語彙数は約3万弱ほどあり、毎年更新されています。PubMedに収録された全論文に対して専門のスタッフがMeSHタームを用いて注釈付けを行っています。
     - [https://pubmed.ncbi.nlm.nih.gov/21419102/](https://pubmed.ncbi.nlm.nih.gov/21419102/) のMeSH Termsの例
       - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/220613_05.jpg)
+- [Google Scholar](https://scholar.google.com/) を使うのも手
+  - Google Scholarでは、その文献が引用された数を元に検索結果を表示するため、引用先の論文を非常に探しやすい
+  - 統合TV: [研究者のためのGoogle活用術 〜Google Scholarを中心に〜 2017](https://togotv.dbcls.jp/20170605.html)
 
-##### PubMedの検索結果を定点観測する
+#### PubMedの検索結果を定点観測する
 
  1. 自分の興味関心に合った検索語(式)を作成することができたら、あとは、更新があったら通知するようにすると便利です。
  1. それらの自動化はRSS通知による方法とメールによる通知による方法の二種類が用意されています。
@@ -266,7 +269,7 @@ hono@dbcls.rois.ac.jp
         1. メールによる通知では、アラートの配信スケジュールや形式、数などを指定すれば、サインインに使用したメールアドレスにメールが届きます。
  1. キーワード検索以外にも自分の論文が引用された場合に通知するなど、いずれかの方法を目的に応じて使い分けると良いです。
 
-##### 統合TVでPubMedの使いかたを学ぶ
+#### 統合TVでPubMedの使いかたを学ぶ
  - PubMedで論文を検索する [https://doi.org/10.7875/togotv.2012.073](http://doi.org/10.7875/togotv.2012.073)
  - PMC (PubMedCentral) の使い方 2017　 [https://doi.org/10.7875/togotv.2017.122](https://doi.org/10.7875/togotv.2017.122)  
  - PubMedをフル活用して論文執筆を効率化する ＠ AJACSオンライン6 [https://doi.org/10.7875/togotv.2021.053](https://doi.org/10.7875/togotv.2021.053)
