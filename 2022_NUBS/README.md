@@ -367,26 +367,28 @@ https://difff.jp/
 ### [NCBI Databases](https://www.ncbi.nlm.nih.gov/search/?term=)
 - 米国 国立生物工学情報センター (National Center for Biotechnology Information: NCBI)
 - 文献、遺伝子、遺伝学、タンパク質、ゲノム、化合物といったあらゆるデータベースがあります。
-![NCBI top](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_NCBI.png)
+![NCBI top](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220616_01.jpg)
+  - ここでも **all[filter]** を使って全件数を調べられます。
+![NCBI all](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220616_02.jpg)
 - [【NCBI】に関係する統合TV動画](https://togotv.dbcls.jp/result.html?type=manual&page=1&query=NCBI)
 ### NCBIで 遺伝子 を調べる
 - <details><summary>そもそも遺伝子(gene)ってなに?　ゲノム(genome)とDNAの違いは?</summary>
     [遺伝子とゲノム](https://www.ddbj.nig.ac.jp/column/genegenome.html) (国立遺伝学研究所 生命情報・DDBJセンター ウェブサイト)</details>
+
 - ALDH2 について調べる
   - [エタノール(エチルアルコール)](https://pubchem.ncbi.nlm.nih.gov/compound/702) の代謝産物である[アセトアルデヒド](https://pubchem.ncbi.nlm.nih.gov/compound/177)をさらに分解する、アセトアルデヒドデヒドロゲナーゼという酵素をコードしている遺伝子で、ヒトでは12番染色体に存在する
 
 
 1. NCBI のトップページにALDH2と入れてみる
-  - ![NCBI search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_1.png)
+  - ![NCBI search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220617_01.jpg)
 1. 遺伝子について調べたいので、[Gene](https://www.ncbi.nlm.nih.gov/gene/) を選びます
 1. ALDH2 という名前の付いた遺伝子が様々な生物種込みで検索されます
-  - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_3.png)
+  - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220617_02.jpg)
 1. ヒトのALDH2を調べたいので、ALDH2 homo sapiens　としてみるとどう変わるでしょうか
 1. 一番上にでてきた **ALDH2 ID:217** というのがお目当てのもののようなのでクリックします
 1. NCBI Gene データベースにおける **ヒトのALHD2 のページ** [https://www.ncbi.nlm.nih.gov/gene/217](https://www.ncbi.nlm.nih.gov/gene/217) が表示されます
-  - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_4.png)
-  - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_5.png)
-  - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_6.png)
+  - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220617_03.jpg)
+
 
 
 #### 遺伝子のID
@@ -403,13 +405,13 @@ https://difff.jp/
 - A12345**.1**のようにバージョンを表示
   - UTRが延長されたりエラーが修正されて、A12345**.2**のようにアップデートされる
 
-##### RefSeq ID
+##### NCBI Reference Sequences (RefSeq) ID
 - 国際塩基配列データベースに登録された配列を基に transcriptごと(塩基配列ごと)に1個登録→RefSeqデータベース
   - 遺伝子の百科事典のようなもの
 - 選択的スプライシングで生じるvariantには別々のIDが付与されている
 - NM_012345.6 の形式をしている
   - 実用上はAccession番号の一種として扱うことができる
-- ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/190530_ALDH2_7.png)
+- ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220617_04.jpg)
 
 ##### (NCBI) Gene ID, Gene Symbol
 - 遺伝子ごとに付与される番号と遺伝子
