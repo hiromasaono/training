@@ -412,6 +412,11 @@ https://difff.jp/
 - NM_012345.6 の形式をしている
   - 実用上はAccession番号の一種として扱うことができる
 - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220617_04.jpg)
+- FASTA フォーマット
+  - FASTA(ファストエーと発音)フォーマットは、塩基配列やアミノ酸配列を解析するためのテキスト形式を基本としたフォーマットである。
+    - Python, Ruby, Perl などのスクリプト言語と相性がよい。
+    - 以下のように、> で始まる配列の名前、付加情報、改行、配列 から構成される。なお、> のあとにスペースなしで打ち込まれた文字列が配列の名前になり、スペースから改行までが付加情報になる。次の > までが配列とみなされる。 
+- ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220617_05.jpg)
 
 ##### (NCBI) Gene ID, Gene Symbol
 - 遺伝子ごとに付与される番号と遺伝子
