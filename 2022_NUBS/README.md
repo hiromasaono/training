@@ -48,13 +48,13 @@ hono@dbcls.rois.ac.jp
     - Allie
   - 類似したテキストの差分を検索・表示する
     - difff(ﾃﾞｭﾌﾌ)
-- 【第10回】生命科学分野の様々なデータベース
+- [【第10回】生命科学分野の王道データベースNCBIを使って遺伝子について調べる](#第10回生命科学分野の王道データベースncbiを使って遺伝子について調べる)
     - NCBI
   - 遺伝子やゲノム配列を高速に検索する
     - GGRNA
     - GGGenome
     - CRISPRdirect
-- 【第11回】ゲノムブラウザ
+- [【第11回】ゲノムデータベースとゲノムブラウザ](#第11回ゲノムデータベースとゲノムブラウザ)
   - Ensembl Genome Browser
   - UCSC Genome browser   
 - 【第12回】公共データベースから利用可能な遺伝子発現データを解析する
@@ -361,7 +361,7 @@ https://difff.jp/
 ---
 
 
-# 【第10回】生命科学分野の様々なデータベース
+# 【第10回】生命科学分野の王道データベースNCBIを使って遺伝子について調べる
 ---
 ## NCBI (National Center for Biotechnology Information)
 ### [NCBI Databases](https://www.ncbi.nlm.nih.gov/search/?term=)
@@ -553,6 +553,84 @@ CRISPRdirect： https://crispr.dbcls.jp/
 * 統合TV「CRISPRdirectを使ってCRISPR/Cas法のガイドRNA配列を設計する」 DOI: [10.7875/togotv.2014.025](https://doi.org/10.7875/togotv.2014.025)
 
 ---
+# 第11回ゲノムデータベースとゲノムブラウザ
+
+## ゲノムデータベースとは？
+
+- ゲノム配列を始めとした（遺伝）情報を生物種ごとにまとめたデータベース
+- 狭義にはゲノム配列のデータベースをいう
+- 生命科学分野のGoogle map
+
+### さまざまなゲノムデータベース
+
+- [NCBI](https://www.ncbi.nlm.nih.gov/) (National Center for Biotechnology Information)
+    - [**Genome Data Viewer**](https://www.ncbi.nlm.nih.gov/genome/gdv)
+        - 例: *Naked mole-rat* 
+    - [生物種ごと(Browse by Organism)](https://www.ncbi.nlm.nih.gov/genome/browse)
+    - 統合TV: [NCBI GenomeのBrowse by Organism機能とData Viewer機能を使って様々な生物種のゲノムを検索/比較する](https://togotv.dbcls.jp/20211110.html)
+- 各種モデル生物種ごとに色々と
+    - 例: ハエの[FlyBase](https://flybase.org)、ヒト病原体を媒介する無脊椎動物の[VectorBase](https://vectorbase.org/)などなど
+- それ以外の代表的なものは以下のゲノムブラウザのセクションにて
+
+## ゲノムブラウザとは？
+
+- 塩基配列解読したゲノム配列とそこに付与（アノテーション）された情報を見るための仕組み
+- オンライン型とローカル型
+    - オンライン型：ウェブブラウザ上で。サーバにあるゲノムデータベースから必要な情報を取り出してこれる
+        - **UCSC Genome Browser** [`https://genome.ucsc.edu/`](https://genome.ucsc.edu/)
+        - **Ensembl Genome Browser** [`https://www.ensembl.org/`](https://www.ensembl.org/)
+        - NCBI Genome Data Viewer [`https://www.ncbi.nlm.nih.gov/genome/gdv/`](https://www.ncbi.nlm.nih.gov/genome/gdv/)
+    - ローカル型：手元のコンピュータにインストールして使用
+        - Integrative Genomics Viewer(IGV) [`https://software.broadinstitute.org/software/igv/`](https://software.broadinstitute.org/software/igv/)
+
+### 【実習1】UCSC Genome Browser
+
+1. **"UCSC Genome Browser"** でググって、そのトップページを開く（もしくは直接 [`https://genome.ucsc.edu/`](https://genome.ucsc.edu/) にアクセス）。
+2. トップページにはツール名がリストされている。Our toolsの一番上にある **"Genome Browser"** をクリックする。
+3. 最寄りのミラーサイトに接続するか訊いてくるので、指示に従う。
+4. Genome Browserのページが開くので、生物種(**Human**)とアッセンブリ(**Dec.2013/(GRCh38/hg38)**)を選んで、検索語を入力する。ここでは、`ACE2`と入力。
+5. ACE2遺伝子のゲノム領域が表示される。
+6. "Regulation"のENCODE Regulation Trackをクリック。"TF Clusters"を"hide"から"pack"に変更して、"submit"ボタンを押す。
+7. 転写因子結合サイトの情報が追加される。
+8. 転写開始点領域を拡大して表示する、情報をたくさん出るように"pack"を"full"に変更するなど、いろいろ変更して表示してみましょう。
+
+わからなくなったら、図の下に並んでいるボタンの"default tracks"を押すと最初の状態に戻せます。
+
+#### 【復習】 UCSC Genome Browserの統合TV
+
+- 表示できるアノテーションを調べる 2018 [`https://doi.org/10.7875/togotv.2018.124`](https://doi.org/10.7875/togotv.2018.124)
+- 様々な目的の配列を取得する [`https://doi.org/10.7875/togotv.2017.098`](https://doi.org/10.7875/togotv.2017.098)
+
+#### 【発展】 UCSC Genome Browserの統合TV
+
+- 様々な組織、細胞における遺伝子発現データをゲノムブラウザで表示する [`https://doi.org/10.7875/togotv.2017.111`](https://doi.org/10.7875/togotv.2017.111)
+- UCSC Track Hubs を使って大規模な公共データをゲノムブラウザで閲覧する [`https://doi.org/10.7875/togotv.2019.174`](https://doi.org/10.7875/togotv.2019.174)
+- UCSC Table Browserを使って多様なアノテーショントラックからデータを絞り込み閲覧･取得する [`https://doi.org/10.7875/togotv.2021.051`](https://doi.org/10.7875/togotv.2021.051)
+
+### 【応用1】 Ensembl Genome Browser
+
+- Ensembl Genome Browser [`https://www.ensembl.org/`](https://www.ensembl.org/)
+   - 脊椎動物のゲノムを対象としたゲノムブラウザ
+   - 比較ゲノム、進化、配列変異、転写制御などの研究をサポート
+   - Ensembl Genome Browser でも上記のACE2を検索してみよう。
+- EnsemblGenomes [`https://ensemblgenomes.org/`](https://ensemblgenomes.org//)
+   - 脊椎動物以外のゲノムDB
+       - EnsemblPlants （植物）
+       - EnsemblMetazoa （後生動物）
+       - EnsemblProtists (原生生物)
+       - EnsemblFungi （菌類）
+       - EnsemblBacteria （細菌）
+
+##### 【参考】 Ensembl Genome Browserの統合TV
+
+- 配列を取得する [`https://doi.org/10.7875/togotv.2017.046`](https://doi.org/10.7875/togotv.2017.046)
+- 塩基配列のアラインメントを作成し生物種間で比較する 2019 [`https://doi.org/10.7875/togotv.2019.106`](https://doi.org/10.7875/togotv.2019.106)
+- 過去のバージョンのゲノムアノテーションを調べる [`http://doi.org/10.7875/togotv.2017.088`](http://doi.org/10.7875/togotv.2017.088)
+- 遺伝子の場所や周辺情報を調べる [`http://doi.org/10.7875/togotv.2017.082`](http://doi.org/10.7875/togotv.2017.082)
+
+
+---
+
 
 ## 公共データベースから利用可能な遺伝子発現データを解析する
 ### RefEx
