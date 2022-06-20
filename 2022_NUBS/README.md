@@ -559,7 +559,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
 - ゲノム配列を始めとした（遺伝）情報を生物種ごとにまとめたデータベース
 - 狭義にはゲノム配列のデータベースをいう
-- 生命科学分野のGoogle map
+
 
 ### さまざまなゲノムデータベース
 
@@ -570,11 +570,12 @@ CRISPRdirect： https://crispr.dbcls.jp/
     - 統合TV: [NCBI GenomeのBrowse by Organism機能とData Viewer機能を使って様々な生物種のゲノムを検索/比較する](https://togotv.dbcls.jp/20211110.html)
 - 各種モデル生物種ごとに色々と
     - 例: ハエの[FlyBase](https://flybase.org)、ヒト病原体を媒介する無脊椎動物の[VectorBase](https://vectorbase.org/)などなど
-- それ以外の代表的なものは以下のゲノムブラウザのセクションにて
+    - [SARS\-CoV\-2ゲノム配列登録情報 by Japan Covid\-19 Open Data Consortium](https://www.ddbj.nig.ac.jp/sars-cov-2.html)
 
 ## ゲノムブラウザとは？
 
 - 塩基配列解読したゲノム配列とそこに付与（アノテーション）された情報を見るための仕組み
+  - 生命科学分野の[Google map](https://www.google.co.jp/maps/place/%E6%97%A5%E6%9C%AC%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%89%A9%E8%B3%87%E6%BA%90%E7%A7%91%E5%AD%A6%E9%83%A8/@35.3806744,139.4674663,17z/data=!3m1!4b1!4m5!3m4!1s0x601851a101ca6eaf:0x3c594193604e3516!8m2!3d35.38067!4d139.469655?hl=ja)
 - オンライン型とローカル型
     - オンライン型：ウェブブラウザ上で。サーバにあるゲノムデータベースから必要な情報を取り出してこれる
         - **UCSC Genome Browser** [`https://genome.ucsc.edu/`](https://genome.ucsc.edu/)
@@ -582,17 +583,18 @@ CRISPRdirect： https://crispr.dbcls.jp/
         - NCBI Genome Data Viewer [`https://www.ncbi.nlm.nih.gov/genome/gdv/`](https://www.ncbi.nlm.nih.gov/genome/gdv/)
     - ローカル型：手元のコンピュータにインストールして使用
         - Integrative Genomics Viewer(IGV) [`https://software.broadinstitute.org/software/igv/`](https://software.broadinstitute.org/software/igv/)
+        - 統合TV: [Integrative Genomics Viewer IGVを使い倒す 〜基本編〜](https://togotv.dbcls.jp/20140529.html)
 
 ### 【実習1】UCSC Genome Browser
-
-1. **"UCSC Genome Browser"** でググって、そのトップページを開く（もしくは直接 [`https://genome.ucsc.edu/`](https://genome.ucsc.edu/) にアクセス）。
-2. トップページにはツール名がリストされている。Our toolsの一番上にある **"Genome Browser"** をクリックする。
-3. 最寄りのミラーサイトに接続するか訊いてくるので、指示に従う。
-4. Genome Browserのページが開くので、生物種(**Human**)とアッセンブリ(**Dec.2013/(GRCh38/hg38)**)を選んで、検索語を入力する。ここでは、`ACE2`と入力。
-5. ACE2遺伝子のゲノム領域が表示される。
-6. "Regulation"のENCODE Regulation Trackをクリック。"TF Clusters"を"hide"から"pack"に変更して、"submit"ボタンを押す。
-7. 転写因子結合サイトの情報が追加される。
-8. 転写開始点領域を拡大して表示する、情報をたくさん出るように"pack"を"full"に変更するなど、いろいろ変更して表示してみましょう。
+- [UCSC Genome Browser](https://genome-asia.ucsc.edu/)
+  - 米国カリフォルニア大学サンタクルーズ校(UCSC)が開発、維持しているゲノムブラウザ、ゲノムアノテーション閲覧システム
+1. トップページにはツール名がリストされている。Our toolsの一番上にある **"Genome Browser"** をクリックする。
+1. 最寄りのミラーサイトに接続するか訊いてくるので、指示に従う。
+1. Genome Browserのページが開くので、生物種(**Human**)とアッセンブリ(**Dec.2013/(GRCh38/hg38)**)を選んで、検索語を入力する。ここでは、`ACE2`と入力。
+1. ACE2遺伝子のゲノム領域が表示される。
+1. "Regulation"のENCODE Regulation Trackをクリック。"TF Clusters"を"hide"から"pack"に変更して、"submit"ボタンを押す。
+1. 転写因子結合サイトの情報が追加される。
+1. 転写開始点領域を拡大して表示する、情報をたくさん出るように"pack"を"full"に変更するなど、いろいろ変更して表示してみましょう。
 
 わからなくなったら、図の下に並んでいるボタンの"default tracks"を押すと最初の状態に戻せます。
 
@@ -607,12 +609,14 @@ CRISPRdirect： https://crispr.dbcls.jp/
 - UCSC Track Hubs を使って大規模な公共データをゲノムブラウザで閲覧する [`https://doi.org/10.7875/togotv.2019.174`](https://doi.org/10.7875/togotv.2019.174)
 - UCSC Table Browserを使って多様なアノテーショントラックからデータを絞り込み閲覧･取得する [`https://doi.org/10.7875/togotv.2021.051`](https://doi.org/10.7875/togotv.2021.051)
 
-### 【応用1】 Ensembl Genome Browser
+### 【実習2】 Ensembl Genome Browser
 
-- Ensembl Genome Browser [`https://www.ensembl.org/`](https://www.ensembl.org/)
+- [Ensembl Genome Browser](http://asia.ensembl.org/index.html)
+   - European Bioinformatics Institute (EMBL-EBI)(欧州バイオインフォマティクス研究所) で開発、維持されているゲノムブラウザ、ゲノムアノテーション閲覧システム
+   - あんさんぶる、と読みます。
    - 脊椎動物のゲノムを対象としたゲノムブラウザ
    - 比較ゲノム、進化、配列変異、転写制御などの研究をサポート
-   - Ensembl Genome Browser でも上記のACE2を検索してみよう。
+   - Ensembl Genome Browser でも上記のACE2を検索してみましょう。
 - EnsemblGenomes [`https://ensemblgenomes.org/`](https://ensemblgenomes.org//)
    - 脊椎動物以外のゲノムDB
        - EnsemblPlants （植物）
@@ -620,8 +624,15 @@ CRISPRdirect： https://crispr.dbcls.jp/
        - EnsemblProtists (原生生物)
        - EnsemblFungi （菌類）
        - EnsemblBacteria （細菌）
+- [Ensembl BioMart](http://asia.ensembl.org/biomart/martview/)
+  - Ensembl で提供されているゲノムアノテーションを網羅的に取得したり、様々な条件で絞り込んで取得することができます。
+  - 遺伝子機能情報だけでなく、塩基配列を取得したり、オーソログ情報を活用して生物種間のID対応表を作成することができるなど多くの場面で活用することができます。
+  - 検索結果と同時に発行されるXMLファイルを使えば、ウェブページを経由せずプログラマティックにデータを取得することもできます。
+  - 統合TV: [Ensembl BioMart を使って必要な遺伝子機能情報、塩基配列、ID対応表を網羅的に取得する](https://togotv.dbcls.jp/20220324.html)
 
-##### 【参考】 Ensembl Genome Browserの統合TV
+
+
+#### 【参考】 Ensembl Genome Browserの統合TV
 
 - 配列を取得する [`https://doi.org/10.7875/togotv.2017.046`](https://doi.org/10.7875/togotv.2017.046)
 - 塩基配列のアラインメントを作成し生物種間で比較する 2019 [`https://doi.org/10.7875/togotv.2019.106`](https://doi.org/10.7875/togotv.2019.106)
