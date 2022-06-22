@@ -367,9 +367,9 @@ https://difff.jp/
 ### [NCBI Databases](https://www.ncbi.nlm.nih.gov/search/?term=)
 - 米国 国立生物工学情報センター (National Center for Biotechnology Information: NCBI)
 - 文献、遺伝子、遺伝学、タンパク質、ゲノム、化合物といったあらゆるデータベースがあります。
-![NCBI top](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220616_01.jpg)
+![NCBI top](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220621_1.jpg)
   - ここでも **all[filter]** を使って全件数を調べられます。
-![NCBI all](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220616_02.jpg)
+![NCBI all](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220621_2.jpg)
 - [【NCBI】に関係する統合TV動画](https://togotv.dbcls.jp/result.html?type=manual&page=1&query=NCBI)
 ### NCBIで 遺伝子 を調べる
 - <details><summary>そもそも遺伝子(gene)ってなに?　ゲノム(genome)とDNAの違いは?</summary>
