@@ -588,12 +588,12 @@ CRISPRdirect： https://crispr.dbcls.jp/
 ### 【実習1】UCSC Genome Browser
 - [UCSC Genome Browser](https://genome-asia.ucsc.edu/)
   - 米国カリフォルニア大学サンタクルーズ校(UCSC)が開発、維持しているゲノムブラウザ、ゲノムアノテーション閲覧システム
-1. トップページにはツール名がリストされている。Our toolsの一番上にある **"Genome Browser"** をクリックする。
-1. 最寄りのミラーサイトに接続するか訊いてくるので、指示に従う。
-1. Genome Browserのページが開くので、生物種(**Human**)とアッセンブリ(**Dec.2013/(GRCh38/hg38)**)を選んで、検索語を入力する。ここでは、`ACE2`と入力。
-1. ACE2遺伝子のゲノム領域が表示される。
-1. "Regulation"のENCODE Regulation Trackをクリック。"TF Clusters"を"hide"から"pack"に変更して、"submit"ボタンを押す。
-1. 転写因子結合サイトの情報が追加される。
+1. トップページにはツール名がリストされている。Our toolsの一番上にある **"Genome Browser"** をクリックします。
+1. 最寄りのミラーサイトに接続するか訊いてくるので、指示に従います。
+1. Genome Browserのページが開くので、生物種(**Human**)とアッセンブリ(**Dec.2013/(GRCh38/hg38)**)を選んで、検索語を入力する。ここでは、`ALDH2`と入力します。
+1. ALDH2遺伝子のゲノム領域が表示されます。
+1. "Regulation"のENCODE Regulation Trackをクリック。"TF Clusters"を"hide"から"pack"に変更して、"submit"ボタンを押します。
+1. 転写因子結合サイトの情報が追加されます。
 1. 転写開始点領域を拡大して表示する、情報をたくさん出るように"pack"を"full"に変更するなど、いろいろ変更して表示してみましょう。
 
 わからなくなったら、図の下に並んでいるボタンの"default tracks"を押すと最初の状態に戻せます。
@@ -616,7 +616,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
    - あんさんぶる、と読みます。
    - 脊椎動物のゲノムを対象としたゲノムブラウザ
    - 比較ゲノム、進化、配列変異、転写制御などの研究をサポート
-   - Ensembl Genome Browser でも上記のACE2を検索してみましょう。
+   - Ensembl Genome Browser でも上記のALDH2を検索してみましょう。
 - EnsemblGenomes [`https://ensemblgenomes.org/`](https://ensemblgenomes.org//)
    - 脊椎動物以外のゲノムDB
        - EnsemblPlants （植物）
@@ -629,7 +629,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
   - 遺伝子機能情報だけでなく、塩基配列を取得したり、オーソログ情報を活用して生物種間のID対応表を作成することができるなど多くの場面で活用することができます。
   - 検索結果と同時に発行されるXMLファイルを使えば、ウェブページを経由せずプログラマティックにデータを取得することもできます。
   - 統合TV: [Ensembl BioMart を使って必要な遺伝子機能情報、塩基配列、ID対応表を網羅的に取得する](https://togotv.dbcls.jp/20220324.html)
-
+    - 動画を見ながら、同じようにできるかやってみましょう。
 
 
 #### 【参考】 Ensembl Genome Browserの統合TV
@@ -639,7 +639,12 @@ CRISPRdirect： https://crispr.dbcls.jp/
 - 過去のバージョンのゲノムアノテーションを調べる [`http://doi.org/10.7875/togotv.2017.088`](http://doi.org/10.7875/togotv.2017.088)
 - 遺伝子の場所や周辺情報を調べる [`http://doi.org/10.7875/togotv.2017.082`](http://doi.org/10.7875/togotv.2017.082)
 
-
+###　ID変換ツール
+  - [TogoID](https://togoid.dbcls.jp/)
+    - 直感的なインターフェースにより生命科学系データベース(DB)間のつながりを探索的に確認しながらID変換を行うことができるウェブアプリケーションです。
+    - 遺伝子、タンパク質、化合物、疾患、遺伝子バリアントといった幅広いカテゴリーに渡る65種(2022年5月時点)のIDを対象としています。
+    - 変換されたIDをすぐに他のサービスで利用できるようクリップボードにコピーする機能があるほか、変換されたIDリスト、IDに対応するURL、そして変換経路のすべてのIDを含むデータをCSV形式でダウンロードすることができます。
+    - 統合TV: [TogoIDを使って生命科学分野のデータベースのID間の対応関係を検索し変換する](https://togotv.dbcls.jp/20210910.html)
 ---
 
 
