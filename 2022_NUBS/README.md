@@ -596,9 +596,9 @@ CRISPRdirect： https://crispr.dbcls.jp/
 - オンライン型とローカル型
   - オンライン型：ウェブブラウザ上でサーバにあるゲノムデータベースから必要な情報を取り出してこれる
   	- UCSC Genome Browser https://genome.ucsc.edu/
-      - 【統合TV】[「UCSC」](https://togotv.dbcls.jp/tags.html?tag=UCSC)のタグ(講習含む計27本の動画)
+      - 【統合TV】[「UCSC」]([https://togotv.dbcls.jp/tags.html?tag=UCSC](https://togotv.dbcls.jp/result.html?type=manual&page=1&query=UCSC))　　51本
   	- Ensembl Genome Browser https://www.ensembl.org/
-      - 【統合TV】[「Ensembl」](https://togotv.dbcls.jp/tags.html?tag=Ensembl)のタグ(講習含む計25本の動画)
+      - 【統合TV】[「Ensembl」]([https://togotv.dbcls.jp/tags.html?tag=Ensembl](https://togotv.dbcls.jp/result.html?type=manual&page=1&query=Ensembl)) 46本
   	- NCBI Genome Data Viewer https://www.ncbi.nlm.nih.gov/genome/gdv/
   	- Togogenome http://togogenome.org/
       - 【統合TV】[TogoGenome を使って生物種とゲノムに関する多種多様な情報を統合的に検索する](https://togotv.dbcls.jp/20180726.html)
