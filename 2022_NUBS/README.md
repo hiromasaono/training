@@ -57,10 +57,8 @@ hono@dbcls.rois.ac.jp
 - [【第11回】ゲノムデータベースとゲノムブラウザ](#第11回ゲノムデータベースとゲノムブラウザ)
   - Ensembl Genome Browser
   - UCSC Genome browser   
-- 【第12回】公共データベースから利用可能な遺伝子発現データを解析する
-    - RefEx
-      - 【実習】RefExを使って、組織特異的遺伝子を検索する
-    - DAVID
+- [【第12回】公共データベースから利用可能な遺伝子発現データを解析する](#第12回公共データベースから利用可能な遺伝子発現データを解析する)
+  - DAVID
       - 【実習】DAVIDを用いて、遺伝子発現データの結果を生物学的に解釈する
 
 ----
@@ -689,14 +687,14 @@ CRISPRdirect： https://crispr.dbcls.jp/
 ---
 
 
-## 公共データベースから利用可能な遺伝子発現データを解析する
-### 数十～数千の遺伝子群の生物学的解釈
+# 【第12回】公共データベースから利用可能な遺伝子発現データを解析する
+## 数十～数千の遺伝子群の生物学的解釈
 - マイクロアレイやNGS実験を行うと大量の発現変動遺伝子 (Differentially Expressed Genes: DEGs)が得られます｡
 - 一般的な遺伝子発現解析の第一歩は､実験条件によって得られた数十～数千のDEGsが生物学的にどういう意味を持つかを考えることです。
   - ![Gyazo](http://i.gyazo.com/52cb4c40b1313a52f8ded6923bdd8ef0.png)
 - 今回は、その方法の一つとして、[Gene Ontology (GO)](http://array.cell-innovator.com/?p=1085) の用語を使って､マイクロアレイ実験で得られたDEGsのもつ機能に、どのような特徴があるのか(転写因子活性に関する遺伝子が多いのか、細胞周期に関する遺伝子が多いのか?､ Wntパスウェイに関する遺伝子が多いのか?, など)を解析することで、生物学的解釈をしてみましょう。  
 
-### [DAVID: The Database for Annotation, Visualization and Integrated Discovery](http://david.abcc.ncifcrf.gov/)
+## [DAVID: The Database for Annotation, Visualization and Integrated Discovery](http://david.abcc.ncifcrf.gov/)
 - アメリカ国立アレルギー・感染症研究所が開発･運用
 - 原著論文 [PMID: 19131956](http://www.ncbi.nlm.nih.gov/pubmed/19131956)
 - 遺伝子リストのコピペで簡単にエンリッチメント解析 ( GO､KEGG など )
