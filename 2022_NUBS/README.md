@@ -608,27 +608,34 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
 ---
 
-### 【実習1】UCSC Genome Browser
-- [UCSC Genome Browser](https://genome-asia.ucsc.edu/)
-  - 米国カリフォルニア大学サンタクルーズ校(UCSC)が開発、維持しているゲノムブラウザ、ゲノムアノテーション閲覧システム
-1. トップページにはツール名がリストされている。Our toolsの一番上にある **"Genome Browser"** をクリックします。
-1. 最寄りのミラーサイトに接続するか訊いてくるので、指示に従います。
-1. Genome Browserのページが開くので、生物種(**Human**)とアッセンブリ(**Dec.2013/(GRCh38/hg38)**)を選んで、検索語を入力する。ここでは、`ALDH2`と入力します。
-1. ALDH2遺伝子のゲノム領域が表示されます。
-1. "Regulation"のENCODE Regulation Trackをクリック。"TF Clusters"を"hide"から"pack"に変更して、"submit"ボタンを押します。
-1. 転写因子結合サイトの情報が追加されます。
-1. 転写開始点領域を拡大して表示する、情報をたくさん出るように"pack"を"full"に変更するなど、いろいろ変更して表示してみましょう。
+### 【実習1】UCSC Genome Browser　を使って遺伝子発現データを閲覧してみる
+- 【統合TV】: [UCSC Genome Browser を使って様々な組織、細胞における遺伝子発現データをゲノムブラウザで表示する](https://togotv.dbcls.jp/ja/20171116.html)
+- 【統合TV】: [GTEx Portalを使ってヒトの各組織での遺伝子発現量や影響するeQTLを調べる](https://togotv.dbcls.jp/20180101.html)
+  - [Genotype-Tissue Expression (GTEx)](https://www.gtexportal.org/home/) プロジェクトは米国ブロード研究所(Broad Institute)をはじめとする南北米および欧州の複数の研究機関からなる国際コンソーシアムによる、ヒトの体組織ごと、遺伝子型ごとの遺伝子発現を網羅的に調べたプロジェクトです。 そのポータルサイトであるGTEx Portalでは、GTExプロジェクトで収集・解析された遺伝子の発現量や関連するeQTL(expression Quantitative Trait Locus: 遺伝子の発現量に影響を与える座位)などのデータがまとめられています。
 
-わからなくなったら、図の下に並んでいるボタンの"default tracks"を押すと最初の状態に戻せます。
+1. 「[UCSC Genome Browser](https://genome.ucsc.edu/)」で、トップページを開きます
+1. トップページにはツール名がリストされているので一番上にある「Genome Browser」をクリックします
+![UCSCトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_04.png)
+1. 最寄りのミラーサイトに接続します
+![UCSC mirror](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_05.png)
+1. Genome Browserのページが開くので、生物種「Human」と最新のゲノムアセンブリ「Dec. 2013 (GRCh38/hg38)」が選択されていることを確認して、検索語を入力する。ここでは、`ALDH2`と入力します。
+![GenomeBrowserトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_06.png)
+1. ALDH2遺伝子のゲノム領域が表示されます。
+![GenomeBrowserトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220627_01.jpg)
+1. 画面上の"zoom out"で"3x"を押してみると、少し引きの画像で見られます。
+1.　画面中央のカラフルな棒グラフがGTExで測定された遺伝子発現データです。グラフをクリックすると詳細が見られます。 
+![GenomeBrowserトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220627_02.jpg)
+1. 下の方にスクロールしていくと、"Track"と呼ばれる、ゲノムブラウザで表示できる遺伝子機能情報(アノテーション)が分野別に整理されています。
+1. "Expression"の"GTEx RNA-Seq Coverage"の"hide"を"dense"に変えて、"refresh"を押します。
+1.　続いて、"full"に変えてみると表示データはどう変わるでしょうか。
+1.　わからなくなったら、図の下に並んでいるボタンの"default tracks"を押すと最初の状態に戻せます。
+ 
 
 #### 【復習】 UCSC Genome Browserの統合TV
-
 - 表示できるアノテーションを調べる 2018 [`https://doi.org/10.7875/togotv.2018.124`](https://doi.org/10.7875/togotv.2018.124)
 - 様々な目的の配列を取得する [`https://doi.org/10.7875/togotv.2017.098`](https://doi.org/10.7875/togotv.2017.098)
 
 #### 【発展】 UCSC Genome Browserの統合TV
-
-- 様々な組織、細胞における遺伝子発現データをゲノムブラウザで表示する [`https://doi.org/10.7875/togotv.2017.111`](https://doi.org/10.7875/togotv.2017.111)
 - UCSC Track Hubs を使って大規模な公共データをゲノムブラウザで閲覧する [`https://doi.org/10.7875/togotv.2019.174`](https://doi.org/10.7875/togotv.2019.174)
 - UCSC Table Browserを使って多様なアノテーショントラックからデータを絞り込み閲覧･取得する [`https://doi.org/10.7875/togotv.2021.051`](https://doi.org/10.7875/togotv.2021.051)
 
