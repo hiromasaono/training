@@ -558,6 +558,12 @@ CRISPRdirect： https://crispr.dbcls.jp/
 ### ゲノムデータベースとは？
 - ゲノム配列をはじめとした（遺伝）情報を生物種ごとにまとめたデータベース
 - 狭義にはゲノム配列のデータベースを指す
+### リファレンス(参照)ゲノム配列
+- リファレンス配列と個々の生物のゲノム配列を比較する
+- シーケンシングされたリード配列をリファレンス配列にマッピングすることで発現量を定量する
+- 各ゲノムのいわゆる「バージョン」は、アセンブリやビルドと呼ばれる
+	- 最新のヒトゲノムは、GRCh38 (for Genome Research Consortium human build 38)
+		- Hg38 (for Human genome build 38)と呼ばれる場合もある
 
 #### さまざまなゲノムデータベース
 - [NCBI](https://www.ncbi.nlm.nih.gov/) (National Center for Biotechnology Information) の [**Genome**](https://www.ncbi.nlm.nih.gov/genome/)
