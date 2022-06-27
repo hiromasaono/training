@@ -628,7 +628,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
 1. 下の方にスクロールしていくと、"Track"と呼ばれる、ゲノムブラウザで表示できる遺伝子機能情報(アノテーション)が分野別に整理されています。
 1. "Expression"の"GTEx RNA-Seq Coverage"の"hide"を"dense"に変えて、"refresh"を押します。
 1. 続いて、"full"に変えてみると表示データはどう変わるでしょうか。
-1.　わからなくなったら、図の下に並んでいるボタンの"default tracks"を押すと最初の状態に戻せます。
+2. わからなくなったら、図の下に並んでいるボタンの"default tracks"を押すと最初の状態に戻せます。
  
 
 #### 【復習】 UCSC Genome Browserの統合TV
@@ -669,7 +669,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
 - 過去のバージョンのゲノムアノテーションを調べる [`http://doi.org/10.7875/togotv.2017.088`](http://doi.org/10.7875/togotv.2017.088)
 - 遺伝子の場所や周辺情報を調べる [`http://doi.org/10.7875/togotv.2017.082`](http://doi.org/10.7875/togotv.2017.082)
 
-###　ID変換ツール
+### ID変換ツール
   - [TogoID](https://togoid.dbcls.jp/)
     - 直感的なインターフェースにより生命科学系データベース(DB)間のつながりを探索的に確認しながらID変換を行うことができるウェブアプリケーションです。
     - 遺伝子、タンパク質、化合物、疾患、遺伝子バリアントといった幅広いカテゴリーに渡る65種(2022年5月時点)のIDを対象としています。
