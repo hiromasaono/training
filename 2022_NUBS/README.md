@@ -627,7 +627,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
 ![GenomeBrowserトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220627_02.jpg)
 1. 下の方にスクロールしていくと、"Track"と呼ばれる、ゲノムブラウザで表示できる遺伝子機能情報(アノテーション)が分野別に整理されています。
 1. "Expression"の"GTEx RNA-Seq Coverage"の"hide"を"dense"に変えて、"refresh"を押します。
-1.　続いて、"full"に変えてみると表示データはどう変わるでしょうか。
+1. 続いて、"full"に変えてみると表示データはどう変わるでしょうか。
 1.　わからなくなったら、図の下に並んでいるボタンの"default tracks"を押すと最初の状態に戻せます。
  
 
