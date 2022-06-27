@@ -567,7 +567,9 @@ CRISPRdirect： https://crispr.dbcls.jp/
 - 各ゲノムのいわゆる「バージョン」は、アセンブリやビルドと呼ばれる
 	- 最新のヒトゲノムは、GRCh38 (for Genome Research Consortium human build 38)
 		- Hg38 (for Human genome build 38)と呼ばれる場合もある
-
+- 国際基準ゲノム配列の日本人版を作成する取り組みが東北大学東北メディカル・メガバンク機構([ToMMo](https://www.megabank.tohoku.ac.jp/))で行われている
+	- [日本人多層オミックス参照パネル\(jMorp\)](https://jmorp.megabank.tohoku.ac.jp/)で閲覧できる
+ 	
 #### さまざまなゲノムデータベース
 - [NCBI](https://www.ncbi.nlm.nih.gov/) (National Center for Biotechnology Information) の [**Genome**](https://www.ncbi.nlm.nih.gov/genome/)
   - [生物種ごと(Browse by Organism)](https://www.ncbi.nlm.nih.gov/genome/browse#!/overview/)
