@@ -554,36 +554,59 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
 ---
 # 第11回ゲノムデータベースとゲノムブラウザ
+## ゲノムデータベース・ゲノムブラウザ
+### ゲノムデータベースとは？
+- ゲノム配列をはじめとした（遺伝）情報を生物種ごとにまとめたデータベース
+- 狭義にはゲノム配列のデータベースを指す
 
-## ゲノムデータベースとは？
-
-- ゲノム配列を始めとした（遺伝）情報を生物種ごとにまとめたデータベース
-- 狭義にはゲノム配列のデータベースをいう
-
-
-### さまざまなゲノムデータベース
-
-- [NCBI](https://www.ncbi.nlm.nih.gov/) (National Center for Biotechnology Information)
-    - [**Genome Data Viewer**](https://www.ncbi.nlm.nih.gov/genome/gdv)
-        - 例: *Naked mole-rat* 
-    - [生物種ごと(Browse by Organism)](https://www.ncbi.nlm.nih.gov/genome/browse)
+#### さまざまなゲノムデータベース
+- [NCBI](https://www.ncbi.nlm.nih.gov/) (National Center for Biotechnology Information) の [**Genome**](https://www.ncbi.nlm.nih.gov/genome/)
+  - [生物種ごと(Browse by Organism)](https://www.ncbi.nlm.nih.gov/genome/browse#!/overview/)
     - 統合TV: [NCBI GenomeのBrowse by Organism機能とData Viewer機能を使って様々な生物種のゲノムを検索/比較する](https://togotv.dbcls.jp/20211110.html)
-- 各種モデル生物種ごとに色々と
-    - 例: ハエの[FlyBase](https://flybase.org)、ヒト病原体を媒介する無脊椎動物の[VectorBase](https://vectorbase.org/)などなど
-    - [SARS\-CoV\-2ゲノム配列登録情報 by Japan Covid\-19 Open Data Consortium](https://www.ddbj.nig.ac.jp/sars-cov-2.html)
+- [GOLD: Genomes Online Database](https://gold.jgi.doe.gov/index)
+	- ゲノム塩基配列解読プロジェクトを集めたデータベース
+- [PlantGDB](http://www.plantgdb.org)
+  - [Plant Genome Database Japan(PGDB)](http://pgdbj.jp/)
+- [MicrobeDB.jp](http://microbedb.jp/)
+  - 微生物ゲノム   
 
-## ゲノムブラウザとは？
+#### コミュニティによるゲノムデータベース
+
+- Mouse Genome Informatics (MGI) - マウス
+	- http://www.informatics.jax.org/
+- Rat Genome Database (RGD) - ラット
+	- https://rgd.mcw.edu/
+- WormBase - 線虫
+	- https://www.wormbase.org/
+- FlyBase - ショウジョウバエ
+	- http://flybase.org/
+- The Arabidopsis Information Resource (TAIR) - シロイヌナズナ
+	- https://www.arabidopsis.org/
+- Saccharomyces Genome Database (SGD) - 酵母
+	- https://www.yeastgenome.org/
+- CyanoBase - シアノバクテリア（光合成細菌）
+	- http://genome.microbedb.jp/cyanobase/
+- 参考: [SARS\-CoV\-2ゲノム配列登録情報 by Japan Covid\-19 Open Data Consortium](https://www.ddbj.nig.ac.jp/sars-cov-2.html)
+
+---
+### ゲノムブラウザとは？
 
 - 塩基配列解読したゲノム配列とそこに付与（アノテーション）された情報を見るための仕組み
-  - 生命科学分野の[Google map](https://www.google.co.jp/maps/place/%E6%97%A5%E6%9C%AC%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%89%A9%E8%B3%87%E6%BA%90%E7%A7%91%E5%AD%A6%E9%83%A8/@35.3806744,139.4674663,17z/data=!3m1!4b1!4m5!3m4!1s0x601851a101ca6eaf:0x3c594193604e3516!8m2!3d35.38067!4d139.469655?hl=ja)
+  - 生命科学分野の[Google map](https://www.google.co.jp/maps/place/%E6%97%A5%E6%9C%AC%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%89%A9%E8%B3%87%E6%BA%90%E7%A7%91%E5%AD%A6%E9%83%A8/@35.3806744,139.4674663,17z/data=!3m1!4b1!4m5!3m4!1s0x601851a101ca6eaf:0x3c594193604e3516!8m2!3d35.38067!4d139.469655?hl=ja)のようなイメージ
 - オンライン型とローカル型
-    - オンライン型：ウェブブラウザ上で。サーバにあるゲノムデータベースから必要な情報を取り出してこれる
-        - **UCSC Genome Browser** [`https://genome.ucsc.edu/`](https://genome.ucsc.edu/)
-        - **Ensembl Genome Browser** [`https://www.ensembl.org/`](https://www.ensembl.org/)
-        - NCBI Genome Data Viewer [`https://www.ncbi.nlm.nih.gov/genome/gdv/`](https://www.ncbi.nlm.nih.gov/genome/gdv/)
-    - ローカル型：手元のコンピュータにインストールして使用
-        - Integrative Genomics Viewer(IGV) [`https://software.broadinstitute.org/software/igv/`](https://software.broadinstitute.org/software/igv/)
-        - 統合TV: [Integrative Genomics Viewer IGVを使い倒す 〜基本編〜](https://togotv.dbcls.jp/20140529.html)
+  - オンライン型：ウェブブラウザ上でサーバにあるゲノムデータベースから必要な情報を取り出してこれる
+  	- UCSC Genome Browser https://genome.ucsc.edu/
+      - 【統合TV】[「UCSC」](https://togotv.dbcls.jp/tags.html?tag=UCSC)のタグ(講習含む計27本の動画)
+  	- Ensembl Genome Browser https://www.ensembl.org/
+      - 【統合TV】[「Ensembl」](https://togotv.dbcls.jp/tags.html?tag=Ensembl)のタグ(講習含む計25本の動画)
+  	- NCBI Genome Data Viewer https://www.ncbi.nlm.nih.gov/genome/gdv/
+  	- Togogenome http://togogenome.org/
+      - 【統合TV】[TogoGenome を使って生物種とゲノムに関する多種多様な情報を統合的に検索する](https://togotv.dbcls.jp/20180726.html)
+  - ローカル型：手元のコンピュータにインストールして使用
+  	- Integrative Genomics Viewer(IGV) https://software.broadinstitute.org/software/igv/
+      - 【統合TV】[Integrative Genomics Viewer IGVを使い倒す 〜基本編〜](https://togotv.dbcls.jp/20140529.html)
+
+---
 
 ### 【実習1】UCSC Genome Browser
 - [UCSC Genome Browser](https://genome-asia.ucsc.edu/)
