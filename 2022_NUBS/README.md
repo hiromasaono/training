@@ -707,12 +707,12 @@ CRISPRdirect： https://crispr.dbcls.jp/
   - ![Gyazo](http://i.gyazo.com/52cb4c40b1313a52f8ded6923bdd8ef0.png)
 - [Gene Ontology(GO)](http://geneontology.org/)
   - 遺伝子の属性を記述する語彙を統一化(GO term)し、種を越えた遺伝子関連情報を記述し構造化することを目的とした国際プロジェクトであり、その成果のこと
-  - すべてのGO termは、**biological process（生物学的プロセス）**、**cellular component（細胞の構成要素）**、**molecular function（分子機能）**の3カテゴリーのいずれかに属し、GO term同士の上下関係が一義に決まっている(のでコンピュータで処理しやすい)
-  - molecular function＞binding＞protein binding＞receptor binding＞以下より具体的に
+  - すべてのGO termは、**biological process（生物学的プロセス）**、**cellular component（細胞の構成要素）**、**molecular function（分子機能）** の3カテゴリーのいずれかに属し、GO term同士の上下関係が一義に決まっている(のでコンピュータで処理しやすい)
+    - molecular function＞binding＞protein binding＞receptor binding＞以下、より具体的になる
   - [ALDH2の場合の例](https://www.ncbi.nlm.nih.gov/gene/217#gene-ontology)
   - ![ALDH2 GO](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_1.jpg)
 - GO term のエンリッチメント解析
-  - DEGsにそれぞれ付与されたGO termに、どのような偏りや特徴があるのかを解析することで、その実験条件のもたらす影響を生物学的に解釈をすることができる
+  - 数十〜数千個のDEGsにそれぞれ付与されたGO termに、どのような偏りや特徴があるのかを解析することで、その実験条件のもたらす影響を生物学的に解釈をすることができる
     - 転写因子活性に関する遺伝子が多いのか、細胞周期に関する遺伝子が多いのか､ Wntパスウェイに関する遺伝子が多いのか、など) 
 
  
@@ -740,33 +740,33 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
 1. [DAVID](http://david.abcc.ncifcrf.gov/)にアクセスし、上部メニューの「Start Analysis」をクリックします。
 
-- ![Gyazo](http://i.gyazo.com/f976f39aeb060a96a790f0e5b281aabe.png)
+  - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_8.jpg)
 
 2. 画面左側バーで、probe IDリストをコピペ or ファイルを指定します。
 3. リストのIDの種類タイプを選択します。 … 今回は、「AFFY_ID」と「Gene List」
 4. Submit List をクリックするとリストが読み込まれます。
 
-- ![Gyazo](http://i.gyazo.com/e8275cf9dbb203b3d8577307b462c783.png)
+  - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_2.jpg)
 
 5. アップロードしたリストは、左側バーの「List Manager」で「Uploaded List_1」として保存されています。削除やrenameもできます。
 
-- ![Gyazo](http://i.gyazo.com/e8270d82a68decba0249daa49914fba9.png)
+  - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_3.jpg)
 
 6. 解析を続けます。真ん中の「Functional Annotation Tool」をクリックします。
 7. 「Gene Ontology」をクリックすると、Gene Ontologyを用いた解析の細かいメニューが表示されます。
 
-- ![Gyazo](http://i.gyazo.com/38905ceb16d6b702059667e4fb404531.png)
+  - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_4.jpg)
 
 8. 今回は、GOTERM_BP_FAT (BP = Biological Process)に注目します。その右の「Chart」をクリックすると結果がポップアップされます。
 
- - ![Gyazo](http://i.gyazo.com/78301700c3d952957dd599bbb83c785f.png)
+  - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_5.jpg)
 
 9. タイトル行をクリックするとソートできます。  
 10. さらに、GOTERM_CC_FAT や GOTERM_MF_FAT を見て、上位にリストされたGOTermにどのような共通点・相違点があるでしょうか。
  - CC = Cellular Component
- - ![Gyazo](http://i.gyazo.com/117720204dfb06a3f3605f4aedec2dba.png)
+  - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_6.jpg)
  - MF = Molecular Function  
- - ![Gyazo](http://i.gyazo.com/6feb8e34beab45769e2d3e66c3c5d570.png)
+  - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_7.jpg)
 11. Pathways > KEGG_PATHWAY や Tissue Expression > UP_TISSUE なども見てみましょう。
 
 12. DAVIDを使って皆さんが得た結果を解析・考察してみましょう。
