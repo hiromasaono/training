@@ -757,24 +757,30 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
   - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_4.jpg)
 
-8. 今回は、GOTERM_BP_FAT (BP = Biological Process)に注目します。その右の「Chart」をクリックすると結果がポップアップされます。
+8. 今回は、GOTERM_BP_DIRECT (BP = Biological Process)に注目します。その右の「Chart」をクリックすると結果がポップアップされます。
 
   - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_5.jpg)
 
 9. タイトル行をクリックするとソートできます。  
-10. さらに、GOTERM_CC_FAT や GOTERM_MF_FAT を見て、上位にリストされたGOTermにどのような共通点・相違点があるでしょうか。
+  - RT = Related Terms
+  - Genes = そのGO termが付与されていたリスト中の遺伝子
+  - Count = そのGO termが付与されていたリスト中の遺伝子の数
+  - % = そのGO termが付与されていたリスト中の遺伝子の割合
+  - P-value = リスト中の遺伝子がそのGO termに偶然エンリッチする可能性を示す尺度
+  - Benajamini = P-value の多重検定補正された値
+10. さらに、GOTERM_CC_DIRECT や GOTERM_MF_DIRECT を見て、上位にリストされたGOTermにどのような共通点・相違点があるでしょうか。
  - CC = Cellular Component
   - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_6.jpg)
  - MF = Molecular Function  
   - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_7.jpg)
-11. Pathways > KEGG_PATHWAY や Tissue Expression > UP_TISSUE なども見てみましょう。
+11. 余裕のある人は、Literature > PubMed なども見てみましょう。GOと違う知見が得られるかも知れません。
 
 12. DAVIDを使って皆さんが得た結果を解析・考察してみましょう。
  - わかっていること
     - マル秘遺伝子リストは「ある実験の前後の2群間で有意に発現減少した遺伝子群のリスト」  
     - 生物種はArabidopsis thaliana (シロイヌナズナ)  
  - 課題
-    1. DAVIDを使って得たGeneOntologyのエンリッチメント解析データのうち、あなたはどの部分に着目したか(複数可)についてその理由とともに説明してください。
+    1. DAVIDを使って得たGene Ontologyのエンリッチメント解析データのうち、あなたはどのGO termに着目したか(複数可)についてその理由とともに説明してください。
     1. i.の説明した実験データの解釈から、「マル秘遺伝子リスト」は、 どのような実験をした結果得られたデータだと推測できるのか、あなたの考えを書いてください。
 ---
 
