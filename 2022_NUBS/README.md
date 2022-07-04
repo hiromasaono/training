@@ -688,26 +688,51 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
 
 # 【第12回】公共データベースから利用可能な遺伝子発現データを解析する
-## 数十～数千の遺伝子群の生物学的解釈
-- マイクロアレイやNGS実験を行うと大量の発現変動遺伝子 (Differentially Expressed Genes: DEGs)が得られます｡
-- 一般的な遺伝子発現解析の第一歩は､実験条件によって得られた数十～数千のDEGsが生物学的にどういう意味を持つかを考えることです。
+## 遺伝子発現データの機能解析とは
+- 実験条件によって得られる遺伝子の発現量を測定する
+  - 実験区と対照区
+    - がんの肝臓(実験区)と健康な肝臓(対照区)
+    - 薬剤投与したマウス(実験区)と生理食塩水を投与したマウス(対照区)
+  - 発展編として時系列データ
+- 大規模に遺伝子発現量を調べる方法
+  - マイクロアレイ
+  - NGS(Next Generation Sequencer:次世代シーケンサー)
+- 発現変動遺伝子(Differentially Expressed Genes: DEGs)
+  - 発現量を比較して差があった遺伝子(群)
+    - ｢差があった｣の定義もいろいろある
+      - n倍変化した、統計的有意に変化した、その両方、など
+    - 発現量が顕著に異なる遺伝子=その実験条件に影響を受けた遺伝子
+- 遺伝子発現･機能解析
+  - 実験条件によって得られた数十～数千のDEGsが生物学的にどういう意味を持つかを考えることが第一歩
   - ![Gyazo](http://i.gyazo.com/52cb4c40b1313a52f8ded6923bdd8ef0.png)
-- 今回は、その方法の一つとして、[Gene Ontology (GO)](http://array.cell-innovator.com/?p=1085) の用語を使って､マイクロアレイ実験で得られたDEGsのもつ機能に、どのような特徴があるのか(転写因子活性に関する遺伝子が多いのか、細胞周期に関する遺伝子が多いのか?､ Wntパスウェイに関する遺伝子が多いのか?, など)を解析することで、生物学的解釈をしてみましょう。  
+- [Gene Ontology(GO)](http://geneontology.org/)
+  - 遺伝子の属性を記述する語彙を統一化(GO term)し、種を越えた遺伝子関連情報を記述し構造化することを目的とした国際プロジェクトであり、その成果のこと
+  - すべてのGO termは、**biological process（生物学的プロセス）**、**cellular component（細胞の構成要素）**、**molecular function（分子機能）**の3カテゴリーのいずれかに属し、GO term同士の上下関係が一義に決まっている(のでコンピュータで処理しやすい)
+  - molecular function＞binding＞protein binding＞receptor binding＞以下より具体的に
+  - [ALDH2の場合の例](https://www.ncbi.nlm.nih.gov/gene/217#gene-ontology)
+  - ![ALDH2 GO](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_1.jpg)
+- GO term のエンリッチメント解析
+  - DEGsにそれぞれ付与されたGO termに、どのような偏りや特徴があるのかを解析することで、その実験条件のもたらす影響を生物学的に解釈をすることができる
+    - 転写因子活性に関する遺伝子が多いのか、細胞周期に関する遺伝子が多いのか､ Wntパスウェイに関する遺伝子が多いのか、など) 
+
+ 
 
 ## [DAVID: The Database for Annotation, Visualization and Integrated Discovery](http://david.abcc.ncifcrf.gov/)
 - アメリカ国立アレルギー・感染症研究所が開発･運用
-- 原著論文 [PMID: 19131956](http://www.ncbi.nlm.nih.gov/pubmed/19131956)
-- 遺伝子リストのコピペで簡単にエンリッチメント解析 ( GO､KEGG など )
+- 2021年に大幅アップデート
+- 最新の原著論文 [PMID: 35325185](http://www.ncbi.nlm.nih.gov/pubmed/35325185)
+- DEGsのような遺伝子リストをコピペするだけで簡単にエンリッチメント解析 ( GO､KEGG など )することができる
 - 対応生物種･遺伝子ID が 豊富｡ ID変換ツールもある
 - IDリストしか投げられない (発現量込みやタイムコースデータは不可)
-- 2010年以来データ更新が止まっていたが､最近､アップデートされた｡ [DAVID 6.8 (current beta release) May. 2016](https://david.ncifcrf.gov/content.jsp?file=release.html)  
+
 
 #### マイクロアレイデータの準備
-- サンプルデータとして、[NCBI GEO](http://www.ncbi.nlm.nih.gov/geo/)から取得した公共の遺伝子発現データを用います。このデータは、 **ある実験の前後の2群間で有意に発現減少した遺伝子群** のリストです。  
+- サンプルデータとして、[NCBI GEO](http://www.ncbi.nlm.nih.gov/geo/)から取得した公共の遺伝子発現データを用います。
+- このデータは、 **ある実験の前後の2群間で有意に発現減少した遺伝子群** のリストです。  
 
      → [マル秘遺伝子リスト](https://raw.githubusercontent.com/AJACS-training/AJACS59/master/hono/secret_list.txt)  （右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
 
-- このデータは、どのような実験から得られたデータなのか、どのように解釈できるのかをDAVIDを使って考察してみましょう！  【課題レポートの内容】
+- このデータは、どのような実験から得られたデータなのか、どのように解釈できるのかをDAVIDを使って考察してみましょう！  【本日の課題】
 
 ### DAVIDを用いて、遺伝子発現データの結果を生物学的に解釈する
 - 【復習用】[DAVIDを使ってマイクロアレイデータを解析する 2012](http://doi.org/10.7875/togotv.2012.079)
