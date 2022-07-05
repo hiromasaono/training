@@ -708,13 +708,14 @@ CRISPRdirect： https://crispr.dbcls.jp/
 - [Gene Ontology(GO)](http://geneontology.org/)
   - 遺伝子の属性を記述する語彙を統一化(GO term)し、種を越えた遺伝子関連情報を記述し構造化することを目的とした国際プロジェクトであり、その成果のこと
   - すべてのGO termは、**biological process（生物学的プロセス）**、**cellular component（細胞の構成要素）**、**molecular function（分子機能）** の3カテゴリーのいずれかに属し、GO term同士の上下関係が一義に決まっている(のでコンピュータで処理しやすい)
-    - molecular function＞binding＞protein binding＞receptor binding＞以下、より具体的になる
+  - molecular function＞binding＞protein binding＞receptor binding＞以下、より具体的になる
+  - Go term には、[Evidence code](http://geneontology.org/docs/guide-go-evidence-codes/) が付いている
+
   - [ALDH2の場合の例](https://www.ncbi.nlm.nih.gov/gene/217#gene-ontology)
   - ![ALDH2 GO](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_1.jpg)
-  	- Go term には、[Evidence code](http://geneontology.org/docs/guide-go-evidence-codes/) が付いている
 - GO term のエンリッチメント(Enrichment:濃縮)解析
   - 数十〜数千個のDEGsにそれぞれ付与されたGO termに、どのような偏り(=特徴)があるのかを解析することで、その実験条件のもたらす影響を生物学的に解釈をすることができる
-    - 転写因子活性に関する遺伝子が多いのか、細胞周期に関する遺伝子が多いのか､ Wntパスウェイに関する遺伝子が多いのか、など) 
+  	- 転写因子活性に関する遺伝子が多いのか、細胞周期に関する遺伝子が多いのか､ 受容体に関する遺伝子が多いのか、など
 
  
 
