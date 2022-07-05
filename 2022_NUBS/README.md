@@ -711,6 +711,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
     - molecular function＞binding＞protein binding＞receptor binding＞以下、より具体的になる
   - [ALDH2の場合の例](https://www.ncbi.nlm.nih.gov/gene/217#gene-ontology)
   - ![ALDH2 GO](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_1.jpg)
+  	- Go term には、[Evidence code](http://geneontology.org/docs/guide-go-evidence-codes/) が付いている
 - GO term のエンリッチメント(Enrichment:濃縮)解析
   - 数十〜数千個のDEGsにそれぞれ付与されたGO termに、どのような偏り(=特徴)があるのかを解析することで、その実験条件のもたらす影響を生物学的に解釈をすることができる
     - 転写因子活性に関する遺伝子が多いのか、細胞周期に関する遺伝子が多いのか､ Wntパスウェイに関する遺伝子が多いのか、など) 
