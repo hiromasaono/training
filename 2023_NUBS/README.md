@@ -223,7 +223,7 @@ hono@dbcls.rois.ac.jp
     1. トップに出てくる「Home - PubMed - NCBI」[https://www.ncbi.nlm.nih.gov/pubmed/](https://www.ncbi.nlm.nih.gov/pubmed/) をクリックします。あるいは、ウェブブラウザのアドレスバーに直接「pubmed.gov」と入力しても自動でリダイレクトされます。
  1. 検索窓にキーワードを入力し始めると、関連語がサジェストされます。
     1. [Hiromasa Ono](https://www.ncbi.nlm.nih.gov/pubmed/?term=Hiromasa+Ono) で検索してみます。
-    - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/230530_03.jpg)
+    - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/230530_03.png)
     - 個別の論文には固有のIDであるPMID(PubMed ID)がついています。
         - URLの末尾に直接入力するとダイレクトにその論文へたどり着けます。 [https://www.ncbi.nlm.nih.gov/pubmed/28850115](https://www.ncbi.nlm.nih.gov/pubmed/28850115)
     1. ちなみに、検索窓に「All[filter]」と入力し検索すると、検索時点におけるPubMedに収載されている全論文数を調べることができます。
