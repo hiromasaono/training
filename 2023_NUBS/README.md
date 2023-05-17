@@ -223,7 +223,7 @@ hono@dbcls.rois.ac.jp
     1. トップに出てくる「Home - PubMed - NCBI」[https://www.ncbi.nlm.nih.gov/pubmed/](https://www.ncbi.nlm.nih.gov/pubmed/) をクリックします。あるいは、ウェブブラウザのアドレスバーに直接「pubmed.gov」と入力しても自動でリダイレクトされます。
  1. 検索窓にキーワードを入力し始めると、関連語がサジェストされます。
     1. [Hiromasa Ono](https://www.ncbi.nlm.nih.gov/pubmed/?term=Hiromasa+Ono) で検索してみます。
-    - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/220613_03.jpg)
+    - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/230530_03.jpg)
     - 個別の論文には固有のIDであるPMID(PubMed ID)がついています。
         - URLの末尾に直接入力するとダイレクトにその論文へたどり着けます。 [https://www.ncbi.nlm.nih.gov/pubmed/28850115](https://www.ncbi.nlm.nih.gov/pubmed/28850115)
     1. ちなみに、検索窓に「All[filter]」と入力し検索すると、検索時点におけるPubMedに収載されている全論文数を調べることができます。
@@ -356,6 +356,13 @@ https://difff.jp/
 - [DeepL](https://www.deepl.com/ja/blog)は、ドイツのDeepL社が開発した基本利用は無料の機械翻訳サービス
 - コピペするだけで精度の高い翻訳文を得ることができる
 - ときどき、判断が難しい文章をスルーすることがある点は注意
+### ChatGPT
+- [ChatGPT](https://chat.openai.com)ってなんですか?　と ChatGPTに聞いてみた答え
+>ChatGPTはOpenAIが開発した大規模な言語モデルです。GPTは"Generative Pre-trained Transformer"の略で、トランスフォーマーと呼ばれるニューラルネットワークアーキテクチャを使用しています。ChatGPTは、自然言語理解や生成タスクにおいて高いパフォーマンスを発揮することが特徴です。
+>ChatGPTは、大量のテキストデータを学習して構築されたモデルであり、それによって人間のような対話をシミュレートすることが可能です。例えば、質問に答えたり、会話を続けたり、文章を生成したりすることができます。
+>ChatGPTは様々な目的に利用されており、個人の助けとなる情報提供や創造的な文章の生成、教育やエンターテイメントの分野での利用など、さまざまな用途が考えられます。ただし、ChatGPTはあくまで機械学習モデルであり、その応答は学習データに基づいて生成されるため、時には不正確な情報や誤った回答を提供する可能性もあることに留意してください。
+- [ChatPDF](https://www.chatpdf.com)
+	-　PDFファイルを読み込ませて、その内容について要約したり質問できるツール 
 ---
 
 
