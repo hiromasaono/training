@@ -159,14 +159,14 @@ hono@dbcls.rois.ac.jp
   - [先進ゲノム支援\(PAGS\)、DDBJ、DBCLS合同情報解析講習会\(2019\)](https://www.youtube.com/watch?v=VjZIQuWXPu8&list=PL0uaKHgcG00afJqVErwNQariGDKArJtB8)
 
 ---
-# 画像を探す (Togo picture gallery)
-- [「画像を探す」](https://togotv.dbcls.jp/pics.html)
-- 生命科学分野のイラスト(約1,650本)が、誰でも自由に利用可能 (CC-BY-4.0)
+# イラストを探す (Togo picture gallery)
+- [「イラストを探す」](https://togotv.dbcls.jp/pics.html)
+- 生命科学分野のイラスト(約1,680本)が、誰でも自由に利用可能 (CC-BY-4.0)
 - 研究発表のスライド・ポスター作成、資料作成等に､ぜひご活用ください
 - [TogoTVのコンテンツを再利用したいのですが、著作権の扱いはどうなっていますか?](https://togotv.dbcls.jp/faq.html)
 - 2023年5月末で77件の[引用論文](https://dbcls.rois.ac.jp/references.html#TogoTV)
 
-![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20201223_05.png)
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230523_05.png)
 
 ---
 # リクエスト募集中
