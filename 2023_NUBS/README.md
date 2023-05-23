@@ -96,7 +96,7 @@ hono@dbcls.rois.ac.jp
 - YouTubeのチャンネル登録をすると新規公開の通知が来て便利です…!
   -　チャンネル登録者数8,600人突破 (昨年比1,600人増加)  
 
-![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220323_02.jpg)
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230523_02.png)
 
 ---
 # 個別動画ページ
