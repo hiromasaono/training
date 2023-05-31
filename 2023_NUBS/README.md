@@ -268,7 +268,7 @@ hono@dbcls.rois.ac.jp
  1. キーワード検索以外にも自分の論文が引用された場合に通知するなど、いずれかの方法を目的に応じて使い分けると良いです。
 
 #### 統合TVでPubMedの使いかたを学ぶ
- - PubMedで論文を検索する [https://doi.org/10.7875/togotv.2012.073](http://doi.org/10.7875/togotv.2012.073)
+ - PubMedで論文を検索する [https://doi.org/10.7875/togotv.2012.073](https://doi.org/10.7875/togotv.2020.053)
  - PMC (PubMedCentral) の使い方 2017　 [https://doi.org/10.7875/togotv.2017.122](https://doi.org/10.7875/togotv.2017.122)  
  - PubMedをフル活用して論文執筆を効率化する ＠ AJACSオンライン6 [https://doi.org/10.7875/togotv.2021.053](https://doi.org/10.7875/togotv.2021.053)
 ---
