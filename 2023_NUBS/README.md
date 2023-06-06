@@ -420,7 +420,7 @@ https://difff.jp/
 |アフリカツメガエル|aldehyde dehydrogenase 2 family member |aldh2|448267|
 
 - Symbolは慣用名と一致しないこともある
-  - 山中因子の一つで有名なOCT4は、[POU5F1](https://www.ncbi.nlm.nih.gov/gene/5460)がGene Symbol
+  - [山中因子](https://kotobank.jp/word/%E5%B1%B1%E4%B8%AD%E5%9B%A0%E5%AD%90-682831)の一つで有名なOCT4は、[POU5F1](https://www.ncbi.nlm.nih.gov/gene/5460)がGene Symbol
 - 別の生物種で同一のSymbolがついていることもある
 - Gene ID は、生物種と遺伝子を特定できる
 
