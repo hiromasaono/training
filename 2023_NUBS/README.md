@@ -584,7 +584,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
 	- ゲノム塩基配列解読プロジェクトを集めたデータベース
 - [PlantGDB](http://www.plantgdb.org)
   - [Plant Genome Database Japan(PGDB)](http://pgdbj.jp/)
-- [MicrobeDB.jp](http://microbedb.jp/)
+- [MicrobeDB.jp](https://microbedb.jp/)
   - 微生物ゲノム   
 
 #### コミュニティによるゲノムデータベース
