@@ -727,7 +727,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
  
 
-## [DAVID: The Database for Annotation, Visualization and Integrated Discovery](http://david.abcc.ncifcrf.gov/)
+## [DAVID: The Database for Annotation, Visualization and Integrated Discovery](https://david.ncifcrf.gov/)
 - アメリカ国立アレルギー・感染症研究所が開発･運用
 - 2021年に大幅アップデート
 - 最新の原著論文 [PMID: 35325185](http://www.ncbi.nlm.nih.gov/pubmed/35325185)
@@ -748,7 +748,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
 - 【復習用】[DAVIDを使ってマイクロアレイデータを解析する 2012](http://doi.org/10.7875/togotv.2012.079)
 - 【復習用】[DAVIDの使い方 実践編](http://doi.org/10.7875/togotv.2013.033)  
 
-1. [DAVID](http://david.abcc.ncifcrf.gov/)にアクセスし、上部メニューの「Start Analysis」をクリックします。
+1. [DAVID](https://david.ncifcrf.gov/)にアクセスし、上部メニューの「Start Analysis」をクリックします。
 
   - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_8.jpg)
 
