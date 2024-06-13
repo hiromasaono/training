@@ -595,8 +595,8 @@ CRISPRdirect： https://crispr.dbcls.jp/
     - 統合TV: [NCBI Datasetsを使ってゲノムデータを検索、閲覧、取得する](https://togotv.dbcls.jp/20240328.html)
 - [GOLD: Genomes Online Database](https://gold.jgi.doe.gov/index)
 	- ゲノム塩基配列解読プロジェクトを集めたデータベース
-- [PlantGDB](http://www.plantgdb.org)
-  - [Plant Genome Database Japan(PGDB)](http://pgdbj.jp/)
+- [Plant GARDEN](https://plantgarden.jp/)
+  - 植物ゲノム
 - [Microbiome Datahub](https://mdatahub.org/)
   - 微生物ゲノム   
 
