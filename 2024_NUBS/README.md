@@ -269,7 +269,7 @@ onohrms@hiroshima-u.ac.jp
  1. キーワード検索以外にも自分の論文が引用された場合に通知するなど、いずれかの方法を目的に応じて使い分けると良いです。
 
 #### 統合TVでPubMedの使いかたを学ぶ
- - PubMedで論文を検索する [https://doi.org/10.7875/togotv.2012.073](https://doi.org/10.7875/togotv.2020.053)
+ - PubMedで論文を検索する [https://doi.org/10.7875/togotv.2020.053](https://doi.org/10.7875/togotv.2020.053)
  - PMC (PubMedCentral) の使い方 2017　 [https://doi.org/10.7875/togotv.2017.122](https://doi.org/10.7875/togotv.2017.122)  
  - 最新の文献検索方法を知る @ AJACSオンライン16 [https://doi.org/10.7875/togotv.2023.054](https://doi.org/10.7875/togotv.2023.054)
 ---
@@ -451,6 +451,8 @@ https://difff.jp/
     - Python, Ruby, Perl などのスクリプト言語と相性がよい。
     - 以下のように、> で始まる配列の名前、付加情報、改行、配列 から構成される。なお、> のあとにスペースなしで打ち込まれた文字列が配列の名前になり、スペースから改行までが付加情報になる。次の > までが配列とみなされる。 
 - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220617_05.jpg)
+- [NCBI RefSeqを使って遺伝子のmRNAやアミノ酸配列を取得する](https://doi.org/10.7875/togotv.2024.058)
+
 
 
 
