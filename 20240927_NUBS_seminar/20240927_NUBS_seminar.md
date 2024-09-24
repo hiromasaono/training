@@ -20,8 +20,8 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 
 これは、日本大学生物資源科学部 大学院特別講義「生命科学分野におけるデータベースの統合とその利活用およびデータ駆動型研究を行うためのバイオインフォマティクスツール」の講演資料です。   
 - PDF のダウンロード　
-  - [https://bit.ly/20240927_hono](https://bit.ly/20240927_hono)
-  - ![bg right:40% 80%](https://raw.githubusercontent.com/hiromasaono/training/master/images/bit.ly_20240927_hono.png)
+  - [https://bit.ly/240928_NUBS](https://bit.ly/240928_NUBS)
+  - ![bg right:40% 80%](https://raw.githubusercontent.com/hiromasaono/training/master/images/240928_NUBS.jpg)
 
 © 2024 ONO Hiromasa, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)　(出典明記でご自由にお使いください)
 
