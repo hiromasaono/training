@@ -19,7 +19,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 
 これは、東京農工大学動物生化学研究室セミナー『データ(ベース)駆動型生命科学研究への招待: 統合データベースの活用事例とバイオインフォマティクスツールの使いこなし術』の講演資料です。   
 - PDF のダウンロード　
-  - [https://bit.ly/240930_TUAT](https://bit.ly/240930_TUAT)
+  - [https://bit.ly/240930_TUAT](https://bit.ly/20240930_TUAT)
   - ![bg right:40% 80%](https://raw.githubusercontent.com/hiromasaono/training/master/images/240930_TUAT.jpg)
 
 © 2024 ONO Hiromasa, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)　(出典明記でご自由にお使いください)
