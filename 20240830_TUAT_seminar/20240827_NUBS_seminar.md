@@ -1,27 +1,27 @@
 ---
 marp: true
 theme:
-header: "2024/09/30 東京農工大学動物生化学研究室セミナー『データ(ベース)駆動型生命科学研究への招待: 統合データベースの活用事例とバイオインフォマティクスツールの使いこなし術』"
+header: "2024/08/27 日本大学生物資源科学部 大学院特別講義『生命科学分野におけるデータベースの統合とその利活用およびデータ駆動型研究を行うためのバイオインフォマティクスツール』"
 footer: 2024 ONO Hiromasa, CC-BY-4.0
 paginate: true
 
 ---
-# データ(ベース)駆動型生命科学研究への招待: 統合データベースの活用事例とバイオインフォマティクスツールの使いこなし術
+# 生命科学分野におけるデータベースの統合とその利活用およびデータ駆動型研究を行うためのバイオインフォマティクスツール
 
 ---
 プラチナバイオ株式会社　事業推進部　ディレクター
 広島大学　ゲノム編集イノベーションセンター　研究員 
 [小野 浩雅](https://researchmap.jp/hiromasaono)  
 ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
-2024年9月30日
-東京農工大学動物生化学研究室セミナー
+2024年8月27日
+日本大学生物資源科学部 大学院特別講義
 
 ----
 
-これは、東京農工大学動物生化学研究室セミナー『データ(ベース)駆動型生命科学研究への招待: 統合データベースの活用事例とバイオインフォマティクスツールの使いこなし術』の講演資料です。   
+これは、日本大学生物資源科学部 大学院特別講義「生命科学分野におけるデータベースの統合とその利活用およびデータ駆動型研究を行うためのバイオインフォマティクスツール」の講演資料です。   
 - PDF のダウンロード　
-  - [https://bit.ly/20240930_hono](https://bit.ly/20240930_hono)
-  - ![bg right:40% 80%](https://raw.githubusercontent.com/hiromasaono/training/master/images/bit.ly_20240930_hono.png)
+  - [https://bit.ly/20240827_hono](https://bit.ly/20240827_hono)
+  - ![bg right:40% 80%](https://raw.githubusercontent.com/hiromasaono/training/master/images/bit.ly_20240827_hono.png)
 
 © 2024 ONO Hiromasa, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)　(出典明記でご自由にお使いください)
 
