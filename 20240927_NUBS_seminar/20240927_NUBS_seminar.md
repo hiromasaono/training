@@ -64,7 +64,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 
 ---
 # 統計情報 (2024年9月)
-![bg right:58% 90%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240831_togotv_stats.png)
+![bg right:58% 90%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240831_togotv_stats.jpg)
 
 ---
 # 個別動画ページ
@@ -123,11 +123,11 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 - キーワードから、「講演」や「講習会」を簡単に検索可能
 - サービスの開発者･研究者が、背景や周辺の基礎知識を紹介するとともにDBやウェブツールの基本的な使いこなし術や高度な組み合わせ方法などを紹介
 - 講習会の復習や、他分野の研究内容を (何度でも繰り返し)学習することができます。
-![bg right:50% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20221221_05.jpg)
+![bg right:50% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_02.jpg)
 
 ---
 # PubMed検索のプロによる文献検索のイロハを学ぶ
-  - [最新の文献検索方法を知る @ AJACSオンライン16](https://togotv.dbcls.jp/20230815.html)
+  - [最新の文献検索方法を知る @ AJACSオンライン16, 2023年](https://togotv.dbcls.jp/20230815.html)
     - PubMedの使い方が身につき、自身に必要な文献を効率よく見つけられることを目的として、2020年にリニューアルされたPubMed (パブメド)の基本的な使い方から検索の仕組み、自分の欲しい論文を効率的に検索するにはどうすればよいかなど、PubMedを余すところなく使いこなす方法を紹介
     - PubMed以外にもある便利なサービスを一通り把握し、自身の目的に応じて使えるようにする
 
@@ -140,9 +140,8 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 ---
 
 # ウェブブラウザでできるRNA-seqデータ解析を実例を交えて学ぶ
-  - [ブラウザ上でRNA-seqデータを解析する @ AJACSオンライン14]()
-      - https://togotv.dbcls.jp/20230113.html
-      - バルクRNA-seq下流解析ができるようになることを目的として、ウェブブラウザを用いたバルクRNA-seq解析ツールであるiDEPの使い方をハンズオン形式で講習するとともに、類似ツールであるBioJupiesやRaNA-seqについても紹介
+  - [ブラウザ上でRNA-seqデータを解析する @ AJACSオンライン14](https://togotv.dbcls.jp/20230113.html), 2023年
+      - バルクRNA-seq下流解析ができるようになることを目的として、ウェブブラウザを用いたバルクRNA-seq解析ツールであるiDEPの使い方をハンズオン形式で講習するとともに、類似ツールである[BioJupies](https://maayanlab.cloud/biojupies/)や[RaNA\-Seq](https://ranaseq.eu/)についても紹介
       - 胸腺腫合併重症筋無力症の実データを用いた解析実例も紹介
 
 
@@ -156,17 +155,17 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
   - [先進ゲノム支援\(PAGS\)、DDBJ、DBCLS合同情報解析講習会\(2019\)](https://www.youtube.com/watch?v=VjZIQuWXPu8&list=PL0uaKHgcG00afJqVErwNQariGDKArJtB8)
 
 ---
-# 日本人類遺伝学会との連携
+# 学会との連携
   - 日本人類遺伝学会の教育コンテンツ配信システム[JSHG-WebCast(JWC)](https://jshg.jp/webcast/webtools/) 
-  - 統合TVと学会との連携は初めての試み
-    - 統合TVで作成する動画について学会の推薦を受けた専門家のレビューを受けられる
-    - 分野の専門家自身の講義・講習をコンテンツ化できる 
+    - 統合TVと学会との連携は初めての試み
+      - 統合TVで作成する動画について学会の推薦を受けた専門家のレビューを受けられる
+      - 分野の専門家自身の講義・講習をコンテンツ化できる 
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20221221_06.jpg)
-
+  - 日本小児遺伝学会とも連携予定
 ---
 # AJACSオンライン９「疾患に関する多型データを解析する｣
 - 日本人類遺伝学会との連携によって、講義内容と講師を選定
-  - [表現型と遺伝子型のデータを共有および比較する @ AJACSオンライン9](https://togotv.dbcls.jp/20220106.html)
+  - [表現型と遺伝子型のデータを共有および比較する @ AJACSオンライン9](https://togotv.dbcls.jp/20220106.html), 2022年
     - 関心対象の表現型が解析によって明らかになった遺伝子型を説明できるか、を検証できるようになる @ 山本 俊至 先生
   - [バリアントの機能を推定する @ AJACSオンライン9](https://togotv.dbcls.jp/20220107.html)
     - バリアントがタンパク質の機能およびスプライシングに与える影響について in silico解析を行うプログラムについて、その使い方と解析結果について理解する @  才津 浩智 先生
@@ -178,13 +177,15 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 - 研究発表のスライド・ポスター作成、資料作成等に､ぜひご活用ください
 - [日本人類遺伝学会との連携はイラストでも](https://jshg.jp/webcast/educations/)
 - [統合TVのコンテンツを利用したいのですが、著作権の扱いはどうなっていますか?](https://togotv.dbcls.jp/faq.html)
-- 2023年12月末で98件の[引用論文](https://dbcls.rois.ac.jp/references.html#TogoTV)
+- 2024年8月末で120件の[引用論文](https://dbcls.rois.ac.jp/references.html#TogoTV)
 
-![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230523_05.png)
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_03.png)
 
 ---
 # 日本分子生物学会との連携
-- 2023年の第46回日本分子生物学会年会(参加者8000人以上)の参加章シール企画に公式採用!
+- 2023年の第46回日本分子生物学会年会(参加者8000人以上)の参加章シール企画に公式採用されました🙌
+- すべての素材はTogo picture galleryにあります
+  - 当時なかったものは追加で制作
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20231231_MBSJ_togopic.png)
 
 ---
@@ -193,30 +194,36 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 - お探しの動画マニュアルや画像が見つからない場合は、[統合TV番組リクエストフォーム](https://togotv.dbcls.jp/contact.html)でお気軽にリクエストしてください。
 - すべて目を通しています
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20201223_06.png)
-- 動画やイラストの寄託も大歓迎です。
+- 講演・講義動画やイラストの寄託も大歓迎です。
 
 ---
 # 統合TVコンテンツを作ってみたい方も募集中
 - 動画やイラストを制作してくれる方を随時募集中です!
 - オンラインで完結する作成環境を整備しており、遠隔地でもOKです。
-- 「本業優先」がポリシーで、謝金あります。
+- 「本業優先」でノルマ無し
+- 謝金あります💰️
 - 動画制作の実際: [「画面録画/編集ソフトウェア Camtasia 2019 を使って統合TVの動画を作成する」](https://togotv.dbcls.jp/20200129.html)
 - 静止画制作の実際: [「ライフサイエンス分野のイラスト集を作る仕事@AJACS本郷8」](https://togotv.dbcls.jp/20110322.html)
 ![bg right:40% 85%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240114_03.jpg)
 
 ---
-# 参考・関連書籍
+# 参考・関連書籍1
 - [実験医学増刊 Vol\.40 No\.17 バイオDBとウェブツール　ラボで使える最新70選 知る・学ぶ・使う、バイオDX時代の羅針盤](https://www.yodosha.co.jp/yodobook/book/9784758104067/)
 ![bg right:40% 70%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230816_BioDB_Webtool.jpg)
 
-----
-## 　内容
-- 生命科学分野におけるデータ(ベース)の統合と、データ駆動型研究を行うためのリソース開発
+---
+# 参考・関連書籍2
+- [生命科学研究のためのデジタルツール入門 第2版 - 結果に差がつく使いこなし術 -](https://www.medsi.co.jp/products/detail/3975)
+![bg right:40% 70%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_DigitalTools4LS.jpg)
+
+---
+# 生命科学分野におけるデータベースの統合とその利活用およびデータ駆動型研究を行うためのバイオインフォマティクスツール
+- 生命科学分野におけるデータ(ベース)の統合と、データ駆動型研究を行うためのリソース開発 @ DBCLS
   - **TogoID** を使って生命科学系データベース間のつながりを探索的に確認しながらID変換を行う
   - **TogoDX/human** を使って統合されたデータを探索･俯瞰･抽出する
 
 ---
-# 生命科学研究はデータベース作り
+# 生命科学研究はデータ(ベース)作り
 - さまざまな実験で得られたデータは、論文投稿時などに公共データベース上に登録し、その後誰でも参照可能になるようにすることが義務付けられていることが多い
 - 公共データベースには多種多様なデータが日々大量に登録、蓄積され続けている
 - データをうまく活用すれば、多くのメリット(がありそうなことは皆感じている)
@@ -229,17 +236,18 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 ---
 # データ(ベース)を統合的に組み合わせて、データ駆動型研究を行う
 - 生命科学の目的は様々な要素が相互作用している複雑なシステムの理解
-  - 多種多様なデータの｢統合｣( ≒ 相互運用性) が必須   
+  - 多種多様なデータの｢統合｣( ≒ 相互運用性、相互連携性) が必須   
 - 課題
   - データベースごとに異なるインターフェース
   - データベース間を繋ぐリンク情報の欠如
   - データベースごとに異なる出力形式
 - 横断的にDBを使うには手間がかかりすぎる
-  - 個別にデータベースを解析して組み合わせるための｢前処理｣が作業の8割
+  - バイオインフォマティクスの出番
+    - 個別にデータベースを解析して組み合わせるための｢前処理｣が作業の8割
 
 ---
 # 課題を解決するための取り組み
-- BioHackathon
+- BioHackathon (バイオハッカソン)
   - 生命科学分野のデータベース統合の技術基盤の確立を目的として、
   年1回日本各地で開催している国際開発者会議
   - BioHackathon 2015@長崎 にてFAIR原則の内容に関する議論が行われた
@@ -248,12 +256,13 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 
 ---
 # FAIR原則 と 知識グラフ
-  - Findable、Accessible、**Interoperable**、Reusable
+  - Findable、Accessible、Interoperable、Reusable
   - それぞれのデータが使いやすくなった（ちょっとずつなってる）
     - 幅広いデータが統合できる時代になった
 - 知識グラフによる生命科学分野のデータベース統合
   - 複数のデータセットが共通のURIで連結される
   - 各データとそのつながりの意味が表現できる、すなわち、知識が表現できる
+  - 生成AIとの相性が良さそう?
 ---
 # **TogoID** を使って生命科学系データベース間のつながりを探索的に確認しながらID変換を行う
 ---
@@ -273,17 +282,32 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 - 生命科学系データベース間のつながりを探索的に確認しながらID変換を行うウェブアプリケーション
 - Shuya Ikeda, Hiromasa Ono et. al.: TogoID: an exploratory ID converter to bridge biological datasets, Bioinformatics, [doi:10.1093/bioinformatics/btac491](https://doi.org/10.1093/bioinformatics/btac491) (2022)
 
-  ![bg right 85%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230614_togoid_top.png)
+  ![bg right 85%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_togoid_top.jpg)
 
 ---
-  - **64のデータベースに由来する 89 のデータセットのペア**を収載
+## 特長  
+  - **73のデータベースに由来する 104 のデータセットのペア**を収載 (2024年7月末現在)
     - 遺伝子から化合物、疾患等までを網羅
     - 毎週の定期更新
   - 生物学的意味を持つID間の対応関係を独自の[オントロジー](https://togoid.dbcls.jp/ontology)として整備
   - [GitHubレポジトリ](https://github.com/togoid)は公開
     - 誰でも自由に参照したり新規データセットペアを提案できる
-  ![bg right 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/TogoID_Original_Fig2B.jpg)
+  ![bg right 85%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_TogoID_results1.jpg)
    
+---
+## Ver2.0 公開!　(2024年9月)
+1. ラベルとIDの相互変換機能の追加 (LABEL2ID)
+   - 遺伝子シンボルや疾患名などのラベルをIDに変換可能に
+   - 研究者が公開するデータの再解析を促進
+
+2. IDに対応するラベルの表示機能
+   - 変換後のIDが示す内容を理解しやすく
+
+3. 複数の意味的関係への対応
+   - 例：タンパク質と糖鎖の関係
+     * タンパク質が酵素として糖鎖を処理
+     * タンパク質が糖鎖によって修飾される
+  ![bg right 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_TogoID_results2.jpg)
 ---
 # TogoDX/human を使って統合されたデータを探索･俯瞰･抽出する
 ---
