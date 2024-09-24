@@ -25,7 +25,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 
 © 2024 ONO Hiromasa, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)　(出典明記でご自由にお使いください)
 
-----
+---
  ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_selfintro.jpg)
   
 ---
@@ -51,20 +51,20 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
     - 実験系研究者の初学者が主要な想定利用者
     - 技術習得の障壁を下げるため、自主学習、新人･後輩指導、講義・勉強会の教材として誰でも自由に使える
   - 2007年8月スタート(2024年で17年目!)
-![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20221221_01.jpg)
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_01.jpg)
 
 ---
 # TogoTV@YouTube
 - 各動画は[YouTubeで公開](http://www.youtube.com/user/togotv/)されており、環境に応じた解像度、倍速表示等で快適に閲覧可能
-- 2,100本を超える動画が公開されており、のべ300万回 (月間3万回以上) 再生
-(2023年12月末現在)
+- 2,200本を超える動画が公開されており、のべ320万回 (月間3万回以上) 再生
+(2024年8月末現在)
 
-![bg right:58% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20231231_TogoTVYouTube_stats_Ja.png)
+![bg right:58% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_TogoTVYouTube_stats_Ja.jpg)
 
 
 ---
-# 統計情報 (2023年12月)
-![bg right:58% 90%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20231231_togotv_stats.png)
+# 統計情報 (2024年9月)
+![bg right:58% 90%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240831_togotv_stats.png)
 
 ---
 # 個別動画ページ
