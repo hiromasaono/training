@@ -278,7 +278,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
    - 大元の DB の更新に追従していない 
    - プログラムから利用できるAPI が提供されていない
 ---
-# TogoID https://togoid/dbcls.jp/
+# [TogoID](https://togoid.dbcls.jp/)
 - 生命科学系データベース間のつながりを探索的に確認しながらID変換を行うウェブアプリケーション
 - Shuya Ikeda, Hiromasa Ono et. al.: TogoID: an exploratory ID converter to bridge biological datasets, Bioinformatics, [doi:10.1093/bioinformatics/btac491](https://doi.org/10.1093/bioinformatics/btac491) (2022)
 
@@ -316,7 +316,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
     - それができる TogoDX/human を作った
     - データを入れ替えれば、マウス版や異なる他のテーマでも流用できる
 ---
-# TogoDX/human https://togodx.dbcls.jp/human/
+# [TogoDX/human](https://togodx.dbcls.jp/human/)
 - 国内外のデータベースから収集・統合した、ヒトに関する遺伝子、タンパク質、化合物、疾患などの情報をワンストップで探索することができるサービス
 
 - TogoDX(Data eXplorer) は、生命科学分野における様々なデータベースを統合的に探索し、俯瞰するためのフレームワーク
@@ -334,7 +334,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 - タンパク質立体構造が明らかになっており、
 - 対応する医薬品が開発されている
 
-ヒトのタンパク質の一覧を取得する
+ヒトのタンパク質の一覧をワンストップで取得することができる💡
 ![bg right fit](https://raw.githubusercontent.com/hiromasaono/training/master/images/2022-06-03_01.jpg)
 
 ---
