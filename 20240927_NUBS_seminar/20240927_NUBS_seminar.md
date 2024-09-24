@@ -306,7 +306,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
      * タンパク質が糖鎖によって修飾される
   ![bg right:45% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_TogoID_results2.jpg)
 ---
-# TogoDX/human を使って統合されたデータを探索･俯瞰･抽出する
+# **TogoDX/human** を使って統合されたデータを探索･俯瞰･抽出する
 ---
 # データを統合してTogoDXというアプリケーションを作った
 - データは統合できるが、それをどう理解・探索・解析するか？
@@ -321,7 +321,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 
 - TogoDX(Data eXplorer) は、生命科学分野における様々なデータベースを統合的に探索し、俯瞰するためのフレームワーク
   - 膨大な情報を多様な属性 (attribute) によって柔軟に絞り込み、必要な情報を抽出できる新しい仕組み
-- TogoDX/humanでは、21個のデータベースに由来する64個の attribute が利用可能
+- TogoDX/humanでは、20個のデータベースに由来する65個の attribute が利用可能
 
 ---
 # TogoDX で統合されたデータを俯瞰する
@@ -352,13 +352,30 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 
 ---
 # Ver.1.2 公開!(2023年9月)
-![bg right fit](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230905_TogoDX_Human_v1.2.png)
+- UI更新・機能追加
+  - 表示するAttributeを取捨選択できる機能およびPresetの新設
+  - 深い階層のTermを検索可能なオントロジーブラウザ
+  - Filterを組み合わせた探索結果をプレビューできる機能
+  - JSONファイルによる探索条件の保存・共有機能
+
+![bg right:45% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230905_TogoDX_Human_v1.2.png)
+
 ---
-# まとめ
+# 動画マニュアル @ 統合TV
+- [TogoDX/Human v1\.2を使ってヒトのデータベースを統合的に探索､俯瞰､抽出する \(基本操作編\)](https://togotv.dbcls.jp/20240613.html)
+- [TogoDX/Human v1\.2を使ってヒトのデータベースを統合的に探索､俯瞰､抽出する \(一般疾患編\)](https://togotv.dbcls.jp/20240801.html)
+  - 生活習慣病の一つである**2型糖尿病**を例に､2型糖尿病と関連が既知のTCF7L2の特徴をもとに、複数のデータベースの情報を組み合わせて他の関連遺伝子候補を探索する方法
+- [TogoDX/Human v1\.2を使ってヒトのデータベースを統合的に探索､俯瞰､抽出する \(希少疾患編\)](https://togotv.dbcls.jp/20240802.html)
+  - 希少疾患である**鰓耳腎症候群**を例に､鰓耳腎症候群と関連が既知の遺伝子群の特徴をもとに、複数のデータベースの情報を組み合わせて他の関連遺伝子候補を探索する方法
+---
+# TogoID & TogoDX/human まとめ
   - TogoID を使って生命科学系データベース間のつながりを探索的に確認しながらID変換を行う
-    - **多種多様なIDを統一的に利用できるよう整備する**ことで、生命科学データの「相互運用性」を高めるよう取り組んでいる
+    - **多種多様なIDを統一的に利用できるよう整備する**ことで、生命科学データの「相互運用性」を高めるよう取り組んできている
   
   - TogoDX/human を使って統合されたデータを探索･俯瞰･抽出する
     - 「相互運用性」を高めることによって**高度に統合されたデータベースを探索･俯瞰することで新たな知識を抽出できる(データ駆動型生命科学研究の)仕組み**ができあがりつつある
+---
+# 全体のまとめ
 
+---
 
