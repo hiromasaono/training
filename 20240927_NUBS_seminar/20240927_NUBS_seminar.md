@@ -1,7 +1,7 @@
 ---
 marp: true
 theme:
-header: "2024/08/27 日本大学生物資源科学部 大学院特別講義『生命科学分野におけるデータベースの統合とその利活用およびデータ駆動型研究を行うためのバイオインフォマティクスツール』"
+header: "2024/09/27 日本大学生物資源科学部 大学院特別講義『生命科学分野におけるデータベースの統合とその利活用およびデータ駆動型研究を行うためのバイオインフォマティクスツール』"
 footer: 2024 ONO Hiromasa, CC-BY-4.0
 paginate: true
 
@@ -9,32 +9,35 @@ paginate: true
 # 生命科学分野におけるデータベースの統合とその利活用およびデータ駆動型研究を行うためのバイオインフォマティクスツール
 
 ---
-プラチナバイオ株式会社　事業推進部　ディレクター
-広島大学　ゲノム編集イノベーションセンター　研究員 
+[プラチナバイオ株式会社](https://www.pt-bio.com/) 事業推進部 ディレクター
+広島大学ゲノム編集イノベーションセンター バイオDX産学共創拠点 プロジェクトマネージャー 
 [小野 浩雅](https://researchmap.jp/hiromasaono)  
 ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
-2024年8月27日
+2024年9月27日
 日本大学生物資源科学部 大学院特別講義
 
 ----
 
 これは、日本大学生物資源科学部 大学院特別講義「生命科学分野におけるデータベースの統合とその利活用およびデータ駆動型研究を行うためのバイオインフォマティクスツール」の講演資料です。   
 - PDF のダウンロード　
-  - [https://bit.ly/20240827_hono](https://bit.ly/20240827_hono)
-  - ![bg right:40% 80%](https://raw.githubusercontent.com/hiromasaono/training/master/images/bit.ly_20240827_hono.png)
+  - [https://bit.ly/20240927_hono](https://bit.ly/20240927_hono)
+  - ![bg right:40% 80%](https://raw.githubusercontent.com/hiromasaono/training/master/images/bit.ly_20240927_hono.png)
 
 © 2024 ONO Hiromasa, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)　(出典明記でご自由にお使いください)
 
 ----
+ ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_selfintro.jpg)
+  
+---
 ## 自己紹介
 - [小野 浩雅](https://researchmap.jp/hiromasaono) 
   - [統合TV](https://togotv.dbcls.jp/)の運営・編集
   - [RefEx](https://refex.dbcls.jp/)の開発
     - 遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツール
-  - [TogoID](https://togoid.dbcls.jp/)
-    - 生命科学系データベースのさまざまなIDのつながりを探索的に確認しながらID変換をすることができるウェブツール
-  - [TogoDX/Human](https://togodx.dbcls.jp/human/)の開発  
-    - ヒトに関するデータを統合的に探索･俯瞰･抽出するためのウェブアプリケーション
+
+  - 2024年4月から
+    - [プラチナバイオ株式会社](https://www.pt-bio.com/) 事業推進部 ディレクター / 広島大学ゲノム編集イノベーションセンター バイオDX産学共創拠点 プロジェクトマネージャー
+      - 産業有用生物のゲノム情報の取得・目的機能に関わる遺伝子の特定からゲノム編集による機能向上まで一貫して実現できるプラットフォームをつくる
 ---
 # 統合TV(TogoTV)
 ## 課題
