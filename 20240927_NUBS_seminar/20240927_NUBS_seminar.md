@@ -292,22 +292,19 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
   - 生物学的意味を持つID間の対応関係を独自の[オントロジー](https://togoid.dbcls.jp/ontology)として整備
   - [GitHubレポジトリ](https://github.com/togoid)は公開
     - 誰でも自由に参照したり新規データセットペアを提案できる
-  ![bg right 85%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_TogoID_results1.jpg)
+  ![bg right:45% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_TogoID_results1.jpg)
    
 ---
-## Ver2.0 公開!　(2024年9月)
+## Ver.2.0 公開!　(2024年9月)
 1. ラベルとIDの相互変換機能の追加 (LABEL2ID)
    - 遺伝子シンボルや疾患名などのラベルをIDに変換可能に
-   - 研究者が公開するデータの再解析を促進
-
 2. IDに対応するラベルの表示機能
    - 変換後のIDが示す内容を理解しやすく
-
 3. 複数の意味的関係への対応
    - 例：タンパク質と糖鎖の関係
      * タンパク質が酵素として糖鎖を処理
      * タンパク質が糖鎖によって修飾される
-  ![bg right 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_TogoID_results2.jpg)
+  ![bg right:45% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_TogoID_results2.jpg)
 ---
 # TogoDX/human を使って統合されたデータを探索･俯瞰･抽出する
 ---
@@ -317,7 +314,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
   - ヒトデータはデータ量も膨大で多岐にわたっている
   - 誰も本当に統合・俯瞰したことはないんじゃないか
     - それができる TogoDX/human を作った
-    - データを入れ替えれば、マウスや〇〇など他のテーマでも流用できる
+    - データを入れ替えれば、マウス版や異なる他のテーマでも流用できる
 ---
 # TogoDX/human https://togodx.dbcls.jp/human/
 - 国内外のデータベースから収集・統合した、ヒトに関する遺伝子、タンパク質、化合物、疾患などの情報をワンストップで探索することができるサービス
@@ -331,7 +328,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220606_1.jpg)
 
 ---
-# 検索例
+# 探索例
 - 肺でタンパク質として発現が確認され、
 - 細胞膜表面に局在し、
 - タンパク質立体構造が明らかになっており、
@@ -353,6 +350,9 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 # 自分の持つIDリストの偏りをTogoDX/humanのデータにマッピングして調べる
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220606_2.jpg)
 
+---
+# Ver.1.2 公開!(2023年9月)
+![bg right fit](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230905_TogoDX_Human_v1.2.png)
 ---
 # まとめ
   - TogoID を使って生命科学系データベース間のつながりを探索的に確認しながらID変換を行う
