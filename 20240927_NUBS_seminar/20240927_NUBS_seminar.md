@@ -154,6 +154,14 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
   - [NGSハンズオン講習会2017](https://www.youtube.com/watch?v=6Fzvl_I48tM&list=PL0uaKHgcG00YDmBXYWOgkmfeURjc8BZkk)
   - [先進ゲノム支援\(PAGS\)、DDBJ、DBCLS合同情報解析講習会\(2019\)](https://www.youtube.com/watch?v=VjZIQuWXPu8&list=PL0uaKHgcG00afJqVErwNQariGDKArJtB8)
 
+
+---
+# ChatGPT等の生成AIツールを研究活動に活用する注意点を知って・学んで・使う
+- [生成AIの可能性と課題 ～賢く使いこなすために～ @ データ解析講習会：AJACS, 2024年](https://togotv.dbcls.jp/20240805.html)
+  - 生成AI技術の基礎を振り返るとともに、生成AIツールを賢く使って研究の生産性を高めるノウハウを紹介
+- [研究効率化の鍵は生成AI ～文献調査・資料作成を加速するサービス～　@ データ解析講習会：AJACS, 2024年](https://togotv.dbcls.jp/20240806.html)
+  - 多様なシーンで研究の生産性を高めるAIサービスや自分だけのツール作りのためのノウハウを紹介
+
 ---
 # 学会との連携
   - 日本人類遺伝学会の教育コンテンツ配信システム[JSHG-WebCast(JWC)](https://jshg.jp/webcast/webtools/) 
