@@ -187,7 +187,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 - [統合TVのコンテンツを利用したいのですが、著作権の扱いはどうなっていますか?](https://togotv.dbcls.jp/faq.html)
 - 2024年8月末で120件の[引用論文](https://dbcls.rois.ac.jp/references.html#TogoTV)
 
-![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_03.png)
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_03.jpg)
 
 ---
 # 日本分子生物学会との連携

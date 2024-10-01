@@ -24,16 +24,18 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 
 © 2024 ONO Hiromasa, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)　(出典明記でご自由にお使いください)
 
-----
+
+---
+ ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_selfintro.jpg)
+  
+---
 ## 自己紹介
 - [小野 浩雅](https://researchmap.jp/hiromasaono) 
-  - [統合TV](https://togotv.dbcls.jp/)の運営・編集
-  - [RefEx](https://refex.dbcls.jp/)の開発
-    - 遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツール
-
-  - 2024年4月から
+- 2024年4月から
     - [プラチナバイオ株式会社](https://www.pt-bio.com/) 事業推進部 ディレクター / 広島大学ゲノム編集イノベーションセンター バイオDX産学共創拠点 プロジェクトマネージャー
       - 産業有用生物のゲノム情報の取得・目的機能に関わる遺伝子の特定からゲノム編集による機能向上まで一貫して実現できるプラットフォームをつくる
+      - [Egg for All プロジェクト：世界初のアレルギー対応卵で食の壁を打ち破る](https://www.pt-bio.com/project/egg-for-all)
+    - 統合TV編集長(兼業)
 ---
 # 統合TV(TogoTV)
 ## 課題
@@ -187,7 +189,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 - [統合TVのコンテンツを利用したいのですが、著作権の扱いはどうなっていますか?](https://togotv.dbcls.jp/faq.html)
 - 2024年8月末で120件の[引用論文](https://dbcls.rois.ac.jp/references.html#TogoTV)
 
-![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_03.png)
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_03.jpg)
 
 ---
 # 日本分子生物学会との連携
@@ -223,3 +225,173 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 - [生命科学研究のためのデジタルツール入門 第2版 - 結果に差がつく使いこなし術 -](https://www.medsi.co.jp/products/detail/3975)
 ![bg right:40% 70%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_DigitalTools4LS.jpg)
 
+---
+# Appendix
+
+---
+# 生命科学分野におけるデータベースの統合とその利活用およびデータ駆動型研究を行うためのバイオインフォマティクスツール
+- 生命科学分野におけるデータ(ベース)の統合と、データ駆動型研究を行うためのリソース開発 @ DBCLS
+  - **TogoID** を使って生命科学系データベース間のつながりを探索的に確認しながらID変換を行う
+  - **TogoDX/human** を使って統合されたデータを探索･俯瞰･抽出する
+
+---
+# 生命科学研究はデータ(ベース)作り
+- さまざまな実験で得られたデータは、論文投稿時などに公共データベース上に登録し、その後誰でも参照可能になるようにすることが義務付けられていることが多い
+- 公共データベースには多種多様なデータが日々大量に登録、蓄積され続けている
+- データをうまく活用すれば、多くのメリット(がありそうなことは皆感じている)
+  - 予備実験をせずに済む
+  - 自分の実験結果を支持する知見が得られる
+  - 多角的な視点からの新たな仮説生成
+- 似たようなものがいくつもありどれを使ってよいかわからない😰
+  - 使えそうなものが見つかっても、実際に使うのは大変/使えない場合も多い
+
+---
+# データ(ベース)を統合的に組み合わせて、データ駆動型研究を行う
+- 生命科学の目的は様々な要素が相互作用している複雑なシステムの理解
+  - 多種多様なデータの｢統合｣( ≒ 相互運用性、相互連携性) が必須   
+- 課題
+  - データベースごとに異なるインターフェース
+  - データベース間を繋ぐリンク情報の欠如
+  - データベースごとに異なる出力形式
+- 横断的にDBを使うには手間がかかりすぎる
+  - バイオインフォマティクスの出番
+    - 個別にデータベースを解析して組み合わせるための｢前処理｣が作業の8割
+
+---
+# 課題を解決するための取り組み
+- BioHackathon (バイオハッカソン)
+  - 生命科学分野のデータベース統合の技術基盤の確立を目的として、
+  年1回日本各地で開催している国際開発者会議
+  - BioHackathon 2015@長崎 にてFAIR原則の内容に関する議論が行われた
+    - Wilkinson MD et. al.: The FAIR Guiding Principles for scientific data management and stewardship. Sci Data., [doi:10.1038/sdata.2016.18](http://dx.doi.org/10.1038/sdata.2016.18) (2016)
+  - ![w:600](https://raw.githubusercontent.com/hiromasaono/training/master/images/BH2015_groupphoto.png)
+
+---
+# FAIR原則 と 知識グラフ
+  - Findable、Accessible、Interoperable、Reusable
+  - それぞれのデータが使いやすくなった（ちょっとずつなってる）
+    - 幅広いデータが統合できる時代になった
+- 知識グラフによる生命科学分野のデータベース統合
+  - 複数のデータセットが共通のURIで連結される
+  - 各データとそのつながりの意味が表現できる、すなわち、知識が表現できる
+  - 生成AIとの相性が良さそう?
+---
+# **TogoID** を使って生命科学系データベース間のつながりを探索的に確認しながらID変換を行う
+---
+# 生命科学分野におけるID変換の必要性 
+- 様々なデータべース (DB) を活用するには異なる ID 間のリンクが重要
+  - 使いたい解析ツールが手元にある ID では使えない
+  - 等価なものに対する ID 間で変換したい
+    - 例: NCBI Gene ID ↔ Ensembl Gene ID
+  - 関連する情報を取得したい 
+    - 遺伝子が関与する疾患、化合物が関与するパスウェイ etc.
+-  既存の ID 変換サービスの問題点
+   - 対象としている DB の範囲が限られる
+   - 大元の DB の更新に追従していない 
+   - プログラムから利用できるAPI が提供されていない
+---
+# [TogoID](https://togoid.dbcls.jp/)
+- 生命科学系データベース間のつながりを探索的に確認しながらID変換を行うウェブアプリケーション
+- Shuya Ikeda, Hiromasa Ono et. al.: TogoID: an exploratory ID converter to bridge biological datasets, Bioinformatics, [doi:10.1093/bioinformatics/btac491](https://doi.org/10.1093/bioinformatics/btac491) (2022)
+
+  ![bg right 85%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_togoid_top.jpg)
+
+---
+## 特長  
+  - **73のデータベースに由来する 104 のデータセットのペア**を収載 (2024年7月末現在)
+    - 遺伝子から化合物、疾患等までを網羅
+    - 毎週の定期更新
+  - 生物学的意味を持つID間の対応関係を独自の[オントロジー](https://togoid.dbcls.jp/ontology)として整備
+  - [GitHubレポジトリ](https://github.com/togoid)は公開
+    - 誰でも自由に参照したり新規データセットペアを提案できる
+  ![bg right:45% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_TogoID_results1.jpg)
+   
+---
+## Ver.2.0 公開!　(2024年9月)
+1. ラベルとIDの相互変換機能の追加 (LABEL2ID)
+   - 遺伝子シンボルや疾患名などのラベルをIDに変換可能に
+2. IDに対応するラベルの表示機能
+   - 変換後のIDが示す内容を理解しやすく
+3. 複数の意味的関係への対応
+   - 例：タンパク質と糖鎖の関係
+     * タンパク質が酵素として糖鎖を処理
+     * タンパク質が糖鎖によって修飾される
+  ![bg right:45% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_TogoID_results2.jpg)
+---
+# **TogoDX/human** を使って統合されたデータを探索･俯瞰･抽出する
+---
+# データを統合してTogoDXというアプリケーションを作った
+- データは統合できるが、それをどう理解・探索・解析するか？
+- 統合されたデータに適したインターフェースが必要
+  - ヒトデータはデータ量も膨大で多岐にわたっている
+  - 誰も本当に統合・俯瞰したことはないんじゃないか
+    - それができる TogoDX/human を作った
+    - データを入れ替えれば、マウス版や異なる他のテーマでも流用できる
+---
+# [TogoDX/human](https://togodx.dbcls.jp/human/)
+- 国内外のデータベースから収集・統合した、ヒトに関する遺伝子、タンパク質、化合物、疾患などの情報をワンストップで探索することができるサービス
+
+- TogoDX(Data eXplorer) は、生命科学分野における様々なデータベースを統合的に探索し、俯瞰するためのフレームワーク
+  - 膨大な情報を多様な属性 (attribute) によって柔軟に絞り込み、必要な情報を抽出できる新しい仕組み
+- TogoDX/humanでは、20個のデータベースに由来する65個の attribute が利用可能
+
+---
+# TogoDX で統合されたデータを俯瞰する
+![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220606_1.jpg)
+
+---
+# 探索例
+- 肺でタンパク質として発現が確認され、
+- 細胞膜表面に局在し、
+- タンパク質立体構造が明らかになっており、
+- 対応する医薬品が開発されている
+
+ヒトのタンパク質の一覧をワンストップで取得することができる💡
+![bg right fit](https://raw.githubusercontent.com/hiromasaono/training/master/images/2022-06-03_01.jpg)
+
+---
+# 選択した条件を全て満たすIDのリストを抽出できる
+![](https://github.com/togodx/togodx-config-human/raw/develop/docs/img/20211001_togodx_example1_01.png)
+
+---
+# 抽出したリストにおける他の属性の分布を調べる
+
+![](https://github.com/togodx/togodx-config-human/raw/develop/docs/img/20211001_togodx_example1_02.png)
+
+---
+# 自分の持つIDリストの偏りをTogoDX/humanのデータにマッピングして調べる
+![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220606_2.jpg)
+
+---
+# Ver.1.2 公開!(2023年9月)
+- UI更新・機能追加
+  - 表示するAttributeを取捨選択できる機能およびPresetの新設
+  - 深い階層のTermを検索可能なオントロジーブラウザ
+  - Filterを組み合わせた探索結果をプレビューできる機能
+  - JSONファイルによる探索条件の保存・共有機能
+
+![bg right:45% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230905_TogoDX_Human_v1.2.png)
+
+---
+# 動画マニュアル @ 統合TV
+- [TogoDX/Human v1\.2を使ってヒトのデータベースを統合的に探索､俯瞰､抽出する \(基本操作編\)](https://togotv.dbcls.jp/20240613.html)
+- [TogoDX/Human v1\.2を使ってヒトのデータベースを統合的に探索､俯瞰､抽出する \(一般疾患編\)](https://togotv.dbcls.jp/20240801.html)
+  - 生活習慣病の一つである**2型糖尿病**を例に､2型糖尿病と関連が既知のTCF7L2の特徴をもとに、複数のデータベースの情報を組み合わせて他の関連遺伝子候補を探索する方法
+- [TogoDX/Human v1\.2を使ってヒトのデータベースを統合的に探索､俯瞰､抽出する \(希少疾患編\)](https://togotv.dbcls.jp/20240802.html)
+  - 希少疾患である**鰓耳腎症候群**を例に､鰓耳腎症候群と関連が既知の遺伝子群の特徴をもとに、複数のデータベースの情報を組み合わせて他の関連遺伝子候補を探索する方法
+---
+# TogoID & TogoDX/human まとめ
+  - TogoID を使って生命科学系データベース間のつながりを探索的に確認しながらID変換を行う
+    - **多種多様なIDを統一的に利用できるよう整備する**ことで、生命科学データの「相互運用性」を高めるよう取り組んできている
+  
+  - TogoDX/human を使って統合されたデータを探索･俯瞰･抽出する
+    - 「相互運用性」を高めることによって**高度に統合されたデータベースを探索･俯瞰することで新たな知識を抽出できる(データ駆動型生命科学研究の)仕組み**ができあがりつつある
+---
+# 全体のまとめ
+- 生命科学分野におけるデータ駆動型研究の重要性
+  - 日々増加・進化するDBやツールを効果的に活用する能力が必須
+  - 統合TVなどのリソースを活用し、常に最新の知識・スキルを習得
+  - 正面からしか見られなかったものが横や後ろやナナメから見ることができるのがデータ駆動型研究のいいところ
+- 次世代の研究者へのメッセージ
+  - ｢バイオインフォマティクス｣も顕微鏡 や 実験試薬 などと同じ「道具(ツール)」
+  - 便利な「道具」を知って、その使い方が分かれば、あとはみなさん自身の情報分析力と想像力の勝負

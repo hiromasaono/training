@@ -25,6 +25,9 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 © 2024 ONO Hiromasa, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)　(出典明記でご自由にお使いください)
 
 ---
+ ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_selfintro.jpg)
+  
+---
 ## 自己紹介
 - [小野 浩雅](https://researchmap.jp/hiromasaono) 
   - [統合TV](https://togotv.dbcls.jp/)の運営・編集
@@ -182,7 +185,7 @@ ono@pt-bio.com / onohrms@hiroshima-u.ac.jp
 - [統合TVのコンテンツを利用したいのですが、著作権の扱いはどうなっていますか?](https://togotv.dbcls.jp/faq.html)
 - 2024年8月末で120件の[引用論文](https://dbcls.rois.ac.jp/references.html#TogoTV)
 
-![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_03.png)
+![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_03.jpg)
 
 ---
 # 日本分子生物学会との連携
