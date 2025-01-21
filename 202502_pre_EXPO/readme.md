@@ -99,7 +99,7 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_03.jpg)
    - 左側の`Status`から`Reviewed(Swiss-Prot)`をクリックすると高品質なものだけに絞り込めます
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_04.jpg)
-   - <details>
+<details>
   
 <summary>出てきた生物種の名前</summary> 
 
