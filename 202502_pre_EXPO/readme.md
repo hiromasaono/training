@@ -100,8 +100,9 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
    - 左側の`Status`から`Reviewed(Swiss-Prot)`をクリックすると高品質なものだけに絞り込めます
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_04.jpg)
    - <details>
+  
 <summary>出てきた生物種の名前</summary> 
- 
+
    - Wild turkey (七面鳥・[P68390](https://www.uniprot.org/uniprotkb/P68390/entry))
    - Emu (エミュー・[P05560](https://www.uniprot.org/uniprotkb/P05560/entry))
    - Japanese quail (ウズラ・[P01003](https://www.uniprot.org/uniprotkb/P01003/entry))
