@@ -33,8 +33,8 @@
   
 ```
 DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
-     📝              →      🏗️
-    平面              →     立体
+     📝      →      🏗️
+    平面     →     立体
 ```
 
 ### アレルギーの仕組み
@@ -54,7 +54,7 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
 ### ⚡ クイックガイド
 - **所要時間**: 約20分
 - **難易度**: ★★☆☆☆ (中学生・高校生向け)
-- **必要なもの**: インターネットに接続されたPC/タブレット
+- **必要なもの**: インターネットに接続されたPC/タブレット/スマートフォン
 
 ---
 
@@ -75,7 +75,7 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
 ### 🔰 調査手順
 
 #### 1️⃣ 基本の検索
-1. [UniProt](https://www.uniprot.org/)のウェブサイトにアクセス
+1. [UniProt](https://www.uniprot.org/)のウェブサイトにアクセス(URLリンクは「新規タブで開く」とよいです)
 2. 中央の検索窓に「**ovomucoid**」と入力
    - ⚠️ 英語で入力しましょう！
    - 「Table」表示が選択されていることを確認
@@ -106,6 +106,7 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
 3. 画面下部の「Run BLAST」で検索開始
 4. 2分ほど待って結果を確認
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_03.jpg)
+    - [時間がかかるとき用のリンクをここに貼る]()
 5. 左側の`Status`から`Reviewed(Swiss-Prot)`をクリックすると高品質なものだけに絞り込めます
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_04.jpg)
 <details>
@@ -287,11 +288,10 @@ MKW-TFIS*LTLFS  ← 比較する配列
 
 #### 1️⃣ BLAST検索で見つけた似たタンパク質同士を比較する
 1. Step 1の結果画面から比較したいEntryを選びます。
-![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_01.jpg)
-2. 画面中央メニューの「Tools」から「Align selected results (4)」をクリック
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_05.jpg)
+2. 画面中央メニューの「Tools」から「Align selected results (4)」をクリック
+![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_06.jpg)
 3. 画面下部の「Align 4 sequences」をクリック
-![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_06.jpg) 
 4. 1分ほど待って結果を確認
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_07.jpg)
 
