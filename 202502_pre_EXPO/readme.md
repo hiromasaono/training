@@ -300,6 +300,125 @@ MKW-TFIS*LTLFS  ← 比較する配列
 
 #### 2️⃣ 結果の見方
 
+アラインメントの結果には、以下のような情報が表示されます：
+
+```plaintext
+sp|P05560|IOVO_DRONO      MTMASVLVLLSLVLCCF-PDTAFGVEVDCSKYPNTTNEDGKEVLLCPKILNPICGSDGVT	59
+sp|P01003|IOVO_COTJA      ------------------------VEVDCSRFPNTTNEEGKDEVVCPDELRLICGTDGVT	36
+sp|P01005|IOVO_CHICK      MAMAGVFVLFSFVLCGFLPDAAFGAEVDCSRFPNATDKEGKDVLVCNKDLRPICGTDGVT	60
+sp|P68390|IOVO_MELGA      ------------------------VEVDCSRFPNTTNEEGKDVLVCTEDLRPICGTDGVT	36
+                                                  .*****::**:*:::**: ::* . *. ***:****
+
+sp|P05560|IOVO_DRONO      YSNDCLLCAYNIEYGANVSKDHDGECKEAVPIDCSKYANATNEEGKEVPLCTKILSPVCG	119
+sp|P01003|IOVO_COTJA      YNHECMLCFYNKEYGTNISKEQDGECGETVPMDCSRYPNTTSEDGKVTILCTKDFSFVCG	96
+sp|P01005|IOVO_CHICK      YTNDCLLCAYSIEFGTNISKEHDGECKETVPMNCSSYANTTSEDGKVMVLCNRAFNPVCG	120
+sp|P68390|IOVO_MELGA      H-SECLLCAYNIEYGTNISKEHDGECREAVPMDCSRYPNTTSEEGKVMILCNKALNPVCG	95
+                          :  :*:** *. *:*:*:**::**** *:**::** * *:*.*:**   **.: :. ***
+
+sp|P05560|IOVO_DRONO      TDGVTYSNECLLCAHNIEQGTSVGKKYDGECKKEFAT--VDCSDYPKPVCSLEYMPLCGS	177
+sp|P01003|IOVO_COTJA      TDGVTYDNECMLCAHNVVQGTSVGKKHDGECRKELAAVSVDCSEYPKPACPKDYRPVCGS	156
+sp|P01005|IOVO_CHICK      TDGVTYDNECLLCAHKVEQGASVDKRHDGGCRKELAAVSVDCSEYPKPDCTAEDRPLCGS	180
+sp|P68390|IOVO_MELGA      TDGVTYDNECVLCAHNLEQGTSVGKKHDGECRKELAAVSVDCSEYPKPACTLEYRPLCGS	155
+                          ******.***:****:: **:**.*::** *:**:*:  ****:**** *  :  *:***
+
+sp|P05560|IOVO_DRONO      DSKTYNNKCDFCNAVVESNGTLTLGHFGKC	207
+sp|P01003|IOVO_COTJA      DNKTYSNKCNFCNAVVESNGTLTLNHFGKC	186
+sp|P01005|IOVO_CHICK      DNKTYGNKCNFCNAVVESNGTLTLSHFGKC	210
+sp|P68390|IOVO_MELGA      DNKTYGNKCNFCNAVVESNGTLTLSHFGKC	185
+                          *.***.***:**************.*****
+```
+
+##### 🔍 見方のポイント：
+
+1. **配列ID**
+   - 左端に表示される`P01005`などの文字列
+   - UniProtのエントリー番号を示しています
+
+2. **アミノ酸配列**
+   - 一文字のアルファベットで表示
+   - 例：`M`（メチオニン）、`K`（リシン）など
+
+3. **比較のマーク**
+   - `*`：完全に一致している部位
+   - `:`：化学的性質が似ているアミノ酸
+   - `.`：やや似ているアミノ酸
+   - 空白：全く異なるアミノ酸
+   - `-`：ギャップ（挿入や欠失）
+
+4. **数字**
+   - 右端の数字は、そこまでのアミノ酸の数を示します
+
+##### 💡 アレルギーとの関係を探るポイント
+
+1. **システイン（C）の位置**
+   - システインは立体構造の形成に重要
+   - アレルギー反応に関わる可能性が高い
+   - 種間で保存されているか確認！
+
+2. **変異の多い領域**
+   - `*`が少ない部分に注目
+   - アレルギーの強さの違いに関係？
+
+3. **N末端シグナル配列**
+   - 配列の最初の部分（20-30アミノ酸）
+   - 分泌に関わる部分なので、違いがあるかも
+
+## 👀 Step 3: 違いを探してみよう！
+
+### 🔍 オボムコイドの特徴を見つけよう
+
+1. **保存された領域を探す**
+   - たくさんの`*`が並んでいる部分
+   - きっと重要な機能がある！
+
+2. **変化している部分を見つける**
+   - `-`や空白が多い部分
+   - 種によって違う機能？
+
+3. **注目すべきアミノ酸**
+   - システイン（C）：構造維持に重要
+   - プロリン（P）：構造の曲がり目
+   - 荷電アミノ酸（D, E, K, R）：表面にあることが多い
+
+### 🎯 発見したことをまとめよう
+
+| 特徴 | 場所 | 考えられる意味 |
+|------|------|----------------|
+| システインが保存 | 全体に散らばって | 立体構造の維持に重要 |
+| N末端が似てる | 最初の20残基 | 分泌に必要な部分 |
+| 変異が多い領域 | 中央付近 | アレルギー反応の違いに関係？ |
+
+### 💭 考察のヒント
+
+1. **なぜウズラの卵は食べられる人がいる？**
+   - 配列の違いを探してみよう
+   - 特に変異の多い部分に注目
+
+2. **アレルギーの強さの違い**
+   - 配列の違いが大きいほど
+   - アレルギー反応も変わる？
+
+3. **進化との関係**
+   - 鳥の種類による違い
+   - 進化の過程で変化した部分
+
+> 💡 **研究のコツ**  
+> 配列の違いを見つけたら、その部分が本当にアレルギーに関係しているのか、文献を調べてみるのも面白いですよ！
+
+### 🌟 チャレンジ問題
+
+1. **配列の特徴を見つけよう**
+   - システイン（C）は何個ある？
+   - どんなパターンで出てくる？
+
+2. **種間の違いを比較しよう**
+   - ニワトリとウズラで違う部分は？
+   - その違いは何を意味する？
+
+3. **仮説を立ててみよう**
+   - 見つけた違いは、アレルギーとどう関係する？
+   - どうやって確かめられる？
+
  
 
 
