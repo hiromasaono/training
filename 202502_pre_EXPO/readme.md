@@ -280,7 +280,7 @@ MKW-TFIS*LTLFS  ← 比較する配列
 
 
 #### 🔧 どうやって配列アラインメントするの?
- - [Clustal Omega](https://www.ebi.ac.uk/Tools/msa/clustalo/)（クラスタル・オメガ）という、世界中の研究者が使う配列アラインメントの標準的なツールを使います！
+ - [Clustal Omega](https://www.ebi.ac.uk/Tools/msa/clustalo/)（くらすたる・おめが）という、世界中の研究者が使う配列アラインメントの標準的なツールを使います！
    - UniProtのBLAST検索の結果からも実行できる
 
 ---
@@ -299,8 +299,9 @@ MKW-TFIS*LTLFS  ← 比較する配列
 
 
 #### 2️⃣ 結果の見方
-
-アラインメントの結果には、以下のような情報が表示されます：
+- **Highlight properties** や **Select annotation** をクリックするとアラインメント上のアミノ酸を性質で色分けしたり構造や機能の注釈を加えることができます
+![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_08.jpg)
+- **Text Output** を押すとアラインメント結果として、以下のような情報が表示されます：
 
 ```plaintext
 sp|P05560|IOVO_DRONO      MTMASVLVLLSLVLCCF-PDTAFGVEVDCSKYPNTTNEDGKEVLLCPKILNPICGSDGVT	59
@@ -380,13 +381,6 @@ sp|P68390|IOVO_MELGA      DNKTYGNKCNFCNAVVESNGTLTLSHFGKC	185
    - プロリン（P）：構造の曲がり目
    - 荷電アミノ酸（D, E, K, R）：表面にあることが多い
 
-### 🎯 発見したことをまとめよう
-
-| 特徴 | 場所 | 考えられる意味 |
-|------|------|----------------|
-| システインが保存 | 全体に散らばって | 立体構造の維持に重要 |
-| N末端が似てる | 最初の20残基 | 分泌に必要な部分 |
-| 変異が多い領域 | 中央付近 | アレルギー反応の違いに関係？ |
 
 ### 💭 考察のヒント
 
@@ -421,18 +415,11 @@ sp|P68390|IOVO_MELGA      DNKTYGNKCNFCNAVVESNGTLTLSHFGKC	185
 
  
 
-
-
-
-
-## 👀 Step 3: 違いを探してみよう！
+## 👀 Step 4: 分子系統樹を作って、生物間の関係を調べてみよう
 ### 🔍 次のステップへ
-アラインメントが終わったら、"Phylogenetic Tree"タブをクリック！
+アラインメントが終わったら、"Trees"タブをクリック！
 系統樹を見て、生物の進化とアレルギーの関係を探ってみましょう。
 
-> ⚠️ **注意点**
-> - ファイルの保存は「リンク先を別名で保存」を使います
-> - 結果が表示されない場合は、ブラウザを更新してみましょう
 
 ### 観察ポイント
 1. システイン(C)の位置は同じ？
