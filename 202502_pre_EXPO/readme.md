@@ -330,10 +330,13 @@ FEWERS    →  F-EW-ERS
 
 
 ### 2️⃣ 結果の見方
-- **Highlight properties** や **Select annotation** をクリックするとアラインメント上のアミノ酸を性質で色分けしたり構造や機能の注釈を加えることができます
+- **Highlight properties** や **Select annotation** をクリックするとアラインメント上のアミノ酸を性質で色分けしたり構造や機能の注釈を加えることができます：
+  - 用意されているオプションを変更すると見え方がどのように変わるか試してみよう
+  - それぞれの見え方はどういう特徴にもとづいているか調べてみよう
+![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_10.jpg)
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_08.jpg)
 
-- **Text Output** を押すとアラインメント結果として、以下のような情報が表示されます：
+- **Text Output** を押すと、以下のようなシンプルなテキスト形式のアラインメント結果が表示されます：
 
 ```plaintext
 sp|P05560|IOVO_DRONO      MTMASVLVLLSLVLCCF-PDTAFGVEVDCSKYPNTTNEDGKEVLLCPKILNPICGSDGVT	59
