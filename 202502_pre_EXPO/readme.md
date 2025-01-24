@@ -102,6 +102,7 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
      📝      →      🏗️
     平面      →     立体
 ```
+![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_09.jpg)
 
 ### アレルギーの仕組み
 アレルギーは「鍵と鍵穴」のような関係で起こります：
