@@ -334,7 +334,7 @@ FEWERS    →  F-EW-ERS
   - 用意されているオプションを変更すると見え方がどのように変わるか試してみよう
   - それぞれの見え方はどういう特徴にもとづいているか調べてみよう
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_10.jpg)
-![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_08.jpg)
+![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_11.jpg)
 
 - **Text Output** を押すと、以下のようなシンプルなテキスト形式のアラインメント結果が表示されます：
 
