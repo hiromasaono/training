@@ -327,7 +327,7 @@ FEWERS    →  F-EW-ERS
 4. 1分ほど待って結果を確認
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_07.jpg)
 
-
+---
 
 ### 2️⃣ 結果の見方
 - **Highlight properties** や **Select annotation** をクリックするとアラインメント上のアミノ酸を性質で色分けしたり構造や機能の注釈を加えることができます：
@@ -406,6 +406,8 @@ sp|P68390|IOVO_MELGA      DNKTYGNKCNFCNAVVESNGTLTLSHFGKC	185
    - プロリン（P）：構造の曲がり目
    - 荷電アミノ酸（D, E, K, R）：表面にあることが多い
   
+---
+
 ### 💭 自分なりに考察してみよう!
 
 1. **なぜウズラの卵は食べられる人がいる？**
@@ -423,6 +425,7 @@ sp|P68390|IOVO_MELGA      DNKTYGNKCNFCNAVVESNGTLTLSHFGKC	185
 > 💡 **研究のコツ**  
 > 配列の違いを見つけたら、その部分が本当にアレルギーに関係しているのか、文献を調べてみましょう！
  
+---
 
 ## 👀 【発展編】 Step 3: 分子系統樹を作って、生物間の関係を調べてみよう
 ### 🔍 次のステップへ
@@ -518,6 +521,8 @@ sp|P68390|IOVO_MELGA      DNKTYGNKCNFCNAVVESNGTLTLSHFGKC	185
 
 </details>
 
+---
+
 ## 🌟 おわりに
 お疲れさまです！今日はバイオインフォマティクスの研究者になった気分は味わえましたか？
 この方法は、他のアレルギーの研究や、薬の開発など、様々な場面で使われています。
@@ -525,3 +530,5 @@ sp|P68390|IOVO_MELGA      DNKTYGNKCNFCNAVVESNGTLTLSHFGKC	185
 みなさんも、未来の研究者として、新しい発見をしてみませんか？
 
 ---
+
+本資料は、https://imaginary-ant-c5c.notion.site/cfacf451b5f44449a9df9e1d752b4bd6　をもとに改変・追記して作成しました。
