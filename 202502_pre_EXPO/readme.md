@@ -531,4 +531,4 @@ sp|P68390|IOVO_MELGA      DNKTYGNKCNFCNAVVESNGTLTLSHFGKC	185
 
 ---
 
-本資料は、https://imaginary-ant-c5c.notion.site/cfacf451b5f44449a9df9e1d752b4bd6　をもとに改変・追記して作成しました。
+本資料は、[https://imaginary-ant-c5c.notion.site/cfacf451b5f44449a9df9e1d752b4bd6](https://imaginary-ant-c5c.notion.site/cfacf451b5f44449a9df9e1d752b4bd6) をもとに改変・追記して作成しました。
