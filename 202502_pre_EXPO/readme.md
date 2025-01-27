@@ -516,7 +516,9 @@ sp|P68390|IOVO_MELGA      DNKTYGNKCNFCNAVVESNGTLTLSHFGKC	185
 
 ### 📚 もっと学ぶために
 - [MEGA: 分子進化解析ソフト](https://www.megasoftware.net/)
+  - [MEGA7を使って配列のアラインメント・系統解析を行う](https://togotv.dbcls.jp/20171106.html) 
 - [PDB: タンパク質の3D構造データベース](https://www.rcsb.org/)
+  - [蛋白質構造データベース（PDB） @ MBSJ2022 フォーラム「生命科学のデータベース活用法」](https://togotv.dbcls.jp/20221220.html)
 - [Tree of Life Web Project](http://tolweb.org/)
 
 </details>
