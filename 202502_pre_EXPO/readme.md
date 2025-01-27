@@ -185,13 +185,13 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
 |------------|--------------|---------|--------|
 | 🥛 牛乳 | casein (カゼイン) | Bos taurus (ウシ) | [P02666](https://www.uniprot.org/uniprotkb/P02666/entry) | 
 | 🍞 小麦 | gliadin (グリアジン) | Triticum aestivum (コムギ) | [P18573](https://www.uniprot.org/uniprotkb/P18573/entry) |
-| 🐟 魚卵 | vitellogenin (ビテロジェニン) | Oncorhynchus keta (シロサケ) |
+| 🐟 魚卵 | vitellogenin (ビテロジェニン) | Oncorhynchus keta (シロサケ) | エントリなし? |
 
 ---
 > 💡 **検索のコツ**
-> - 分からない英語は [Google翻訳](https://translate.google.co.jp/)や[DeepL](https://www.deepl.com/ja/translator)を使おう
+> - 分からない英語があったら [Google翻訳](https://translate.google.co.jp/)や[DeepL](https://www.deepl.com/ja/translator)を使って日本語訳をしらべてみよう
 > - 生物種の和名はGoogleで調べてみよう
-> - 結果の見方が分からないときは、スタッフに相談しよう！
+> - 結果の見方が分からないときは、スタッフに相談しよう
 
 ---
 
