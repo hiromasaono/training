@@ -1,4 +1,5 @@
 # 🧬 卵アレルギーの謎を解く！～バイオインフォマティクス探偵になろう～ 🧬
+ - ![bg right:40% 80%](https://raw.githubusercontent.com/hiromasaono/training/master/images/202502_preExpo_QR.png)
 <details>
   
 <summary> 📖 目次（クリックして開く）</summary> 
