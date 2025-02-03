@@ -4,7 +4,7 @@
   
 <summary> 📖 目次（クリックして開く）</summary> 
 
-- [🧬 卵アレルギーの謎を解く！～あなたもゲノム探偵になろう～ 🧬](#-卵アレルギーの謎を解くあなたもゲノム探偵になろう-)
+- [🧬 卵アレルギーの謎を解く！～あなたもゲノム探偵になろう～ 🔎](#-卵アレルギーの謎を解くあなたもゲノム探偵になろう-)
   - [今日の探偵ミッション](#今日の探偵ミッション)
   - [どうやって調べるの？](#どうやって調べるの)
   - [🎯 今日の目標](#-今日の目標)
@@ -162,10 +162,11 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
 2. 画面中央メニューの「Tools」から「BLAST」をクリック
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_02.jpg)
 3. 画面下部の「Run BLAST」で検索開始
+![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_12.jpg)
 4. 2分ほど待って結果を確認
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_03.jpg)
     - [時間がかかるとき用のリンクをここに貼る]()
-5. 左側の`Status`から`Reviewed(Swiss-Prot)`をクリックすると高品質なものだけに絞り込めます
+1. 左側の`Status`から`Reviewed(Swiss-Prot)`をクリックすると高品質なものだけに絞り込めます
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_04.jpg)
 <details>
   
@@ -325,13 +326,14 @@ FEWERS    →  F-EW-ERS
 2. 画面中央メニューの「Tools」から「Align selected results (4)」をクリック
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_06.jpg)
 3. 画面下部の「Align 4 sequences」をクリック
+![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_13.jpg)
 4. 1分ほど待って結果を確認
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_07.jpg)
 
 ---
 
 ### 2️⃣ 結果の見方
-- **Highlight properties** や **Select annotation** をクリックするとアラインメント上のアミノ酸を性質で色分けしたり構造や機能の注釈を加えることができます：
+- 上部メニューの"Overview"では、**Highlight properties** や **Select annotation** をクリックするとアラインメント上のアミノ酸を性質で色分けしたり構造や機能の注釈を加えることができます：
   - 用意されているオプションを変更すると見え方がどのように変わるか試してみよう
   - それぞれの見え方はどういう特徴にもとづいているか調べてみよう
   
@@ -339,8 +341,8 @@ FEWERS    →  F-EW-ERS
 
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_11.jpg)
 
-- **Text Output** を押すと、以下のようなシンプルなテキスト形式のアラインメント結果が表示されます：
-
+- 上部メニューの**Text Output** を押すと、以下のようなシンプルなテキスト形式のアラインメント結果が表示されます：
+![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_14.jpg)
 ```plaintext
 sp|P05560|IOVO_DRONO      MTMASVLVLLSLVLCCF-PDTAFGVEVDCSKYPNTTNEDGKEVLLCPKILNPICGSDGVT	59
 sp|P01003|IOVO_COTJA      ------------------------VEVDCSRFPNTTNEEGKDEVVCPDELRLICGTDGVT	36
