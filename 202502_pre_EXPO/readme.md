@@ -165,7 +165,7 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_12.jpg)
 4. 2分ほど待って結果を確認
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_03.jpg)
-    - [時間がかかるとき用のリンクをここに貼る]()
+    - [時間がかかるとき用のリンク](https://www.uniprot.org/blast/uniprotkb/ncbiblast-R20250212-082523-0510-69392180-p1m/overview)
 1. 左側の`Status`から`Reviewed(Swiss-Prot)`をクリックすると高品質なものだけに絞り込めます
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_04.jpg)
 <details>
@@ -329,6 +329,8 @@ FEWERS    →  F-EW-ERS
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_13.jpg)
 4. 1分ほど待って結果を確認
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_07.jpg)
+   - [時間がかかるとき用のリンク](https://www.uniprot.org/align/clustalo-R20250212-082959-0922-49567869-p1m/overview)
+
 
 ---
 
