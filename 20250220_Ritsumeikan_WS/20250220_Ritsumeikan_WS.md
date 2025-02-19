@@ -53,8 +53,8 @@ ono@pt-bio.com
 - https://togotv.dbcls.jp/ 📺
   - [DBCLS](https://dbcls.rois.ac.jp/index.html)が運営する、生命科学分野における有用な **データベースやツールの動画マニュアル、講演や講習会動画、資料、イラスト** を独自に制作し、紹介するウェブサイト
     - 実験系研究者の初学者が主要な想定利用者
-    - 技術習得の障壁を下げるため、自主学習、新人･後輩指導、講義・勉強会の教材として誰でも自由に使える
-  - 2007年8月スタート(2024年で17年目!)
+    - 自主学習、新人･後輩指導、講義・勉強会の教材として
+  - 2007年8月スタート
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240924_01.jpg)
 
 ---
@@ -97,6 +97,8 @@ ono@pt-bio.com
 
 # 文献の検索や管理、情報収集に役立つツール
 - 泣く子も黙るPubMedはもちろん、ZoteroやPaperpileなどの文献情報の管理・引用文献リスト作成支援ツールの動画が人気
+- 後半の「研究成果発信に役立つデータベース・ウェブツール」にていくつか取り上げます!
+
 
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20240114_01.jpg)
 
@@ -109,7 +111,7 @@ ono@pt-bio.com
 
 ---
 
-# 現在のラインナップ例 (今後充実させていきます)
+# 現在のラインナップ例 (今後拡充予定)
 - [ラボの新人がまずマスターしたいデータベース・ウェブツール \(2020年4月\)](https://togotv.dbcls.jp/course.html?id=PL0uaKHgcG00Z89qgyoEbSof6VSGVxpplc)
 - [文献の検索や管理、情報収集に役立つツール](https://togotv.dbcls.jp/course.html?id=PL5409971734873D19)
 - [文章の執筆に役立つツール](https://togotv.dbcls.jp/course.html?id=PL0uaKHgcG00Y4Nuo6g08Ql3CsCefTvB9H)
