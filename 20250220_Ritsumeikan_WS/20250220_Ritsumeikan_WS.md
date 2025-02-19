@@ -25,8 +25,8 @@ ono@pt-bio.com
 
 これは、立命館大学 サイエンスの研究成果を英語で発信するワークショップ『統合TVを駆使して、生命科学研究のためのデータベースを探す・学ぶ・使う』の講演資料です。   
 - PDF のダウンロード　
-  - [https://bit.ly/20250109_Maebashi-IT](https://bit.ly/20250109_Maebashi-IT)
-  - ![bg right:40% 80%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250109_Maebashi-IT.png)
+  - [https://x.gd/250220_hono](https://x.gd/250220_hono)
+  - ![bg right:40% 80%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250220_QR.png)
 
 © 2025 ONO Hiromasa, [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)　(出典明記でご自由にお使いください)
 
