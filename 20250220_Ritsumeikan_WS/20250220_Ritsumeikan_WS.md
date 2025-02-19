@@ -9,7 +9,7 @@ paginate: true
 # 統合TVを駆使して、生命科学研究のためのデータベースを探す・学ぶ・使う
 
 ---
-[小野 浩雅](https://researchmap.jp/hiromasaono)  
+小野 浩雅 ([Researchmap](https://researchmap.jp/hiromasaono))  
 
 広島大学ゲノム編集イノベーションセンター バイオDX産学共創拠点 プロジェクトマネージャー
  [プラチナバイオ株式会社](https://www.pt-bio.com/) 事業推進部 ディレクター   
@@ -35,13 +35,13 @@ ono@pt-bio.com
   
 ---
 ## 自己紹介
-- [小野 浩雅](https://researchmap.jp/hiromasaono) 
+- 小野 浩雅 ([Researchmap](https://researchmap.jp/hiromasaono)) 
   - [統合TV](https://togotv.dbcls.jp/)の運営・編集
   - [RefEx](https://refex.dbcls.jp/)の開発
     - 遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツール
   - 2024年4月から
     - [プラチナバイオ株式会社](https://www.pt-bio.com/) 事業推進部 ディレクター / 広島大学ゲノム編集イノベーションセンター バイオDX産学共創拠点 プロジェクトマネージャー
-      - 産業有用生物のゲノム情報の取得・目的機能に関わる遺伝子の特定(BioDX)からゲノム編集による機能改変・向上まで一貫して実現できるプラットフォームをつくる
+      - ゲノム解析(BioDX)とゲノム編集を活用して生物機能をデザインするデジタル育種を実現し、社会課題の解決を目指す
 ---
 # 統合TV(TogoTV)
 ## 課題
