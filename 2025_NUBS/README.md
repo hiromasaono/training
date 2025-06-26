@@ -1,5 +1,5 @@
 # これから研究室に入る初学者のための便利な生命科学系公共データベースとバイオインフォマティクスツールの使いこなし演習
-## [https://bit.ly/202507_NUBS](https://bit.ly/202507_NUBS)
+## [https://x.gd/qM5x6](https://x.gd/qM5x6)
 
 広島大学ゲノム編集イノベーションセンター / プラチナバイオ株式会社  
 小野 浩雅 ([X@h_ono](https://twitter.com/h_ono), [researchmap](https://researchmap.jp/hiromasaono))  
