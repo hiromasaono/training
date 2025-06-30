@@ -765,7 +765,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
 1. [DAVID](https://davidbioinformatics.nih.gov)にアクセスし、上部メニューの「Start Analysis」をクリックします。
 
-  - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_8.jpg)
+  - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250630_DAVID_top.jpg)
 
 2. 画面左側バーで、probe IDリストをコピペ or ファイルを指定します。
 3. リストのIDの種類タイプを選択します。 … 今回は、「AFFY_ID」と「Gene List」
