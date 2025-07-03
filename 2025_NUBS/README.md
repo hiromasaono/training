@@ -670,6 +670,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
 #### 【発展】 UCSC Genome Browserの統合TV
 - UCSC Track Hubs を使って大規模な公共データをゲノムブラウザで閲覧する [`https://doi.org/10.7875/togotv.2019.174`](https://doi.org/10.7875/togotv.2019.174)
 - UCSC Table Browserを使って多様なアノテーショントラックからデータを絞り込み閲覧･取得する [`https://doi.org/10.7875/togotv.2021.051`](https://doi.org/10.7875/togotv.2021.051)
+- [UCSCゲノムブラウザを活用する @ AJACSオンライン15](https://togotv.dbcls.jp/20230207.html)
 
 ### 【実習2】 Ensembl Genome Browser
 
@@ -706,7 +707,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
     - 直感的なインターフェースにより生命科学系データベース(DB)間のつながりを探索的に確認しながらID変換を行うことができるウェブアプリケーションです。
     - 遺伝子、タンパク質、化合物、疾患、遺伝子バリアントといった幅広いカテゴリーに渡る65種(2022年5月時点)のIDを対象としています。
     - 変換されたIDをすぐに他のサービスで利用できるようクリップボードにコピーする機能があるほか、変換されたIDリスト、IDに対応するURL、そして変換経路のすべてのIDを含むデータをCSV形式でダウンロードすることができます。
-    - 統合TV: [TogoIDを使って生命科学分野のデータベースのID間の対応関係を検索し変換する](https://togotv.dbcls.jp/20210910.html)
+    - 統合TV: [TogoID ver\. 2\.0を使って生命科学系データベースのさまざまなIDを探索的に変換する](https://togotv.dbcls.jp/20241219.html)
 ---
 
 
