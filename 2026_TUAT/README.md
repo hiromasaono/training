@@ -1,8 +1,8 @@
 # Ⅱ-7 データ分析の実例 バイオインフォマティクス, Ⅱ-8 データ分析の実例（演習）
 ## [https://x.gd/qM5x6](https://x.gd/qM5x6)
 
-広島大学ゲノム編集イノベーションセンター / プラチナバイオ株式会社
-小野 浩雅 ([X@h_ono](https://twitter.com/h_ono), [researchmap](https://researchmap.jp/hiromasaono))
+広島大学ゲノム編集イノベーションセンター / プラチナバイオ株式会社  
+小野 浩雅 ([X@h_ono](https://twitter.com/h_ono), [researchmap](https://researchmap.jp/hiromasaono))  
 onohrms@hiroshima-u.ac.jp
 
 2026年3月3日(火) 小金井キャンパス、2026年3月4日(水) 府中キャンパス
@@ -17,13 +17,13 @@ onohrms@hiroshima-u.ac.jp
 
 ## 概要
 
-ヒトゲノム計画が完了してから17年(実は、つい最近まで完全には解読されていなかった - [ヒトゲノム計画とヒトゲノム完全解読](https://www.jstage.jst.go.jp/article/jsbibr/3/1/3_jsbibr.2022.primer2/_html/-char/ja))がたち、今や技術革新により日々膨大なデータが産み出され、それらは様々なデータベースに登録され、その多くは公開される時代となっています。そして、生命科学研究を効率よく進めるためには、これらのデータをいかに有効活用するかが鍵になっています。
+ヒトゲノム計画が完了してから約23年(実は、つい最近まで完全には解読されていなかった - [ヒトゲノム計画とヒトゲノム完全解読](https://www.jstage.jst.go.jp/article/jsbibr/3/1/3_jsbibr.2022.primer2/_html/-char/ja))がたち、今や技術革新により日々膨大なデータが産み出され、それらは様々なデータベースに登録され、その多くは公開される時代となっています。そして、生命科学研究を効率よく進めるためには、これらのデータをいかに有効活用するかが鍵になっています。
 そこで、全2回の講義では、これから研究室に所属して研究を始める皆さんを対象に、誰でも自由に使える便利な生命科学系のデータベースやバイオインフォマティクスツールをご自分のコンピュータを使ったハンズオン形式で紹介します。
 生命科学系公共データベースとバイオインフォマティクスツールは、仮説構築から始まり、実験計画・検証、データ解析、そして論文執筆(以下ループ)という研究サイクルを加速化・効率化するための便利な「道具」です。ぜひご自身の手で「使い倒し」てみてください。これから始まる研究生活の中で役に立つこと請け合いです。
 
 ----
 ## 自己紹介
-- 小野 浩雅(おの ひろまさ)([reseachmap](https://researchmap.jp/hiromasaono/))
+- 小野 浩雅(おの ひろまさ)([researchmap](https://researchmap.jp/hiromasaono/))
   - [TogoTV](https://togotv.dbcls.jp/)の運営・編集者
   - [RefEx](https://refex.dbcls.jp/)の開発者
     - 遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツール
@@ -120,7 +120,7 @@ onohrms@hiroshima-u.ac.jp
 - 米国 国立生物工学情報センター (National Center for Biotechnology Information: NCBI)
 - 文献、遺伝子、遺伝学、タンパク質、ゲノム、化合物といったあらゆるデータベースがあります。
 ![NCBI top](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220621_1.jpg)
-  - ここでも **all[filter]** を使って全件数を調べられます。
+  - **all[filter]** を使って全件数を調べられます。
 ![NCBI all](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220621_2.jpg)
 - [【NCBI】に関係する統合TV動画](https://togotv.dbcls.jp/result.html?type=manual&page=1&query=NCBI)
 ### NCBIで 遺伝子 を調べる
@@ -138,7 +138,7 @@ onohrms@hiroshima-u.ac.jp
   - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220617_02.jpg)
 1. ヒトのALDH2を調べたいので、ALDH2 homo sapiens　としてみるとどう変わるでしょうか
 1. 一番上にでてきた **ALDH2 ID:217** というのがお目当てのもののようなのでクリックします
-1. NCBI Gene データベースにおける **ヒトのALHD2 のページ** [https://www.ncbi.nlm.nih.gov/gene/217](https://www.ncbi.nlm.nih.gov/gene/217) が表示されます
+1. NCBI Gene データベースにおける **ヒトのALDH2 のページ** [https://www.ncbi.nlm.nih.gov/gene/217](https://www.ncbi.nlm.nih.gov/gene/217) が表示されます
   - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220617_03.jpg)
 
 
@@ -221,7 +221,7 @@ onohrms@hiroshima-u.ac.jp
 	- リファレンス配列と個々の生物のゲノム配列を比較する
 	- シーケンシングされたリード配列をリファレンス配列にマッピングすることで発現量を定量する
 - 各ゲノムのいわゆる「バージョン」は、アセンブリやビルドと呼ばれる
-	- 最新のヒトゲノムは、GRCh38 (for Genome Research Consortium human build 38)
+	- 広く使われているヒトゲノムのリファレンスは、GRCh38 (for Genome Research Consortium human build 38)
 		- Hg38 (for Human genome build 38)と呼ばれる場合もある
 - 国際基準ゲノム配列の日本人版を作成する取り組みが東北大学東北メディカル・メガバンク機構([ToMMo](https://www.megabank.tohoku.ac.jp/))で行われている
 	- [日本人多層オミックス参照パネル\(jMorp\)](https://jmorp.megabank.tohoku.ac.jp/)で閲覧できる
@@ -260,7 +260,7 @@ onohrms@hiroshima-u.ac.jp
 - 塩基配列解読したゲノム配列とそこに付与（アノテーション）された情報を見るための仕組み
   - アノテーション(Annotation: 注釈)
   	-　何も書かれていないとその場所にあるものが何かわからなくなるので、付箋を貼ってあとから誰がみてもわかるように説明を書き⾜すこと
-  - 生命科学分野の[Google map](https://www.google.co.jp/maps/place/%E6%97%A5%E6%9C%AC%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%89%A9%E8%B3%87%E6%BA%90%E7%A7%91%E5%AD%A6%E9%83%A8/@35.3806744,139.4674663,17z/data=!3m1!4b1!4m5!3m4!1s0x601851a101ca6eaf:0x3c594193604e3516!8m2!3d35.38067!4d139.469655?hl=ja)のようなイメージ
+  - 生命科学分野の[Google map](https://www.google.co.jp/maps/place/%E6%9D%B1%E4%BA%AC%E8%BE%B2%E5%B7%A5%E5%A4%A7%E5%AD%A6/@35.6839,139.4807,17z?hl=ja)のようなイメージ
 - オンライン型とローカル型
   - オンライン型：ウェブブラウザ上でサーバにあるゲノムデータベースから必要な情報を取り出してこれる
   	- UCSC Genome Browser https://genome.ucsc.edu/
@@ -316,7 +316,7 @@ onohrms@hiroshima-u.ac.jp
    - 脊椎動物のゲノムを対象としたゲノムブラウザ
    - 比較ゲノム、進化、配列変異、転写制御などの研究をサポート
    - Ensembl Genome Browser でも上記のALDH2を検索してみましょう。
-- EnsemblGenomes [`https://ensemblgenomes.org/`](https://ensemblgenomes.org//)
+- EnsemblGenomes [`https://ensemblgenomes.org/`](https://ensemblgenomes.org/)
    - 脊椎動物以外のゲノムDB
        - EnsemblPlants （植物）
        - EnsemblMetazoa （後生動物）
@@ -335,8 +335,8 @@ onohrms@hiroshima-u.ac.jp
 
 - 配列を取得する [`https://doi.org/10.7875/togotv.2017.046`](https://doi.org/10.7875/togotv.2017.046)
 - 塩基配列のアラインメントを作成し生物種間で比較する 2019 [`https://doi.org/10.7875/togotv.2019.106`](https://doi.org/10.7875/togotv.2019.106)
-- 過去のバージョンのゲノムアノテーションを調べる [`http://doi.org/10.7875/togotv.2017.088`](http://doi.org/10.7875/togotv.2017.088)
-- 遺伝子の場所や周辺情報を調べる [`http://doi.org/10.7875/togotv.2017.082`](http://doi.org/10.7875/togotv.2017.082)
+- 過去のバージョンのゲノムアノテーションを調べる [`https://doi.org/10.7875/togotv.2017.088`](https://doi.org/10.7875/togotv.2017.088)
+- 遺伝子の場所や周辺情報を調べる [`https://doi.org/10.7875/togotv.2017.082`](https://doi.org/10.7875/togotv.2017.082)
 
 ### ID変換ツール
   - [TogoID](https://togoid.dbcls.jp/)
@@ -365,12 +365,12 @@ onohrms@hiroshima-u.ac.jp
     - 発現量が顕著に異なる遺伝子=その実験条件に影響を受けた遺伝子
 - 遺伝子発現･機能解析
   - 実験条件によって得られた数十～数千のDEGsが生物学的にどういう意味を持つかを考えることが第一歩
-  - ![Gyazo](http://i.gyazo.com/52cb4c40b1313a52f8ded6923bdd8ef0.png)
-- [Gene Ontology(GO)](http://geneontology.org/)
+  - ![Gyazo](https://i.gyazo.com/52cb4c40b1313a52f8ded6923bdd8ef0.png)
+- [Gene Ontology(GO)](https://geneontology.org/)
   - 遺伝子の属性を記述する語彙を統一化(GO term)し、種を越えた遺伝子関連情報を記述し構造化することを目的とした国際プロジェクトであり、その成果のこと
   - すべてのGO termは、**biological process（生物学的プロセス）**、**cellular component（細胞の構成要素）**、**molecular function（分子機能）** の3カテゴリーのいずれかに属し、GO term同士の上下関係が一義に決まっている(のでコンピュータで処理しやすい)
   - molecular function＞binding＞protein binding＞receptor binding＞以下、より具体的になる
-  - Go term には、その根拠を示す[Evidence code](http://geneontology.org/docs/guide-go-evidence-codes/) が付いている
+  - GO term には、その根拠を示す[Evidence code](https://geneontology.org/docs/guide-go-evidence-codes/) が付いている
 
   - [ALDH2の場合の例](https://www.ncbi.nlm.nih.gov/gene/217#gene-ontology)
   - ![ALDH2 GO](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_1.jpg)
@@ -382,14 +382,14 @@ onohrms@hiroshima-u.ac.jp
 
 ## [DAVID: The Database for Annotation, Visualization and Integrated Discovery](https://davidbioinformatics.nih.gov)
 - アメリカ国立アレルギー・感染症研究所が開発･運用 → 2023年に NIH (National Institutes of Health: 米国国立衛生研究所)に移管
-- 最新の原著論文 [PMID: 35325185](http://www.ncbi.nlm.nih.gov/pubmed/35325185)
+- 最新の原著論文 [PMID: 35325185](https://www.ncbi.nlm.nih.gov/pubmed/35325185)
 - DEGsのような遺伝子リストをコピペするだけで簡単にエンリッチメント解析 ( GO､KEGG など )することができる
 - 対応生物種･遺伝子ID が 豊富｡ ID変換ツールもある
 - IDリストしか投げられない (発現量込みやタイムコースデータは不可)
 
 
 #### マイクロアレイデータの準備
-- サンプルデータとして、[NCBI GEO](http://www.ncbi.nlm.nih.gov/geo/)から取得した公共の遺伝子発現データを用います。
+- サンプルデータとして、[NCBI GEO](https://www.ncbi.nlm.nih.gov/geo/)から取得した公共の遺伝子発現データを用います。
 - このデータは、 **ある実験の前後の2群間で有意に発現減少した遺伝子群** のリストです。
 
      → [マル秘遺伝子リスト](https://raw.githubusercontent.com/hiromasaono/training/master/2022_NUBS/secret_list.txt)  （右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
@@ -397,8 +397,8 @@ onohrms@hiroshima-u.ac.jp
 - このデータは、どのような実験から得られたデータなのか、どのように解釈できるのかをDAVIDを使って考察してみましょう！
 
 ### DAVIDを用いて、遺伝子発現データの結果を生物学的に解釈する
-- 【復習用】[DAVIDを使ってマイクロアレイデータを解析する 2012](http://doi.org/10.7875/togotv.2012.079)
-- 【復習用】[DAVIDの使い方 実践編](http://doi.org/10.7875/togotv.2013.033)
+- 【復習用】[DAVIDを使ってマイクロアレイデータを解析する 2012](https://doi.org/10.7875/togotv.2012.079)
+- 【復習用】[DAVIDの使い方 実践編](https://doi.org/10.7875/togotv.2013.033)
 
 1. [DAVID](https://davidbioinformatics.nih.gov)にアクセスし、上部メニューの「Start Analysis」をクリックします。
 
@@ -429,7 +429,7 @@ onohrms@hiroshima-u.ac.jp
   - Count = そのGO termが付与されていたリスト中の遺伝子の数
   - % = そのGO termが付与されていたリスト中の遺伝子の割合
   - P-value = リスト中の遺伝子がそのGO termに偶然エンリッチする可能性を示す尺度
-  - Benajamini = P-value の多重検定補正された値
+  - Benjamini = P-value の多重検定補正された値
 10. さらに、GOTERM_CC_DIRECT や GOTERM_MF_DIRECT を見て、上位にリストされたGOTermにどのような共通点・相違点があるでしょうか。
  - CC = Cellular Component
   - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_6.jpg)
@@ -448,7 +448,7 @@ onohrms@hiroshima-u.ac.jp
 ### 答え
   - マル秘遺伝子リストは、以下の比較実験をして得たマイクロアレイデータの発現減少遺伝子群でした。
   - 植物細胞と細胞壁分解酵素を用いて取り除いた植物細胞（プロトプラスト)との比較（＝植物細胞のカルス作成前・後）
-  - オリジナルデータ取得元 [GSE15515](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE15515)
+  - オリジナルデータ取得元 [GSE15515](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE15515)
 
 ### 生物学的解釈の一例
   - ｢分化した植物細胞は、G0期という特別な細胞周期にはいり、細胞分裂を行わずに休止している。しかし、このように分化した後でも、植物細胞は分化全能性を保持している。そのため、いったん未分化の状態に戻せば（脱分化）、周囲の環境の調節しだいであらゆる方向へ再分化させることができる。この脱分化された植物細胞こそがカルスである。｣という記載が[カルスのWikipedia](https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AB%E3%82%B9_(%E6%A4%8D%E7%89%A9))にあります。カルス=植物の脱分化であり、脱分化が分化した機能の消失を招くならば、植物細胞が機能をしている≒光合成をする、と考えると、今回のGOエンリッチメント解析で｢光合成｣や｢クロロプラスト｣といったGOtermが極めて低いP-valueを示し上位に並んだこと、すなわち、その機能に関与する遺伝子数が偏って多く減少したことと一致すると言えます。
