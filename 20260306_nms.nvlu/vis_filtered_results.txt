@@ -1,0 +1,1128 @@
+DATE: 2026-01-21
+NAME: PathVisio を使って生物学的パスウェイ図を描画・編集・公開する （2025年度版）
+KEYWORDS: パスウェイ解析,遺伝子,タンパク質,化合物,可視化,データベース
+URL: https://togotv.dbcls.jp/20260121.html
+---
+DATE: 2025-12-30
+NAME: Docker版のVEPを導入して、バリアント情報にアノテーションし、基本的な統計情報を調べる
+KEYWORDS: 多型, 変異, アノテーション, VCF, Ensembl, EBI, Docker, VEP, ゲノム, バイオインフォマティクス
+URL: https://togotv.dbcls.jp/20251230.html
+---
+DATE: 2025-12-24
+NAME: GRNに基づくin silico perturbationツールCellOracleの紹介
+
+KEYWORDS: 講演, ネットワーク解析, ソフトウェア,GRN, 遺伝子制御ネットワーク,データ解析, バイオインフォマティクス
+URL: https://togotv.dbcls.jp/20251224.html
+---
+DATE: 2025-12-23
+NAME: 摂動後の発現ダイナミクスに基づく制御ネットワーク推定手法RENGE
+KEYWORDS: 講演, ネットワーク解析, ソフトウェア,GRN, 遺伝子制御ネットワーク,データ解析, バイオインフォマティクス
+URL: https://togotv.dbcls.jp/20251223.html
+---
+DATE: 2025-04-16
+NAME: WashU Epigenome Browser でゲノムとエピゲノムを可視化する
+KEYWORDS: ゲノム,遺伝子,発現解析,ChIP-seq,ウェブツール,可視化
+URL: https://togotv.dbcls.jp/20250416.html
+---
+DATE: 2025-02-09
+NAME: Hi-Cデータを使う @ データ解析講習会：AJACS「Hi-C解析を知って・学んで・使う」
+KEYWORDS: 講演,AJACS,データベース,発現解析,遺伝子,ゲノム,NGS,RNA-seq,R,bioconductor
+URL: https://togotv.dbcls.jp/20250209.html
+---
+DATE: 2025-02-08
+NAME: Hi-C解析を知る @ データ解析講習会：AJACS「Hi-C解析を知って・学んで・使う」
+KEYWORDS: 講演,AJACS,データベース,発現解析,遺伝子,ゲノム,NGS,RNA-seq,R,bioconductor
+URL: https://togotv.dbcls.jp/20250208.html
+---
+DATE: 2025-02-02
+NAME: Fst・PCA・UMAP @ 第5回木村資生記念進化学セミナー
+KEYWORDS: 講演
+URL: https://togotv.dbcls.jp/20250202.html
+---
+DATE: 2025-01-29
+NAME: scRNA-seqデータを用いた細胞分類入門 @ データ解析講習会：AJACS「シングルセルRNA-seqを知って・学んで・使う」
+KEYWORDS: 講演,AJACS,データベース,発現解析,遺伝子,NGS,RNA-seq,R,bioconductor, 入門シリーズ
+URL: https://togotv.dbcls.jp/20250129.html
+---
+DATE: 2025-01-06
+NAME: Helixerを利用してゲノムにアノテーションを行いJBrowse2で結果を可視化する
+KEYWORDS: ゲノム,遺伝子,配列解析,ウェブツール,可視化
+URL: https://togotv.dbcls.jp/20250106.html
+---
+DATE: 2024-12-09
+NAME: napariを使って画像解析を行う
+KEYWORDS: 画像,可視化,Python
+URL: https://togotv.dbcls.jp/20241209.html
+---
+DATE: 2024-12-08
+NAME: iTraNet を使ってトランスオミクスネットワークを構築・解析する
+KEYWORDS: ゲノム,遺伝子,発現解析,ウェブツール,可視化
+URL: https://togotv.dbcls.jp/20241208.html
+---
+DATE: 2024-10-16
+NAME: HiC1Dmetricsを用いたゲノム立体構造解析 @ Bio”Pack”athon2024#10
+KEYWORDS: 講演,プログラミング,環境設定,R,bioconductor,遺伝子,発現解析
+URL: https://togotv.dbcls.jp/20241016.html
+---
+DATE: 2024-09-30
+NAME: SingleCellHaystack: A universal differential expression prediction tool for single-cell and spatial genomics data @ Bio”Pack”athon2024#9
+KEYWORDS: 講演,プログラミング,環境設定,R,bioconductor,遺伝子,発現解析
+URL: https://togotv.dbcls.jp/20240930.html
+---
+DATE: 2024-09-29
+NAME: 多変量解析を用いたオミックスデータ解析のためのRパッケージloadingsの開発 @ Bio”Pack”athon2024#9
+KEYWORDS: 講演,プログラミング,環境設定,R,bioconductor,遺伝子,発現解析
+URL: https://togotv.dbcls.jp/20240929.html
+---
+DATE: 2024-09-10
+NAME: Metascapeを使って遺伝子リストの生物学的解釈をする
+KEYWORDS: 遺伝子,発現解析,可視化,パスウェイ解析,ウェブツール
+URL: https://togotv.dbcls.jp/20240910.html
+---
+DATE: 2024-07-12
+NAME: Snowflakeで実現するAll-in-One Bioinformatics Platform @ Bio”Pack”athon2024#7
+KEYWORDS: 講演,プログラミング,環境設定,ウェブツール,発現解析,遺伝子,R,bioconductor,可視化.バリアント解析,多型,疾患情報
+URL: https://togotv.dbcls.jp/20240712.html
+---
+DATE: 2024-05-25
+NAME: NCBI Gene Expression Omnibus（GEO）にシングルセルRNA-Seqデータを登録する @ Bio”Pack”athon2024#5
+KEYWORDS: 講演,発現解析,遺伝子,データベース,NCBI,GEO,R,bioconductor
+URL: https://togotv.dbcls.jp/20240525.html
+---
+DATE: 2024-04-30
+NAME: NGSによる遺伝子型判定エラーを低減・修正するツールMCPtaggRとGBSceanRの紹介 @ Bio”Pack”athon2024#4
+KEYWORDS: 講演,プログラミング,環境設定,R,Bioconductor
+URL: https://togotv.dbcls.jp/20240430.html
+---
+DATE: 2024-04-11
+NAME: RNAseqChefをDocker環境で使って公開RNA-seqデータの3群間多重比較解析を行う
+KEYWORDS: 発現解析,遺伝子,ウェブツール,NCBI,GEO,R,bioconductor,可視化
+URL: https://togotv.dbcls.jp/20240411.html
+---
+DATE: 2024-03-24
+NAME: NCBI GEOのGEO2Rを使って公開されているRNA-seqデータを解析する
+KEYWORDS: 発現解析,遺伝子,データベース,NCBI,GEO,プログラミング,R
+URL: https://togotv.dbcls.jp/20240324.html
+---
+DATE: 2024-02-26
+NAME: RNAseqChef を使って公共データベース上のRNA-seqデータに対して2群間の比較解析を行う
+KEYWORDS: 発現解析,遺伝子,ウェブツール,NCBI,GEO,R,bioconductor,可視化
+URL: https://togotv.dbcls.jp/20240226.html
+---
+DATE: 2024-02-14
+NAME: Pathway Figure OCR を使って論文中の生物学的パスウェイ図を検索する / Search for biological pathway diagrams in articles using "Pathway Figure OCR"
+KEYWORDS: パスウェイ解析,遺伝子,タンパク質,化合物,可視化,データベース
+URL: https://togotv.dbcls.jp/20240214.html
+---
+DATE: 2023-12-13
+NAME: RNAseqChef: 遺伝子発現変動を自動的に可視化するRNA-seq統合解析ツール @ 日本エピジェネティクス研究会リソースセミナー
+KEYWORDS: 発現解析,遺伝子,ウェブツール,NCBI,GEO,R,bioconductor,可視化
+URL: https://togotv.dbcls.jp/20231213.html
+---
+DATE: 2023-12-12
+NAME: Posit Cloud (旧：RStudio Cloud) を用いて生物配列データ解析に取り組む @ AJACSオンライン18
+KEYWORDS: 講演,AJACS,Bioconductor, R,プログラミング,環境設定,ウェブツール
+URL: https://togotv.dbcls.jp/20231212.html
+---
+DATE: 2023-12-04
+NAME: ShinyGOを使ってエンリッチメント解析を行う
+KEYWORDS: 発現解析,遺伝子,可視化,パスウェイ解析,ウェブツール,R
+URL: https://togotv.dbcls.jp/20231204.html
+---
+DATE: 2023-12-02
+NAME: Anaconda を使ってPythonの仮想環境を構築する・データ解析をする
+KEYWORDS: プログラミング,環境設定,Python,可視化
+URL: https://togotv.dbcls.jp/20231202.html
+---
+DATE: 2023-11-24
+NAME: R言語でWebAppを作成する @ Bio”Pack”athon2023#11
+KEYWORDS: 講演,プログラミング,環境設定,R,ウェブツール
+URL: https://togotv.dbcls.jp/20231124.html
+---
+DATE: 2023-11-14
+NAME: PathVisio を使って生物学的パスウェイ図を描画・編集・公開する / How to Utilize PathVisio for Drawing, Editing and Publishing Biological Pathway Diagrams
+KEYWORDS: パスウェイ解析,遺伝子,タンパク質,化合物,可視化,データベース
+URL: https://togotv.dbcls.jp/20231114.html
+---
+DATE: 2023-11-10
+NAME: Reactome を使ってパスウェイ情報を検索する〜解析データのマッピング〜
+KEYWORDS: パスウェイ解析,発現解析,遺伝子,可視化,ウェブツール
+URL: https://togotv.dbcls.jp/20231110.html
+---
+DATE: 2023-10-28
+NAME: Rパッケージ「tomoseqr」の開発とBioconductorへの登録 @ Bio”Pack”athon2023#10
+KEYWORDS: 講演,プログラミング,R,bioconductor,環境設定
+URL: https://togotv.dbcls.jp/20231028.html
+---
+DATE: 2023-10-22
+NAME: 非モデル植物のための遺伝子ネットワーク情報活用基盤 @ トーゴーの日シンポジウム2023
+KEYWORDS: 講演, トーゴーの日,植物,遺伝子
+URL: https://togotv.dbcls.jp/20231022.html
+---
+DATE: 2023-09-21
+NAME: WikiPathways を使って誰でも自由に使える生物学的パスウェイ図を調べる/How to Utilize WikiPathways for Accessing Freely Available Biological Pathway Diagrams
+KEYWORDS: パスウェイ解析,遺伝子,タンパク質,化合物,可視化,データベース
+URL: https://togotv.dbcls.jp/20230921.html
+---
+DATE: 2023-06-25
+NAME: Reactome を使ってパスウェイ情報を検索する〜基本操作編〜
+KEYWORDS: パスウェイ解析,発現解析,遺伝子,可視化,ウェブツール
+URL: https://togotv.dbcls.jp/20230625.html
+---
+DATE: 2023-06-24
+NAME: ProteInferを使ってアミノ酸配列からタンパク質の機能を予測する
+KEYWORDS: アミノ酸,配列解析, ウェブツール
+URL: https://togotv.dbcls.jp/20230624.html
+---
+DATE: 2023-04-04
+NAME: Connected Papers を使って類似する論文を可視化する
+KEYWORDS: 文献検索,可視化,ウェブツール
+URL: https://togotv.dbcls.jp/20230404.html
+---
+DATE: 2023-03-28
+NAME: Degustを使ってRNA-Seqデータの発現変動遺伝子解析をする 
+KEYWORDS: 発現解析,遺伝子,NGS,RNA-seq,ウェブツール
+URL: https://togotv.dbcls.jp/20230328.html
+---
+DATE: 2023-03-21
+NAME: TDbasedUFE on Bioconductor 3.17 @ Bio”Pack”athon2023#3
+KEYWORDS: 講演,プログラミング,R,bioconductor,環境設定
+URL: https://togotv.dbcls.jp/20230321.html
+---
+DATE: 2022-12-08
+NAME: ResearchRabbit を使って論文の関連性を可視化する
+KEYWORDS: 文献検索,可視化,ウェブツール
+URL: https://togotv.dbcls.jp/20221208.html
+---
+DATE: 2022-11-09
+NAME: 細胞の多面的分類を行う遺伝子発現解析ツールの開発とBioconductor奮闘記 @ Bio”Pack”athon2022#11
+KEYWORDS: 講演,発現解析,ゲノム,遺伝子,可視化,プログラミング,R,環境設定
+URL: https://togotv.dbcls.jp/20221109.html
+---
+DATE: 2022-11-07
+NAME: Ensembl Variant Effect Predictorを使ってバリアントがタンパク質の構造や相互作用に与える影響を調べる 
+KEYWORDS: Ensembl, ゲノム,遺伝子,構造解析,バリアント解析,可視化,疾患情報,ウェブツール
+URL: https://togotv.dbcls.jp/20221107.html
+---
+DATE: 2022-10-20
+NAME: Seurat の最近のトピック @ Bio"Pack"athon2022#10
+KEYWORDS: 講演,発現解析,ゲノム,遺伝子,可視化,プログラミング,R,環境設定
+URL: https://togotv.dbcls.jp/20221020.html
+---
+DATE: 2022-08-30
+NAME: パスウェイデータベースを使ってゲノムを理解する @ AJACSオンライン12
+KEYWORDS: 講演,AJACS,データベース,パスウェイ,ゲノム
+URL: https://togotv.dbcls.jp/20220830.html
+---
+DATE: 2022-07-19
+NAME: DECIPHER Phenotype browserを使って表現型以上の分類からバリアントを調べる
+KEYWORDS: ゲノム,遺伝子,構造解析,バリアント解析,可視化,データベース,疾患情報
+URL: https://togotv.dbcls.jp/20220719.html
+---
+DATE: 2022-06-16
+NAME: HexStickerの紹介 @ Bio”Pack”athon2021#11
+KEYWORDS: 実習,プログラミング,R,環境設定
+URL: https://togotv.dbcls.jp/20220616.html
+---
+DATE: 2022-06-15
+NAME: ワークショップパッケージ導入手順 @ Bio”Pack”athon2021#10
+KEYWORDS: 実習,プログラミング,R,bioconductor,環境設定
+URL: https://togotv.dbcls.jp/20220615.html
+---
+DATE: 2022-06-11
+NAME: データ前処理の便利関数 einsumの紹介 @ Bio”Pack”athon2021#12
+KEYWORDS: 実習,プログラミング,R,bioconductor,環境設定
+URL: https://togotv.dbcls.jp/20220611.html
+---
+DATE: 2022-05-11
+NAME: DECIPHER Genome Viewerを使ってバリアント検索をする
+KEYWORDS: ゲノム,遺伝子,構造解析,バリアント解析,可視化,データベース,疾患情報
+URL: https://togotv.dbcls.jp/20220511.html
+---
+DATE: 2022-04-29
+NAME: CRAN/Bioconductorのレビューについて傾向と対策 2021Ver @ Bio”Pack”athon2021#5
+KEYWORDS: 実習,プログラミング,環境設定,情報収集,Bioconductor,R
+URL: https://togotv.dbcls.jp/20220429.html
+---
+DATE: 2022-04-27
+NAME: Interveneを使ってコマンドラインでベン図やUpSetプロット、ヒートマップを作成する
+KEYWORDS: 環境設定,可視化,R,プログラミング
+URL: https://togotv.dbcls.jp/20220427.html
+---
+DATE: 2022-03-31
+NAME: データ解析ワークフローを無駄なく、再現可能にするRパッケージ｢targets｣の紹介 @ Bio”Pack”athon2022#1
+KEYWORDS: 実習,プログラミング,環境設定,情報収集,Bioconductor,R
+URL: https://togotv.dbcls.jp/20220331.html
+---
+DATE: 2022-03-24
+NAME: Ensembl BioMart を使って必要な遺伝子機能情報、塩基配列、ID対応表を網羅的に取得する
+KEYWORDS: ゲノム,遺伝子,塩基配列,発現解析,可視化,ウェブツール
+URL: https://togotv.dbcls.jp/20220324.html
+---
+DATE: 2022-03-14
+NAME: PlotsOfDataを使ってデータの統計量とそのグラフを作成する
+KEYWORDS: ウェブツール,可視化,R
+URL: https://togotv.dbcls.jp/20220314.html
+---
+DATE: 2022-02-26
+NAME: Intervene Shiny App を使ってベン図やUpSetプロット、ヒートマップを作成する
+KEYWORDS: ウェブツール,環境設定,可視化,R
+URL: https://togotv.dbcls.jp/20220226.html
+---
+DATE: 2022-01-13
+NAME: FaDAを使ってウェブブラウザ上で汎用な統計解析を行う
+KEYWORDS: ウェブツール,可視化,R
+URL: https://togotv.dbcls.jp/20220113.html
+---
+DATE: 2021-11-09
+NAME: BoxPlotR を使って箱ひげ図を作成する
+KEYWORDS: ウェブツール,可視化,R
+URL: https://togotv.dbcls.jp/20211109.html
+---
+DATE: 2021-08-22
+NAME: draw.io を使ってベン図とフローチャートを作成する
+KEYWORDS: 環境設定,可視化,ウェブツール,情報収集
+URL: https://togotv.dbcls.jp/20210822.html
+---
+DATE: 2021-08-06
+NAME: トランスオミクス解析のための多階層パスウェイ可視化の自動化 @ 第6回質量分析インフォマティクス研究会ワークショップ
+KEYWORDS: 講演,メタボローム
+URL: https://togotv.dbcls.jp/20210806.html
+---
+DATE: 2021-07-29
+NAME: ゲノムデータベース/ゲノムブラウザを使って配列解析と遺伝子機能解析を行う @ AJACSオンライン7
+KEYWORDS: 講演,AJACS,ゲノム,塩基配列,遺伝子,データベース,ウェブツール,配列解析,UCSC,Ensembl
+URL: https://togotv.dbcls.jp/20210729.html
+---
+DATE: 2021-05-31
+NAME: RaNA-seqを使ってウェブブラウザ上でRNA-seqデータを解析する
+KEYWORDS: 発現解析,遺伝子,NGS,RNA-seq,可視化,パスウェイ解析
+URL: https://togotv.dbcls.jp/20210531.html
+---
+DATE: 2021-05-22
+NAME: AnnotationHub によるR/Bioconductorアノテーションパッケージの公開ガイドライン @ Bio”Pack”athon2021#3
+KEYWORDS: 講演,プログラミング,環境設定,情報収集,Bioconductor,R
+URL: https://togotv.dbcls.jp/20210522.html
+---
+DATE: 2021-04-23
+NAME: TIDE を使ってゲノム編集で生じたIndelを解析する
+KEYWORDS: ウェブツール,塩基配列,ゲノム,ゲノム編集
+URL: https://togotv.dbcls.jp/20210423.html
+---
+DATE: 2021-04-19
+NAME: ImageJのウェブブラウザ版ImageJ.JSを使って画像を処理･解析する
+KEYWORDS: 環境設定,可視化,ソフトウェア,画像
+URL: https://togotv.dbcls.jp/20210419.html
+---
+DATE: 2021-03-18
+NAME: RStudio Cloud を使ってウェブブラウザ上でR(Studio)を利用する
+KEYWORDS: Bioconductor, R,プログラミング,環境設定,ウェブツール
+URL: https://togotv.dbcls.jp/20210318.html
+---
+DATE: 2021-02-19
+NAME: NetSurfP-2.0を使ってタンパク質の二次構造や化学的性質を予測する
+KEYWORDS: タンパク質,構造解析,ウェブツール
+URL: https://togotv.dbcls.jp/20210219.html
+---
+DATE: 2021-02-14
+NAME: Bioconductorにおけるtidyなデータ解析の最新動向 @ Bio”Pack”athon2020#11
+KEYWORDS: 講演,プログラミング,環境設定,情報収集,Bioconductor,R
+URL: https://togotv.dbcls.jp/20210214.html
+---
+DATE: 2021-02-13
+NAME: NCBI GEOのGEO2Rを使って公開されているマイクロアレイデータを解析する
+KEYWORDS: 発現解析,遺伝子,データベース,NCBI,R,GEO
+URL: https://togotv.dbcls.jp/20210213.html
+---
+DATE: 2020-12-13
+NAME: パスウェイデータベース @ AJACSオンライン3
+KEYWORDS: 講演,AJACS,パスウェイ解析,発現解析,遺伝子,可視化,ウェブツール,データベース
+URL: https://togotv.dbcls.jp/20201213.html
+---
+DATE: 2020-12-11
+NAME: 遺伝子発現データ解析 (RefEx、ChIP-Atlas、DAVID、metascape、GEO2Rなど) @ AJACSオンライン3
+KEYWORDS: 講演,AJACS,発現解析,ChIP-seq,転写因子,データベース,ウェブツール
+URL: https://togotv.dbcls.jp/20201211.html
+---
+DATE: 2020-12-02
+NAME: F1000 Research誌の紹介 @ Bio”Pack”athon2020#8
+KEYWORDS: 講演,情報収集,文献検索,文章執筆,R,Bioconductor
+URL: https://togotv.dbcls.jp/20201202.html
+---
+DATE: 2020-01-30
+NAME: Cytoscape Ecosystem Roadmap アプリケーションからデータも含めた環境へ
+KEYWORDS: 講演,パスウェイ解析,可視化,ソフトウェア
+URL: https://togotv.dbcls.jp/20200130.html
+---
+DATE: 2020-01-27
+NAME: g:Profiler を使ってエンリッチメント解析と ID 変換を行う
+KEYWORDS: 発現解析,遺伝子,可視化,パスウェイ解析,ウェブツール
+URL: https://togotv.dbcls.jp/20200127.html
+---
+DATE: 2020-01-26
+NAME: GREINを使ってNCBI GEOのRNA-seqデータを分析する
+KEYWORDS: 発現解析,遺伝子,NGS,RNA-seq,可視化,パスウェイ解析
+URL: https://togotv.dbcls.jp/20200126.html
+---
+DATE: 2020-01-18
+NAME: iDEPを使ってウェブブラウザ上でRNA-seqデータ解析を行う
+KEYWORDS: 発現解析,遺伝子,NGS,RNA-seq,可視化,パスウェイ解析
+URL: https://togotv.dbcls.jp/20200118.html
+---
+DATE: 2019-12-21
+NAME: 未知化合物アノテーションのための質量分析データのネットワーク解析法〜実習編〜  @ 第2回メタボロミクスソフトウェア講習会
+KEYWORDS: 実習,メタボローム
+URL: https://togotv.dbcls.jp/20191221.html
+---
+DATE: 2019-12-20
+NAME: 未知化合物アノテーションのための質量分析データのネットワーク解析法〜講義編〜  @ 第2回メタボロミクスソフトウェア講習会
+KEYWORDS: 講演,メタボローム
+URL: https://togotv.dbcls.jp/20191220.html
+---
+DATE: 2019-11-26
+NAME: Neural Network Console ハンズオン @ 第3回木村資生記念進化学セミナー
+KEYWORDS: 実習,
+URL: https://togotv.dbcls.jp/20191126.html
+---
+DATE: 2019-11-22
+NAME: TCC-GUI を使って RNA-seq データの解析をブラウザで行う
+KEYWORDS: ゲノム,遺伝子,可視化,発現解析,ウェブツールm,RNA-seq,R,Bioconductor
+URL: https://togotv.dbcls.jp/20191122.html
+---
+DATE: 2019-11-02
+NAME: Dashboarding pathway network with Dash-Cytoscape @ BioHackathon2019
+KEYWORDS: 講演,English,BioHackathon
+URL: https://togotv.dbcls.jp/20191102.html
+---
+DATE: 2019-10-17
+NAME: DruMAP RDF Pharmacokinetics database to RDF @ BioHackathon2019
+KEYWORDS: 講演,English,BioHackathon
+URL: https://togotv.dbcls.jp/20191017.html
+---
+DATE: 2019-10-08
+NAME: Network building with the BioGateway App. @ BioHackathon2019
+KEYWORDS: 講演,English,BioHackathon
+URL: https://togotv.dbcls.jp/20191008.html
+---
+DATE: 2019-09-05
+NAME: PathPredを使って酵素触媒反応を予測する
+KEYWORDS: ウェブツール,化合物,植物
+URL: https://togotv.dbcls.jp/20190905.html
+---
+DATE: 2019-07-18
+NAME: Morpheus を使って 行列データをアノテーションに 基づきわかりやすく表示する
+KEYWORDS: ウェブツール,発現解析,遺伝子,RNA-seq,NGS,可視化,バリアント解析,
+URL: https://togotv.dbcls.jp/20190718.html
+---
+DATE: 2019-05-22
+NAME: Ensembl genome browser を使って塩基配列のアラインメントを作成し生物種間で比較する 2019
+KEYWORDS: Ensembl,遺伝子,塩基配列,配列解析,アラインメント
+URL: https://togotv.dbcls.jp/20190522.html
+---
+DATE: 2019-01-25
+NAME: The Agronomic Linked Data project (AgroLD) a knowledge network platform for plants @ BioHackathon2018
+KEYWORDS: 講演,English,BioHackathon
+URL: https://togotv.dbcls.jp/20190125.html
+---
+DATE: 2018-12-16
+NAME: KEGG NETWORK: 疾患に関連したネットワークバリアントのデータベース @ 第41回日本分子生物学会年会
+KEYWORDS: 講演,KEGG,疾患情報
+URL: https://togotv.dbcls.jp/20181216.html
+---
+DATE: 2018-12-11
+NAME: 【トーゴーの日シンポジウム2018】ネットワークによるゲノム・疾患・医薬品の統合
+KEYWORDS: 講演, トーゴーの日,KEGG,疾患情報
+URL: https://togotv.dbcls.jp/20181211.html
+---
+DATE: 2018-11-09
+NAME: Morpheus を使って、様々な行列データをヒートマップで表示しウェブブラウザでデータ解析をする
+KEYWORDS: ウェブツール,発現解析,遺伝子,RNA-seq,NGS,可視化,バリアント解析,
+URL: https://togotv.dbcls.jp/20181109.html
+---
+DATE: 2018-08-20
+NAME: ゲノムデータベースとそれを活用した配列解析入門 @ AJACS筑波4
+KEYWORDS: 実習,AJACS,ゲノム,塩基配列,遺伝子,データベース,ウェブツール,配列解析,UCSC,Ensembl, 系統樹,タンパク質,構造解析
+URL: https://togotv.dbcls.jp/20180820.html
+---
+DATE: 2018-08-17
+NAME: パスウェイデータベース @ AJACS越後
+KEYWORDS: 実習,AJACS,パスウェイ解析,発現解析,遺伝子,可視化,ウェブツール,データベース
+URL: https://togotv.dbcls.jp/20180817.html
+---
+DATE: 2018-06-25
+NAME: CytoscapeのNetworkAnalyzerを使って、ネットワークの中心となるハブノードを発見する
+KEYWORDS: パスウェイ解析,発現解析,遺伝子,可視化,ソフトウェア
+URL: https://togotv.dbcls.jp/20180625.html
+---
+DATE: 2018-05-22
+NAME: CytoscapeのMCODEを使って、タンパク質間相互作用ネットワークからタンパク質複合体を発見する
+KEYWORDS: パスウェイ解析,発現解析,遺伝子,タンパク質,可視化,ソフトウェア
+URL: https://togotv.dbcls.jp/20180522.html
+---
+DATE: 2018-05-03
+NAME: CytoscapeのstringAppを使って、タンパク質間相互作用ネットワークを作成する
+KEYWORDS: パスウェイ解析,発現解析,遺伝子,可視化,ソフトウェア
+URL: https://togotv.dbcls.jp/20180503.html
+---
+DATE: 2018-04-05
+NAME: NCBI GEO の使い方5 〜GEO2Rを使ってマイクロアレイデータを解析する〜 2018
+KEYWORDS: 発現解析,遺伝子,データベース,NCBI,R,GEO
+URL: https://togotv.dbcls.jp/20180405.html
+---
+DATE: 2018-04-04
+NAME: ウェブツール Draw Venn Diagram を利用してベン図を作成する
+KEYWORDS: ウェブツール,可視化
+URL: https://togotv.dbcls.jp/20180404.html
+---
+DATE: 2018-03-08
+NAME: Reconstruction and visualisation of gene regulatory networks from different provenances : application at Arabidopsis thaliana @ BLAH4
+KEYWORDS: 講演,English,BLAH
+URL: https://togotv.dbcls.jp/20180308.html
+---
+DATE: 2018-02-11
+NAME: Making GeneNetwork FAIR and creating a Journal of Open Data @ BioHackathon2017
+KEYWORDS: 講演,English,BioHackathon
+URL: https://togotv.dbcls.jp/20180211.html
+---
+DATE: 2018-01-25
+NAME: RStudioを使って階層的クラスタリングを行う 2018
+KEYWORDS: 可視化,R,プログラミング,発現解析,Bioconductor
+URL: https://togotv.dbcls.jp/20180125.html
+---
+DATE: 2018-01-21
+NAME: パスウェイデータベースBioCycを使ってパスウェイを検索する
+KEYWORDS: パスウェイ解析,発現解析,遺伝子,可視化,データベース
+URL: https://togotv.dbcls.jp/20180121.html
+---
+DATE: 2018-01-17
+NAME: パスウェイデータベースおよびプロテオームデータベースの紹介 @ AJACS浜松
+KEYWORDS: 実習,AJACS,パスウェイ解析,発現解析,遺伝子,可視化,ウェブツール,データベース
+URL: https://togotv.dbcls.jp/20180117.html
+---
+DATE: 2018-01-12
+NAME: ゲノム・疾患・医薬品のネットワークデータベースとしてのKEGGの活用法
+KEYWORDS: 講演
+URL: https://togotv.dbcls.jp/20180112.html
+---
+DATE: 2018-01-11
+NAME: 微生物研究開発における微生物統合データベースMicrobeDB.jpの利用法
+KEYWORDS: 講演
+URL: https://togotv.dbcls.jp/20180111.html
+---
+DATE: 2018-01-10
+NAME: 植物バイテク・育種研究に向けた植物ゲノム情報ポータルサイトPGDBjのご紹介
+KEYWORDS: 講演
+URL: https://togotv.dbcls.jp/20180110.html
+---
+DATE: 2018-01-09
+NAME: 今日から使える便利な生命科学系公共データベース・ウェブツール in DBCLS
+KEYWORDS: 講演
+URL: https://togotv.dbcls.jp/20180109.html
+---
+DATE: 2018-01-08
+NAME: 生命科学系データベースを使いこなす 〜NBDCの事業とサービス紹介〜
+KEYWORDS: 講演
+URL: https://togotv.dbcls.jp/20180108.html
+---
+DATE: 2017-12-24
+NAME: 【トーゴーの日シンポジウム2017】KEGG NETWORK Version 1: がんのネットワークバリアント
+KEYWORDS: 講演, トーゴーの日,KEGG,疾患情報
+URL: https://togotv.dbcls.jp/20171224.html
+---
+DATE: 2017-12-13
+NAME: CytoscapeのBiNGOを使って、遺伝子リストのエンリッチメント解析を行う
+KEYWORDS: パスウェイ解析,発現解析,遺伝子,可視化,ソフトウェア
+URL: https://togotv.dbcls.jp/20171213.html
+---
+DATE: 2017-11-15
+NAME: signalPを使ってタンパク質のシグナル配列を予測する 2017
+KEYWORDS: 配列解析,タンパク質,ウェブツール
+URL: https://togotv.dbcls.jp/20171115.html
+---
+DATE: 2017-10-20
+NAME: Cytoscapeを使ったデータの可視化と解析 @ AJACS河内
+KEYWORDS: 実習,AJACS,パスウェイ解析,発現解析,遺伝子,可視化,ソフトウェア
+URL: https://togotv.dbcls.jp/20171020.html
+---
+DATE: 2017-10-17
+NAME: パスウェイデータベースの紹介と疾患研究への応用 @ AJACS河内
+
+KEYWORDS: 実習,AJACS,パスウェイ解析,発現解析,遺伝子,可視化,ウェブツール,データベース
+URL: https://togotv.dbcls.jp/20171017.html
+---
+DATE: 2017-10-05
+NAME: Ensemblを使って様々な生物種間の配列を比較する
+KEYWORDS: 塩基配列,配列解析,遺伝子,ゲノム,Ensembl,アラインメント
+URL: https://togotv.dbcls.jp/20171005.html
+---
+DATE: 2017-09-13
+NAME: Ensemblを使って、過去のバージョンのゲノムアノテーションを調べる
+KEYWORDS: ゲノム,Ensembl
+URL: https://togotv.dbcls.jp/20170913.html
+---
+DATE: 2017-09-07
+NAME: Ensemblゲノムブラウザを使って遺伝子の場所や周辺情報を調べる 2017
+KEYWORDS: Ensembl,ゲノム,遺伝子
+URL: https://togotv.dbcls.jp/20170907.html
+---
+DATE: 2017-07-05
+NAME: Diagnosing un-occurred diseases by dynamic network biomarkers @ NIG International symposium 2017
+KEYWORDS: 講演,English
+URL: https://togotv.dbcls.jp/20170705.html
+---
+DATE: 2017-06-07
+NAME: Ensemblの使い方 〜配列を取得する〜2017
+KEYWORDS: ゲノム,遺伝子,アミノ酸,塩基配列,Ensembl
+URL: https://togotv.dbcls.jp/20170607.html
+---
+DATE: 2017-05-12
+NAME: RStudioでRを直感的に使おう MacOS版 2017
+KEYWORDS: ソフトウェア,R,可視化
+URL: https://togotv.dbcls.jp/20170512.html
+---
+DATE: 2017-03-12
+NAME: Linked Annotation Networks: Developing an Infrastructure for Inference
+KEYWORDS: 講演,English,BLAH
+URL: https://togotv.dbcls.jp/20170312.html
+---
+DATE: 2017-03-05
+NAME: Text-mining-based retrieval of protein networks
+KEYWORDS: 講演,English,BLAH
+URL: https://togotv.dbcls.jp/20170305.html
+---
+DATE: 2017-02-23
+NAME: MEGANを使って、メタゲノムデータを解析する
+KEYWORDS: 配列解析,ゲノム,NGS,ソフトウェア,KEGG,微生物,パスウェイ解析,メタゲノム,系統樹
+URL: https://togotv.dbcls.jp/20170223.html
+---
+DATE: 2016-11-16
+NAME: 【トーゴーの日シンポジウム2016】公共ChIPデータを活用した遺伝子制御ネットワーク構築と転写因子予測
+KEYWORDS: 講演, トーゴーの日,ChIP-seq,パスウェイ解析,転写因子
+URL: https://togotv.dbcls.jp/20161116.html
+---
+DATE: 2016-11-05
+NAME: 【トーゴーの日シンポジウム2016】ゲノム・疾患・医薬品のネットワーク解析
+KEYWORDS: 講演, トーゴーの日,ゲノム,疾患情報
+URL: https://togotv.dbcls.jp/20161105.html
+---
+DATE: 2016-09-27
+NAME: Metascapeを使って、遺伝子リストの生物学的解釈をする
+KEYWORDS: 遺伝子,発現解析,可視化,パスウェイ解析,ウェブツール
+URL: https://togotv.dbcls.jp/20160927.html
+---
+DATE: 2016-09-08
+NAME: Cytoscape を使ったデータの可視化 @ AJACS京都2
+KEYWORDS: 実習,AJACS,パスウェイ解析,発現解析,遺伝子,可視化,ソフトウェア
+URL: https://togotv.dbcls.jp/20160908.html
+---
+DATE: 2016-09-05
+NAME: パスウェイデータベース @ AJACS京都2
+KEYWORDS: 実習,AJACS,パスウェイ解析,発現解析,遺伝子,可視化,ウェブツール,データベース
+URL: https://togotv.dbcls.jp/20160905.html
+---
+DATE: 2016-08-12
+NAME: 化合物データベース・パスウェイデータベースの紹介 @ AJACSこまち
+KEYWORDS: 実習,AJACS,パスウェイ解析,化合物,可視化,ウェブツール,データベース
+URL: https://togotv.dbcls.jp/20160812.html
+---
+DATE: 2016-07-13
+NAME: ライフサイエンス分野データの可視化と共有化@AJACS安芸
+KEYWORDS: 実習,AJACS,発現解析,データベース,ウェブツール,可視化,R,Bioconductor,配列解析
+URL: https://togotv.dbcls.jp/20160713.html
+---
+DATE: 2016-07-08
+NAME: パスウェイデータベースの紹介とKEGG PATHWAYの使い方@AJACS安芸
+KEYWORDS: 実習,AJACS,パスウェイ解析,発現解析,遺伝子,可視化,ウェブツール
+URL: https://togotv.dbcls.jp/20160708.html
+---
+DATE: 2016-06-16
+NAME: GeneTrail2を使って、エンリッチメント解析を行う
+KEYWORDS: 遺伝子,発現解析,可視化,パスウェイ解析,ウェブツール
+URL: https://togotv.dbcls.jp/20160616.html
+---
+DATE: 2016-04-26
+NAME: 無料統計ソフトEZR (Easy R)を使ってマウス操作だけで多彩な統計解析をする 〜導入・基本編〜
+KEYWORDS: ソフトウェア,R,可視化,環境設定
+URL: https://togotv.dbcls.jp/20160426.html
+---
+DATE: 2016-04-16
+NAME: Fast dynamic programming algorithm for nucleotide sequences, and long read alignment on string graphs
+KEYWORDS: 講演,English,BioHackathon,RDF
+URL: https://togotv.dbcls.jp/20160416.html
+---
+DATE: 2016-03-16
+NAME: 次世代シークエンサーDRY解析教本による遺伝子発現解析〜Cufflinks、cummeRbund、DAVID〜@AJACSa三島2
+KEYWORDS: 実習, AJACS, NGS, 発現解析, 環境設定, 可視化, 遺伝子
+URL: https://togotv.dbcls.jp/20160316.html
+---
+DATE: 2016-02-11
+NAME: Cytoscapeを使ったデータの可視化@AJACS薩摩
+KEYWORDS: 実習,AJACS,パスウェイ解析,発現解析,遺伝子,可視化,ソフトウェア
+URL: https://togotv.dbcls.jp/20160211.html
+---
+DATE: 2016-02-07
+NAME: パスウェイデータベースの紹介とKEGG PATHWAYの使い方@AJACS薩摩
+KEYWORDS: 実習, AJACS,KEGG,パスウェイ解析
+URL: https://togotv.dbcls.jp/20160207.html
+---
+DATE: 2016-01-22
+NAME: Natural Language Processing and Semantic Annotation of Biomedical Scientific Literature for Knowledge Network Discovery
+KEYWORDS: 講演,English,BLAH
+URL: https://togotv.dbcls.jp/20160122.html
+---
+DATE: 2016-01-19
+NAME: 生物多様性情報分野からのインプット@Annotathon2015
+KEYWORDS: 講演,
+URL: https://togotv.dbcls.jp/20160119.html
+---
+DATE: 2016-01-18
+NAME: 微生物ゲノムアノテーションの現状と問題点@Annotathon2015
+KEYWORDS: 講演,微生物,メタゲノム
+URL: https://togotv.dbcls.jp/20160118.html
+---
+DATE: 2016-01-17
+NAME: ChIP-seqデータベースのためのメタ情報アノテーション@Annotathon2015
+KEYWORDS: 講演,ChIP-seq,NGS,発現解析,遺伝子
+URL: https://togotv.dbcls.jp/20160117.html
+---
+DATE: 2016-01-16
+NAME: ゲノムアノテーションそもそも@Annotathon2015
+KEYWORDS: 講演,ゲノム
+URL: https://togotv.dbcls.jp/20160116.html
+---
+DATE: 2016-01-15
+NAME: Annotathonのこれまでとこれから@Annotathon2015
+KEYWORDS: 講演,
+URL: https://togotv.dbcls.jp/20160115.html
+---
+DATE: 2016-01-14
+NAME: draw.io を使って、フローチャートやネットワーク図を簡単に描く
+KEYWORDS: 環境設定,ウェブツール,可視化
+URL: https://togotv.dbcls.jp/20160114.html
+---
+DATE: 2016-01-02
+NAME: GeneSetDBで遺伝子解析とエンリッチメント解析を行う
+KEYWORDS: 遺伝子,発現解析,パスウェイ解析,データベース
+URL: https://togotv.dbcls.jp/20160102.html
+---
+DATE: 2015-12-07
+NAME: Network Analysis and Linking for Bio2RDF
+KEYWORDS: 講演,English,BioHackathon,RDF
+URL: https://togotv.dbcls.jp/20151207.html
+---
+DATE: 2015-11-27
+NAME: 次世代シーケンサー(NGS)から遺伝子発現を見るためのホップ&ステップ@AJACS伊予
+KEYWORDS: 実習,AJACS,NGS,配列解析,発現解析,可視化,データベース,ウェブツール,R,Bioconductor,RNA-seq
+URL: https://togotv.dbcls.jp/20151127.html
+---
+DATE: 2015-11-23
+NAME: R/Bioconductorを使った遺伝子発現解析入門@AJACS津軽
+KEYWORDS: 実習,AJACS,発現解析,データベース,ウェブツール,R,Bioconductor
+URL: https://togotv.dbcls.jp/20151123.html
+---
+DATE: 2015-11-12
+NAME: 【NGSハンズオン2015】データ解析環境R - Bioconductorの利用法
+KEYWORDS: 実習,AJACS,R,Bioconductor,プログラミング,環境設定,NGS速習・ハンズオン
+URL: https://togotv.dbcls.jp/20151112.html
+---
+DATE: 2015-10-10
+NAME: パスウェイデータベースの紹介@AJACS米子
+KEYWORDS: 実習,AJACS,パスウェイ解析,発現解析,遺伝子,可視化,ウェブツール
+URL: https://togotv.dbcls.jp/20151010.html
+---
+DATE: 2015-10-06
+NAME: Reactome を使ってパスウェイ情報を検索する 〜解析データのマッピング〜
+KEYWORDS: パスウェイ解析,発現解析,遺伝子,可視化,ウェブツール
+URL: https://togotv.dbcls.jp/20151006.html
+---
+DATE: 2015-10-05
+NAME: Reactome を使ってパスウェイ情報を検索する 〜基本操作編〜
+KEYWORDS: パスウェイ解析,発現解析,遺伝子,可視化,ウェブツール
+URL: https://togotv.dbcls.jp/20151005.html
+---
+DATE: 2015-10-03
+NAME: Cytoscapeを使ったデータの可視化@AJACS千里
+KEYWORDS: 実習,AJACS,パスウェイ解析,発現解析,遺伝子,可視化,ソフトウェア
+URL: https://togotv.dbcls.jp/20151003.html
+---
+DATE: 2015-07-08
+NAME: Cytoscape の使い方〜遺伝子発現を例にしたデータの可視化〜
+KEYWORDS: パスウェイ解析,発現解析,遺伝子,可視化,ソフトウェア
+URL: https://togotv.dbcls.jp/20150708.html
+---
+DATE: 2015-07-07
+NAME: Cytoscape の使い方 〜インストール・基本操作編〜
+KEYWORDS: パスウェイ解析,発現解析,遺伝子,可視化,ソフトウェア
+URL: https://togotv.dbcls.jp/20150707.html
+---
+DATE: 2015-06-23
+NAME: パスウェイデータベースKEGG/GenomeNetのWebサービスの紹介@AJACS御茶ノ水
+KEYWORDS: 実習,AJACS,パスウェイ解析,KEGG
+URL: https://togotv.dbcls.jp/20150623.html
+---
+DATE: 2015-04-11
+NAME: RおよびBioconductorを使ったバイオデータ解析
+KEYWORDS: 実習,AJACS,R,Bioconductor,発現解析
+URL: https://togotv.dbcls.jp/20150411.html
+---
+DATE: 2014-11-22
+NAME: KEGG PATHWAYを中心としたパスウェイデータベースの紹介@AJACS十勝
+KEYWORDS: 実習,AJACS,パスウェイ解析,データベース,KEGG
+URL: https://togotv.dbcls.jp/20141122.html
+---
+DATE: 2014-10-31
+NAME: 【NGS速習コース】3. データ解析基礎〜3-4. R bioconductor I、3-5. R bioconductor II
+KEYWORDS: 実習,AJACS,R,Bioconductor,プログラミング,NGS速習・ハンズオン
+URL: https://togotv.dbcls.jp/20141031.html
+---
+DATE: 2014-10-23
+NAME: 【NGS速習コース】1. コンピュータリテラシーとサーバー設計〜1-1. OS、ハード構成、1-2. ネットワーク基礎
+KEYWORDS: 講演,AJACS,環境設定,NGS速習・ハンズオン
+URL: https://togotv.dbcls.jp/20141023.html
+---
+DATE: 2014-10-08
+NAME: KEGG PATHWAYを中心としたKEGG、GenomeNetの使い方及びメタボローム関連データベースの紹介@AJACS阿波
+KEYWORDS: 実習,AJACS,KEGG,メタボローム
+URL: https://togotv.dbcls.jp/20141008.html
+---
+DATE: 2014-09-12
+NAME: Cytoscapeを使ったデータの可視化@AJACS信濃
+KEYWORDS: 実習,AJACS,可視化,パスウェイ解析
+URL: https://togotv.dbcls.jp/20140912.html
+---
+DATE: 2014-08-21
+NAME: 化合物データベース・パスウェイデータベースの紹介@AJACS出島
+KEYWORDS: 実習, AJACS,化合物,パスウェイ解析
+URL: https://togotv.dbcls.jp/20140821.html
+---
+DATE: 2014-02-21
+NAME: RStudioでRを直感的に使おう
+KEYWORDS: ソフトウェア,R,可視化
+URL: https://togotv.dbcls.jp/20140221.html
+---
+DATE: 2013-11-29
+NAME: Cytoscapeを使って実験データを可視化する
+KEYWORDS: 可視化,パスウェイ解析,ソフトウェア
+URL: https://togotv.dbcls.jp/20131129.html
+---
+DATE: 2013-10-17
+NAME: Cytoscapeを使いこなす ～インストール・基本操作編～
+KEYWORDS: パスウェイ解析,可視化,ソフトウェア
+URL: https://togotv.dbcls.jp/20131017.html
+---
+DATE: 2013-06-05
+NAME: GeneMANIAを使って遺伝子間ネットワークを検索する
+KEYWORDS: 遺伝子,タンパク質,可視化,発現解析,パスウェイ解析
+URL: https://togotv.dbcls.jp/20130605.html
+---
+DATE: 2013-05-28
+NAME: DAVIDの使い方 実践編
+KEYWORDS: 遺伝子,発現解析,可視化,ウェブツール,KEGG,パスウェイ解析
+URL: https://togotv.dbcls.jp/20130528.html
+---
+DATE: 2013-04-09
+NAME: ImageJの画像処理パッケージFijiを使って画像を三次元的に解析する
+KEYWORDS: 環境設定,可視化,ソフトウェア,画像
+URL: https://togotv.dbcls.jp/20130409.html
+---
+DATE: 2013-02-06
+NAME: ImageJを利用して画像を処理・解析する-2
+KEYWORDS: 環境設定,可視化,ソフトウェア,画像
+URL: https://togotv.dbcls.jp/20130206.html
+---
+DATE: 2012-12-27
+NAME: Sigma-AldrichのYour Favorite Geneを使って遺伝子に関連するパスウェイや機能などの様々な情報を調べる2012
+KEYWORDS: 遺伝子,パスウェイ解析,可視化,ウェブツール
+URL: https://togotv.dbcls.jp/20121227.html
+---
+DATE: 2012-11-19
+NAME: ImageJを利用して画像を処理・解析する
+KEYWORDS: 環境設定,可視化,ソフトウェア,画像
+URL: https://togotv.dbcls.jp/20121119.html
+---
+DATE: 2012-09-27
+NAME: DAVIDを使ってマイクロアレイデータを解析する 2012
+KEYWORDS: 遺伝子,発現解析,可視化,
+URL: https://togotv.dbcls.jp/20120927.html
+---
+DATE: 2012-09-26
+NAME: R+Bioconductorを使ったNGS解析2@AJACSみちのく2
+KEYWORDS: 実習, AJACS,R,Bioconductor,NGS,RNA-seq
+URL: https://togotv.dbcls.jp/20120926.html
+---
+DATE: 2012-09-25
+NAME: R+Bioconductorを使ったNGS解析1@AJACSみちのく2
+KEYWORDS: 実習, AJACS,R,Bioconductor,NGS
+URL: https://togotv.dbcls.jp/20120925.html
+---
+DATE: 2012-05-24
+NAME: NCBI GEOの使い方5〜GEO2Rを使う〜
+KEYWORDS: 発現解析,遺伝子,データベース,NCBI,R,GEO
+URL: https://togotv.dbcls.jp/20120524.html
+---
+DATE: 2012-03-07
+NAME: 【ゲノムリテラシー講座】パスウェイ解析/システム生物学演習(講義3)
+KEYWORDS: 講演,ゲノムリテラシー講座,パスウェイ解析
+URL: https://togotv.dbcls.jp/20120307.html
+---
+DATE: 2012-03-06
+NAME: 【ゲノムリテラシー講座】パスウェイ解析/システム生物学入門(講義2)
+KEYWORDS: 講演,ゲノムリテラシー講座,パスウェイ解析
+URL: https://togotv.dbcls.jp/20120306.html
+---
+DATE: 2012-03-05
+NAME: 【ゲノムリテラシー講座】パスウェイ解析/システム生物学入門(講義1)
+KEYWORDS: 講演,ゲノムリテラシー講座,パスウェイ解析
+URL: https://togotv.dbcls.jp/20120305.html
+---
+DATE: 2011-12-23
+NAME: BodyParts3D/Anatomographyの使い方〜実践編〜 人体ヒートマップの作成
+KEYWORDS: DBCLS,可視化
+URL: https://togotv.dbcls.jp/20111223.html
+---
+DATE: 2011-11-24
+NAME: Avadis NGS の使い方〜RNA-seq編〜
+KEYWORDS: NGS,パスウェイ解析,多型,発現解析,ソフトウェア,RNA-seq
+URL: https://togotv.dbcls.jp/20111124.html
+---
+DATE: 2011-11-07
+NAME: 統計解析ソフト「R」での立廻り
+KEYWORDS: 可視化,R,プログラミング,発現解析,Bioconductor
+URL: https://togotv.dbcls.jp/20111107.html
+---
+DATE: 2011-09-16
+NAME: Ensembl tips 配列を比較する 2011
+KEYWORDS: 塩基配列,配列解析,遺伝子,ゲノム,Ensembl,アラインメント
+URL: https://togotv.dbcls.jp/20110916.html
+---
+DATE: 2011-09-06
+NAME: EBI Roadshow at DBCLS - Transcriptomics and Pathways
+KEYWORDS: 講演,English,EBI,パスウェイ解析
+URL: https://togotv.dbcls.jp/20110906.html
+---
+DATE: 2011-09-05
+NAME: EBI Roadshow at DBCLS - Access to Genes and Genomes with Ensembl
+KEYWORDS: 講演,English,EBI,遺伝子,ゲノム,Ensembl
+URL: https://togotv.dbcls.jp/20110905.html
+---
+DATE: 2011-08-03
+NAME: Avadis NGS の使い方〜導入編〜
+KEYWORDS: NGS,環境設定,パスウェイ解析,多型,発現解析,ソフトウェア
+URL: https://togotv.dbcls.jp/20110803.html
+---
+DATE: 2011-07-26
+NAME: signalPでタンパク質のシグナル配列を予測する
+KEYWORDS: 配列解析,タンパク質,ウェブツール
+URL: https://togotv.dbcls.jp/20110726.html
+---
+DATE: 2011-06-30
+NAME: Cytoscape を使い倒す!〜応用発展編〜
+KEYWORDS: 可視化,パスウェイ解析,発現解析
+URL: https://togotv.dbcls.jp/20110630.html
+---
+DATE: 2011-06-03
+NAME: Cytoscape を使い倒す!〜基本操作編〜
+KEYWORDS: パスウェイ解析,可視化,発現解析,ソフトウェア
+URL: https://togotv.dbcls.jp/20110603.html
+---
+DATE: 2011-04-13
+NAME: Ensemblの使い方 〜配列を取得する〜 2011
+KEYWORDS: ゲノム,遺伝子,アミノ酸,塩基配列,Ensembl
+URL: https://togotv.dbcls.jp/20110413.html
+---
+DATE: 2011-04-01
+NAME: Reactomeを使い倒す〜2・Reactomeへのマッピング〜 2011
+KEYWORDS: 可視化,パスウェイ解析,化合物,遺伝子,データベース,メタボローム
+URL: https://togotv.dbcls.jp/20110401.html
+---
+DATE: 2011-02-27
+NAME: Reactomeを使い倒す〜1・基本編〜 2011
+KEYWORDS: 可視化,パスウェイ解析,化合物,データベース,遺伝子,メタボローム
+URL: https://togotv.dbcls.jp/20110227.html
+---
+DATE: 2011-01-02
+NAME: 大規模遺伝子ネットワーク解析とその応用
+KEYWORDS: 講演,パスウェイ解析
+URL: https://togotv.dbcls.jp/20110102.html
+---
+DATE: 2010-08-27
+NAME: R/Bioconductorを使った遺伝子発現解析@AJACSみちのく
+KEYWORDS: 実習, AJACS,R,Bioconductor
+URL: https://togotv.dbcls.jp/20100827.html
+---
+DATE: 2010-08-13
+NAME: 次世代シーケンサ配列の登録・データ解析 クラウド型解析パイプライン・実習assembly/mapping
+KEYWORDS: 実習, AJACS,NGS,パイプライン,DDBJ,ゲノム
+URL: https://togotv.dbcls.jp/20100813.html
+---
+DATE: 2010-06-09
+NAME: STRINGの使い方 応用編
+KEYWORDS: タンパク質,可視化
+URL: https://togotv.dbcls.jp/20100609.html
+---
+DATE: 2010-06-02
+NAME: STRINGの使い方 基本編
+KEYWORDS: タンパク質,可視化,ウェブツール
+URL: https://togotv.dbcls.jp/20100602.html
+---
+DATE: 2010-05-13
+NAME: Ensembl Tips ArrayExpress の遺伝子発現情報を表示する
+KEYWORDS: 発現解析,遺伝子,Ensembl
+URL: https://togotv.dbcls.jp/20100513.html
+---
+DATE: 2010-04-20
+NAME: Ensembl tips 〜DBCLSで提供しているゲノムアノテーションを表示する〜 2010
+KEYWORDS: ゲノム,遺伝子,発現解析,Ensembl
+URL: https://togotv.dbcls.jp/20100420.html
+---
+DATE: 2010-03-31
+NAME: Ensembl Tips 〜Ensembl Archivesを使い倒す〜 2010
+KEYWORDS: ゲノム,Ensembl
+URL: https://togotv.dbcls.jp/20100331.html
+---
+DATE: 2010-03-23
+NAME: 統合TVをiTunesで見る 2010
+KEYWORDS: DBCLS,環境設定
+URL: https://togotv.dbcls.jp/20100323.html
+---
+DATE: 2010-03-15
+NAME: Ensembl tips 配列の比較をする 2010
+KEYWORDS: ゲノム,遺伝子,塩基配列,配列解析,Ensembl,アラインメント
+URL: https://togotv.dbcls.jp/20100315.html
+---
+DATE: 2009-12-19
+NAME: 統計解析ソフト「R」の使い方 〜ヒートマップ編〜
+KEYWORDS: 環境設定,R,Bioconductor,発現解析
+URL: https://togotv.dbcls.jp/20091219.html
+---
+DATE: 2009-09-25
+NAME: DAVIDを使ってマイクロアレイデータを解析する
+KEYWORDS: 遺伝子,発現解析,可視化
+URL: https://togotv.dbcls.jp/20090925.html
+---
+DATE: 2009-09-02
+NAME: SigmaAldrichのYour Favorite Geneを使ってパスウェイや相互作用ネットワークを可視化する
+KEYWORDS: パスウェイ解析,ウェブツール,遺伝子
+URL: https://togotv.dbcls.jp/20090902.html
+---
+DATE: 2009-08-22
+NAME: Spotfireを用いた比較トランスクリプトミクス
+KEYWORDS: 可視化,発現解析,遺伝子,ゲノム
+URL: https://togotv.dbcls.jp/20090822.html
+---
+DATE: 2009-08-14
+NAME: NCBI Biosystemsを使ってレチナールの代謝経路を調べる
+KEYWORDS: パスウェイ解析,NCBI
+URL: https://togotv.dbcls.jp/20090814.html
+---
+DATE: 2009-08-09
+NAME: Spotfireを用いたマイクロアレイデータのゲノム上の位置情報による統合と可視化
+KEYWORDS: 可視化,発現解析,遺伝子,ゲノム
+URL: https://togotv.dbcls.jp/20090809.html
+---
+DATE: 2009-06-18
+NAME: 統計解析ソフト「R」の使い方 〜導入編〜
+KEYWORDS: 環境設定,R,Bioconductor,プログラミング,UNIX
+URL: https://togotv.dbcls.jp/20090618.html
+---
+DATE: 2009-05-29
+NAME: Reactomeを使い倒す3・PathFinder
+KEYWORDS: 可視化,発現解析,パスウェイ解析,化合物,メタボローム
+URL: https://togotv.dbcls.jp/20090529.html
+---
+DATE: 2009-05-08
+NAME: Reactomeを使い倒す2・Reactomeへのマッピング
+KEYWORDS: 可視化,発現解析,パスウェイ解析,化合物,メタボローム
+URL: https://togotv.dbcls.jp/20090508.html
+---
+DATE: 2009-04-24
+NAME: Reactomeを使い倒す1・基本編
+KEYWORDS: 可視化,発現解析,パスウェイ解析,化合物,メタボローム
+URL: https://togotv.dbcls.jp/20090424.html
+---
+DATE: 2009-03-19
+NAME: 統計解析ソフト「R」の使い方 〜正規化編〜
+KEYWORDS: 環境設定,R,Bioconductor,プログラミング
+URL: https://togotv.dbcls.jp/20090319.html
+---
+DATE: 2009-02-20
+NAME: Ensembl tips 〜塩基配列のアラインメントを作成する〜2009
+KEYWORDS: Ensembl,遺伝子,塩基配列,配列解析,アラインメント
+URL: https://togotv.dbcls.jp/20090220.html
+---
+DATE: 2009-02-06
+NAME: Ensembl tips 〜配列を取得する〜 2009
+KEYWORDS: ゲノム,遺伝子,アミノ酸,塩基配列,Ensembl
+URL: https://togotv.dbcls.jp/20090206.html
+---
+DATE: 2009-01-29
+NAME: Ensemblゲノムブラウザを使って遺伝子を眺める2009
+KEYWORDS: Ensembl,ゲノム,遺伝子
+URL: https://togotv.dbcls.jp/20090129.html
+---
+DATE: 2008-05-01
+NAME: Ensembl tips 〜Ensembl Archivesを使い倒す〜
+KEYWORDS: Ensembl,ゲノム,可視化,発現解析
+URL: https://togotv.dbcls.jp/20080501.html
+---
+DATE: 2008-04-18
+NAME: Ensembl tips 〜DBCLSで提供しているゲノムアノテーションを表示する〜
+KEYWORDS: Ensembl,ゲノム,可視化,発現解析,遺伝子
+URL: https://togotv.dbcls.jp/20080418.html
+---
+DATE: 2008-04-03
+NAME: 統合TVをiTunesで見る
+KEYWORDS: DBCLS,環境設定
+URL: https://togotv.dbcls.jp/20080403.html
+---
+DATE: 2008-03-06
+NAME: Ensembl tips 〜塩基配列のアラインメントを作成する〜
+KEYWORDS: Ensembl,遺伝子,塩基配列,配列解析,アラインメント
+URL: https://togotv.dbcls.jp/20080306.html
+---
+DATE: 2008-02-21
+NAME: Ensembl tips 〜配列を取得する〜
+KEYWORDS: Ensembl,ゲノム,遺伝子,アミノ酸,塩基配列
+URL: https://togotv.dbcls.jp/20080221.html
+---
+DATE: 2008-02-14
+NAME: Ensembl tips 配列の比較をする
+KEYWORDS: Ensembl,ゲノム,遺伝子,塩基配列,配列解析,アラインメント
+URL: https://togotv.dbcls.jp/20080214.html
+---
+DATE: 2007-09-27
+NAME: 遺伝子発現パターンが似ている遺伝子群のゲノム上流配列を一気に取得する
+KEYWORDS: データベース,発現解析,塩基配列,ゲノム
+URL: https://togotv.dbcls.jp/20070927.html
+---
+DATE: 2007-09-12
+NAME: Ensemblゲノムブラウザを使って遺伝子を眺める
+KEYWORDS: Ensembl,ゲノム,遺伝子
+URL: https://togotv.dbcls.jp/20070912.html
+---
+DATE: 2007-08-30
+NAME: FANTOM_CAGEデータによる転写開始点をEnsemblで可視化する
+KEYWORDS: Ensembl,可視化,ゲノム,発現解析,CAGE,FANTOM
+URL: https://togotv.dbcls.jp/20070830.html
+---
+DATE: 2007-08-06
+NAME: BiomartでIDの対応表を作成する
+KEYWORDS: 塩基配列,発現解析,ゲノム,データベース
+URL: https://togotv.dbcls.jp/20070806.html
+---
+DATE: 2007-08-03
+NAME: EnsemblでSayaMatcherDAS
+KEYWORDS: Ensembl,塩基配列,ゲノム,可視化,転写因子
+URL: https://togotv.dbcls.jp/20070803.html
+---
+DATE: 2007-07-23
+NAME: reactome release 21 字幕入り版
+KEYWORDS: データベース,可視化,発現解析,パスウェイ解析,化合物
+URL: https://togotv.dbcls.jp/20070723.html
+---
+DATE: 2007-07-09
+NAME: BioMartその弐
+KEYWORDS: 塩基配列,発現解析,ゲノム,データベース
+URL: https://togotv.dbcls.jp/20070709.html
+---
+Total unique: 225
