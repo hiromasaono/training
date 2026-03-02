@@ -85,9 +85,9 @@ onohrms@hiroshima-u.ac.jp
 # 動画マニュアル
 - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかる
 - 各動画は[YouTubeに上がって](http://www.youtube.com/user/togotv/)いて、環境に応じた解像度、倍速表示等で快適に閲覧可能
-- 2,300本に迫る動画が公開されており、338万回以上 再生(2025年3月末現在)
+- 2,300本を超える動画が公開されており、350万回以上 再生(2026年2月末現在)
 - YouTubeのチャンネル登録をすると新規公開の通知が来て便利です…!
-  -　チャンネル登録者数10,700人突破！
+  -　チャンネル登録者数11,400人突破！
 
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250626_01.jpg)
 
@@ -102,7 +102,7 @@ onohrms@hiroshima-u.ac.jp
 - 生命科学分野のイラスト(約2,200本)が、誰でも自由に利用可能 (CC-BY-4.0)
 - 研究発表のスライド・ポスター作成、資料作成等に､ぜひご活用ください
 - [TogoTVのコンテンツを再利用したいのですが、著作権の扱いはどうなっていますか?](https://togotv.dbcls.jp/faq.html)
-- 2024年4月末で120件の[引用論文](https://dbcls.rois.ac.jp/references.html#TogoTV)
+- 2026年2月末で121件の[引用論文](https://togotv.dbcls.jp/citations)
 
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230523_05.png)
 
