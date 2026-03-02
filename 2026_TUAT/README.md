@@ -69,9 +69,9 @@ onohrms@hiroshima-u.ac.jp
 
 ----
 # 【Ⅱ-7】データ分析の実例 バイオインフォマティクス（講義）
----
+----
 ## 研究現場で頻繁に使われるデータベースやツールを知る
----
+----
 # TogoTV
 - https://togotv.dbcls.jp/ 📺
   - 生命科学分野における有用なコンテンツを紹介するウェブサイト
@@ -81,7 +81,7 @@ onohrms@hiroshima-u.ac.jp
   - 2007年8月サービススタート
   - 2020年11月リニューアル
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220323_01.jpg)
----
+----
 # 動画マニュアル
 - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかる
 - 各動画は[YouTubeに上がって](http://www.youtube.com/user/togotv/)いて、環境に応じた解像度、倍速表示等で快適に閲覧可能
@@ -91,11 +91,11 @@ onohrms@hiroshima-u.ac.jp
 
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250626_01.jpg)
 
----
+----
 # [スキル別コース](https://togotv.dbcls.jp/courses.html)
 - ある目的に対して、「この順で動画をみていくと、こういうスキルを獲得できる」というような体系的な動画リスト集
 ![bg right:50% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20201223_02.png)
----
+----
 
 # イラストを探す (Togo picture gallery)
 - [「イラストを探す」](https://togotv.dbcls.jp/pics.html)
@@ -106,7 +106,7 @@ onohrms@hiroshima-u.ac.jp
 
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230523_05.png)
 
----
+----
 - 生命科学分野のデータベースやウェブツールで困ったら、まずは「統合TV」で探して・見てみましょう
 - お探しの動画マニュアルやイラストが見つからない場合は、[統合TV番組リクエストフォーム](https://togotv.dbcls.jp/contact.html)でお気軽にリクエストしてください。
 
@@ -340,7 +340,7 @@ onohrms@hiroshima-u.ac.jp
 ### ID変換ツール
   - [TogoID](https://togoid.dbcls.jp/)
     - 直感的なインターフェースにより生命科学系データベース(DB)間のつながりを探索的に確認しながらID変換を行うことができるウェブアプリケーションです。
-    - 遺伝子、タンパク質、化合物、疾患、遺伝子バリアントといった幅広いカテゴリーに渡る65種(2022年5月時点)のIDを対象としています。
+    - 遺伝子、タンパク質、化合物、疾患、遺伝子バリアントといった幅広いカテゴリーに渡る80種(TogoID ver.2.1)のIDを対象としています。
     - 変換されたIDをすぐに他のサービスで利用できるようクリップボードにコピーする機能があるほか、変換されたIDリスト、IDに対応するURL、そして変換経路のすべてのIDを含むデータをCSV形式でダウンロードすることができます。
     - 統合TV: [TogoID ver\. 2\.0を使って生命科学系データベースのさまざまなIDを探索的に変換する](https://togotv.dbcls.jp/20241219.html)
 ---
