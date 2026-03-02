@@ -1,5 +1,4 @@
 # Ⅱ-7 データ分析の実例 バイオインフォマティクス, Ⅱ-8 データ分析の実例（演習）
-## [https://x.gd/qM5x6](https://x.gd/qM5x6)
 
 広島大学ゲノム編集イノベーションセンター / プラチナバイオ株式会社  
 小野 浩雅 ([X@h_ono](https://twitter.com/h_ono), [researchmap](https://researchmap.jp/hiromasaono))  
