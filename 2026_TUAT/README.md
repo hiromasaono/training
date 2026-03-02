@@ -87,7 +87,7 @@ onohrms@hiroshima-u.ac.jp
 - 各動画は[YouTubeに上がって](http://www.youtube.com/user/togotv/)いて、環境に応じた解像度、倍速表示等で快適に閲覧可能
 - 2,300本を超える動画が公開されており、350万回以上 再生(2026年2月末現在)
 - YouTubeのチャンネル登録をすると新規公開の通知が来て便利です…!
-  -　チャンネル登録者数11,400人突破！
+	- チャンネル登録者数11,400人突破！
 
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250626_01.jpg)
 
