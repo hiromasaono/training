@@ -107,8 +107,8 @@ onohrms@hiroshima-u.ac.jp
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230523_05.png)
 
 ---
-- データベースやウェブツールで困ったら、まずは「統合TV」で探して・見てみましょう
-- お探しの動画マニュアルや画像が見つからない場合は、[統合TV番組リクエストフォーム](https://togotv.dbcls.jp/contact.html)でお気軽にリクエストしてください。
+- 生命科学分野のデータベースやウェブツールで困ったら、まずは「統合TV」で探して・見てみましょう
+- お探しの動画マニュアルやイラストが見つからない場合は、[統合TV番組リクエストフォーム](https://togotv.dbcls.jp/contact.html)でお気軽にリクエストしてください。
 
 ----
 
@@ -149,7 +149,7 @@ onohrms@hiroshima-u.ac.jp
 - RefSeq ID
 
 ##### Accession Number
-- GenBank/ENA/DDBJ 国際塩基配列データベースに登録された塩基配列のID
+- GenBank(米国)/ENA(欧州)/DDBJ(日本) 国際塩基配列データベースに登録された塩基配列のID
   - 俗にGenBankのAccession番号と呼ばれることもあるが正確ではない。
 - **A12345** や **AB123456** のような形をしている
   - アルファベットの割り当てについては、[DDBJのPrefix Letter List](https://www.ddbj.nig.ac.jp/prefix-e.html)に詳細がある
@@ -391,7 +391,7 @@ onohrms@hiroshima-u.ac.jp
 - サンプルデータとして、[NCBI GEO](https://www.ncbi.nlm.nih.gov/geo/)から取得した公共の遺伝子発現データを用います。
 - このデータは、 **ある実験の前後の2群間で有意に発現減少した遺伝子群** のリストです。
 
-     → [マル秘遺伝子リスト](https://raw.githubusercontent.com/hiromasaono/training/master/2022_NUBS/secret_list.txt)  （右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
+     → [マル秘遺伝子リスト](https://raw.githubusercontent.com/hiromasaono/training/master/2026_TUAT/secret_list.txt)  （右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
 
 - このデータは、どのような実験から得られたデータなのか、どのように解釈できるのかをDAVIDを使って考察してみましょう！
 
