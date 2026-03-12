@@ -1,5 +1,4 @@
 # 🧬 卵アレルギーの謎を解く！～あなたもゲノム探偵になろう～ 🔎
-![](https://raw.githubusercontent.com/hiromasaono/training/master/images/202502_preExpo_QR.jpg)
 <details>
   
 <summary> 📖 目次（クリックして開く）</summary> 
@@ -79,9 +78,19 @@
 - 【考察】なぜ鳥の種類によってアレルギー反応が違うのか考える
 
 ## ⚡ クイックガイド
-- **所要時間**: 約20分
-- **難易度**: ★★☆☆☆ (中学生・高校生向け)
+- **所要時間**: 約45分
+- **難易度**: ★★☆☆☆ (高校生向け)
 - **必要なもの**: インターネットに接続されたPC/タブレット/(スマートフォン)
+
+### 🕐 タイムテーブル
+
+| 時間 | 内容 |
+|------|------|
+| 0〜5分 | イントロ・基礎知識の確認 |
+| 5〜20分 | Step 1: UniProtでタンパク質を検索・BLAST |
+| 20〜40分 | Step 2: 配列アラインメント・考察ディスカッション |
+| 40〜45分 | まとめ・質疑応答 |
+| (余裕があれば) | 【発展編】Step 3: 分子系統樹 |
 
 ---
 
@@ -165,7 +174,7 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_12.jpg)
 4. 2分ほど待って結果を確認
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_03.jpg)
-    - [時間がかかるとき用のリンク](https://www.uniprot.org/blast/uniprotkb/ncbiblast-R20250212-082523-0510-69392180-p1m/overview)
+    - [時間がかかるとき用のリンク](https://www.uniprot.org/blast/uniprotkb/ncbiblast-R20250212-082523-0510-69392180-p1m/overview)（⚠️ 過去の検索結果のため、期限切れでアクセスできない場合があります。その場合は自分で実行した結果を使いましょう）
 1. 左側の`Status`から`Reviewed(Swiss-Prot)`をクリックすると高品質なものだけに絞り込めます
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_04.jpg)
 <details>
@@ -329,7 +338,7 @@ FEWERS    →  F-EW-ERS
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_13.jpg)
 4. 1分ほど待って結果を確認
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_07.jpg)
-   - [時間がかかるとき用のリンク](https://www.uniprot.org/align/clustalo-R20250212-082959-0922-49567869-p1m/overview)
+   - [時間がかかるとき用のリンク](https://www.uniprot.org/align/clustalo-R20250212-082959-0922-49567869-p1m/overview)（⚠️ 過去の検索結果のため、期限切れでアクセスできない場合があります。その場合は自分で実行した結果を使いましょう）
 
 
 ---
@@ -413,22 +422,27 @@ sp|P68390|IOVO_MELGA      DNKTYGNKCNFCNAVVESNGTLTLSHFGKC	185
   
 ---
 
-### 💭 自分なりに考察してみよう!
+### 💭 みんなで考察・ディスカッションしてみよう!
+
+せっかくの少人数なので、気づいたことを共有しながら議論してみましょう！
 
 1. **なぜウズラの卵は食べられる人がいる？**
    - 配列の違いを探してみよう
    - 特に変異の多い部分に注目
+   - 👥 それぞれが見つけた違いを発表し合おう
 
 2. **アレルギーの強さの違い?**
    - 見つけた違いは、アレルギーとどう関係する？
    - 配列の違いが大きいほどアレルギー反応も変わる？
+   - 👥 「もしこのアミノ酸が変わったら？」と仮説を立ててみよう
 
 3. **進化との関係?**
    - 鳥の種類による違いは?
    - 進化の過程で変化した部分はどこだろう?
+   - 👥 「どの鳥の卵なら安全そう？」を予測してみよう
 
-> 💡 **研究のコツ**  
-> 配列の違いを見つけたら、その部分が本当にアレルギーに関係しているのか、文献を調べてみましょう！
+> 💡 **ディスカッションのコツ**
+> 正解がなくても大丈夫！「なぜそう思ったか」を説明し合うことが大切です。配列の違いを根拠にして自分の考えを述べてみましょう。
  
 ---
 
