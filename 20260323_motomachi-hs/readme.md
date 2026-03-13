@@ -8,6 +8,7 @@
   - [どうやって調べるの？](#どうやって調べるの)
   - [🎯 今日の目標](#-今日の目標)
   - [⚡ クイックガイド](#-クイックガイド)
+    - [🕐 タイムテーブル](#-タイムテーブル)
     - [遺伝子とタンパク質の関係](#遺伝子とタンパク質の関係)
     - [アレルギーの仕組み](#アレルギーの仕組み)
   - [🔍 Step 1: タンパク質データベースでアレルギーに関係するタンパク質の配列を探してみよう！](#-step-1-タンパク質データベースでアレルギーに関係するタンパク質の配列を探してみよう)
@@ -36,6 +37,11 @@
     - [🔍 見方のポイント：](#-見方のポイント)
     - [💡 アレルギーとの関係を探るポイント](#-アレルギーとの関係を探るポイント)
     - [💭 みんなで考察・ディスカッションしてみよう!](#-みんなで考察ディスカッションしてみよう)
+      - [📋 まず、アラインメント結果を観察しよう](#-まずアラインメント結果を観察しよう)
+      - [🔬 テーマ1: なぜウズラの卵は食べられる人がいる？](#-テーマ1-なぜウズラの卵は食べられる人がいる)
+      - [🔬 テーマ2: アミノ酸の違いは何を意味する？](#-テーマ2-アミノ酸の違いは何を意味する)
+      - [🔬 テーマ3: 進化とアレルギーの関係](#-テーマ3-進化とアレルギーの関係)
+      - [📝 まとめ：自分たちの結論を言葉にしよう](#-まとめ自分たちの結論を言葉にしよう)
   - [👀 【発展編】 Step 3: 分子系統樹を作って、生物間の関係を調べてみよう](#-発展編-step-3-分子系統樹を作って生物間の関係を調べてみよう)
     - [🔍 次のステップへ](#-次のステップへ)
     - [🌳 分子系統樹の世界へようこそ！](#-分子系統樹の世界へようこそ)
@@ -174,7 +180,7 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_12.jpg)
 4. 2分ほど待って結果を確認
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_03.jpg)
-    - [時間がかかるとき用のリンク](https://www.uniprot.org/blast/uniprotkb/ncbiblast-R20250212-082523-0510-69392180-p1m/overview)（⚠️ 過去の検索結果のため、期限切れでアクセスできない場合があります。その場合は自分で実行した結果を使いましょう）
+    - [時間がかかるとき用のリンク](https://www.uniprot.org/blast/uniprotkb/ncbiblast-R20260313-012241-0295-67641331-p2m/overview)（⚠️ 過去の検索結果のため、期限切れでアクセスできない場合があります。その場合は自分で実行した結果を使いましょう）
 1. 左側の`Status`から`Reviewed(Swiss-Prot)`をクリックすると高品質なものだけに絞り込めます
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_04.jpg)
 <details>
@@ -196,11 +202,11 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
 |------------|--------------|---------|--------|
 | 🥛 牛乳 | casein (カゼイン) | Bos taurus (ウシ) | [P02666](https://www.uniprot.org/uniprotkb/P02666/entry) | 
 | 🍞 小麦 | gliadin (グリアジン) | Triticum aestivum (コムギ) | [P18573](https://www.uniprot.org/uniprotkb/P18573/entry) |
-| 🐟 魚卵 | vitellogenin (ビテロジェニン) | Oncorhynchus keta (シロサケ) | エントリなし? |
+| 🐟 魚卵 | vitellogenin (ビテロジェニン) | Oncorhynchus mykiss (ニジマス) | [Q92093](https://www.uniprot.org/uniprotkb/Q92093/entry) |
 
 ---
 > 💡 **検索のコツ**
-> - 分からない英語があったら [Google翻訳](https://translate.google.co.jp/)や[DeepL](https://www.deepl.com/ja/translator)を使って日本語訳をしらべてみよう
+> - 分からない英語があったら [Nani!?](https://nani.now/ja)を使って日本語訳をしらべてみよう
 > - 生物種の和名はGoogleで調べてみよう
 > - 結果の見方が分からないときは、スタッフに相談しよう
 
@@ -338,7 +344,7 @@ FEWERS    →  F-EW-ERS
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_13.jpg)
 4. 1分ほど待って結果を確認
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_07.jpg)
-   - [時間がかかるとき用のリンク](https://www.uniprot.org/align/clustalo-R20250212-082959-0922-49567869-p1m/overview)（⚠️ 過去の検索結果のため、期限切れでアクセスできない場合があります。その場合は自分で実行した結果を使いましょう）
+   - [時間がかかるとき用のリンク](https://www.uniprot.org/align/clustalo-R20260313-015557-0065-87300463-p2m/overview)（⚠️ 過去の検索結果のため、期限切れでアクセスできない場合があります。その場合は自分で実行した結果を使いましょう）
 
 
 ---
@@ -430,7 +436,7 @@ sp|P68390|IOVO_MELGA      DNKTYGNKCNFCNAVVESNGTLTLSHFGKC	185
 
 BLAST検索の結果画面を見ながら、以下のポイントを確認してみましょう：
 
-- **アミノ酸の総数（Length）**: 各鳥のオボムコイドは何アミノ酸？ 長さに違いはある？
+- **アミノ酸の総数（Length）**: 各鳥類のオボムコイドは何アミノ酸？ 長さに違いはある？
 - **ニワトリとの一致率（Identity %）**: BLAST結果に表示されている数値を比べてみよう。どの鳥が最もニワトリに似ている？
 - **ギャップ（`-`）の有無**: アラインメント中に `-` が入っている箇所はどこ？ それはどの鳥？
 
@@ -598,7 +604,6 @@ BLAST検索の結果画面を見ながら、以下のポイントを確認して
   - [MEGA7を使って配列のアラインメント・系統解析を行う](https://togotv.dbcls.jp/20171106.html) 
 - [PDB: タンパク質の3D構造データベース](https://www.rcsb.org/)
   - [蛋白質構造データベース（PDB） @ MBSJ2022 フォーラム「生命科学のデータベース活用法」](https://togotv.dbcls.jp/20221220.html)
-- [Tree of Life Web Project](http://tolweb.org/)
 
 </details>
 
