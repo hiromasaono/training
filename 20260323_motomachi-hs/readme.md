@@ -35,7 +35,7 @@
     - [2️⃣ 結果の見方](#2️⃣-結果の見方)
     - [🔍 見方のポイント：](#-見方のポイント)
     - [💡 アレルギーとの関係を探るポイント](#-アレルギーとの関係を探るポイント)
-    - [💭 自分なりに考察してみよう!](#-自分なりに考察してみよう)
+    - [💭 みんなで考察・ディスカッションしてみよう!](#-みんなで考察ディスカッションしてみよう)
   - [👀 【発展編】 Step 3: 分子系統樹を作って、生物間の関係を調べてみよう](#-発展編-step-3-分子系統樹を作って生物間の関係を調べてみよう)
     - [🔍 次のステップへ](#-次のステップへ)
     - [🌳 分子系統樹の世界へようこそ！](#-分子系統樹の世界へようこそ)
@@ -61,8 +61,8 @@
 **なぜ？** この謎を解くため：
 1. オボムコイドという卵の中のタンパク質を調べる ([オボムコイドって何?](https://www.pt-bio.com/project/egg-for-all))
    -  ⚠️ URLリンクは右クリックメニューの「新しいタブで開く」とよいです
-3. 様々な生物の似たタンパク質を比べる
-4. その違いとアレルギーの関係を探る
+2. 様々な生物の似たタンパク質を比べる
+3. その違いとアレルギーの関係を探る
 
 ## どうやって調べるの？
 1. 世界中の研究者が使うデータベースでアレルギーに関係するタンパク質の配列を探す
@@ -175,7 +175,7 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
 4. 2分ほど待って結果を確認
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_03.jpg)
     - [時間がかかるとき用のリンク](https://www.uniprot.org/blast/uniprotkb/ncbiblast-R20250212-082523-0510-69392180-p1m/overview)（⚠️ 過去の検索結果のため、期限切れでアクセスできない場合があります。その場合は自分で実行した結果を使いましょう）
-1. 左側の`Status`から`Reviewed(Swiss-Prot)`をクリックすると高品質なものだけに絞り込めます
+5. 左側の`Status`から`Reviewed(Swiss-Prot)`をクリックすると高品質なものだけに絞り込めます
 ![](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250121_preexpo_04.jpg)
 <details>
   
@@ -196,7 +196,7 @@ DNAの設計図(遺伝子) → タンパク質(実際に働く分子)
 |------------|--------------|---------|--------|
 | 🥛 牛乳 | casein (カゼイン) | Bos taurus (ウシ) | [P02666](https://www.uniprot.org/uniprotkb/P02666/entry) | 
 | 🍞 小麦 | gliadin (グリアジン) | Triticum aestivum (コムギ) | [P18573](https://www.uniprot.org/uniprotkb/P18573/entry) |
-| 🐟 魚卵 | vitellogenin (ビテロジェニン) | Oncorhynchus keta (シロサケ) | エントリなし? |
+| 🐟 魚卵 | vitellogenin (ビテロジェニン) | Oncorhynchus keta (シロサケ) | [検索してみよう!](https://www.uniprot.org/uniprotkb?query=vitellogenin+AND+organism_id:8018) |
 
 ---
 > 💡 **検索のコツ**
@@ -598,7 +598,7 @@ BLAST検索の結果画面を見ながら、以下のポイントを確認して
   - [MEGA7を使って配列のアラインメント・系統解析を行う](https://togotv.dbcls.jp/20171106.html) 
 - [PDB: タンパク質の3D構造データベース](https://www.rcsb.org/)
   - [蛋白質構造データベース（PDB） @ MBSJ2022 フォーラム「生命科学のデータベース活用法」](https://togotv.dbcls.jp/20221220.html)
-- [Tree of Life Web Project](http://tolweb.org/)
+- [OneZoom: Tree of Life Explorer](https://www.onezoom.org/)
 
 </details>
 
