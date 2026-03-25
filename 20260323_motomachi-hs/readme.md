@@ -1,4 +1,5 @@
 # 🧬 卵アレルギーの謎を解く！～あなたもゲノム探偵になろう～ 🔎
+URL：　https://x.gd/MNuRS
 <details>
   
 <summary> 📖 目次（クリックして開く）</summary> 
