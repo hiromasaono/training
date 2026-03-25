@@ -1,5 +1,7 @@
 # 🧬 卵アレルギーの謎を解く！～あなたもゲノム探偵になろう～ 🔎
 アクセス用URL：　https://x.gd/MNuRS
+
+![QRコード](https://raw.githubusercontent.com/hiromasaono/training/master/images/20260323_motomachi-hs_qr.png)
 <details>
   
 <summary> 📖 目次（クリックして開く）</summary> 
