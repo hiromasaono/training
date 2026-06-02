@@ -24,7 +24,7 @@ onohrms@hiroshima-u.ac.jp
 
 ----
 ## 自己紹介
-- 小野 浩雅(おの ひろまさ)([reseachmap](https://researchmap.jp/hiromasaono/))  
+- 小野 浩雅(おの ひろまさ)([researchmap](https://researchmap.jp/hiromasaono/))  
   - [TogoTV](https://togotv.dbcls.jp/)の運営・編集者
   - [RefEx](https://refex.dbcls.jp/)の開発者
     - 遺伝子発現解析の基準となる各遺伝子の遺伝子発現量を簡単に検索、閲覧できるウェブツール
@@ -41,28 +41,28 @@ onohrms@hiroshima-u.ac.jp
 ## 講義の流れ(予定)
 今回の講義(全5回: 6月10日、7月8日、7月15日、7月22日、7月29日)では、お手元のコンピュータを使って以下の内容について説明します。
 
-- [【第11回】研究現場で頻繁に使われるデータベースやツールを知る](#第11回研究現場で頻繁に使われるデータベースやツールを知る)
+- 6月10日: [【第11回】研究現場で頻繁に使われるデータベースやツールを知る](#第11回研究現場で頻繁に使われるデータベースやツールを知る)
   - 統合TV(TogoTV)
-- [【第12回】学術論文を効率的に検索したり、論文執筆を支援するデータベースやツール](#第12回学術論文を効率的に検索したり論文執筆を支援するデータベースやツール)
-    - PubMed
+- 7月8日: [【第12回】学術論文を効率的に検索したり、論文執筆を支援するデータベースやツール](#第12回学術論文を効率的に検索したり論文執筆を支援するデータベースやツール)
+  - PubMed
   - 生命科学系の文献に頻出する英語表現を高速に検索する
     - inMeXes
   - 生命科学分野の略語・展開形を検索する
     - Allie
   - 類似したテキストの差分を検索・表示する
     - difff(ﾃﾞｭﾌﾌ)
-- [【第13回】生命科学分野の王道データベースNCBIを使って遺伝子について調べる](#第13回生命科学分野の王道データベースncbiを使って遺伝子について調べる)
-    - NCBI
+- 7月15日: [【第13回】生命科学分野の王道データベースNCBIを使って遺伝子について調べる](#第13回生命科学分野の王道データベースncbiを使って遺伝子について調べる)
+  - NCBI
   - 遺伝子やゲノム配列を高速に検索する
     - GGRNA
     - GGGenome
     - CRISPRdirect
-- [【第14回】ゲノムデータベースとゲノムブラウザ](#第14回ゲノムデータベースとゲノムブラウザ)
+- 7月22日: [【第14回】ゲノムデータベースとゲノムブラウザ](#第14回ゲノムデータベースとゲノムブラウザ)
   - Ensembl Genome Browser
   - UCSC Genome browser   
-- [【第15回】公共データベースから利用可能な遺伝子発現データを解析する](#第15回公共データベースから利用可能な遺伝子発現データを解析する)
+- 7月29日: [【第15回】公共データベースから利用可能な遺伝子発現データを解析する](#第15回公共データベースから利用可能な遺伝子発現データを解析する)
   - DAVID
-      - DAVIDを用いて、遺伝子発現データの結果を生物学的に解釈する
+    - DAVIDを用いて、遺伝子発現データの結果を生物学的に解釈する
 
 ----
 
@@ -94,10 +94,9 @@ onohrms@hiroshima-u.ac.jp
 # 動画マニュアル
 - ウェブサイトへのアクセスの仕方から結果の解釈まで、操作の一挙手一投足がわかる
 - 各動画は[YouTubeに上がって](http://www.youtube.com/user/togotv/)いて、環境に応じた解像度、倍速表示等で快適に閲覧可能
-- 2,300本に迫る動画が公開されており、338万回以上 再生(2025年3月末現在)
+- 多数の動画マニュアルが公開されており、再生回数・チャンネル登録者数は継続的に増加しています
 - コロナ禍の自粛時に過去最高の視聴数
 - YouTubeのチャンネル登録をすると新規公開の通知が来て便利です…!
-  -　チャンネル登録者数10,700人突破！
 
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20250626_01.jpg)
 
@@ -155,8 +154,8 @@ onohrms@hiroshima-u.ac.jp
 
 ---
 # NGS解析について、さらにもっと基礎から応用までを深く学びたい方向け (それぞれ約10-50時間程度)
-  - [「バイオインフォマティクス人材育成カリキュラム（次世代シークエンサ）速習コース(2014年8月)](https://www.youtube.com/playlist?list=PL0uaKHgcG00abmj1Nzs1SUhqKLjf_PFBB)
-  - [「バイオインフォマティクス人材育成カリキュラム 次世代シークエンサ(NGS)ハンズオン講習会(2015年8月)](https://www.youtube.com/playlist?list=PL0uaKHgcG00Yo0Cn0rcF23xof5hqCzGQb)
+  - [「バイオインフォマティクス人材育成カリキュラム（次世代シークエンサ）速習コース」(2014年8月)](https://www.youtube.com/playlist?list=PL0uaKHgcG00abmj1Nzs1SUhqKLjf_PFBB)
+  - [「バイオインフォマティクス人材育成カリキュラム 次世代シークエンサ(NGS)ハンズオン講習会」(2015年8月)](https://www.youtube.com/playlist?list=PL0uaKHgcG00Yo0Cn0rcF23xof5hqCzGQb)
   - [NGSハンズオン講習会2016](https://www.youtube.com/watch?v=TSa1yPy_sdM&list=PL0uaKHgcG00ZNpICun17CEAFpV_5Q6GCA)
   - [NGSハンズオン講習会2017](https://www.youtube.com/watch?v=6Fzvl_I48tM&list=PL0uaKHgcG00YDmBXYWOgkmfeURjc8BZkk)
   - [先進ゲノム支援\(PAGS\)、DDBJ、DBCLS合同情報解析講習会\(2019\)](https://www.youtube.com/watch?v=VjZIQuWXPu8&list=PL0uaKHgcG00afJqVErwNQariGDKArJtB8)
@@ -167,7 +166,7 @@ onohrms@hiroshima-u.ac.jp
 - 生命科学分野のイラスト(約2,200本)が、誰でも自由に利用可能 (CC-BY-4.0)
 - 研究発表のスライド・ポスター作成、資料作成等に､ぜひご活用ください
 - [TogoTVのコンテンツを再利用したいのですが、著作権の扱いはどうなっていますか?](https://togotv.dbcls.jp/faq.html)
-- 2024年4月末で120件の[引用論文](https://dbcls.rois.ac.jp/references.html#TogoTV)
+- TogoTVを活用した[引用論文・利用事例](https://dbcls.rois.ac.jp/references.html#TogoTV)も公開されています
 
 ![bg right:40% 100%](https://raw.githubusercontent.com/hiromasaono/training/master/images/20230523_05.png)
 
@@ -208,15 +207,14 @@ onohrms@hiroshima-u.ac.jp
 ###  [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/)
 #### 泣く子も黙る文献・論文検索の総本山
  -  [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/) (パブメド) は、米国立医学図書館(National Library of Medicine: NLM)が運営している文献情報データベースです。
-    - 1997年6月のサービス開始以来、2023年度時点で5,294件の学術誌を対象に、およそ3,650万件超の文献情報を提供しています。
+    - 1997年6月のサービス開始以来、対象誌数・収載文献数は継続的に増加しています。
     - 2015年の一年だけで110万件超 (約3,000件/1日)の論文が追加され、その数はさらに増加しています。
-    - 一日あたりの検索がおよそ250万件、160万人の利用者、1,000万件以上の書誌情報閲覧回数と、生命科学分野で最も利用されているウェブサービスの一つです。
-    - [MEDLINE PubMed Production Statistics](https://www.nlm.nih.gov/bsd/medline_pubmed_production_stats.html)
+    - 生命科学分野で最も利用されているウェブサービスの一つです。収載件数や対象誌数の最新値は、[MEDLINE PubMed Production Statistics](https://www.nlm.nih.gov/bsd/medline_pubmed_production_stats.html)で確認できます。
     
 - ![PubMed](https://raw.githubusercontent.com/hiromasaono/training/master/images/220613_01.jpg)
 
 - [PubMed Central (PMC)](https://www.ncbi.nlm.nih.gov/pmc/)は、書誌情報、アブストラクトに加えて全文が無料（オープンアクセス）で公開されている論文を収録・提供しています。
-    - PMCの件数と論文誌のウェブサイトで全文が提供されているものも含めると800万件以上の論文で全文を読むことができます。
+    - PMCの収載論文に加えて、論文誌のウェブサイトで全文が提供されているものもあります。
     - 最近では、研究予算配分機関の指定で、成果をオープンアクセス誌で公表することを義務付けていることもあるので、閲覧できる論文が増えてきています。
 - ![PMC](https://raw.githubusercontent.com/hiromasaono/training/master/images/220613_02.jpg)
 
@@ -344,10 +342,10 @@ https://difff.jp/
 ![fig9](https://raw.githubusercontent.com/hiromasaono/training/master/images/180612_09.png)
 
 #### difff(ﾃﾞｭﾌﾌ)の特徴
-* diffコマンドを使った比較結果をWeb上に表示するツール
-* テキストボックスに比較したい文章をコピペしてボタンを押すだけで2つの文章でどこが変更されたのか差分の確認ができる
+* diffコマンドを使った比較結果をWeb上に表示するツール
+* テキストボックスに比較したい文章をコピーして貼り付けてボタンを押すだけで、2つの文章でどこが変更されたのか差分の確認ができる
 * 日本語のテキストも対応
-* Word文章はもちろんソースコード、 遺伝子リストなどの比較も可能
+* Word文章はもちろんソースコード、遺伝子リストなどの比較も可能
 * [某問題で活躍](http://www.itmedia.co.jp/news/articles/1403/12/news121.html)
 
 #### 統合TVで使いかたを学ぶ
@@ -374,8 +372,8 @@ https://difff.jp/
 - 期待した出力を得るためには、「プロンプト」の作成方法を工夫する必要がある
 	- [科学研究のためのChatGPTの使い方\(基本編\)](https://togotv.dbcls.jp/20231228.html)
 - 活用の心構え
-  - **知らないことは命令できない**
-  - **優秀かつ業界未経験の新人だと思って接する**    
+  - **知らないことは命令できない**
+  - **優秀かつ業界未経験の新人だと思って接する**    
     - [生成AIの可能性と課題 ～賢く使いこなすために～](https://togotv.dbcls.jp/20240805.html)
     - [研究効率化の鍵は生成AI ～文献調査・資料作成を加速するサービス～](https://togotv.dbcls.jp/20240806.html)
 
@@ -407,7 +405,7 @@ https://difff.jp/
   - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220617_02.jpg)
 1. ヒトのALDH2を調べたいので、ALDH2 homo sapiens　としてみるとどう変わるでしょうか
 1. 一番上にでてきた **ALDH2 ID:217** というのがお目当てのもののようなのでクリックします
-1. NCBI Gene データベースにおける **ヒトのALHD2 のページ** [https://www.ncbi.nlm.nih.gov/gene/217](https://www.ncbi.nlm.nih.gov/gene/217) が表示されます
+1. NCBI Gene データベースにおける **ヒトのALDH2 のページ** [https://www.ncbi.nlm.nih.gov/gene/217](https://www.ncbi.nlm.nih.gov/gene/217) が表示されます
   - ![Gene search for ALDH2](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220617_03.jpg)
 
 
@@ -600,7 +598,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
 	- リファレンス配列と個々の生物のゲノム配列を比較する
 	- シーケンシングされたリード配列をリファレンス配列にマッピングすることで発現量を定量する
 - 各ゲノムのいわゆる「バージョン」は、アセンブリやビルドと呼ばれる
-	- 最新のヒトゲノムは、GRCh38 (for Genome Research Consortium human build 38)
+	- 現在も広く使われているヒトゲノム参照配列の一つは、GRCh38 (for Genome Research Consortium human build 38)
 		- Hg38 (for Human genome build 38)と呼ばれる場合もある
 - 国際基準ゲノム配列の日本人版を作成する取り組みが東北大学東北メディカル・メガバンク機構([ToMMo](https://www.megabank.tohoku.ac.jp/))で行われている
 	- [日本人多層オミックス参照パネル\(jMorp\)](https://jmorp.megabank.tohoku.ac.jp/)で閲覧できる
@@ -638,14 +636,14 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
 - 塩基配列解読したゲノム配列とそこに付与（アノテーション）された情報を見るための仕組み
   - アノテーション(Annotation: 注釈)
-  	-　何も書かれていないとその場所にあるものが何かわからなくなるので、付箋を貼ってあとから誰がみてもわかるように説明を書き⾜すこと 	 	
+    - 何も書かれていないとその場所にあるものが何かわからなくなるので、付箋を貼ってあとから誰がみてもわかるように説明を書き足すこと
   - 生命科学分野の[Google map](https://www.google.co.jp/maps/place/%E6%97%A5%E6%9C%AC%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%89%A9%E8%B3%87%E6%BA%90%E7%A7%91%E5%AD%A6%E9%83%A8/@35.3806744,139.4674663,17z/data=!3m1!4b1!4m5!3m4!1s0x601851a101ca6eaf:0x3c594193604e3516!8m2!3d35.38067!4d139.469655?hl=ja)のようなイメージ
 - オンライン型とローカル型
   - オンライン型：ウェブブラウザ上でサーバにあるゲノムデータベースから必要な情報を取り出してこれる
   	- UCSC Genome Browser https://genome.ucsc.edu/
-      - 【統合TV】[「UCSC」]([https://togotv.dbcls.jp/tags.html?tag=UCSC](https://togotv.dbcls.jp/result.html?type=manual&page=1&query=UCSC))　　51本
+      - 【統合TV】[「UCSC」関連動画](https://togotv.dbcls.jp/result.html?type=manual&page=1&query=UCSC)
   	- Ensembl Genome Browser https://www.ensembl.org/
-      - 【統合TV】[「Ensembl」]([https://togotv.dbcls.jp/tags.html?tag=Ensembl](https://togotv.dbcls.jp/result.html?type=manual&page=1&query=Ensembl)) 46本
+      - 【統合TV】[「Ensembl」関連動画](https://togotv.dbcls.jp/result.html?type=manual&page=1&query=Ensembl)
   	- NCBI Genome Data Viewer https://www.ncbi.nlm.nih.gov/genome/gdv/
   	- Togogenome http://togogenome.org/
       - 【統合TV】[TogoGenome を使って生物種とゲノムに関する多種多様な情報を統合的に検索する](https://togotv.dbcls.jp/20180726.html)
@@ -665,17 +663,17 @@ CRISPRdirect： https://crispr.dbcls.jp/
 ![UCSCトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_04.png)
 1. 最寄りのミラーサイトに接続します
 ![UCSC mirror](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_05.png)
-1. Genome Browserのページが開くので、生物種「Human」と最新のゲノムアセンブリ「Dec. 2013 (GRCh38/hg38)」が選択されていることを確認して、検索語を入力する。ここでは、`ALDH2`と入力します。
+1. Genome Browserのページが開くので、生物種「Human」と代表的なゲノムアセンブリ「Dec. 2013 (GRCh38/hg38)」が選択されていることを確認して、検索語を入力する。ここでは、`ALDH2`と入力します。
 ![GenomeBrowserトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/190606_06.png)
 1. ALDH2遺伝子のゲノム領域が表示されます。
 ![GenomeBrowserトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220627_01.jpg)
 1. 画面上の"zoom out"で"3x"を押してみると、少し引きの画像で見られます。
-1.　画面中央のカラフルな棒グラフがGTExで測定された遺伝子発現データです。グラフをクリックすると詳細が見られます。 
+1. 画面中央のカラフルな棒グラフがGTExで測定された遺伝子発現データです。グラフをクリックすると詳細が見られます。 
 ![GenomeBrowserトップページ](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220627_02.jpg)
 1. 下の方にスクロールしていくと、"Track"と呼ばれる、ゲノムブラウザで表示できる遺伝子機能情報(アノテーション)が分野別に整理されています。
 1. "Expression"の"GTEx RNA-Seq Coverage"の"hide"を"dense"に変えて、"refresh"を押します。
 1. 続いて、"full"に変えてみると表示データはどう変わるでしょうか。
-2. わからなくなったら、図の下に並んでいるボタンの"default tracks"を押すと最初の状態に戻せます。
+1. わからなくなったら、図の下に並んでいるボタンの"default tracks"を押すと最初の状態に戻せます。
  
 
 #### 【復習】 UCSC Genome Browserの統合TV
@@ -695,7 +693,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
    - 脊椎動物のゲノムを対象としたゲノムブラウザ
    - 比較ゲノム、進化、配列変異、転写制御などの研究をサポート
    - Ensembl Genome Browser でも上記のALDH2を検索してみましょう。
-- EnsemblGenomes [`https://ensemblgenomes.org/`](https://ensemblgenomes.org//)
+- [EnsemblGenomes](https://ensemblgenomes.org/)
    - 脊椎動物以外のゲノムDB
        - EnsemblPlants （植物）
        - EnsemblMetazoa （後生動物）
@@ -720,7 +718,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
 ### ID変換ツール
   - [TogoID](https://togoid.dbcls.jp/)
     - 直感的なインターフェースにより生命科学系データベース(DB)間のつながりを探索的に確認しながらID変換を行うことができるウェブアプリケーションです。
-    - 遺伝子、タンパク質、化合物、疾患、遺伝子バリアントといった幅広いカテゴリーに渡る65種(2022年5月時点)のIDを対象としています。
+    - 遺伝子、タンパク質、化合物、疾患、遺伝子バリアントといった幅広いカテゴリーのIDを対象としています。
     - 変換されたIDをすぐに他のサービスで利用できるようクリップボードにコピーする機能があるほか、変換されたIDリスト、IDに対応するURL、そして変換経路のすべてのIDを含むデータをCSV形式でダウンロードすることができます。
     - 統合TV: [TogoID ver\. 2\.0を使って生命科学系データベースのさまざまなIDを探索的に変換する](https://togotv.dbcls.jp/20241219.html)
 ---
@@ -748,7 +746,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
   - 遺伝子の属性を記述する語彙を統一化(GO term)し、種を越えた遺伝子関連情報を記述し構造化することを目的とした国際プロジェクトであり、その成果のこと
   - すべてのGO termは、**biological process（生物学的プロセス）**、**cellular component（細胞の構成要素）**、**molecular function（分子機能）** の3カテゴリーのいずれかに属し、GO term同士の上下関係が一義に決まっている(のでコンピュータで処理しやすい)
   - molecular function＞binding＞protein binding＞receptor binding＞以下、より具体的になる
-  - Go term には、その根拠を示す[Evidence code](http://geneontology.org/docs/guide-go-evidence-codes/) が付いている
+  - GO term には、その根拠を示す[Evidence code](http://geneontology.org/docs/guide-go-evidence-codes/) が付いている
 
   - [ALDH2の場合の例](https://www.ncbi.nlm.nih.gov/gene/217#gene-ontology)
   - ![ALDH2 GO](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_1.jpg)
@@ -760,9 +758,9 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
 ## [DAVID: The Database for Annotation, Visualization and Integrated Discovery](https://davidbioinformatics.nih.gov)
 - アメリカ国立アレルギー・感染症研究所が開発･運用 → 2023年に NIH (National Institutes of Health: 米国国立衛生研究所)に移管
-- 最新の原著論文 [PMID: 35325185](http://www.ncbi.nlm.nih.gov/pubmed/35325185)
-- DEGsのような遺伝子リストをコピペするだけで簡単にエンリッチメント解析 ( GO､KEGG など )することができる
-- 対応生物種･遺伝子ID が 豊富｡ ID変換ツールもある
+- DAVID関連論文 [PMID: 35325185](http://www.ncbi.nlm.nih.gov/pubmed/35325185)
+- DEGsのような遺伝子リストをコピペするだけで簡単にエンリッチメント解析 (GO、KEGG など)することができる
+- 対応生物種・遺伝子IDが豊富。ID変換ツールもある
 - IDリストしか投げられない (発現量込みやタイムコースデータは不可)
 
 
@@ -770,7 +768,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
 - サンプルデータとして、[NCBI GEO](http://www.ncbi.nlm.nih.gov/geo/)から取得した公共の遺伝子発現データを用います。
 - このデータは、 **ある実験の前後の2群間で有意に発現減少した遺伝子群** のリストです。  
 
-     → [マル秘遺伝子リスト](https://raw.githubusercontent.com/hiromasaono/training/master/2022_NUBS/secret_list.txt)  （右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
+     → [マル秘遺伝子リスト](https://raw.githubusercontent.com/hiromasaono/training/master/2026_NUBS/secret_list.txt)  （右クリックして「新しいタブで開く」もしくは「名前を付けてリンク先を保存」してください。）
 
 - このデータは、どのような実験から得られたデータなのか、どのように解釈できるのかをDAVIDを使って考察してみましょう！  
 
@@ -807,8 +805,8 @@ CRISPRdirect： https://crispr.dbcls.jp/
   - Count = そのGO termが付与されていたリスト中の遺伝子の数
   - % = そのGO termが付与されていたリスト中の遺伝子の割合
   - P-value = リスト中の遺伝子がそのGO termに偶然エンリッチする可能性を示す尺度
-  - Benajamini = P-value の多重検定補正された値
-10. さらに、GOTERM_CC_DIRECT や GOTERM_MF_DIRECT を見て、上位にリストされたGOTermにどのような共通点・相違点があるでしょうか。
+  - Benjamini = P-value の多重検定補正された値
+10. さらに、GOTERM_CC_DIRECT や GOTERM_MF_DIRECT を見て、上位にリストされたGO termにどのような共通点・相違点があるでしょうか。
  - CC = Cellular Component
   - ![DAVID](https://raw.githubusercontent.com/hiromasaono/training/master/images/20220704_6.jpg)
  - MF = Molecular Function  
@@ -829,7 +827,7 @@ CRISPRdirect： https://crispr.dbcls.jp/
   - オリジナルデータ取得元 [GSE15515](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE15515)
 
 ### 生物学的解釈の一例
-  - ｢分化した植物細胞は、G0期という特別な細胞周期にはいり、細胞分裂を行わずに休止している。しかし、このように分化した後でも、植物細胞は分化全能性を保持している。そのため、いったん未分化の状態に戻せば（脱分化）、周囲の環境の調節しだいであらゆる方向へ再分化させることができる。この脱分化された植物細胞こそがカルスである。｣という記載が[カルスのWikipedia](https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AB%E3%82%B9_(%E6%A4%8D%E7%89%A9))にあります。カルス=植物の脱分化であり、脱分化が分化した機能の消失を招くならば、植物細胞が機能をしている≒光合成をする、と考えると、今回のGOエンリッチメント解析で｢光合成｣や｢クロロプラスト｣といったGOtermが極めて低いP-valueを示し上位に並んだこと、すなわち、その機能に関与する遺伝子数が偏って多く減少したことと一致すると言えます。
+  - ｢分化した植物細胞は、G0期という特別な細胞周期にはいり、細胞分裂を行わずに休止している。しかし、このように分化した後でも、植物細胞は分化全能性を保持している。そのため、いったん未分化の状態に戻せば（脱分化）、周囲の環境の調節しだいであらゆる方向へ再分化させることができる。この脱分化された植物細胞こそがカルスである。｣という記載が[カルスのWikipedia](https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%AB%E3%82%B9_(%E6%A4%8D%E7%89%A9))にあります。カルス=植物の脱分化であり、脱分化が分化した機能の消失を招くならば、植物細胞が機能をしている≒光合成をする、と考えると、今回のGOエンリッチメント解析で｢光合成｣や｢クロロプラスト｣といったGO termが極めて低いP-valueを示し上位に並んだこと、すなわち、その機能に関与する遺伝子数が偏って多く減少したことと一致すると言えます。
     - このあたりは、植物や細胞生物学の背景知識が必要なところなので皆さんは正解できなくても落ち込む必要はありません。
     - しかし、研究は答えのない問いの｢答え｣を自分で作り他人に納得してもらうような作業でもあるので、その練習をしてもらいました(かなり難しかったとおもいますが、プロの研究者でもそう感じる内容ですのでご安心ください。)
     - 今回は(いちおうの)正解がわかったとおもうので、その上でもう一度講義資料を見返してみるとまた新たな見方ができる良い練習になるかもしれません。</details>
@@ -838,11 +836,11 @@ CRISPRdirect： https://crispr.dbcls.jp/
 
 ## まとめ
 - つまみ食い的ではありましたが、全5回の演習で、今日から使える便利な生命科学系公共データベース・バイオインフォマティクスツールについて学びました。
-- これらの｢バイオインフォマティクス｣も顕微鏡 や 実験試薬 などと同じ「道具(ツール)」です。
-- 便利な「道具」を知って、その使い方が分かれば、あとはみなさん自身の情報分析力と想像力の勝負。
+- これらの｢バイオインフォマティクス｣も顕微鏡 や 実験試薬 などと同じ「道具(ツール)」です。
+- 便利な「道具」を知って、その使い方が分かれば、あとはみなさん自身の情報分析力と想像力の勝負。
   - 正面からしか見られなかったものが横や後ろやナナメから見ることができて初めて気づくことがあるかもしれません。
 - 仮説構築から始まり、実験計画・検証、データ解析、そして論文執筆(以下ループ)という研究サイクルを加速化・効率化していきましょう。
 - データベースやウェブツールで困ったら、「統合TV」でまず探して・見てみる
-- 研究に役立ったら、ぜひ引用・クレジットを!
+- 研究に役立ったら、ぜひ引用・クレジットを!
   - DBCLSの提供するサービス(あるいはそれ以外でも)が、あなたの研究に役立ったら、どんなに些細な事でもぜひ引用(論文、URL等)してください。DBCLSの活動は、提供するサービスがどのくらい活用されたかについて主に引用数などで評価されており、利用者の方の積極的なサポートが必要不可欠です!!
   - [NBDC関連サービスの活用に関する情報提供フォーム](https://form.jst.go.jp/enquetes/nbdcexamples)
