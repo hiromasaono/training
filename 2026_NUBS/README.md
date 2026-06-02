@@ -5,7 +5,7 @@
 小野 浩雅 ([X@h_ono](https://twitter.com/h_ono), [researchmap](https://researchmap.jp/hiromasaono))  
 onohrms@hiroshima-u.ac.jp
 
-【日程：第10-15回】  
+【日程：第11-15回】  
 2026年6月10日、7月8日、7月15日、7月22日、7月29日(全5回・すべて水曜日2限（10:40-12:10))  
 日本大学 生物資源学部 動物学科　令和8年度　前期　水曜日2時限
 
