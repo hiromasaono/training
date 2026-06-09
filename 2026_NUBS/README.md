@@ -1,6 +1,6 @@
 # これから研究室に入る初学者のための便利な生命科学系公共データベースとバイオインフォマティクスツールの使いこなし演習
 ## [https://github.com/hiromasaono/training/tree/master/2026_NUBS](https://github.com/hiromasaono/training/tree/master/2026_NUBS)
-
+## 短縮URL: [https://x.gd/yIBeA](https://x.gd/yIBeA)
 広島大学ゲノム編集イノベーションセンター / プラチナバイオ株式会社  
 小野 浩雅 ([X@h_ono](https://twitter.com/h_ono), [researchmap](https://researchmap.jp/hiromasaono))  
 onohrms@hiroshima-u.ac.jp
